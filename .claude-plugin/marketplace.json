@@ -1,0 +1,16 @@
+{
+  "name": "remember",
+  "owner": {
+    "name": "Bart Alazar"
+  },
+  "plugins": [
+    {
+      "name": "remember",
+      "source": "./",
+      "description": "Local, offline vector and keyword index of your project, searchable from Claude Code."
+    }
+  ],
+  "metadata": {
+    "description": "A local, offline knowledge base for your projects, searchable from Claude Code."
+  }
+}

@@ -33,7 +33,6 @@ lines, rather than opening several whole files.
 - claude.ai web/desktop chats (only Claude Code transcripts on disk).
 - Cross-project search.
 - Measuring token savings automatically.
-- Publishing to a marketplace (local plugin first).
 
 ## Anti-goals (failure even if it "works")
 
@@ -55,8 +54,16 @@ lines, rather than opening several whole files.
 
 ## Constraints
 
-- Machine: Intel Mac (x86_64), Node 24, Python 3.10, no `uv`. Recent PyTorch has
-  no Intel-Mac wheels, so no Python/torch stack.
+- **Published plugin (user's requirement, 2026-10-30):** must run on macOS
+  (arm64 + x64), Linux and Windows, installed from a marketplace by people who
+  never run `npm install` themselves. Distributed as a self-hosted marketplace
+  from the GitHub repo, and submitted to Anthropic's directory.
+- Requires Node ≥ 22.13 on PATH (for `node:sqlite`); Claude Code's native
+  installer doesn't ship Node, so this is a documented prerequisite and the
+  plugin reports a missing/old Node clearly.
+- Developer machine is an Intel Mac: `onnxruntime-node` ≥ 1.24 dropped
+  darwin/x64, so `@huggingface/transformers` is pinned to 4.3.2 with an npm
+  override `onnxruntime-node@1.23.2` (ships macOS x64/arm64, Linux, Windows).
 - Fully offline after the first model download.
 
 ## How (decided)
@@ -65,8 +72,9 @@ lines, rather than opening several whole files.
 has darwin-x64 binaries). Storage via Node's built-in `node:sqlite` — no other
 native database dependency. *(my call)*
 
-**Model:** `Xenova/bge-small-en-v1.5`, quantized (~35 MB, 384 dims). Configurable
-later. *(my call)*
+**Model (user's decision: multilingual):** `Xenova/multilingual-e5-small`,
+quantized (~120 MB, 384 dims, ~100 languages; mean pooling, `query: ` /
+`passage: ` prefixes).
 
 **Storage (user's decision: inside the project):** `<project>/.remember/`,
 containing a `.gitignore` with `*`. The indexer always skips this folder.
@@ -161,15 +169,34 @@ step. The `.remember/` folder is created on first run. Guardrails *(my calls)*:
 
 - **Never auto-index** `/`, `~`, `~/Desktop`, `~/Documents`, `~/Downloads`
   themselves (subfolders are fine). Running the `index` skill there overrides.
-- **Size check before the first build:** if the tree has more than ~5,000
-  indexable files or ~50 MB of text, don't start; the SessionStart line tells
-  Claude to ask the user, and the `index` skill starts it on a yes.
+- **Size question with a user-set threshold (user's decision, 2026-10-30):**
+  if a project has more indexable files than the threshold (default 5,000;
+  `0` = never ask), the first build waits and Claude asks the user: index
+  everything now, skip this project, or change the threshold. Once
+  confirmed, everything is indexed — no cap. The threshold is a global
+  setting in `config.json` (in `${CLAUDE_PLUGIN_DATA}`, else
+  `~/.claude/remember/`), changeable by asking Claude.
 - **Background and low priority:** the indexer runs as a detached process under
   `nice`, one at a time per project (lock file in `.remember/`), and Claude
   keeps working while it runs. Searches during a first build return partial
   results labeled as such.
 - **Opt-out:** an empty `.remember/off` file disables the plugin for a project;
   the `forget` skill can create it.
+
+## Distribution *(from Claude Code docs, 2026-10-30)*
+
+- Claude Code auto-installs a marketplace plugin's npm dependencies from
+  `package.json` + `package-lock.json` (with `--ignore-scripts`, 60 s timeout).
+  If that fails, the SessionStart hook installs them in the background into
+  `${CLAUDE_PLUGIN_DATA}` and the code resolves packages from there.
+- Shared model cache: `${CLAUDE_PLUGIN_DATA}/models` (falls back to
+  `~/.claude/remember/models` when run outside Claude Code).
+- MCP server gets the project via `.mcp.json` env
+  `REMEMBER_PROJECT_DIR=${CLAUDE_PROJECT_DIR}`.
+- Background priority via `os.setPriority` (works on Windows; no `nice`).
+- Ships `.claude-plugin/marketplace.json`, MIT `LICENSE` *(my call)*, README,
+  and a GitHub Actions matrix (macOS arm64, macOS x64, Linux, Windows) running
+  the tests; `claude plugin validate --strict` passes.
 
 ## Left to the builder
 

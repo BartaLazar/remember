@@ -1,0 +1,10 @@
+{
+  "name": "remember",
+  "version": "0.1.0",
+  "description": "Local, offline vector and keyword index of your project, searchable from Claude Code.",
+  "author": { "name": "Bart Alazar" },
+  "license": "MIT",
+  "repository": "https://github.com/BartaLazar/remember",
+  "homepage": "https://github.com/BartaLazar/remember",
+  "keywords": ["memory", "search", "semantic-search", "index", "offline", "local", "embeddings", "context"]
+}

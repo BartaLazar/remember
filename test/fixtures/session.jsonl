@@ -1,0 +1,11 @@
+{"type":"file-history-snapshot","messageId":"m0","snapshot":{}}
+{"type":"user","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:00:00.000Z","message":{"role":"user","content":"How do I add pagination to the orders list?"}}
+{"type":"assistant","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:00:01.000Z","message":{"role":"assistant","content":[{"type":"thinking","thinking":"PRIVATE-THINKING-ONE"}]}}
+{"type":"assistant","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:00:02.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Use a cursor based approach."}]}}
+{"type":"assistant","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:00:03.000Z","message":{"role":"assistant","content":[{"type":"tool_use","id":"t1","name":"Read","input":{"file_path":"/work/demo/orders.js"}}]}}
+{"type":"user","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:00:04.000Z","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"t1","content":"TOOL-OUTPUT-ONE secret file body"}]}}
+{"type":"assistant","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:00:05.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Add a limit and an after parameter."}]}}
+{"type":"user","isMeta":true,"sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:00:06.000Z","message":{"role":"user","content":"META-CAVEAT-TEXT"}}
+{"type":"summary","summary":"Pagination chat","leafUuid":"x"}
+{"type":"user","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:05:00.000Z","message":{"role":"user","content":[{"type":"text","text":"<system-reminder>REMINDER-BODY do not leak</system-reminder>Now write the tests for it."},{"type":"tool_result","tool_use_id":"t2","content":"TOOL-OUTPUT-TWO"}]}}
+{"type":"assistant","sessionId":"sess-1111","cwd":"/work/demo","timestamp":"2026-01-01T10:05:01.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Here are the tests, using node:test."},{"type":"tool_use","id":"t3","name":"Write","input":{"file_path":"/work/demo/orders.test.js"}}]}}

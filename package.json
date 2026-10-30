@@ -1,0 +1,21 @@
+{
+  "name": "remember",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.2",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "ignore": "^7.0.12",
+    "zod": "^4.6.7"
+  },
+  "overrides": {
+    "onnxruntime-node": "1.23.2"
+  }
+}

@@ -5,7 +5,7 @@
 **A local memory for Claude Code.**<br>
 Your project's files, your past chats and the decisions you made, searchable in one step and never sent anywhere.
 
-[![Tests](https://github.com/BartaLazar/remember/actions/workflows/test.yml/badge.svg)](https://github.com/BartaLazar/remember/actions/workflows/test.yml)
+[![Tests](https://github.com/BartaLazar/remember/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/BartaLazar/remember/actions/workflows/test.yml?query=branch%3Amain)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A5%2022.13-339933.svg)](https://nodejs.org)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20%C2%B7%20Linux%20%C2%B7%20Windows-lightgrey.svg)

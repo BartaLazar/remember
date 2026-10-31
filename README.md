@@ -10,6 +10,13 @@ Your project's files, your past chats and the decisions you made, searchable in 
 [![Node](https://img.shields.io/badge/node-%E2%89%A5%2022.13-339933.svg)](https://nodejs.org)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20%C2%B7%20Linux%20%C2%B7%20Windows-lightgrey.svg)
 
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/filing-dark.svg">
+  <img alt="An orange pixel bot files code, chats and notes into a big cabinet of drawers" src="docs/img/filing-light.svg" width="100%">
+</picture>
+
 </div>
 
 ---
@@ -81,6 +88,11 @@ export class SessionExpiredError extends Error {
 ```
 
 Then it reads lines 88–121 of one file instead of the whole `auth/` folder, and remembers the decision without being told twice.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/finding-dark.svg">
+  <img alt="The bot pulls one card out of the drawer: src/auth/session.ts lines 88 to 121" src="docs/img/finding-light.svg" width="100%">
+</picture>
 
 <sub>Example output. The format is what the plugin returns; the code and note are made up.</sub>
 

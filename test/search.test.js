@@ -27,6 +27,45 @@ test('toFtsQuery quotes tokens and ORs them', () => {
   assert.equal(toFtsQuery('*** -'), null);
 });
 
+test('toFtsQuery drops question words from code lookups only', () => {
+  assert.equal(toFtsQuery('where is atomicWrite defined'), '"atomicWrite"');
+  assert.equal(toFtsQuery('where is range defined'), '"range"');
+  assert.equal(toFtsQuery('how does the cache work'), '"how" OR "does" OR "the" OR "cache" OR "work"');
+  assert.equal(toFtsQuery('where is it defined'), '"where" OR "is" OR "it" OR "defined"');
+});
+
+test('the definition outranks tests that only call it', async () => {
+  const calls = Array.from({ length: 6 }, (_, i) => `test('case ${i}', () => atomicWrite('f${i}', 'x'));`).join('\n');
+  const c = await build({
+    'write.test.js': `${calls}\n`,
+    'util.js': 'export function atomicWrite(file, text) {\n  fs.writeFileSync(file, text);\n}\n',
+  });
+  const r = await search({ ...c, query: 'where is atomicWrite defined', embedder: null });
+  assert.equal(r[0].loc, 'util.js');
+});
+
+test('test files rank lower unless the query asks about tests', async () => {
+  const text = 'atomicWrite tests here\n';
+  const c = await build({ 'write.test.js': text, 'write.js': text });
+  const plain = await search({ ...c, query: 'atomicWrite', embedder: null });
+  assert.equal(plain[0].loc, 'write.js');
+  assert.ok(plain[0].score / plain[1].score > 1.3);
+  const asked = await search({ ...c, query: 'atomicWrite tests', embedder: null });
+  assert.ok(asked[0].score / asked[1].score < 1.1);
+});
+
+test('equal relevance: the newer chat outranks the older one', async () => {
+  const c = await build({ 'a.txt': 'nothing here\n' });
+  const chat = (key, date) => c.store.replaceSource(
+    { key, kind: 'chat', hash: key, mtimeMs: 0, size: 0 },
+    [{ loc: key, text: 'we decided pagination uses offsets', date }],
+  );
+  chat('chat:old', '2026-03-01T10:00:00.000Z');
+  chat('chat:new', '2026-06-01T10:00:00.000Z');
+  const r = await search({ ...c, query: 'pagination decision', embedder: null, scope: 'chats' });
+  assert.deepEqual(r.map((x) => x.loc), ['chat:new', 'chat:old']);
+});
+
 test('identifier query ranks matching file first', async () => {
   const c = await build({
     'invoice.js': 'function parseInvoiceTotal(x) { return x.total; }\n',

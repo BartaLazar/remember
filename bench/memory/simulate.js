@@ -527,7 +527,7 @@ function summary(r, rows) {
     ['only the OLD version returned (stale answer risk)', s.oldOnly], ['neither returned', s.neither],
     ['questions whose newest fact also has a note (old note is excluded via supersedes)', s.noteBacked],
   ]);
-  L.push('The search has no recency signal for chat chunks, so for chat-only pairs the newest-above-old ordering is chance plus wording; only notes carry `supersedes`.', '');
+  L.push('Among chat results, newer chats get a small score boost, so a later decision tends to rank above the one it replaced; notes with `supersedes` remove the old note entirely.', '');
 
   L.push('## 3. Tokens per lookup, by policy (80 questions)', '');
   const prow = (n, x, hitTxt) => [n, f0(x.median), f0(x.mean), f0(x.p90), f0(x.max), hitTxt];
@@ -557,7 +557,7 @@ function summary(r, rows) {
   L.push(`2. Retrieval: recall@8 ${pc(rc.overall.r8, 80)}, recall@1 ${pc(rc.overall.r1, 80)}; only ${pc(rc.overall.vis8, 80)} of facts are actually visible in the formatted output because snippets are cut at 600 chars (a long chunk can contain the fact in the index but not in what the model reads). Notes help: ${noteVsChat} (recall@8 note-backed vs chat-only).`);
   L.push(`3. Versus grepping transcripts, a search costs a median ${f0(P.remember.median)} tokens against ${f0(P.grepRead.median)} for grep + Read (${f0(P.grepRead.median / Math.max(1, P.remember.median))}x), and grep found the fact only ${pc(r.grepHit.hit, 80)} of the time, and only ${['de','nl','fr','es'].reduce((a,l)=>a+r.grepByLang[l].hit,0)}/15 non-English queries. The transcript Read alone would be ${f0(P.readOnly.median)} tokens at the median (real Claude Code also refuses big files, which this does not model).`);
   L.push(`4. Where it loses: re-explaining costs a median ${f0(P.reexplain.median)} tokens, far below ${f0(P.remember.median)} per search, so remember never pays back in tokens against re-typing (it saves the user's time and memory, not tokens). Likewise a small decision file (under ~${r.crossoverDecisionsVsRemember3} decisions) is cheaper per session than the plugin's fixed cost plus 3 lookups, and 100% reliable; the file grows linearly (${f0(r.memFile[400].tokens)} tokens at 400 decisions) while search stays flat.`);
-  L.push(`5. Superseded decisions are the weak spot: newest in top 8 for ${s.newInTop8}/10, newest above old when both returned ${s.newAboveOld}/${s.bothPresent}, old-only (stale answer) ${s.oldOnly}/10. There is no recency ranking for chat chunks; only notes with \`supersedes\` are safe. Cross-lingual queries: ${['de', 'nl', 'fr', 'es'].map((l) => `${l} ${pc(rc.byLang[l].r8, rc.byLang[l].n)}`).join(', ')} recall@8.`, '');
+  L.push(`5. Superseded decisions: newest in top 8 for ${s.newInTop8}/10, newest above old when both returned ${s.newAboveOld}/${s.bothPresent}, old-only (stale answer) ${s.oldOnly}/10. Newer chats get a small ranking boost; notes with \`supersedes\` remove the old note. Cross-lingual queries: ${['de', 'nl', 'fr', 'es'].map((l) => `${l} ${pc(rc.byLang[l].r8, rc.byLang[l].n)}`).join(', ')} recall@8.`, '');
 
   L.push('## Caveats', '');
   L.push('- Synthetic corpus: filler chat and tool output are template-generated, so retrieval is probably easier than real history (topics in filler are shallow, the facts are distinctive, keys unique). Real recall will likely be lower.');

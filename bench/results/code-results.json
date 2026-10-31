@@ -47,7 +47,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1242,
+   "searchTokens": 1241,
    "shown": 8,
    "A": {
     "tokens": 34022,
@@ -60,7 +60,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2218,
+    "tokens": 2217,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -81,7 +81,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1222,
+   "searchTokens": 1258,
    "shown": 8,
    "A": {
     "tokens": 34030,
@@ -94,7 +94,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2198,
+    "tokens": 2234,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -144,10 +144,10 @@
    "kws": [
     "engine"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 8,
-   "searchTokens": 957,
+   "rank": 1,
+   "searchTokens": 1126,
    "shown": 8,
    "A": {
     "tokens": 30027,
@@ -160,7 +160,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1857,
+    "tokens": 2026,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -181,7 +181,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 726,
+   "searchTokens": 1149,
    "shown": 8,
    "A": {
     "tokens": 37701,
@@ -194,7 +194,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1626,
+    "tokens": 2049,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -214,8 +214,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 911,
+   "rank": 3,
+   "searchTokens": 1049,
    "shown": 8,
    "A": {
     "tokens": 37701,
@@ -228,7 +228,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1811,
+    "tokens": 1949,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -247,7 +247,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1253,
+   "searchTokens": 1252,
    "shown": 8,
    "A": {
     "tokens": 1879,
@@ -260,7 +260,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1681,
+    "tokens": 1680,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -281,7 +281,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1046,
+   "searchTokens": 1047,
    "shown": 8,
    "A": {
     "tokens": 22410,
@@ -294,7 +294,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1474,
+    "tokens": 1475,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -315,7 +315,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1159,
+   "searchTokens": 1135,
    "shown": 8,
    "A": {
     "tokens": 50456,
@@ -328,7 +328,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1587,
+    "tokens": 1563,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -347,7 +347,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 967,
+   "searchTokens": 1160,
    "shown": 8,
    "A": {
     "tokens": 37927,
@@ -360,7 +360,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1907,
+    "tokens": 2091,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -381,7 +381,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 765,
+   "searchTokens": 1008,
    "shown": 8,
    "A": {
     "tokens": 30637,
@@ -394,7 +394,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1696,
+    "tokens": 1939,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -410,10 +410,10 @@
    "kws": [
     "resolve"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1106,
+   "rank": 1,
+   "searchTokens": 1107,
    "shown": 8,
    "A": {
     "tokens": 10433,
@@ -426,7 +426,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1581,
+    "tokens": 1582,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -447,7 +447,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 648,
+   "searchTokens": 931,
    "shown": 8,
    "A": {
     "tokens": 45080,
@@ -460,7 +460,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1123,
+    "tokens": 1406,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -513,7 +513,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 875,
+   "searchTokens": 1074,
    "shown": 8,
    "A": {
     "tokens": 32305,
@@ -526,7 +526,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1663,
+    "tokens": 1862,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -581,7 +581,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1263,
+   "searchTokens": 1261,
    "shown": 8,
    "A": {
     "tokens": 30669,
@@ -594,7 +594,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2051,
+    "tokens": 2049,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -611,9 +611,9 @@
     "format"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1227,
+   "hit8": true,
+   "rank": 7,
+   "searchTokens": 1229,
    "shown": 8,
    "A": {
     "tokens": 34706,
@@ -626,10 +626,10 @@
     "found": false
    },
    "R": {
-    "tokens": 35933,
-    "calls": 9,
-    "found": false,
-    "fallback": true
+    "tokens": 2034,
+    "calls": 2,
+    "found": true,
+    "fallback": false
    }
   },
   {
@@ -681,7 +681,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1259,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 29411,
@@ -694,7 +694,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2064,
+    "tokens": 2062,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -711,9 +711,9 @@
     "acceptParams"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1227,
+   "hit8": true,
+   "rank": 2,
+   "searchTokens": 1252,
    "shown": 8,
    "A": {
     "tokens": 1918,
@@ -726,10 +726,10 @@
     "found": true
    },
    "R": {
-    "tokens": 3145,
-    "calls": 4,
+    "tokens": 1993,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -747,7 +747,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1260,
+   "searchTokens": 1241,
    "shown": 8,
    "A": {
     "tokens": 53549,
@@ -760,7 +760,7 @@
     "found": false
    },
    "R": {
-    "tokens": 54809,
+    "tokens": 54790,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -781,7 +781,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1259,
+   "searchTokens": 1258,
    "shown": 8,
    "A": {
     "tokens": 48931,
@@ -794,7 +794,7 @@
     "found": true
    },
    "R": {
-    "tokens": 50190,
+    "tokens": 50189,
     "calls": 8,
     "found": true,
     "fallback": true
@@ -813,7 +813,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1259,
+   "searchTokens": 1261,
    "shown": 8,
    "A": {
     "tokens": 6500,
@@ -826,7 +826,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1937,
+    "tokens": 1939,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -847,7 +847,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1017,
+   "searchTokens": 1144,
    "shown": 8,
    "A": {
     "tokens": 23916,
@@ -860,7 +860,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1695,
+    "tokens": 1822,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -881,7 +881,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1141,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 23916,
@@ -894,7 +894,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1819,
+    "tokens": 1935,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -913,7 +913,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1257,
+   "searchTokens": 1201,
    "shown": 8,
    "A": {
     "tokens": 1858,
@@ -926,7 +926,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1685,
+    "tokens": 1629,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -947,7 +947,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1140,
+   "searchTokens": 1254,
    "shown": 8,
    "A": {
     "tokens": 43164,
@@ -960,7 +960,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1568,
+    "tokens": 1682,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -981,7 +981,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1110,
+   "searchTokens": 1256,
    "shown": 8,
    "A": {
     "tokens": 43164,
@@ -994,7 +994,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1538,
+    "tokens": 1684,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1013,7 +1013,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1140,
+   "searchTokens": 989,
    "shown": 8,
    "A": {
     "tokens": 41504,
@@ -1026,7 +1026,7 @@
     "found": false
    },
    "R": {
-    "tokens": 42644,
+    "tokens": 42493,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -1047,7 +1047,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 812,
+   "searchTokens": 1059,
    "shown": 8,
    "A": {
     "tokens": 32271,
@@ -1060,7 +1060,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1712,
+    "tokens": 1959,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1076,10 +1076,10 @@
    "kws": [
     "sendStatus"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 985,
+   "rank": 1,
+   "searchTokens": 1132,
    "shown": 8,
    "A": {
     "tokens": 36074,
@@ -1092,7 +1092,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1773,
+    "tokens": 1920,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1110,10 +1110,10 @@
     "status",
     "code"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 880,
+   "rank": 1,
+   "searchTokens": 1163,
    "shown": 8,
    "A": {
     "tokens": 38681,
@@ -1126,7 +1126,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1668,
+    "tokens": 1951,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1147,7 +1147,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1158,
+   "searchTokens": 1156,
    "shown": 8,
    "A": {
     "tokens": 42738,
@@ -1160,7 +1160,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1946,
+    "tokens": 1944,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1176,10 +1176,10 @@
    "kws": [
     "param"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 7,
-   "searchTokens": 1187,
+   "rank": 1,
+   "searchTokens": 1260,
    "shown": 8,
    "A": {
     "tokens": 51288,
@@ -1192,7 +1192,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1988,
+    "tokens": 2061,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1213,7 +1213,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 912,
+   "searchTokens": 848,
    "shown": 8,
    "A": {
     "tokens": 32201,
@@ -1226,7 +1226,7 @@
     "found": false
    },
    "R": {
-    "tokens": 33113,
+    "tokens": 33049,
     "calls": 7,
     "found": true,
     "fallback": true
@@ -1247,7 +1247,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 830,
+   "searchTokens": 904,
    "shown": 8,
    "A": {
     "tokens": 32201,
@@ -1260,7 +1260,7 @@
     "found": false
    },
    "R": {
-    "tokens": 33031,
+    "tokens": 33105,
     "calls": 7,
     "found": true,
     "fallback": true
@@ -1276,10 +1276,10 @@
    "kws": [
     "attachment"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 7,
-   "searchTokens": 1264,
+   "rank": 1,
+   "searchTokens": 1262,
    "shown": 8,
    "A": {
     "tokens": 34502,
@@ -1292,7 +1292,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1985,
+    "tokens": 1983,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1312,7 +1312,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 6,
-   "searchTokens": 1037,
+   "searchTokens": 1154,
    "shown": 8,
    "A": {
     "tokens": 30570,
@@ -1325,7 +1325,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1758,
+    "tokens": 1875,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1344,7 +1344,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1212,
+   "searchTokens": 1135,
    "shown": 8,
    "A": {
     "tokens": 11311,
@@ -1357,7 +1357,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1640,
+    "tokens": 1563,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1378,7 +1378,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1249,
+   "searchTokens": 1248,
    "shown": 8,
    "A": {
     "tokens": 39179,
@@ -1391,7 +1391,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1677,
+    "tokens": 1676,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1412,7 +1412,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1261,
+   "searchTokens": 1259,
    "shown": 8,
    "A": {
     "tokens": 52258,
@@ -1425,7 +1425,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1689,
+    "tokens": 1687,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1444,7 +1444,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1159,
+   "searchTokens": 1139,
    "shown": 8,
    "A": {
     "tokens": 8516,
@@ -1457,7 +1457,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1607,
+    "tokens": 1587,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1512,7 +1512,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1185,
+   "searchTokens": 1202,
    "shown": 8,
    "A": {
     "tokens": 30170,
@@ -1525,7 +1525,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1633,
+    "tokens": 1650,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1544,7 +1544,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1259,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 4233,
@@ -1557,7 +1557,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1563,
+    "tokens": 1561,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1578,7 +1578,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 992,
+   "searchTokens": 1128,
    "shown": 8,
    "A": {
     "tokens": 4603,
@@ -1591,7 +1591,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1296,
+    "tokens": 1432,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1612,7 +1612,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1268,
+   "searchTokens": 1265,
    "shown": 8,
    "A": {
     "tokens": 4603,
@@ -1625,7 +1625,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1572,
+    "tokens": 1569,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1641,10 +1641,10 @@
    "kws": [
     "download"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 930,
+   "rank": 1,
+   "searchTokens": 1115,
    "shown": 8,
    "A": {
     "tokens": 30395,
@@ -1657,7 +1657,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1870,
+    "tokens": 2055,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1678,7 +1678,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1002,
+   "searchTokens": 1104,
    "shown": 8,
    "A": {
     "tokens": 10462,
@@ -1691,7 +1691,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1942,
+    "tokens": 2044,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1712,7 +1712,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1128,
+   "searchTokens": 1030,
    "shown": 8,
    "A": {
     "tokens": 30568,
@@ -1725,7 +1725,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2068,
+    "tokens": 1970,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1778,7 +1778,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 725,
+   "searchTokens": 1103,
    "shown": 8,
    "A": {
     "tokens": 26672,
@@ -1791,7 +1791,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1590,
+    "tokens": 1968,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1812,7 +1812,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1112,
+   "searchTokens": 1241,
    "shown": 8,
    "A": {
     "tokens": 26672,
@@ -1825,7 +1825,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1977,
+    "tokens": 2106,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1842,9 +1842,9 @@
     "redirect"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1006,
+   "hit8": true,
+   "rank": 8,
+   "searchTokens": 1047,
    "shown": 8,
    "A": {
     "tokens": 42205,
@@ -1857,10 +1857,10 @@
     "found": true
    },
    "R": {
-    "tokens": 43211,
-    "calls": 8,
+    "tokens": 1785,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -1878,7 +1878,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 997,
+   "searchTokens": 987,
    "shown": 8,
    "A": {
     "tokens": 9412,
@@ -1891,7 +1891,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1735,
+    "tokens": 1725,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -1944,7 +1944,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 967,
+   "searchTokens": 1160,
    "shown": 8,
    "A": {
     "tokens": 37927,
@@ -1957,7 +1957,7 @@
     "found": true
    },
    "R": {
-    "tokens": 38894,
+    "tokens": 39087,
     "calls": 6,
     "found": true,
     "fallback": true
@@ -1978,7 +1978,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1059,
+   "searchTokens": 1119,
    "shown": 8,
    "A": {
     "tokens": 30399,
@@ -1991,7 +1991,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1784,
+    "tokens": 1844,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2012,7 +2012,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1120,
+   "searchTokens": 1119,
    "shown": 8,
    "A": {
     "tokens": 30399,
@@ -2025,7 +2025,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1845,
+    "tokens": 1844,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2044,7 +2044,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1160,
+   "searchTokens": 1157,
    "shown": 8,
    "A": {
     "tokens": 31830,
@@ -2057,7 +2057,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1974,
+    "tokens": 1971,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2077,8 +2077,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 747,
+   "rank": 3,
+   "searchTokens": 1024,
    "shown": 8,
    "A": {
     "tokens": 42744,
@@ -2091,7 +2091,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1561,
+    "tokens": 1838,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2146,7 +2146,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1213,
+   "searchTokens": 1160,
    "shown": 8,
    "A": {
     "tokens": 54495,
@@ -2159,7 +2159,7 @@
     "found": false
    },
    "R": {
-    "tokens": 55708,
+    "tokens": 55655,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -2349,8 +2349,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 7,
-   "searchTokens": 1140,
+   "rank": 5,
+   "searchTokens": 1093,
    "shown": 8,
    "A": {
     "tokens": 31108,
@@ -2363,7 +2363,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1818,
+    "tokens": 1771,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2383,8 +2383,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1267,
+   "rank": 2,
+   "searchTokens": 1151,
    "shown": 8,
    "A": {
     "tokens": 28927,
@@ -2397,7 +2397,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2005,
+    "tokens": 1889,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2452,7 +2452,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1273,
+   "searchTokens": 1266,
    "shown": 8,
    "A": {
     "tokens": 31669,
@@ -2465,7 +2465,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2078,
+    "tokens": 2071,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2486,7 +2486,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1165,
+   "searchTokens": 1132,
    "shown": 8,
    "A": {
     "tokens": 54495,
@@ -2499,7 +2499,7 @@
     "found": false
    },
    "R": {
-    "tokens": 55660,
+    "tokens": 55627,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -2520,7 +2520,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 921,
+   "searchTokens": 1060,
    "shown": 8,
    "A": {
     "tokens": 30527,
@@ -2533,7 +2533,7 @@
     "found": false
    },
    "R": {
-    "tokens": 31448,
+    "tokens": 31587,
     "calls": 5,
     "found": true,
     "fallback": true
@@ -2554,7 +2554,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 772,
+   "searchTokens": 917,
    "shown": 8,
    "A": {
     "tokens": 28040,
@@ -2567,7 +2567,7 @@
     "found": true
    },
    "R": {
-    "tokens": 28812,
+    "tokens": 28957,
     "calls": 6,
     "found": true,
     "fallback": true
@@ -2588,7 +2588,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 718,
+   "searchTokens": 602,
    "shown": 8,
    "A": {
     "tokens": 26439,
@@ -2601,7 +2601,7 @@
     "found": true
    },
    "R": {
-    "tokens": 27157,
+    "tokens": 27041,
     "calls": 6,
     "found": true,
     "fallback": true
@@ -2622,7 +2622,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 903,
+   "searchTokens": 1027,
    "shown": 8,
    "A": {
     "tokens": 28927,
@@ -2635,7 +2635,7 @@
     "found": false
    },
    "R": {
-    "tokens": 29830,
+    "tokens": 29954,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -2656,7 +2656,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 969,
+   "searchTokens": 1010,
    "shown": 8,
    "A": {
     "tokens": 42122,
@@ -2669,7 +2669,7 @@
     "found": true
    },
    "R": {
-    "tokens": 43091,
+    "tokens": 43132,
     "calls": 7,
     "found": true,
     "fallback": true
@@ -2690,7 +2690,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 548,
+   "searchTokens": 509,
    "shown": 8,
    "A": {
     "tokens": 31108,
@@ -2703,7 +2703,7 @@
     "found": true
    },
    "R": {
-    "tokens": 31656,
+    "tokens": 31617,
     "calls": 6,
     "found": true,
     "fallback": true
@@ -2722,9 +2722,9 @@
     "format"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 604,
+   "hit8": true,
+   "rank": 5,
+   "searchTokens": 748,
    "shown": 8,
    "A": {
     "tokens": 31669,
@@ -2737,10 +2737,10 @@
     "found": true
    },
    "R": {
-    "tokens": 32273,
-    "calls": 6,
+    "tokens": 1553,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -2756,7 +2756,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1100,
+   "searchTokens": 1014,
    "shown": 8,
    "A": {
     "tokens": 984,
@@ -2769,7 +2769,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1843,
+    "tokens": 1757,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2789,7 +2789,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 3,
+   "rank": 2,
    "searchTokens": 1035,
    "shown": 8,
    "A": {
@@ -2823,7 +2823,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 5,
+   "rank": 4,
    "searchTokens": 1271,
    "shown": 8,
    "A": {
@@ -2854,8 +2854,8 @@
     "get_cookie_domain"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
+   "hit8": true,
+   "rank": 2,
    "searchTokens": 1261,
    "shown": 8,
    "A": {
@@ -2869,10 +2869,10 @@
     "found": true
    },
    "R": {
-    "tokens": 5750,
-    "calls": 4,
+    "tokens": 2716,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -2889,8 +2889,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 8,
-   "searchTokens": 1228,
+   "rank": 7,
+   "searchTokens": 1266,
    "shown": 8,
    "A": {
     "tokens": 23775,
@@ -2903,7 +2903,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2683,
+    "tokens": 2721,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -2953,10 +2953,10 @@
    "kws": [
     "get_cookie_httponly"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1256,
+   "rank": 1,
+   "searchTokens": 1264,
    "shown": 8,
    "A": {
     "tokens": 4489,
@@ -2969,7 +2969,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2711,
+    "tokens": 2719,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3053,10 +3053,10 @@
    "kws": [
     "ConfigAttribute"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1260,
+   "rank": 1,
+   "searchTokens": 1130,
    "shown": 8,
    "A": {
     "tokens": 15309,
@@ -3069,7 +3069,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2166,
+    "tokens": 2036,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3153,10 +3153,10 @@
    "kws": [
     "BlueprintSetupState"
    ],
-   "hit1": true,
+   "hit1": false,
    "hit8": true,
-   "rank": 1,
-   "searchTokens": 1220,
+   "rank": 2,
+   "searchTokens": 1223,
    "shown": 8,
    "A": {
     "tokens": 7679,
@@ -3169,7 +3169,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2350,
+    "tokens": 2353,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3256,7 +3256,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1267,
+   "searchTokens": 1212,
    "shown": 8,
    "A": {
     "tokens": 6403,
@@ -3269,7 +3269,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2383,
+    "tokens": 2328,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3356,7 +3356,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1260,
+   "searchTokens": 1262,
    "shown": 8,
    "A": {
     "tokens": 4917,
@@ -3369,7 +3369,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2334,
+    "tokens": 2336,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3456,7 +3456,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1266,
+   "searchTokens": 1264,
    "shown": 8,
    "A": {
     "tokens": 4913,
@@ -3469,7 +3469,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2412,
+    "tokens": 2338,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3553,10 +3553,10 @@
    "kws": [
     "get_debug_flag"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1258,
+   "rank": 1,
+   "searchTokens": 1264,
    "shown": 8,
    "A": {
     "tokens": 51361,
@@ -3569,7 +3569,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2104,
+    "tokens": 2110,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3653,10 +3653,10 @@
    "kws": [
     "make_null_session"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1267,
+   "rank": 1,
+   "searchTokens": 1268,
    "shown": 8,
    "A": {
     "tokens": 4574,
@@ -3669,7 +3669,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2722,
+    "tokens": 2723,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3755,8 +3755,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 7,
-   "searchTokens": 1260,
+   "rank": 2,
+   "searchTokens": 1211,
    "shown": 8,
    "A": {
     "tokens": 4495,
@@ -3769,7 +3769,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2516,
+    "tokens": 2467,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3790,7 +3790,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1264,
+   "searchTokens": 1265,
    "shown": 8,
    "A": {
     "tokens": 6645,
@@ -3803,7 +3803,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2520,
+    "tokens": 2521,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3823,8 +3823,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 6,
-   "searchTokens": 1227,
+   "rank": 5,
+   "searchTokens": 1228,
    "shown": 8,
    "A": {
     "tokens": 6645,
@@ -3837,7 +3837,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2483,
+    "tokens": 2484,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3856,7 +3856,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1120,
+   "searchTokens": 1217,
    "shown": 8,
    "A": {
     "tokens": 32838,
@@ -3869,7 +3869,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2354,
+    "tokens": 2451,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -3953,9 +3953,9 @@
    "kws": [
     "teardown_appcontext"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
+   "rank": 1,
    "searchTokens": 1271,
    "shown": 8,
    "A": {
@@ -4124,7 +4124,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1131,
+   "searchTokens": 1269,
    "shown": 8,
    "A": {
     "tokens": 50471,
@@ -4137,7 +4137,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2051,
+    "tokens": 2189,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -4153,10 +4153,10 @@
    "kws": [
     "update_template_context"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1110,
+   "rank": 1,
+   "searchTokens": 1137,
    "shown": 8,
    "A": {
     "tokens": 20530,
@@ -4169,7 +4169,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2379,
+    "tokens": 2406,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -4253,10 +4253,10 @@
    "kws": [
     "stream_template"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1011,
+   "rank": 1,
+   "searchTokens": 1104,
    "shown": 8,
    "A": {
     "tokens": 13392,
@@ -4269,7 +4269,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2043,
+    "tokens": 2136,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -4356,7 +4356,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1123,
+   "searchTokens": 1159,
    "shown": 8,
    "A": {
     "tokens": 52042,
@@ -4369,7 +4369,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2351,
+    "tokens": 2387,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -4455,8 +4455,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1147,
+   "rank": 2,
+   "searchTokens": 1148,
    "shown": 8,
    "A": {
     "tokens": 11375,
@@ -4469,7 +4469,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2214,
+    "tokens": 2215,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -4553,10 +4553,10 @@
    "kws": [
     "FormDataRoutingRedirect"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1267,
+   "rank": 1,
+   "searchTokens": 1273,
    "shown": 8,
    "A": {
     "tokens": 20055,
@@ -4569,7 +4569,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2270,
+    "tokens": 2276,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -4655,7 +4655,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 7,
+   "rank": 6,
    "searchTokens": 1072,
    "shown": 8,
    "A": {
@@ -4753,10 +4753,10 @@
    "kws": [
     "add_template_test"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1126,
+   "rank": 1,
+   "searchTokens": 1252,
    "shown": 8,
    "A": {
     "tokens": 24463,
@@ -4769,7 +4769,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2245,
+    "tokens": 2371,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -4956,7 +4956,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1146,
+   "searchTokens": 1153,
    "shown": 8,
    "A": {
     "tokens": 18187,
@@ -4969,7 +4969,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2410,
+    "tokens": 2417,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5054,9 +5054,9 @@
     "DefaultJSONProvider"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1168,
+   "hit8": true,
+   "rank": 6,
+   "searchTokens": 1175,
    "shown": 8,
    "A": {
     "tokens": 23241,
@@ -5069,10 +5069,10 @@
     "found": true
    },
    "R": {
-    "tokens": 24409,
-    "calls": 7,
+    "tokens": 2302,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -5124,7 +5124,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 4,
-   "searchTokens": 1182,
+   "searchTokens": 1181,
    "shown": 8,
    "A": {
     "tokens": 34156,
@@ -5137,7 +5137,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2193,
+    "tokens": 2192,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5154,9 +5154,9 @@
     "jinja_loader"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1266,
+   "hit8": true,
+   "rank": 4,
+   "searchTokens": 1271,
    "shown": 8,
    "A": {
     "tokens": 43624,
@@ -5169,10 +5169,10 @@
     "found": true
    },
    "R": {
-    "tokens": 44890,
-    "calls": 7,
+    "tokens": 2313,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -5256,7 +5256,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1233,
+   "searchTokens": 1273,
    "shown": 8,
    "A": {
     "tokens": 18181,
@@ -5269,7 +5269,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2456,
+    "tokens": 2496,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5356,7 +5356,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1184,
+   "searchTokens": 1264,
    "shown": 8,
    "A": {
     "tokens": 12275,
@@ -5369,7 +5369,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2330,
+    "tokens": 2410,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5390,7 +5390,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1146,
+   "searchTokens": 1155,
    "shown": 8,
    "A": {
     "tokens": 46445,
@@ -5403,7 +5403,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2292,
+    "tokens": 2301,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5456,7 +5456,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1186,
+   "searchTokens": 1250,
    "shown": 8,
    "A": {
     "tokens": 7342,
@@ -5469,7 +5469,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2306,
+    "tokens": 2370,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5556,7 +5556,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1130,
+   "searchTokens": 1138,
    "shown": 8,
    "A": {
     "tokens": 16626,
@@ -5569,7 +5569,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2294,
+    "tokens": 2302,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5654,9 +5654,9 @@
     "prepare_import"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1253,
+   "hit8": true,
+   "rank": 2,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 11422,
@@ -5669,10 +5669,10 @@
     "found": true
    },
    "R": {
-    "tokens": 12675,
-    "calls": 4,
+    "tokens": 2284,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -5753,9 +5753,9 @@
    "kws": [
     "JSONProvider"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 8,
+   "rank": 1,
    "searchTokens": 1272,
    "shown": 8,
    "A": {
@@ -5787,10 +5787,10 @@
     "standard",
     "json"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1136,
+   "rank": 1,
+   "searchTokens": 1145,
    "shown": 8,
    "A": {
     "tokens": 33951,
@@ -5803,7 +5803,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2083,
+    "tokens": 2092,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5856,7 +5856,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1092,
+   "searchTokens": 1248,
    "shown": 8,
    "A": {
     "tokens": 19024,
@@ -5869,7 +5869,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2211,
+    "tokens": 2367,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -5953,10 +5953,10 @@
    "kws": [
     "is_null_session"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1263,
+   "rank": 1,
+   "searchTokens": 1267,
    "shown": 8,
    "A": {
     "tokens": 4567,
@@ -5969,7 +5969,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2718,
+    "tokens": 2722,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6056,7 +6056,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1270,
+   "searchTokens": 1271,
    "shown": 8,
    "A": {
     "tokens": 25792,
@@ -6069,7 +6069,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2526,
+    "tokens": 2535,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6156,7 +6156,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1259,
+   "searchTokens": 1262,
    "shown": 8,
    "A": {
     "tokens": 18267,
@@ -6169,7 +6169,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2499,
+    "tokens": 2502,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6253,10 +6253,10 @@
    "kws": [
     "MethodView"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 983,
+   "rank": 1,
+   "searchTokens": 1071,
    "shown": 8,
    "A": {
     "tokens": 29872,
@@ -6269,7 +6269,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2240,
+    "tokens": 2328,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6353,10 +6353,10 @@
    "kws": [
     "jinja_env"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 888,
+   "rank": 1,
+   "searchTokens": 1026,
    "shown": 8,
    "A": {
     "tokens": 26173,
@@ -6369,7 +6369,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2131,
+    "tokens": 2269,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6453,10 +6453,10 @@
    "kws": [
     "iter_blueprints"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1276,
+   "rank": 1,
+   "searchTokens": 1155,
    "shown": 8,
    "A": {
     "tokens": 13631,
@@ -6469,7 +6469,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2586,
+    "tokens": 2465,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6553,10 +6553,10 @@
    "kws": [
     "DispatchingJinjaLoader"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1168,
+   "rank": 1,
+   "searchTokens": 1193,
    "shown": 8,
    "A": {
     "tokens": 13647,
@@ -6569,7 +6569,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2088,
+    "tokens": 2113,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6590,7 +6590,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1253,
+   "searchTokens": 1254,
    "shown": 8,
    "A": {
     "tokens": 4610,
@@ -6603,7 +6603,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2173,
+    "tokens": 2174,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -6656,7 +6656,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1174,
+   "searchTokens": 1272,
    "shown": 8,
    "A": {
     "tokens": 9057,
@@ -6669,7 +6669,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2376,
+    "tokens": 2474,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7096,7 +7096,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1197,
+   "searchTokens": 1148,
    "shown": 8,
    "A": {
     "tokens": 7174,
@@ -7109,7 +7109,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1804,
+    "tokens": 1755,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7130,7 +7130,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1253,
+   "searchTokens": 1254,
    "shown": 8,
    "A": {
     "tokens": 60651,
@@ -7143,7 +7143,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1860,
+    "tokens": 1861,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7164,7 +7164,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1150,
+   "searchTokens": 1120,
    "shown": 8,
    "A": {
     "tokens": 52273,
@@ -7177,7 +7177,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1757,
+    "tokens": 1727,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7196,7 +7196,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1170,
+   "searchTokens": 1164,
    "shown": 8,
    "A": {
     "tokens": 14408,
@@ -7209,7 +7209,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2053,
+    "tokens": 2047,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7296,7 +7296,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 806,
+   "searchTokens": 726,
    "shown": 8,
    "A": {
     "tokens": 664,
@@ -7309,7 +7309,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1253,
+    "tokens": 1173,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7430,7 +7430,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1223,
+   "searchTokens": 1222,
    "shown": 8,
    "A": {
     "tokens": 47808,
@@ -7443,7 +7443,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2177,
+    "tokens": 2176,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7464,7 +7464,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1221,
+   "searchTokens": 1220,
    "shown": 8,
    "A": {
     "tokens": 47808,
@@ -7477,7 +7477,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2175,
+    "tokens": 2174,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7496,7 +7496,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1015,
+   "searchTokens": 913,
    "shown": 8,
    "A": {
     "tokens": 14336,
@@ -7509,7 +7509,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2001,
+    "tokens": 1899,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7596,7 +7596,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 955,
+   "searchTokens": 868,
    "shown": 8,
    "A": {
     "tokens": 7848,
@@ -7609,7 +7609,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1750,
+    "tokens": 1663,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7664,7 +7664,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 866,
+   "searchTokens": 719,
    "shown": 8,
    "A": {
     "tokens": 55900,
@@ -7677,7 +7677,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1661,
+    "tokens": 1514,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7696,7 +7696,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1254,
+   "searchTokens": 1252,
    "shown": 8,
    "A": {
     "tokens": 7908,
@@ -7709,7 +7709,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1982,
+    "tokens": 1980,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7730,7 +7730,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1251,
+   "searchTokens": 1250,
    "shown": 8,
    "A": {
     "tokens": 47776,
@@ -7743,7 +7743,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1979,
+    "tokens": 1978,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7764,7 +7764,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1124,
+   "searchTokens": 1202,
    "shown": 8,
    "A": {
     "tokens": 8568,
@@ -7777,7 +7777,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1852,
+    "tokens": 1930,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7793,10 +7793,10 @@
    "kws": [
     "Decoder"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1200,
+   "rank": 1,
+   "searchTokens": 1256,
    "shown": 8,
    "A": {
     "tokens": 16072,
@@ -7809,7 +7809,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1796,
+    "tokens": 1852,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7827,9 +7827,9 @@
     "reads",
     "stream"
    ],
-   "hit1": true,
+   "hit1": false,
    "hit8": true,
-   "rank": 1,
+   "rank": 3,
    "searchTokens": 1259,
    "shown": 8,
    "A": {
@@ -7896,7 +7896,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1185,
+   "searchTokens": 1170,
    "shown": 8,
    "A": {
     "tokens": 14264,
@@ -7909,7 +7909,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2322,
+    "tokens": 2307,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7930,7 +7930,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 977,
+   "searchTokens": 988,
    "shown": 8,
    "A": {
     "tokens": 16048,
@@ -7943,7 +7943,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2114,
+    "tokens": 2125,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7964,7 +7964,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1054,
+   "searchTokens": 1173,
    "shown": 8,
    "A": {
     "tokens": 27122,
@@ -7977,7 +7977,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2191,
+    "tokens": 2310,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -7993,10 +7993,10 @@
    "kws": [
     "FullPath"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 1247,
+   "rank": 1,
+   "searchTokens": 1249,
    "shown": 8,
    "A": {
     "tokens": 22651,
@@ -8009,7 +8009,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2294,
+    "tokens": 2296,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8030,7 +8030,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 940,
+   "searchTokens": 939,
    "shown": 8,
    "A": {
     "tokens": 16477,
@@ -8043,7 +8043,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1987,
+    "tokens": 1986,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8062,9 +8062,9 @@
     "route"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1027,
+   "hit8": true,
+   "rank": 8,
+   "searchTokens": 1026,
    "shown": 8,
    "A": {
     "tokens": 53829,
@@ -8077,10 +8077,10 @@
     "found": false
    },
    "R": {
-    "tokens": 54856,
-    "calls": 9,
-    "found": false,
-    "fallback": true
+    "tokens": 2073,
+    "calls": 2,
+    "found": true,
+    "fallback": false
    }
   },
   {
@@ -8096,7 +8096,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1060,
+   "searchTokens": 1137,
    "shown": 8,
    "A": {
     "tokens": 33708,
@@ -8109,7 +8109,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2149,
+    "tokens": 2226,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8196,7 +8196,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1190,
+   "searchTokens": 1097,
    "shown": 8,
    "A": {
     "tokens": 14265,
@@ -8209,7 +8209,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2327,
+    "tokens": 2234,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8230,7 +8230,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 977,
+   "searchTokens": 988,
    "shown": 8,
    "A": {
     "tokens": 15541,
@@ -8243,7 +8243,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2114,
+    "tokens": 2125,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8264,7 +8264,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1054,
+   "searchTokens": 1172,
    "shown": 8,
    "A": {
     "tokens": 27129,
@@ -8277,7 +8277,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2191,
+    "tokens": 2309,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8296,7 +8296,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1095,
+   "searchTokens": 1088,
    "shown": 8,
    "A": {
     "tokens": 7731,
@@ -8309,7 +8309,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1922,
+    "tokens": 1915,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8393,9 +8393,9 @@
    "kws": [
     "SetTrustedProxies"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 4,
+   "rank": 1,
    "searchTokens": 1255,
    "shown": 8,
    "A": {
@@ -8493,10 +8493,10 @@
    "kws": [
     "Errors"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1177,
+   "rank": 1,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 38050,
@@ -8509,7 +8509,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2011,
+    "tokens": 2091,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8564,7 +8564,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1197,
+   "searchTokens": 1058,
    "shown": 8,
    "A": {
     "tokens": 65741,
@@ -8577,7 +8577,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2031,
+    "tokens": 1892,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8593,10 +8593,10 @@
    "kws": [
     "secureRequestDump"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 901,
+   "rank": 1,
+   "searchTokens": 950,
    "shown": 8,
    "A": {
     "tokens": 1936,
@@ -8609,7 +8609,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1925,
+    "tokens": 1974,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8627,10 +8627,10 @@
     "leaking",
     "masked"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 776,
+   "rank": 1,
+   "searchTokens": 773,
    "shown": 8,
    "A": {
     "tokens": 1899,
@@ -8643,7 +8643,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1800,
+    "tokens": 1797,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8664,7 +8664,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 1141,
+   "searchTokens": 1028,
    "shown": 8,
    "A": {
     "tokens": 63457,
@@ -8677,7 +8677,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2165,
+    "tokens": 2052,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8696,7 +8696,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1053,
+   "searchTokens": 715,
    "shown": 8,
    "A": {
     "tokens": 2785,
@@ -8709,7 +8709,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1781,
+    "tokens": 1443,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8730,7 +8730,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 811,
+   "searchTokens": 800,
    "shown": 8,
    "A": {
     "tokens": 65801,
@@ -8743,7 +8743,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1539,
+    "tokens": 1528,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8764,7 +8764,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1079,
+   "searchTokens": 967,
    "shown": 8,
    "A": {
     "tokens": 65801,
@@ -8777,7 +8777,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1807,
+    "tokens": 1695,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8830,7 +8830,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1120,
+   "searchTokens": 1139,
    "shown": 8,
    "A": {
     "tokens": 70192,
@@ -8843,7 +8843,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1513,
+    "tokens": 1532,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8864,7 +8864,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1144,
+   "searchTokens": 1083,
    "shown": 8,
    "A": {
     "tokens": 70192,
@@ -8877,7 +8877,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1537,
+    "tokens": 1476,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8896,7 +8896,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1227,
+   "searchTokens": 1223,
    "shown": 8,
    "A": {
     "tokens": 34746,
@@ -8909,7 +8909,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2346,
+    "tokens": 2342,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8930,7 +8930,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1257,
+   "searchTokens": 1255,
    "shown": 8,
    "A": {
     "tokens": 33699,
@@ -8943,7 +8943,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2376,
+    "tokens": 2374,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8963,8 +8963,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1265,
+   "rank": 2,
+   "searchTokens": 1259,
    "shown": 8,
    "A": {
     "tokens": 48248,
@@ -8977,7 +8977,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2384,
+    "tokens": 2378,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -8996,7 +8996,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1151,
+   "searchTokens": 1152,
    "shown": 8,
    "A": {
     "tokens": 7537,
@@ -9009,7 +9009,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2085,
+    "tokens": 2086,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9030,7 +9030,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1078,
+   "searchTokens": 1076,
    "shown": 8,
    "A": {
     "tokens": 9533,
@@ -9043,7 +9043,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2012,
+    "tokens": 2010,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9064,7 +9064,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1107,
+   "searchTokens": 944,
    "shown": 8,
    "A": {
     "tokens": 9533,
@@ -9077,7 +9077,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2041,
+    "tokens": 1878,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9093,10 +9093,10 @@
    "kws": [
     "GetStringMap"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1008,
+   "rank": 1,
+   "searchTokens": 1027,
    "shown": 8,
    "A": {
     "tokens": 33799,
@@ -9109,7 +9109,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2097,
+    "tokens": 2116,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9196,7 +9196,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 980,
+   "searchTokens": 965,
    "shown": 8,
    "A": {
     "tokens": 14252,
@@ -9209,7 +9209,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1978,
+    "tokens": 1963,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9230,7 +9230,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1258,
+   "searchTokens": 1255,
    "shown": 8,
    "A": {
     "tokens": 33851,
@@ -9243,7 +9243,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2256,
+    "tokens": 2253,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9296,7 +9296,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1112,
+   "searchTokens": 874,
    "shown": 8,
    "A": {
     "tokens": 2700,
@@ -9309,7 +9309,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2020,
+    "tokens": 1808,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9330,7 +9330,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1038,
+   "searchTokens": 943,
    "shown": 8,
    "A": {
     "tokens": 2859,
@@ -9343,7 +9343,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1946,
+    "tokens": 1851,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9396,7 +9396,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1267,
+   "searchTokens": 1194,
    "shown": 8,
    "A": {
     "tokens": 8805,
@@ -9409,7 +9409,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1494,
+    "tokens": 1421,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9430,7 +9430,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1259,
+   "searchTokens": 1252,
    "shown": 8,
    "A": {
     "tokens": 43973,
@@ -9443,7 +9443,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1486,
+    "tokens": 1479,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9464,7 +9464,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1151,
+   "searchTokens": 1254,
    "shown": 8,
    "A": {
     "tokens": 72910,
@@ -9477,7 +9477,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1378,
+    "tokens": 1481,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9496,7 +9496,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1072,
+   "searchTokens": 1154,
    "shown": 8,
    "A": {
     "tokens": 14358,
@@ -9509,7 +9509,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2212,
+    "tokens": 2294,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9561,10 +9561,10 @@
     "strings",
     "form"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1275,
+   "rank": 1,
+   "searchTokens": 1260,
    "shown": 8,
    "A": {
     "tokens": 76012,
@@ -9577,7 +9577,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2415,
+    "tokens": 2400,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9596,7 +9596,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1206,
+   "searchTokens": 1238,
    "shown": 8,
    "A": {
     "tokens": 14853,
@@ -9609,7 +9609,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2325,
+    "tokens": 2357,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9630,7 +9630,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1267,
+   "searchTokens": 1266,
    "shown": 8,
    "A": {
     "tokens": 15746,
@@ -9643,7 +9643,7 @@
     "found": false
    },
    "R": {
-    "tokens": 17013,
+    "tokens": 17012,
     "calls": 4,
     "found": true,
     "fallback": true
@@ -9664,7 +9664,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1262,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 18186,
@@ -9677,7 +9677,7 @@
     "found": false
    },
    "R": {
-    "tokens": 19448,
+    "tokens": 19443,
     "calls": 5,
     "found": true,
     "fallback": true
@@ -9696,7 +9696,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1189,
+   "searchTokens": 1107,
    "shown": 8,
    "A": {
     "tokens": 67145,
@@ -9709,7 +9709,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2301,
+    "tokens": 2219,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9730,7 +9730,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 788,
+   "searchTokens": 777,
    "shown": 8,
    "A": {
     "tokens": 74801,
@@ -9743,7 +9743,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1900,
+    "tokens": 1889,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9796,7 +9796,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1050,
+   "searchTokens": 760,
    "shown": 8,
    "A": {
     "tokens": 14333,
@@ -9809,7 +9809,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2036,
+    "tokens": 1746,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9896,7 +9896,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1133,
+   "searchTokens": 965,
    "shown": 8,
    "A": {
     "tokens": 14264,
@@ -9909,7 +9909,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2270,
+    "tokens": 2102,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9930,7 +9930,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 977,
+   "searchTokens": 988,
    "shown": 8,
    "A": {
     "tokens": 15466,
@@ -9943,7 +9943,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2114,
+    "tokens": 2125,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9964,7 +9964,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1060,
+   "searchTokens": 1174,
    "shown": 8,
    "A": {
     "tokens": 27126,
@@ -9977,7 +9977,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2197,
+    "tokens": 2311,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -9993,10 +9993,10 @@
    "kws": [
     "MustBindWith"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1134,
+   "rank": 1,
+   "searchTokens": 1071,
    "shown": 8,
    "A": {
     "tokens": 14754,
@@ -10009,7 +10009,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2258,
+    "tokens": 2195,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10029,8 +10029,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1267,
+   "rank": 4,
+   "searchTokens": 1266,
    "shown": 8,
    "A": {
     "tokens": 15746,
@@ -10043,7 +10043,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2391,
+    "tokens": 2390,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10063,8 +10063,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 6,
-   "searchTokens": 1262,
+   "rank": 5,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 18186,
@@ -10077,7 +10077,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2386,
+    "tokens": 2381,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10096,7 +10096,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1032,
+   "searchTokens": 863,
    "shown": 8,
    "A": {
     "tokens": 697,
@@ -10109,7 +10109,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1636,
+    "tokens": 1467,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10127,9 +10127,9 @@
     "associated",
     "provided"
    ],
-   "hit1": true,
+   "hit1": false,
    "hit8": true,
-   "rank": 1,
+   "rank": 6,
    "searchTokens": 1031,
    "shown": 8,
    "A": {
@@ -10161,9 +10161,9 @@
     "associated",
     "provided"
    ],
-   "hit1": true,
+   "hit1": false,
    "hit8": true,
-   "rank": 1,
+   "rank": 4,
    "searchTokens": 1066,
    "shown": 8,
    "A": {
@@ -10196,7 +10196,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 991,
+   "searchTokens": 963,
    "shown": 8,
    "A": {
     "tokens": 47926,
@@ -10209,7 +10209,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2057,
+    "tokens": 2029,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10230,7 +10230,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1256,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 15825,
@@ -10243,7 +10243,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2322,
+    "tokens": 2323,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10264,7 +10264,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1234,
+   "searchTokens": 1256,
    "shown": 8,
    "A": {
     "tokens": 35951,
@@ -10277,7 +10277,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2300,
+    "tokens": 2322,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10295,8 +10295,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 7,
-   "searchTokens": 1112,
+   "rank": 2,
+   "searchTokens": 994,
    "shown": 8,
    "A": {
     "tokens": 8363,
@@ -10309,7 +10309,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2191,
+    "tokens": 2073,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10330,7 +10330,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 1177,
+   "searchTokens": 1171,
    "shown": 8,
    "A": {
     "tokens": 10588,
@@ -10343,7 +10343,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2256,
+    "tokens": 2250,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10364,7 +10364,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1258,
+   "searchTokens": 963,
    "shown": 8,
    "A": {
     "tokens": 26153,
@@ -10377,7 +10377,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2337,
+    "tokens": 2042,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10396,7 +10396,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 912,
+   "searchTokens": 676,
    "shown": 8,
    "A": {
     "tokens": 15389,
@@ -10409,7 +10409,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2024,
+    "tokens": 1788,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10430,7 +10430,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 947,
+   "searchTokens": 1015,
    "shown": 8,
    "A": {
     "tokens": 9021,
@@ -10443,7 +10443,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2059,
+    "tokens": 2127,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10493,10 +10493,10 @@
    "kws": [
     "stack"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1079,
+   "rank": 1,
+   "searchTokens": 869,
    "shown": 8,
    "A": {
     "tokens": 3819,
@@ -10509,7 +10509,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1914,
+    "tokens": 1704,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10564,7 +10564,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 958,
+   "searchTokens": 824,
    "shown": 8,
    "A": {
     "tokens": 23491,
@@ -10577,7 +10577,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1793,
+    "tokens": 1659,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10594,9 +10594,9 @@
     "FileFromFS"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 884,
+   "hit8": true,
+   "rank": 4,
+   "searchTokens": 887,
    "shown": 8,
    "A": {
     "tokens": 14328,
@@ -10609,10 +10609,10 @@
     "found": true
    },
    "R": {
-    "tokens": 15212,
-    "calls": 4,
+    "tokens": 1953,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -10696,7 +10696,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1195,
+   "searchTokens": 1136,
    "shown": 8,
    "A": {
     "tokens": 15464,
@@ -10709,7 +10709,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2078,
+    "tokens": 2019,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10730,7 +10730,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 1265,
+   "searchTokens": 1199,
    "shown": 8,
    "A": {
     "tokens": 14663,
@@ -10743,7 +10743,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2148,
+    "tokens": 2082,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10764,7 +10764,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1105,
+   "searchTokens": 1099,
    "shown": 8,
    "A": {
     "tokens": 29984,
@@ -10777,7 +10777,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1988,
+    "tokens": 1982,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10796,7 +10796,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 932,
+   "searchTokens": 843,
    "shown": 8,
    "A": {
     "tokens": 1919,
@@ -10809,7 +10809,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1767,
+    "tokens": 1678,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10861,10 +10861,10 @@
     "line",
     "file"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 804,
+   "rank": 1,
+   "searchTokens": 1001,
    "shown": 8,
    "A": {
     "tokens": 65161,
@@ -10877,7 +10877,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1639,
+    "tokens": 1836,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10896,7 +10896,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1251,
+   "searchTokens": 1169,
    "shown": 8,
    "A": {
     "tokens": 8886,
@@ -10909,7 +10909,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2078,
+    "tokens": 1996,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -10993,10 +10993,10 @@
    "kws": [
     "Cookie"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 955,
+   "rank": 1,
+   "searchTokens": 953,
    "shown": 8,
    "A": {
     "tokens": 35222,
@@ -11009,7 +11009,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1908,
+    "tokens": 1906,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11030,7 +11030,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 4,
-   "searchTokens": 965,
+   "searchTokens": 968,
    "shown": 8,
    "A": {
     "tokens": 16540,
@@ -11043,7 +11043,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1918,
+    "tokens": 1921,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11131,8 +11131,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 6,
-   "searchTokens": 1239,
+   "rank": 7,
+   "searchTokens": 1179,
    "shown": 8,
    "A": {
     "tokens": 7410,
@@ -11145,7 +11145,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2263,
+    "tokens": 2203,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11166,7 +11166,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 1212,
+   "searchTokens": 1132,
    "shown": 8,
    "A": {
     "tokens": 33709,
@@ -11179,7 +11179,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2136,
+    "tokens": 2056,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11200,7 +11200,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1096,
+   "searchTokens": 1097,
    "shown": 8,
    "A": {
     "tokens": 3141,
@@ -11213,7 +11213,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1954,
+    "tokens": 1955,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11300,9 +11300,9 @@
     "multipart"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1080,
+   "hit8": true,
+   "rank": 6,
+   "searchTokens": 1251,
    "shown": 8,
    "A": {
     "tokens": 52992,
@@ -11315,10 +11315,10 @@
     "found": false
    },
    "R": {
-    "tokens": 54072,
-    "calls": 9,
-    "found": false,
-    "fallback": true
+    "tokens": 2134,
+    "calls": 2,
+    "found": true,
+    "fallback": false
    }
   },
   {
@@ -11404,7 +11404,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1084,
+   "searchTokens": 1159,
    "shown": 8,
    "A": {
     "tokens": 66416,
@@ -11417,7 +11417,7 @@
     "found": false
    },
    "R": {
-    "tokens": 67500,
+    "tokens": 67575,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -11433,10 +11433,10 @@
    "kws": [
     "ContextMode"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1173,
+   "rank": 1,
+   "searchTokens": 1265,
    "shown": 8,
    "A": {
     "tokens": 27729,
@@ -11449,7 +11449,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2157,
+    "tokens": 2249,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11536,7 +11536,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1287,
+   "searchTokens": 1281,
    "shown": 8,
    "A": {
     "tokens": 21190,
@@ -11549,7 +11549,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2267,
+    "tokens": 2261,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11604,7 +11604,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 5,
-   "searchTokens": 1119,
+   "searchTokens": 1201,
    "shown": 8,
    "A": {
     "tokens": 23529,
@@ -11617,7 +11617,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2099,
+    "tokens": 2181,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11633,10 +11633,10 @@
    "kws": [
     "one_regex"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1108,
+   "rank": 1,
+   "searchTokens": 981,
    "shown": 8,
    "A": {
     "tokens": 11384,
@@ -11649,7 +11649,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2310,
+    "tokens": 2183,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11736,7 +11736,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1289,
+   "searchTokens": 1207,
    "shown": 8,
    "A": {
     "tokens": 21720,
@@ -11749,7 +11749,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2499,
+    "tokens": 2417,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11833,10 +11833,10 @@
    "kws": [
     "HaystackBuilder"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1279,
+   "rank": 1,
+   "searchTokens": 1276,
    "shown": 8,
    "A": {
     "tokens": 1902,
@@ -11849,7 +11849,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2257,
+    "tokens": 2254,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11933,10 +11933,10 @@
    "kws": [
     "bom_sniffing"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1089,
+   "rank": 1,
+   "searchTokens": 1220,
    "shown": 8,
    "A": {
     "tokens": 12432,
@@ -11949,7 +11949,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2334,
+    "tokens": 2465,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -11970,7 +11970,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1085,
+   "searchTokens": 1221,
    "shown": 8,
    "A": {
     "tokens": 14286,
@@ -11983,7 +11983,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2330,
+    "tokens": 2466,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12033,9 +12033,9 @@
    "kws": [
     "error_config"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
+   "rank": 1,
    "searchTokens": 1214,
    "shown": 8,
    "A": {
@@ -12136,7 +12136,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 809,
+   "searchTokens": 1287,
    "shown": 8,
    "A": {
     "tokens": 21003,
@@ -12149,7 +12149,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1785,
+    "tokens": 2263,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12204,7 +12204,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1206,
+   "searchTokens": 1239,
    "shown": 8,
    "A": {
     "tokens": 23521,
@@ -12217,7 +12217,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2182,
+    "tokens": 2215,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12235,8 +12235,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 1236,
+   "rank": 8,
+   "searchTokens": 1090,
    "shown": 8,
    "A": {
     "tokens": 29420,
@@ -12249,7 +12249,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2319,
+    "tokens": 2173,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12336,7 +12336,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1121,
+   "searchTokens": 1120,
    "shown": 8,
    "A": {
     "tokens": 13300,
@@ -12349,7 +12349,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2148,
+    "tokens": 2147,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12433,10 +12433,10 @@
    "kws": [
     "add_str"
    ],
-   "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1184,
+   "hit1": true,
+   "hit8": true,
+   "rank": 1,
+   "searchTokens": 1260,
    "shown": 8,
    "A": {
     "tokens": 9699,
@@ -12449,10 +12449,10 @@
     "found": true
    },
    "R": {
-    "tokens": 10883,
-    "calls": 4,
+    "tokens": 2352,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -12536,7 +12536,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1189,
+   "searchTokens": 1275,
    "shown": 8,
    "A": {
     "tokens": 11373,
@@ -12549,7 +12549,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2472,
+    "tokens": 2558,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12635,8 +12635,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 1277,
+   "rank": 3,
+   "searchTokens": 1265,
    "shown": 8,
    "A": {
     "tokens": 22694,
@@ -12649,7 +12649,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2516,
+    "tokens": 2504,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12736,7 +12736,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1293,
+   "searchTokens": 1295,
    "shown": 8,
    "A": {
     "tokens": 8527,
@@ -12749,7 +12749,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2316,
+    "tokens": 2318,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12804,7 +12804,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1047,
+   "searchTokens": 1049,
    "shown": 8,
    "A": {
     "tokens": 71371,
@@ -12817,7 +12817,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2070,
+    "tokens": 2072,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12836,7 +12836,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1042,
+   "searchTokens": 1134,
    "shown": 8,
    "A": {
     "tokens": 7555,
@@ -12849,7 +12849,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2273,
+    "tokens": 2365,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12935,8 +12935,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 8,
-   "searchTokens": 1275,
+   "rank": 2,
+   "searchTokens": 1270,
    "shown": 8,
    "A": {
     "tokens": 2035,
@@ -12949,7 +12949,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1980,
+    "tokens": 1975,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -12970,7 +12970,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 741,
+   "searchTokens": 808,
    "shown": 8,
    "A": {
     "tokens": 39435,
@@ -12983,7 +12983,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1446,
+    "tokens": 1513,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13004,7 +13004,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 976,
+   "searchTokens": 1125,
    "shown": 8,
    "A": {
     "tokens": 39435,
@@ -13017,7 +13017,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1681,
+    "tokens": 1830,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13036,7 +13036,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1087,
+   "searchTokens": 1283,
    "shown": 8,
    "A": {
     "tokens": 1953,
@@ -13049,7 +13049,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1882,
+    "tokens": 2078,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13136,7 +13136,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1279,
+   "searchTokens": 1278,
    "shown": 8,
    "A": {
     "tokens": 17453,
@@ -13149,7 +13149,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2147,
+    "tokens": 2146,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13170,7 +13170,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1020,
+   "searchTokens": 995,
    "shown": 8,
    "A": {
     "tokens": 39119,
@@ -13183,7 +13183,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1888,
+    "tokens": 1863,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13204,7 +13204,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 4,
-   "searchTokens": 1073,
+   "searchTokens": 1223,
    "shown": 8,
    "A": {
     "tokens": 39705,
@@ -13217,7 +13217,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1941,
+    "tokens": 2091,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13236,7 +13236,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1286,
+   "searchTokens": 1201,
    "shown": 8,
    "A": {
     "tokens": 5460,
@@ -13249,7 +13249,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2488,
+    "tokens": 2403,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13267,9 +13267,9 @@
     "maximum",
     "stack"
    ],
-   "hit1": true,
+   "hit1": false,
    "hit8": true,
-   "rank": 1,
+   "rank": 2,
    "searchTokens": 1165,
    "shown": 8,
    "A": {
@@ -13336,7 +13336,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1049,
+   "searchTokens": 1143,
    "shown": 8,
    "A": {
     "tokens": 44358,
@@ -13349,7 +13349,7 @@
     "found": true
    },
    "R": {
-    "tokens": 45407,
+    "tokens": 45501,
     "calls": 6,
     "found": true,
     "fallback": true
@@ -13436,7 +13436,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1099,
+   "searchTokens": 1268,
    "shown": 8,
    "A": {
     "tokens": 12193,
@@ -13449,7 +13449,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2233,
+    "tokens": 2402,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13536,7 +13536,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1275,
+   "searchTokens": 1144,
    "shown": 8,
    "A": {
     "tokens": 487,
@@ -13549,7 +13549,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1528,
+    "tokens": 1397,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13600,8 +13600,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 7,
-   "searchTokens": 1159,
+   "rank": 2,
+   "searchTokens": 1161,
    "shown": 8,
    "A": {
     "tokens": 21513,
@@ -13614,7 +13614,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2205,
+    "tokens": 2207,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13700,8 +13700,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 6,
-   "searchTokens": 1082,
+   "rank": 2,
+   "searchTokens": 1095,
    "shown": 8,
    "A": {
     "tokens": 17048,
@@ -13714,7 +13714,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2270,
+    "tokens": 2283,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13798,10 +13798,10 @@
    "kws": [
     "Standard"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1290,
+   "rank": 1,
+   "searchTokens": 1289,
    "shown": 8,
    "A": {
     "tokens": 24073,
@@ -13814,7 +13814,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2430,
+    "tokens": 2429,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13901,7 +13901,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1262,
+   "searchTokens": 1264,
    "shown": 8,
    "A": {
     "tokens": 4681,
@@ -13914,7 +13914,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2264,
+    "tokens": 2266,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -13999,9 +13999,9 @@
     "is_suffix"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1274,
+   "hit8": true,
+   "rank": 2,
+   "searchTokens": 1283,
    "shown": 8,
    "A": {
     "tokens": 32377,
@@ -14014,10 +14014,10 @@
     "found": true
    },
    "R": {
-    "tokens": 33651,
-    "calls": 5,
+    "tokens": 2380,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -14098,10 +14098,10 @@
    "kws": [
     "GlobMatcher"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1284,
+   "rank": 1,
+   "searchTokens": 1224,
    "shown": 8,
    "A": {
     "tokens": 18349,
@@ -14114,7 +14114,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2203,
+    "tokens": 2143,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14201,7 +14201,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1295,
+   "searchTokens": 1301,
    "shown": 8,
    "A": {
     "tokens": 12345,
@@ -14214,7 +14214,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2497,
+    "tokens": 2503,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14301,7 +14301,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1284,
+   "searchTokens": 1285,
    "shown": 8,
    "A": {
     "tokens": 21284,
@@ -14314,7 +14314,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2258,
+    "tokens": 2259,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14401,7 +14401,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1186,
+   "searchTokens": 1280,
    "shown": 8,
    "A": {
     "tokens": 21824,
@@ -14414,7 +14414,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2400,
+    "tokens": 2494,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14501,7 +14501,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1188,
+   "searchTokens": 1154,
    "shown": 8,
    "A": {
     "tokens": 17536,
@@ -14514,7 +14514,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2056,
+    "tokens": 2022,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14569,7 +14569,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 974,
+   "searchTokens": 1125,
    "shown": 8,
    "A": {
     "tokens": 97210,
@@ -14582,7 +14582,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1842,
+    "tokens": 1993,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14598,10 +14598,10 @@
    "kws": [
     "add_bytes_printed"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1145,
+   "rank": 1,
+   "searchTokens": 1138,
    "shown": 8,
    "A": {
     "tokens": 34597,
@@ -14614,7 +14614,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2075,
+    "tokens": 2068,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14698,10 +14698,10 @@
    "kws": [
     "set_messages"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1278,
+   "rank": 1,
+   "searchTokens": 1204,
    "shown": 8,
    "A": {
     "tokens": 6875,
@@ -14714,7 +14714,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1984,
+    "tokens": 1910,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14764,10 +14764,10 @@
    "kws": [
     "Lossy"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1277,
+   "rank": 1,
+   "searchTokens": 1280,
    "shown": 8,
    "A": {
     "tokens": 13174,
@@ -14780,7 +14780,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2543,
+    "tokens": 2546,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14864,10 +14864,10 @@
    "kws": [
     "preceding_by_pos"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1095,
+   "rank": 1,
+   "searchTokens": 1145,
    "shown": 8,
    "A": {
     "tokens": 5121,
@@ -14880,7 +14880,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2135,
+    "tokens": 2185,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -14967,7 +14967,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1194,
+   "searchTokens": 1285,
    "shown": 8,
    "A": {
     "tokens": 12451,
@@ -14980,7 +14980,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2054,
+    "tokens": 2145,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15001,7 +15001,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 783,
+   "searchTokens": 796,
    "shown": 8,
    "A": {
     "tokens": 34137,
@@ -15014,7 +15014,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1643,
+    "tokens": 1656,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15064,10 +15064,10 @@
    "kws": [
     "platform_hostname"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1168,
+   "rank": 1,
+   "searchTokens": 1186,
    "shown": 8,
    "A": {
     "tokens": 17092,
@@ -15080,7 +15080,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2258,
+    "tokens": 2276,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15164,10 +15164,10 @@
    "kws": [
     "add_searches"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1016,
+   "rank": 1,
+   "searchTokens": 1110,
    "shown": 8,
    "A": {
     "tokens": 34655,
@@ -15180,7 +15180,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1946,
+    "tokens": 2040,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15264,10 +15264,10 @@
    "kws": [
     "environment"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 805,
+   "rank": 1,
+   "searchTokens": 1064,
    "shown": 8,
    "A": {
     "tokens": 14458,
@@ -15280,7 +15280,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1632,
+    "tokens": 1891,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15670,10 +15670,10 @@
    "kws": [
     "atomicWrite"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1123,
+   "rank": 1,
+   "searchTokens": 1127,
    "shown": 8,
    "A": {
     "tokens": 2094,
@@ -15686,7 +15686,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1873,
+    "tokens": 1877,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15773,7 +15773,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1263,
+   "searchTokens": 1280,
    "shown": 8,
    "A": {
     "tokens": 16205,
@@ -15786,7 +15786,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2322,
+    "tokens": 2339,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15870,10 +15870,10 @@
    "kws": [
     "merge"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1250,
+   "rank": 1,
+   "searchTokens": 1042,
    "shown": 8,
    "A": {
     "tokens": 22423,
@@ -15886,7 +15886,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2184,
+    "tokens": 1976,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15941,7 +15941,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 2,
-   "searchTokens": 1279,
+   "searchTokens": 1276,
    "shown": 8,
    "A": {
     "tokens": 2445,
@@ -15954,7 +15954,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2213,
+    "tokens": 2210,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -15971,9 +15971,9 @@
     "isBlocked"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1259,
+   "hit8": true,
+   "rank": 2,
+   "searchTokens": 1267,
    "shown": 8,
    "A": {
     "tokens": 15820,
@@ -15986,10 +15986,10 @@
     "found": true
    },
    "R": {
-    "tokens": 17079,
-    "calls": 7,
+    "tokens": 2326,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -16005,9 +16005,9 @@
     "broad"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1267,
+   "hit8": true,
+   "rank": 8,
+   "searchTokens": 1164,
    "shown": 8,
    "A": {
     "tokens": 15299,
@@ -16020,10 +16020,10 @@
     "found": true
    },
    "R": {
-    "tokens": 16566,
-    "calls": 6,
+    "tokens": 2223,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -16071,9 +16071,9 @@
     "resolveProject"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1169,
+   "hit8": true,
+   "rank": 3,
+   "searchTokens": 1233,
    "shown": 8,
    "A": {
     "tokens": 17371,
@@ -16086,10 +16086,10 @@
     "found": false
    },
    "R": {
-    "tokens": 18540,
-    "calls": 9,
-    "found": false,
-    "fallback": true
+    "tokens": 2027,
+    "calls": 2,
+    "found": true,
+    "fallback": false
    }
   },
   {
@@ -16170,10 +16170,10 @@
    "kws": [
     "liveExclusions"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1270,
+   "rank": 1,
+   "searchTokens": 1269,
    "shown": 8,
    "A": {
     "tokens": 3001,
@@ -16186,7 +16186,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2316,
+    "tokens": 2315,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -16271,9 +16271,9 @@
     "transcriptFiles"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1147,
+   "hit8": true,
+   "rank": 5,
+   "searchTokens": 1229,
    "shown": 8,
    "A": {
     "tokens": 16454,
@@ -16286,10 +16286,10 @@
     "found": true
    },
    "R": {
-    "tokens": 17601,
-    "calls": 7,
+    "tokens": 2018,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -16371,10 +16371,10 @@
     "setOverride"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1242,
-   "shown": 10,
+   "hit8": true,
+   "rank": 3,
+   "searchTokens": 974,
+   "shown": 8,
    "A": {
     "tokens": 10673,
     "calls": 6,
@@ -16386,10 +16386,10 @@
     "found": true
    },
    "R": {
-    "tokens": 11915,
-    "calls": 7,
+    "tokens": 2033,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -16440,7 +16440,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 8,
+   "rank": 7,
    "searchTokens": 1204,
    "shown": 8,
    "A": {
@@ -16473,7 +16473,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1196,
+   "searchTokens": 1268,
    "shown": 8,
    "A": {
     "tokens": 1102,
@@ -16486,7 +16486,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1711,
+    "tokens": 1783,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -16572,8 +16572,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 8,
-   "searchTokens": 1277,
+   "rank": 2,
+   "searchTokens": 1266,
    "shown": 8,
    "A": {
     "tokens": 2080,
@@ -16586,7 +16586,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2336,
+    "tokens": 2325,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -16670,10 +16670,10 @@
    "kws": [
     "isSecretPath"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1267,
+   "rank": 1,
+   "searchTokens": 1275,
    "shown": 8,
    "A": {
     "tokens": 2935,
@@ -16686,7 +16686,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2246,
+    "tokens": 2254,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -16741,7 +16741,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 6,
-   "searchTokens": 1170,
+   "searchTokens": 1171,
    "shown": 8,
    "A": {
     "tokens": 39246,
@@ -16754,7 +16754,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2149,
+    "tokens": 2150,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -16770,10 +16770,10 @@
    "kws": [
     "codeRanges"
    ],
-   "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1197,
+   "hit1": true,
+   "hit8": true,
+   "rank": 1,
+   "searchTokens": 1236,
    "shown": 8,
    "A": {
     "tokens": 1303,
@@ -16786,10 +16786,10 @@
     "found": true
    },
    "R": {
-    "tokens": 2500,
-    "calls": 4,
+    "tokens": 2063,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -16806,7 +16806,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 3,
+   "rank": 2,
    "searchTokens": 1156,
    "shown": 8,
    "A": {
@@ -16870,10 +16870,10 @@
    "kws": [
     "listIndexableFiles"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 1276,
+   "rank": 1,
+   "searchTokens": 1275,
    "shown": 8,
    "A": {
     "tokens": 18016,
@@ -16886,7 +16886,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1791,
+    "tokens": 1790,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -16907,7 +16907,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1270,
+   "searchTokens": 1277,
    "shown": 8,
    "A": {
     "tokens": 12765,
@@ -16920,7 +16920,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1785,
+    "tokens": 1792,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -16971,10 +16971,10 @@
     "ensureDataDir"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1259,
-   "shown": 10,
+   "hit8": true,
+   "rank": 8,
+   "searchTokens": 1262,
+   "shown": 8,
    "A": {
     "tokens": 17967,
     "calls": 8,
@@ -16986,10 +16986,10 @@
     "found": false
    },
    "R": {
-    "tokens": 19226,
-    "calls": 9,
-    "found": false,
-    "fallback": true
+    "tokens": 2056,
+    "calls": 2,
+    "found": true,
+    "fallback": false
    }
   },
   {
@@ -17041,7 +17041,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 6,
-   "searchTokens": 1042,
+   "searchTokens": 1044,
    "shown": 8,
    "A": {
     "tokens": 24669,
@@ -17054,7 +17054,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1836,
+    "tokens": 1838,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17070,10 +17070,10 @@
    "kws": [
     "purgeExcluded"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1277,
+   "rank": 1,
+   "searchTokens": 1276,
    "shown": 8,
    "A": {
     "tokens": 17379,
@@ -17086,7 +17086,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2323,
+    "tokens": 2322,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17107,7 +17107,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1264,
+   "searchTokens": 1262,
    "shown": 8,
    "A": {
     "tokens": 23649,
@@ -17120,7 +17120,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2310,
+    "tokens": 2308,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17170,10 +17170,10 @@
    "kws": [
     "isBlockedRoot"
    ],
-   "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1259,
+   "hit1": true,
+   "hit8": true,
+   "rank": 1,
+   "searchTokens": 1277,
    "shown": 8,
    "A": {
     "tokens": 15443,
@@ -17186,10 +17186,10 @@
     "found": true
    },
    "R": {
-    "tokens": 16702,
-    "calls": 7,
+    "tokens": 2071,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -17271,10 +17271,10 @@
     "redact"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1202,
-   "shown": 10,
+   "hit8": true,
+   "rank": 4,
+   "searchTokens": 982,
+   "shown": 8,
    "A": {
     "tokens": 13219,
     "calls": 5,
@@ -17286,10 +17286,10 @@
     "found": true
    },
    "R": {
-    "tokens": 14421,
-    "calls": 6,
+    "tokens": 1592,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -17307,7 +17307,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1246,
+   "searchTokens": 1113,
    "shown": 8,
    "A": {
     "tokens": 3154,
@@ -17320,7 +17320,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1856,
+    "tokens": 1723,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17338,10 +17338,10 @@
     "redacted",
     "secrets"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1262,
+   "rank": 1,
+   "searchTokens": 1260,
    "shown": 8,
    "A": {
     "tokens": 3154,
@@ -17354,7 +17354,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1872,
+    "tokens": 1870,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17373,7 +17373,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1068,
+   "searchTokens": 1067,
    "shown": 8,
    "A": {
     "tokens": 17997,
@@ -17386,7 +17386,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2330,
+    "tokens": 2329,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17406,7 +17406,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 5,
+   "rank": 4,
    "searchTokens": 1024,
    "shown": 8,
    "A": {
@@ -17440,8 +17440,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 6,
-   "searchTokens": 1070,
+   "rank": 5,
+   "searchTokens": 1136,
    "shown": 8,
    "A": {
     "tokens": 45966,
@@ -17454,7 +17454,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2332,
+    "tokens": 2398,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17471,9 +17471,9 @@
     "installDepsInBackground"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1245,
+   "hit8": true,
+   "rank": 3,
+   "searchTokens": 1264,
    "shown": 8,
    "A": {
     "tokens": 3389,
@@ -17486,10 +17486,10 @@
     "found": true
    },
    "R": {
-    "tokens": 4634,
-    "calls": 6,
+    "tokens": 2075,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -17570,10 +17570,10 @@
    "kws": [
     "writeConfig"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 6,
-   "searchTokens": 1258,
+   "rank": 1,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 20721,
@@ -17586,7 +17586,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2008,
+    "tokens": 2007,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17607,7 +17607,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 7,
-   "searchTokens": 1068,
+   "searchTokens": 1066,
    "shown": 8,
    "A": {
     "tokens": 2280,
@@ -17620,7 +17620,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1818,
+    "tokens": 1816,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17641,7 +17641,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 3,
-   "searchTokens": 1161,
+   "searchTokens": 1162,
    "shown": 8,
    "A": {
     "tokens": 2497,
@@ -17654,7 +17654,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1911,
+    "tokens": 1912,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17670,10 +17670,10 @@
    "kws": [
     "drainRequests"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1126,
+   "rank": 1,
+   "searchTokens": 1136,
    "shown": 8,
    "A": {
     "tokens": 13786,
@@ -17686,7 +17686,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1983,
+    "tokens": 1993,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17770,10 +17770,10 @@
    "kws": [
     "addExclusion"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1277,
+   "rank": 1,
+   "searchTokens": 1283,
    "shown": 8,
    "A": {
     "tokens": 20255,
@@ -17786,7 +17786,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2336,
+    "tokens": 2342,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17870,11 +17870,11 @@
    "kws": [
     "parseTranscript"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1276,
-   "shown": 10,
+   "rank": 1,
+   "searchTokens": 1280,
+   "shown": 8,
    "A": {
     "tokens": 14494,
     "calls": 6,
@@ -17886,7 +17886,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1817,
+    "tokens": 1821,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -17970,10 +17970,10 @@
    "kws": [
     "readNotes"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1166,
+   "rank": 1,
+   "searchTokens": 898,
    "shown": 8,
    "A": {
     "tokens": 20229,
@@ -17986,7 +17986,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2163,
+    "tokens": 1895,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18041,7 +18041,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1097,
+   "searchTokens": 1126,
    "shown": 8,
    "A": {
     "tokens": 20635,
@@ -18054,7 +18054,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2094,
+    "tokens": 2123,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18073,7 +18073,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1140,
+   "searchTokens": 1268,
    "shown": 8,
    "A": {
     "tokens": 1317,
@@ -18086,7 +18086,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1877,
+    "tokens": 2005,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18170,9 +18170,9 @@
    "kws": [
     "appendNote"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
+   "rank": 1,
    "searchTokens": 1237,
    "shown": 8,
    "A": {
@@ -18236,10 +18236,10 @@
    "kws": [
     "depsAvailable"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1265,
+   "rank": 1,
+   "searchTokens": 1264,
    "shown": 8,
    "A": {
     "tokens": 16007,
@@ -18252,7 +18252,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2076,
+    "tokens": 2075,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18273,7 +18273,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1243,
+   "searchTokens": 1226,
    "shown": 8,
    "A": {
     "tokens": 19526,
@@ -18286,7 +18286,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2054,
+    "tokens": 2037,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18336,10 +18336,10 @@
    "kws": [
     "spawnWorker"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 1184,
+   "rank": 1,
+   "searchTokens": 1183,
    "shown": 8,
    "A": {
     "tokens": 16615,
@@ -18352,7 +18352,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1444,
+    "tokens": 1443,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18436,10 +18436,10 @@
    "kws": [
     "fileCwd"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1102,
+   "rank": 1,
+   "searchTokens": 1049,
    "shown": 8,
    "A": {
     "tokens": 1308,
@@ -18452,7 +18452,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1891,
+    "tokens": 1838,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18473,7 +18473,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1262,
+   "searchTokens": 1176,
    "shown": 8,
    "A": {
     "tokens": 39441,
@@ -18486,7 +18486,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2051,
+    "tokens": 1965,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18504,10 +18504,10 @@
     "first",
     "string"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 931,
+   "rank": 1,
+   "searchTokens": 1049,
    "shown": 8,
    "A": {
     "tokens": 42960,
@@ -18520,7 +18520,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1720,
+    "tokens": 1838,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18536,10 +18536,10 @@
    "kws": [
     "isCorruption"
    ],
-   "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1197,
+   "hit1": true,
+   "hit8": true,
+   "rank": 1,
+   "searchTokens": 1268,
    "shown": 8,
    "A": {
     "tokens": 2119,
@@ -18552,10 +18552,10 @@
     "found": true
    },
    "R": {
-    "tokens": 3316,
-    "calls": 4,
+    "tokens": 2217,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -18572,8 +18572,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 9,
-   "searchTokens": 1160,
+   "rank": 8,
+   "searchTokens": 1130,
    "shown": 10,
    "A": {
     "tokens": 40114,
@@ -18586,7 +18586,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2109,
+    "tokens": 2079,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18636,10 +18636,10 @@
    "kws": [
     "splitLong"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 3,
-   "searchTokens": 1132,
+   "rank": 1,
+   "searchTokens": 1205,
    "shown": 8,
    "A": {
     "tokens": 12658,
@@ -18652,7 +18652,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1959,
+    "tokens": 2032,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18707,7 +18707,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1132,
+   "searchTokens": 1141,
    "shown": 8,
    "A": {
     "tokens": 12245,
@@ -18720,7 +18720,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1959,
+    "tokens": 1968,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -18736,10 +18736,10 @@
    "kws": [
     "isBinary"
    ],
-   "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1196,
+   "hit1": true,
+   "hit8": true,
+   "rank": 1,
+   "searchTokens": 1268,
    "shown": 8,
    "A": {
     "tokens": 15993,
@@ -18752,10 +18752,10 @@
     "found": true
    },
    "R": {
-    "tokens": 17189,
-    "calls": 7,
+    "tokens": 2247,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -18773,7 +18773,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1101,
+   "searchTokens": 1131,
    "shown": 8,
    "A": {
     "tokens": 33401,
@@ -18786,7 +18786,7 @@
     "found": true
    },
    "R": {
-    "tokens": 34502,
+    "tokens": 34532,
     "calls": 6,
     "found": true,
     "fallback": true
@@ -18806,7 +18806,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 6,
+   "rank": 5,
    "searchTokens": 910,
    "shown": 8,
    "A": {
@@ -18837,9 +18837,9 @@
     "blocks"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1267,
+   "hit8": true,
+   "rank": 3,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 1779,
@@ -18852,10 +18852,10 @@
     "found": true
    },
    "R": {
-    "tokens": 3046,
-    "calls": 4,
+    "tokens": 2084,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -18937,9 +18937,9 @@
     "claudeSlug"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1211,
+   "hit8": true,
+   "rank": 4,
+   "searchTokens": 1125,
    "shown": 8,
    "A": {
     "tokens": 17227,
@@ -18952,10 +18952,10 @@
     "found": true
    },
    "R": {
-    "tokens": 18438,
-    "calls": 7,
+    "tokens": 1919,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -19036,10 +19036,10 @@
    "kws": [
     "importDep"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
-   "searchTokens": 1264,
+   "rank": 1,
+   "searchTokens": 1272,
    "shown": 8,
    "A": {
     "tokens": 9010,
@@ -19052,7 +19052,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2075,
+    "tokens": 2083,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19107,7 +19107,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1277,
+   "searchTokens": 1286,
    "shown": 8,
    "A": {
     "tokens": 12796,
@@ -19120,7 +19120,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2088,
+    "tokens": 2097,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19137,9 +19137,9 @@
     "activeNotes"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1206,
+   "hit8": true,
+   "rank": 4,
+   "searchTokens": 1278,
    "shown": 8,
    "A": {
     "tokens": 16870,
@@ -19152,10 +19152,10 @@
     "found": true
    },
    "R": {
-    "tokens": 18076,
-    "calls": 7,
+    "tokens": 2275,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -19172,7 +19172,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 3,
+   "rank": 2,
    "searchTokens": 1170,
    "shown": 8,
    "A": {
@@ -19204,9 +19204,9 @@
     "another",
     "drop"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 2,
+   "rank": 1,
    "searchTokens": 1252,
    "shown": 8,
    "A": {
@@ -19237,9 +19237,9 @@
     "startHeartbeat"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1153,
+   "hit8": true,
+   "rank": 3,
+   "searchTokens": 1224,
    "shown": 8,
    "A": {
     "tokens": 2063,
@@ -19252,10 +19252,10 @@
     "found": true
    },
    "R": {
-    "tokens": 3216,
-    "calls": 5,
+    "tokens": 2081,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -19273,7 +19273,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1242,
+   "searchTokens": 1240,
    "shown": 8,
    "A": {
     "tokens": 2382,
@@ -19286,7 +19286,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2099,
+    "tokens": 2097,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19336,10 +19336,10 @@
    "kws": [
     "chunkText"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1266,
+   "rank": 1,
+   "searchTokens": 1188,
    "shown": 8,
    "A": {
     "tokens": 15788,
@@ -19352,7 +19352,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2003,
+    "tokens": 1925,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19373,7 +19373,7 @@
    "hit1": true,
    "hit8": true,
    "rank": 1,
-   "searchTokens": 1097,
+   "searchTokens": 1081,
    "shown": 8,
    "A": {
     "tokens": 2003,
@@ -19386,7 +19386,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1834,
+    "tokens": 1818,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19406,7 +19406,7 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 4,
+   "rank": 3,
    "searchTokens": 1195,
    "shown": 8,
    "A": {
@@ -19436,10 +19436,10 @@
    "kws": [
     "readConfig"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1127,
+   "rank": 1,
+   "searchTokens": 1125,
    "shown": 8,
    "A": {
     "tokens": 18459,
@@ -19452,7 +19452,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1877,
+    "tokens": 1875,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19473,7 +19473,7 @@
    "hit1": false,
    "hit8": true,
    "rank": 9,
-   "searchTokens": 1124,
+   "searchTokens": 1047,
    "shown": 10,
    "A": {
     "tokens": 18134,
@@ -19486,7 +19486,7 @@
     "found": false
    },
    "R": {
-    "tokens": 1874,
+    "tokens": 1797,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19536,10 +19536,10 @@
    "kws": [
     "releaseLock"
    ],
-   "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1213,
+   "hit1": true,
+   "hit8": true,
+   "rank": 1,
+   "searchTokens": 1227,
    "shown": 8,
    "A": {
     "tokens": 13749,
@@ -19552,10 +19552,10 @@
     "found": true
    },
    "R": {
-    "tokens": 14962,
-    "calls": 7,
+    "tokens": 2084,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -19607,7 +19607,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1202,
+   "searchTokens": 1211,
    "shown": 8,
    "A": {
     "tokens": 18313,
@@ -19620,7 +19620,7 @@
     "found": true
    },
    "R": {
-    "tokens": 19515,
+    "tokens": 19524,
     "calls": 7,
     "found": true,
     "fallback": true
@@ -19641,7 +19641,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1255,
+   "searchTokens": 1253,
    "shown": 10,
    "A": {
     "tokens": 24171,
@@ -19654,7 +19654,7 @@
     "found": false
    },
    "R": {
-    "tokens": 25426,
+    "tokens": 25424,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -19709,7 +19709,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1193,
+   "searchTokens": 1201,
    "shown": 8,
    "A": {
     "tokens": 25838,
@@ -19722,7 +19722,7 @@
     "found": false
    },
    "R": {
-    "tokens": 27031,
+    "tokens": 27039,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -19776,8 +19776,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1106,
+   "rank": 4,
+   "searchTokens": 1169,
    "shown": 8,
    "A": {
     "tokens": 3125,
@@ -19790,7 +19790,7 @@
     "found": true
    },
    "R": {
-    "tokens": 2368,
+    "tokens": 2431,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19844,8 +19844,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 1266,
+   "rank": 4,
+   "searchTokens": 1274,
    "shown": 8,
    "A": {
     "tokens": 21959,
@@ -19858,7 +19858,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2003,
+    "tokens": 2011,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19877,9 +19877,9 @@
     "tool"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1268,
+   "hit8": true,
+   "rank": 8,
+   "searchTokens": 1242,
    "shown": 8,
    "A": {
     "tokens": 25045,
@@ -19892,10 +19892,10 @@
     "found": false
    },
    "R": {
-    "tokens": 26313,
-    "calls": 9,
-    "found": false,
-    "fallback": true
+    "tokens": 2536,
+    "calls": 2,
+    "found": true,
+    "fallback": false
    }
   },
   {

@@ -100,19 +100,19 @@ We simulated 684 lookups to find out, without spending a single API token: each 
 |---|--:|--:|--:|
 | Without, typical | 23,700 | 5.2 | 17.7 M |
 | Without, careful | 11,200 | 10.0 | 7.3 M |
-| **With remember** | **2,200** | **2.8** | **4.4 M** |
+| **With remember** | **2,200** | **2.6** | **3.9 M** |
 
-That is **75% fewer tokens than typical exploration and 39% fewer than careful exploration**, in about half the tool calls. The right place was in the top 8 results for 84% of questions; the other 16% fall back to normal exploration, and those searches are wasted cost that the totals above include.
+That is **78% fewer tokens than typical exploration and 47% fewer than careful exploration**, in about half the tool calls. The right place was in the top 8 results for 89% of questions; the other 11% fall back to normal exploration, and those searches are wasted cost that the totals above include.
 
 Savings depend on how you ask:
 
 | Kind of question | Example | Found in top 8 | Saved vs typical | Saved vs careful |
 |---|---|--:|--:|--:|
-| Describes behaviour | "returns a middleware that recovers from any panics and writes a 500 if there was one" | 93% | 85% | 65% |
-| A few keywords | "middleware recovers panics writes" | 89% | 80% | 54% |
-| Exact name | "where is `Recovery` defined" | 84% | 71% | 11% |
-| Free-form developer question | "how does flask decide which config file to load" | 62% | 54% | −13% |
-| In another language than the code | "Wie berechnet Express den ETag für eine Antwort?" | 6% | 1% | −85% |
+| Describes behaviour | "returns a middleware that recovers from any panics and writes a 500 if there was one" | 94% | 85% | 65% |
+| A few keywords | "middleware recovers panics writes" | 89% | 81% | 56% |
+| Exact name | "where is `Recovery` defined" | 98% | 83% | 48% |
+| Free-form developer question | "how does flask decide which config file to load" | 66% | 58% | −3% |
+| In another language than the code | "Wie berechnet Express den ETag für eine Antwort?" | 13% | 8% | −72% |
 
 ### Remembering decisions and past chats
 
@@ -121,10 +121,10 @@ Savings depend on how you ask:
 | | Tokens per question (median) | Finds the answer |
 |---|--:|--:|
 | Grep the old chat logs and read the best match | 150,600 | 45% |
-| **remember** | **640** | **83%** |
+| **remember** | **660** | **83%** |
 
-- Decisions also saved as notes were found **91%** of the time, against 77% for decisions that only exist in chat.
-- Questions in German, Dutch, French or Spanish found the answer 67% of the time.
+- Decisions also saved as notes were found **88%** of the time, against 79% for decisions that only exist in chat.
+- Questions in German, Dutch, French or Spanish found the answer 73% of the time.
 - A file of decisions loaded into every session (like `CLAUDE.md`) costs nothing to search and never misses, but grows with every entry. Past about **125 decisions** it costs more per session than searching them.
 
 ### What it costs
@@ -133,10 +133,10 @@ The plugin adds **about 450 tokens** to every session (skill descriptions, tool 
 
 ### Getting the most out of it
 
-- **Describe what the code does.** Behaviour and keyword questions are where it shines. For an exact name you already know, plain grep is nearly as cheap.
+- **Ask by name or by behaviour.** Exact names ("where is `Recovery` defined") and descriptions of what code does both work well. Open-ended "how does X work" questions are about level with careful grepping.
 - **Ask about code in the language the code is written in.** Notes and chats work across languages; code mostly doesn't.
 - **Save decisions as notes.** They are found more reliably than the same decision buried in a chat, and they rank first.
-- **Supersede, don't pile up.** When a decision changes, save a note that replaces the old one. Old chats are not ranked by date, so the newest answer only came out on top 6 times in 10.
+- **Supersede, don't pile up.** When a decision changes, save a note that replaces the old one; the old note then disappears from search. In chats, newer conversations get a small ranking boost, which put the newer decision above the old one in all 10 test cases.
 - **Keep `CLAUDE.md` short.** Put the handful of rules that matter every session there, and let remember hold everything else.
 
 <sub>Method: tokens are estimated as characters ÷ 4 for every policy alike. The simulated agent stops as soon as it has read the answer and picks the right result when it is shown, which flatters both sides. The chat history is generated from templates, so real recall is probably somewhat lower. Full details and caveats in [`bench/results`](bench/results/).</sub>

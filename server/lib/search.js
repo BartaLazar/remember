@@ -7,12 +7,57 @@ const RRF_K = 60;
 const NOTE_BOOST = 1.5;
 const SNIPPET_MAX = 600;
 const OUTPUT_MAX = 6000;
+const DEF_BOOST = 1.5;
+const TEST_PENALTY = 0.75;
+const RECENCY_BOOST = 0.05;
+
+// Question words that match almost every chunk and drown out the real keywords.
+const STOPWORDS = new Set(`a about all an and any are as at be by can could did do does doing done for from get gets
+has have how i if in into is it its me my of on or our should show so that the their them then there these this
+those to us was we were what when where which who why will with would you your defined define definition
+implemented implement implementation located find code function method handle handled handles happen happens
+work works use used uses`.split(/\s+/));
+
+// snake_case, camelCase, PascalCase with an inner capital, or digits: almost certainly a name in code.
+const isCodeName = (t) => t.length > 2 && /[_\d]|\p{Lu}/u.test(t.slice(1));
+const words = (q) => String(q ?? '').match(/[\p{L}\p{N}_]+/gu) ?? [];
+
+/**
+ * Words worth matching. For code lookups (a code-like name, or "defined"/"implemented") question words
+ * are dropped; plain-language questions keep every word, which recalls chats and notes better.
+ */
+function keywords(q) {
+  const all = words(q);
+  if (!all.some(isCodeName) && !/\b(?:defined|definition|declared|implemented)\b/i.test(String(q))) return all;
+  const kept = all.filter((t) => !STOPWORDS.has(t.toLowerCase()));
+  return kept.length ? kept : all;
+}
 
 export function toFtsQuery(q) {
-  const toks = String(q ?? '').match(/[\p{L}\p{N}_]+/gu);
-  if (!toks) return null;
+  const toks = keywords(q);
+  if (!toks.length) return null;
   return toks.map((t) => `"${t}"`).join(' OR ');
 }
+
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const DEF_KEYWORDS = 'function|def|class|fn|func|type|struct|interface|enum|trait|impl|const|let|var|macro_rules!';
+
+/**
+ * Regex matching a line that defines a name the query asks about, or null. Names are words that
+ * look like code (snake_case, camelCase, PascalCase, digits), or the only word left in a short lookup.
+ */
+function definitionRe(q) {
+  const kw = keywords(q);
+  const names = kw.filter((t) => t.length > 2 && (kw.length === 1 || /[_\d]|\p{Lu}/u.test(t)));
+  if (!names.length) return null;
+  const n = names.map(escapeRe).join('|');
+  return new RegExp(
+    `(?:^|\\n)[^\\n]*\\b(?:${DEF_KEYWORDS})\\s+(?:\\([^)]*\\)\\s*)?\\*?(?:${n})\\b`
+    + `|(?:^|\\n)\\s*(?:export\\s+)?(?:[\\w.]+\\.)?(?:${n})\\s*[=:]\\s*(?:async\\s+)?(?:function|\\(|[\\w]+\\s*=>)`,
+  );
+}
+
+const TEST_PATH = /(?:^|\/)(?:tests?|__tests__|specs?|testdata)\/|[._-](?:test|spec)s?\.[^/]+$|(?:^|\/)test_[^/]+$/i;
 
 function dot(a, b) {
   let s = 0;
@@ -61,14 +106,29 @@ export async function search({ store, embedder, root, query, scope = 'all', limi
   if (!scores.size) return [];
 
   const rows = new Map(store.getChunks([...scores.keys()]).map((r) => [r.id, r]));
+  const defRe = definitionRe(query);
+  const askedForTests = /\b(?:tests?|specs?)\b/i.test(String(query));
+  const chatTimes = [...rows.values()].filter((r) => r.kind === 'chat').map((r) => Date.parse(r.date)).filter(Number.isFinite);
+  const tMin = Math.min(...chatTimes);
+  const tSpan = Math.max(...chatTimes) - tMin;
   const out = [];
   for (const [id, base] of scores) {
     const r = rows.get(id);
     if (!r) continue;
+    let score = base;
+    if (r.kind === 'note') score *= NOTE_BOOST;
+    if (r.kind === 'file') {
+      if (defRe && defRe.test(r.text)) score *= DEF_BOOST;
+      if (!askedForTests && TEST_PATH.test(r.loc)) score *= TEST_PENALTY;
+    }
+    if (r.kind === 'chat' && tSpan > 0) {
+      // Newer chats win ties: a later decision usually replaces an earlier one.
+      const t = Date.parse(r.date);
+      if (Number.isFinite(t)) score *= 1 + RECENCY_BOOST * ((t - tMin) / tSpan);
+    }
     out.push({
       kind: r.kind, loc: r.loc, startLine: r.startLine, endLine: r.endLine, text: r.text, date: r.date,
-      score: r.kind === 'note' ? base * NOTE_BOOST : base,
-      stale: isStale(store, root, r), _id: id,
+      score, stale: isStale(store, root, r), _id: id,
     });
   }
   out.sort((a, b) => b.score - a.score || a._id - b._id);

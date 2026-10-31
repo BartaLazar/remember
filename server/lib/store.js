@@ -162,6 +162,15 @@ export function openStore(dbPath, { busyTimeoutMs = 5000 } = {}) {
         .all(match, ...kinds, limit).map((r) => ({ id: r.id }));
     },
 
+    /** Existing embeddings of a source's chunks, by chunk text, so unchanged chunks are not re-embedded. */
+    embeddingsByText(key) {
+      const out = new Map();
+      for (const r of prep('SELECT text, embedding FROM chunks WHERE source_key = ? AND embedding IS NOT NULL').all(key)) {
+        out.set(r.text, toVec(r.embedding));
+      }
+      return out;
+    },
+
     getChunks(ids) {
       if (!ids.length) return [];
       return prep(

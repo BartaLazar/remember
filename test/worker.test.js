@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { acquireLock, releaseLock, queueRequest, drainRequests } from '../server/lib/lock.js';
+import { acquireLock, releaseLock, queueRequest, drainRequests, mergeRequests } from '../server/lib/lock.js';
 import { spawnWorker } from '../server/lib/spawn.js';
 import { openStore } from '../server/lib/store.js';
 
@@ -45,6 +45,15 @@ test('queue round-trips and drain empties it', () => {
   queueRequest(d, { full: true, force: true });
   assert.deepEqual(drainRequests(d), [{ paths: ['a.js', 'b,c.js'] }, { full: true, force: true }]);
   assert.deepEqual(drainRequests(d), []);
+});
+
+test('mergeRequests: full wins, files covers paths, chats runs alongside', () => {
+  assert.deepEqual(mergeRequests([{ paths: ['a'] }, { full: true }]), [{ force: false }]);
+  assert.deepEqual(mergeRequests([{ only: 'files' }, { only: 'chats' }]), [{ force: false }]);
+  assert.deepEqual(mergeRequests([{ paths: ['a'] }, { only: 'files' }]), [{ only: 'files', force: false }]);
+  assert.deepEqual(mergeRequests([{ paths: ['a'] }, { paths: ['b', 'a'] }, { only: 'chats', force: true }]),
+    [{ paths: ['a', 'b'], force: true }, { only: 'chats', force: true }]);
+  assert.deepEqual(mergeRequests([{ only: 'chats' }, { only: 'chats' }]), [{ only: 'chats', force: false }]);
 });
 
 function project(n) {

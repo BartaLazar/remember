@@ -78,3 +78,21 @@ export function drainRequests(dataDir) {
 export function hasPending(dataDir) {
   try { return fs.statSync(pendingPath(dataDir)).size > 0; } catch { return false; }
 }
+
+/**
+ * Merge queued requests into the passes to run: a full request covers everything; a files scan covers
+ * any paths; a chats pass runs alongside a files scan or paths refresh.
+ */
+export function mergeRequests(reqs) {
+  const force = reqs.some((r) => r.force);
+  const full = reqs.some((r) => r.full || (!Array.isArray(r.paths) && !r.only));
+  const files = reqs.some((r) => r.only === 'files');
+  const chats = reqs.some((r) => r.only === 'chats');
+  if (full || (files && chats)) return [{ force }];
+  const runs = [];
+  const paths = [...new Set(reqs.flatMap((r) => (Array.isArray(r.paths) ? r.paths : [])))];
+  if (files) runs.push({ only: 'files', force });
+  else if (paths.length) runs.push({ paths, force });
+  if (chats) runs.push({ only: 'chats', force });
+  return runs;
+}

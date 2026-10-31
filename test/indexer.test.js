@@ -30,7 +30,7 @@ function setup(files = { 'a.js': 'export const a = 1;\n', 'b.js': 'export const 
 }
 const setMax = (n) => writeConfig({ maxFiles: n });
 const spy = (e) => {
-  const s = { calls: 0, embedDocuments: async (t) => { s.calls++; return e.embedDocuments(t); }, embedQuery: e.embedQuery };
+  const s = { calls: 0, texts: 0, embedDocuments: async (t) => { s.calls++; s.texts += t.length; return e.embedDocuments(t); }, embedQuery: e.embedQuery };
   return s;
 };
 
@@ -311,4 +311,59 @@ test('a blocked root with an override file is indexed', async () => {
   } finally {
     for (const [k, v] of Object.entries(prev)) { if (v === undefined) delete process.env[k]; else process.env[k] = v; }
   }
+});
+
+const transcriptPath = (c) => path.join(c.projectsDir, claudeSlug(c.root), 'sess-1111.jsonl');
+const appendExchange = (c, n) => fs.appendFileSync(transcriptPath(c), [
+  JSON.stringify({ type: 'user', sessionId: 'sess-1111', cwd: c.root, timestamp: `2026-01-02T10:0${n}:00.000Z`, message: { role: 'user', content: `follow-up question ${n} about caching` } }),
+  JSON.stringify({ type: 'assistant', sessionId: 'sess-1111', cwd: c.root, timestamp: `2026-01-02T10:0${n}:01.000Z`, message: { role: 'assistant', content: [{ type: 'text', text: `answer ${n}: keep entries for ten minutes` }] } }),
+].join('\n') + '\n');
+
+test("only: 'files' picks up changed files and leaves chats alone", async () => {
+  const c = setup();
+  await runIndex({ ...c });
+  fs.writeFileSync(path.join(c.root, 'a.js'), 'export const a = 42; // shell edit\n');
+  fs.writeFileSync(path.join(c.root, 'new.js'), 'export const fresh = true;\n');
+  appendExchange(c, 1);
+  const chatBefore = c.store.getSource('chat:sess-1111');
+  const st = await runIndex({ ...c, only: 'files' });
+  assert.equal(st.phase, 'idle');
+  assert.ok(c.store.getSource('file:new.js'));
+  assert.equal(c.store.getChunks(c.store.fts('shell', ['file'], 5).map((h) => h.id))[0].loc, 'a.js');
+  assert.deepEqual(c.store.getSource('chat:sess-1111'), chatBefore);
+});
+
+test("only: 'chats' indexes the conversation and leaves files alone", async () => {
+  const c = setup();
+  await runIndex({ ...c });
+  appendExchange(c, 1);
+  fs.writeFileSync(path.join(c.root, 'a.js'), 'export const a = 99;\n');
+  const fileBefore = c.store.getSource('file:a.js');
+  await runIndex({ ...c, only: 'chats' });
+  assert.ok(c.store.fts('minutes', ['chat'], 5).length > 0);
+  assert.deepEqual(c.store.getSource('file:a.js'), fileBefore);
+});
+
+test('partial passes wait for the first build and for confirmation', async () => {
+  const c = setup();
+  for (const only of ['files', 'chats']) {
+    await runIndex({ ...c, only });
+    assert.deepEqual(c.store.counts(), { file: 0, chat: 0, note: 0, chunks: 0, unembedded: 0 });
+  }
+});
+
+test('a growing chat embeds only its new pieces; an edited file only its changed chunks', async () => {
+  const c = setup({ 'big.md': '# One\n\nfirst section text\n\n# Two\n\nsecond section text\n' });
+  const e = spy(c.embedder);
+  await runIndex({ ...c, embedder: e });
+  const first = e.texts;
+  appendExchange(c, 1);
+  e.texts = 0;
+  await runIndex({ ...c, embedder: e, only: 'chats' });
+  assert.ok(e.texts > 0 && e.texts <= 2, `embedded ${e.texts} chat pieces`);
+  fs.writeFileSync(path.join(c.root, 'big.md'), '# One\n\nfirst section text\n\n# Two\n\nsecond section, edited\n');
+  e.texts = 0;
+  await runIndex({ ...c, embedder: e, only: 'files' });
+  assert.equal(e.texts, 1);
+  assert.ok(first > 3);
 });

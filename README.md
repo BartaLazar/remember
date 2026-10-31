@@ -110,8 +110,8 @@ Then it reads lines 88–121 of one file instead of the whole `auth/` folder, an
 
 | Source | What is indexed | Kept fresh by |
 |---|---|---|
-| **Files** | Every text file in the project, respecting `.gitignore`. Binaries, files over 1 MB and secret files (`.env*`, keys, certificates, credentials) are always skipped. | Re-indexing each file Claude edits, plus a quick change check at the start of every session. |
-| **Chats** | Your past Claude Code conversations in this project: what you asked and what Claude answered. Tool output is left out, and common secret patterns (API keys, tokens, passwords, connection strings) are masked before anything is stored. | Adding each session when it ends. |
+| **Files** | Every text file in the project, respecting `.gitignore`. Binaries, files over 1 MB and secret files (`.env*`, keys, certificates, credentials) are always skipped. | Re-indexing each file Claude edits, a quick change check after every shell command Claude runs (so `sed`, code generators and `git checkout` are caught too), and another at the start and end of every session. |
+| **Chats** | Your past Claude Code conversations in this project: what you asked and what Claude answered. Tool output is left out, and common secret patterns (API keys, tokens, passwords, connection strings) are masked before anything is stored. | Adding each session when it ends, and indexing a long conversation just before Claude Code compacts it, so details summarized away stay searchable. |
 | **Decision notes** | Short notes Claude saves when you settle something: the decision, the reason and the date. They rank above other results, and a newer note can replace an older one. | You and Claude, as you work. |
 
 ## How it works
@@ -139,7 +139,7 @@ flowchart LR
 - **Small answers.** A search returns at most 8 short snippets, about 1,500 tokens, so the lookup itself never becomes the expensive part.
 - **Honest about staleness.** If a file changed after it was indexed, its result says so, and Claude re-reads it before trusting it.
 - **Never in the way.** Hooks start the indexer as a detached, low-priority background process and return immediately. Only one indexer runs per project at a time.
-- **Incremental.** Only content whose hash changed gets re-embedded.
+- **Incremental.** Only changed content is re-embedded: a small edit to a big file, or a new message in a long chat, embeds just the new pieces. The embedding model is not even loaded when nothing changed.
 
 ## How much does it save?
 
@@ -417,7 +417,7 @@ Most of the time you do nothing: Claude reaches for the knowledge base by itself
 
 **MCP tools** do the work: `search`, `save_note`, `reindex`, `status`, `configure`, `forget`.
 
-**Hooks:** `SessionStart` (refresh changed files and tell Claude the knowledge base exists), `PostToolUse` on edits (re-index the touched file), `SessionEnd` (index the finished chat).
+**Hooks:** `SessionStart` (refresh changed files and tell Claude the knowledge base exists), `PostToolUse` on edits (re-index the touched file) and on shell commands (check all files for changes), `PreCompact` (index the conversation before it is summarized), `SessionEnd` (index the finished chat).
 
 </details>
 

@@ -78,6 +78,18 @@ export async function handleHook(event, input = {}, deps = {}) {
     return none;
   }
 
+  if (event === 'post-bash') {
+    // Shell commands can change files the edit hook never sees (sed, codegen, git checkout): rescan files.
+    d.spawnWorker(root, ['--only', 'files']);
+    return none;
+  }
+
+  if (event === 'pre-compact') {
+    // Index the conversation before compaction summarizes it, so its details stay searchable.
+    d.spawnWorker(root, ['--only', 'chats']);
+    return none;
+  }
+
   if (event === 'session-end') {
     d.spawnWorker(root, []);
     return none;

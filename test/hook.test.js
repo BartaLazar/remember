@@ -134,6 +134,17 @@ test('session-end spawns unless off', async () => {
   assert.equal(calls.length, 1);
 });
 
+test('post-bash rescans files only; pre-compact indexes chats only; both respect off', async () => {
+  const { root, calls, deps } = setup();
+  await handleHook('post-bash', { cwd: root, tool_input: { command: 'sed -i s/a/b/ a.js' } }, deps);
+  await handleHook('pre-compact', { cwd: root, trigger: 'auto' }, deps);
+  assert.deepEqual(calls.map(([, a]) => a), [['--only', 'files'], ['--only', 'chats']]);
+  setOff(path.join(root, '.remember'), true);
+  await handleHook('post-bash', { cwd: root }, deps);
+  await handleHook('pre-compact', { cwd: root }, deps);
+  assert.equal(calls.length, 2);
+});
+
 test('main exits 0 on malformed stdin and prints nothing to stdout', () => {
   const r = spawnSync(process.execPath, [HOOK, 'session-start'], { input: 'not json{', encoding: 'utf8' });
   assert.equal(r.status, 0);

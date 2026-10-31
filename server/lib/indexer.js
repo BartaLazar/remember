@@ -66,10 +66,14 @@ function insideRoot(realRoot, abs) {
   } catch { return false; }
 }
 
-export async function runIndex({ root, dataDir, store, embedder, paths, force = false, projectsDir } = {}) {
+/**
+ * One indexing pass. `paths` refreshes just those files; `only: 'files'` scans every file but skips
+ * chats and notes; `only: 'chats'` refreshes chats and notes only. Neither runs before the first build.
+ */
+export async function runIndex({ root, dataDir, store, embedder, paths, only, force = false, projectsDir } = {}) {
   if (isOff(dataDir)) return { phase: 'idle', message: 'off', done: 0, total: 0, updatedAt: Date.now() };
 
-  if (paths && !force) {
+  if ((paths || only) && !force) {
     const cur = readStatus(dataDir);
     if (store.counts().file === 0 || cur?.phase === 'needs-confirmation' || cur?.phase === 'blocked') {
       return cur ?? { phase: 'idle', done: 0, total: 0, updatedAt: Date.now() };
@@ -105,16 +109,22 @@ export async function runIndex({ root, dataDir, store, embedder, paths, force = 
       }
     }
 
-    const files = await listIndexableFiles(root, { patterns: exclusions.patterns });
+    const doFiles = only !== 'chats';
+    const doHistory = !paths && only !== 'files';
+    const files = doFiles ? await listIndexableFiles(root, { patterns: exclusions.patterns }) : [];
 
     let embedFailed = false;
-    const embed = async (texts) => {
-      const out = texts.map(() => null);
+    // `known` maps stored chunk text (`keys[i]`, default the input itself) to an embedding the source
+    // already has; only chunks without one are embedded.
+    const embed = async (texts, known = new Map(), keys = texts) => {
+      const out = keys.map((k) => known.get(k) ?? null);
+      const todo = out.flatMap((v, i) => (v ? [] : [i]));
       if (!embedder) return out;
-      for (let i = 0; i < texts.length && !embedFailed; i += BATCH) {
+      for (let i = 0; i < todo.length && !embedFailed; i += BATCH) {
+        const idx = todo.slice(i, i + BATCH);
         try {
-          const v = await embedder.embedDocuments(texts.slice(i, i + BATCH));
-          for (let j = 0; j < v.length && i + j < texts.length; j++) out[i + j] = v[j] ?? null;
+          const v = await embedder.embedDocuments(idx.map((k) => texts[k]));
+          idx.forEach((k, j) => { out[k] = v[j] ?? null; });
         } catch {
           embedFailed = true;
         }
@@ -140,8 +150,8 @@ export async function runIndex({ root, dataDir, store, embedder, paths, force = 
       }
     }
     // chats and notes are gathered up front so progress has a total
-    const transcripts = paths ? [] : transcriptFiles(root, projectsDir);
-    const notes = paths ? [] : activeNotes(readNotes(dataDir));
+    const transcripts = doHistory ? transcriptFiles(root, projectsDir) : [];
+    const notes = doHistory ? activeNotes(readNotes(dataDir)) : [];
     total = targets.length + transcripts.length + notes.length;
     setStatus('building', 0, total);
 
@@ -159,7 +169,7 @@ export async function runIndex({ root, dataDir, store, embedder, paths, force = 
       const hash = sha1(buf);
       if (prev && prev.hash === hash) { store.touchSource(key, f.mtimeMs, f.size); tick(); continue; }
       const chunks = chunkText(f.rel, buf.toString('utf8'));
-      const vecs = await embed(chunks.map((c) => `${f.rel}\n${c.text}`));
+      const vecs = await embed(chunks.map((c) => `${f.rel}\n${c.text}`), store.embeddingsByText(key), chunks.map((c) => c.text));
       if (live.file(f.rel)) { seenFiles.delete(key); tick(); continue; }
       store.replaceSource(
         { key, kind: 'file', hash, mtimeMs: f.mtimeMs, size: f.size },
@@ -172,8 +182,9 @@ export async function runIndex({ root, dataDir, store, embedder, paths, force = 
         if (!seenFiles.has(key)) store.deleteSource(key);
       }
     } else {
-      for (const key of store.listSourceKeys('file')) if (!seenFiles.has(key)) store.deleteSource(key);
-
+      if (doFiles) for (const key of store.listSourceKeys('file')) if (!seenFiles.has(key)) store.deleteSource(key);
+    }
+    if (doHistory) {
       // ---- chats
       const seenChats = new Set();
       for (const tf of transcripts) {
@@ -198,7 +209,7 @@ export async function runIndex({ root, dataDir, store, embedder, paths, force = 
         for (const ex of parsed.exchanges) {
           for (const piece of splitLong(ex.text)) raw.push({ text: piece, date: ex.timestamp ?? null });
         }
-        const vecs = await embed(raw.map((c) => c.text));
+        const vecs = await embed(raw.map((c) => c.text), store.embeddingsByText(key));
         if (live.session([base, ...parsed.sessionIds])) { seenChats.delete(key); tick(); continue; }
         store.replaceSource(
           { key, kind: 'chat', hash, mtimeMs: st.mtimeMs, size: st.size },

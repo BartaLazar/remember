@@ -49,8 +49,8 @@ function bar(x0, y, len, h, fill) {
 
 function hero(t) {
   const tiles = [
-    ['78%', 'fewer tokens to find code', 'than reading whole files'],
-    ['47%', 'fewer tokens to find code', 'than careful grepping'],
+    ['79%', 'fewer tokens to find code', 'than reading whole files'],
+    ['49%', 'fewer tokens to find code', 'than careful grepping'],
     ['230×', 'cheaper to recall a decision', 'than searching old chats'],
     ['1', 'lookup pays for the plugin', 'in every session'],
   ];
@@ -66,14 +66,14 @@ function hero(t) {
       text(x + 18, 131, b, { size: 13, fill: t.ink2 }),
     ].join('\n');
   }).join('\n');
-  return svg(t, 168, body, 'remember at a glance: 78% fewer tokens than reading whole files, 47% fewer than careful grepping, 230 times cheaper to recall a decision, pays for itself on the first lookup', HW);
+  return svg(t, 168, body, 'remember at a glance: 79% fewer tokens than reading whole files, 49% fewer than careful grepping, 230 times cheaper to recall a decision, pays for itself on the first lookup', HW);
 }
 
 function codeTokens(t) {
   const rows = [
     ['Reading whole files', 'grep, then read each matching file', 23724, t.context, '23,700 tokens'],
     ['Careful grepping', 'grep, then read 120 lines per match', 11211, t.context, '11,200 tokens'],
-    ['remember', 'search, then read the lines it points to', 2180, t.accent, '2,200 tokens'],
+    ['remember', 'search, then read the lines it points to', 2174, t.accent, '2,200 tokens'],
   ];
   const x0 = 250; const maxLen = W - x0 - 150; const max = 23724;
   let y = 36;
@@ -97,7 +97,7 @@ function byType(t) {
     ['Exact name', 48, 98],
     ['A few keywords', 56, 89],
     ['Free-form question', -3, 66],
-    ['Other language than the code', -72, 13],
+    ['Other language (translated)', -15, 50],
   ];
   const labelW = 250; const right = W - 150; const zero = labelW + (right - labelW) * (80 / 160);
   const scale = (right - labelW) / 160;
@@ -121,13 +121,13 @@ function byType(t) {
   parts.push(`<line x1="${zero}" y1="${top}" x2="${zero}" y2="${y}" stroke="${t.axis}" stroke-width="1"/>`);
   parts.push(text(zero + 6, y + 18, 'saves tokens →', { size: 12, fill: t.ink2 }));
   parts.push(text(zero - 6, y + 18, '← costs more', { size: 12, fill: t.ink2, anchor: 'end' }));
-  return svg(t, y + 34, parts.join('\n'), 'Tokens saved versus careful grepping: behaviour questions +65%, exact names +48%, keywords +56%, free-form -3%, other language -72%');
+  return svg(t, y + 34, parts.join('\n'), 'Tokens saved versus careful grepping: behaviour questions +65%, exact names +48%, keywords +56%, free-form -3%, other language, translated, -15%');
 }
 
 function decisions(t) {
   const rows = [
     ['Grep old chats, read the best match', 150645, t.context, '150,600 tokens', 'found 45%'],
-    ['remember', 656, t.accent, '660 tokens · 230× fewer', 'found 83%'],
+    ['remember', 655, t.accent, '660 tokens · 230× fewer', 'found 85%'],
   ];
   const x0 = 280; const maxLen = W - x0 - 200; const max = 150645;
   let y = 36;
@@ -143,7 +143,7 @@ function decisions(t) {
     y += 52;
   }
   parts.push(`<line x1="${x0}" y1="58" x2="${x0}" y2="${y - 10}" stroke="${t.axis}" stroke-width="1"/>`);
-  return svg(t, y + 6, parts.join('\n'), 'Tokens to recall a past decision: grepping old chats 150,600 and found 45%; remember 660 and found 83%');
+  return svg(t, y + 6, parts.join('\n'), 'Tokens to recall a past decision: grepping old chats 150,600 and found 45%; remember 660 and found 85%');
 }
 
 fs.mkdirSync(OUT, { recursive: true });

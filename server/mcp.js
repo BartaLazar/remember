@@ -59,15 +59,16 @@ server.registerTool('search', {
   description: "Search this project's local knowledge base (files, past chats, decision notes). Use before reading or grepping files; returns file:line pointers.",
   inputSchema: {
     query: z.string().describe('What to look for, in natural language or keywords'),
+    translation: z.string().optional().describe("The same query in the language of the project's code and comments (usually English). Pass it whenever the user asked in another language."),
     scope: z.enum(['all', 'files', 'chats', 'notes']).optional(),
     limit: z.number().int().min(1).max(20).optional().describe('Max results (default 8)'),
   },
-}, tool(async ({ query, scope, limit }) => {
+}, tool(async ({ query, translation, scope, limit }) => {
   const why = inactive();
   if (why) return inactiveLine(why);
   const emb = await getEmbedder();
   return withStore(async (store) => {
-    const results = await search({ store, embedder: emb, root, query, scope, limit });
+    const results = await search({ store, embedder: emb, root, query, translation, scope, limit });
     return formatResults(results, { status: readStatus(dataDir), semantic: !!emb });
   });
 }));

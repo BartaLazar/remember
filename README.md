@@ -29,7 +29,7 @@ It sets itself up. Install it, open a project, and indexing starts in the backgr
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/img/hero-dark.svg">
-  <img alt="78% fewer tokens to find code than reading whole files; 47% fewer than careful grepping; 230 times cheaper to recall a decision; the first lookup pays for the plugin" src="docs/img/hero-light.svg" width="100%">
+  <img alt="79% fewer tokens to find code than reading whole files; 49% fewer than careful grepping; 230 times cheaper to recall a decision; the first lookup pays for the plugin" src="docs/img/hero-light.svg" width="100%">
 </picture>
 
 <sub>Measured over 684 simulated lookups on five real codebases and a synthetic project history. [How we measured](#how-much-does-it-save).</sub>
@@ -135,7 +135,7 @@ flowchart LR
 ```
 
 - **Hybrid search.** Every query runs twice: once by meaning, with a multilingual embedding model, and once by exact words with SQLite full-text search. The two rankings are merged, so it finds both "where do we log people out" and `SessionExpiredError`.
-- **Multilingual.** The model, [`multilingual-e5-small`](https://huggingface.co/intfloat/multilingual-e5-small), understands about 100 languages, so notes and chats in any language are searchable. For code, ask in the language its names and comments use (see the measurements below).
+- **Multilingual.** The model, [`multilingual-e5-small`](https://huggingface.co/intfloat/multilingual-e5-small), understands about 100 languages, so notes and chats in any language are searchable. When you ask in a different language from the code, Claude adds a translation of your question into the code's language, and both are searched.
 - **Small answers.** A search returns at most 8 short snippets, about 1,500 tokens, so the lookup itself never becomes the expensive part.
 - **Honest about staleness.** If a file changed after it was indexed, its result says so, and Claude re-reads it before trusting it.
 - **Never in the way.** Hooks start the indexer as a detached, low-priority background process and return immediately. Only one indexer runs per project at a time.
@@ -159,15 +159,15 @@ flowchart LR
   <img alt="Tokens per code question, median: reading whole files 23,700; careful grepping 11,200; remember 2,200" src="docs/img/code-tokens-light.svg" width="100%">
 </picture>
 
-> **78% fewer tokens than reading whole files, 47% fewer than careful grepping, in about half the tool calls.**
+> **79% fewer tokens than reading whole files, 49% fewer than careful grepping, in about half the tool calls.**
 
-The right place was in the top 8 results for 89% of questions. The other 11% fall back to normal exploration; those wasted searches are counted in every number here.
+The right place was in the top 8 results for 90% of questions. The other 10% fall back to normal exploration; those wasted searches are counted in every number here.
 
-**How you ask matters.** Names and descriptions of behaviour save the most. Broad "how does X work" questions break even, and asking about code in another language than the code costs more:
+**How you ask matters.** Names and descriptions of behaviour save the most. Broad "how does X work" questions break even, and asking about code in another language costs a little more, even with translation:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/img/by-type-dark.svg">
-  <img alt="Tokens saved versus careful grepping: behaviour descriptions +65%, exact names +48%, keywords +56%, free-form questions -3%, another language than the code -72%" src="docs/img/by-type-light.svg" width="100%">
+  <img alt="Tokens saved versus careful grepping: behaviour descriptions +65%, exact names +48%, keywords +56%, free-form questions -3%, another language than the code -15%" src="docs/img/by-type-light.svg" width="100%">
 </picture>
 
 <details>
@@ -179,7 +179,7 @@ The right place was in the top 8 results for 89% of questions. The other 11% fal
 |---|--:|--:|--:|
 | Without, reading whole files | 23,700 | 5.2 | 17.7 M |
 | Without, careful grepping | 11,200 | 10.0 | 7.3 M |
-| **With remember** | **2,200** | **2.6** | **3.9 M** |
+| **With remember** | **2,200** | **2.5** | **3.8 M** |
 
 | Kind of question | Example | Found in top 8 | Saved vs whole files | Saved vs careful |
 |---|---|--:|--:|--:|
@@ -187,7 +187,7 @@ The right place was in the top 8 results for 89% of questions. The other 11% fal
 | A few keywords | "middleware recovers panics writes" | 89% | 81% | 56% |
 | Exact name | "where is `Recovery` defined" | 98% | 83% | 48% |
 | Free-form developer question | "how does flask decide which config file to load" | 66% | 58% | −3% |
-| In another language than the code | "Wie berechnet Express den ETag für eine Antwort?" | 13% | 8% | −72% |
+| In another language than the code (translated by Claude) | "Wie berechnet Express den ETag für eine Antwort?" | 50% | 39% | −15% |
 
 </details>
 
@@ -197,13 +197,13 @@ The right place was in the top 8 results for 89% of questions. The other 11% fal
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/img/decisions-dark.svg">
-  <img alt="Tokens to recall a past decision, median: grepping old chats 150,600 and found 45% of the time; remember 660 and found 83% of the time" src="docs/img/decisions-light.svg" width="100%">
+  <img alt="Tokens to recall a past decision, median: grepping old chats 150,600 and found 45% of the time; remember 660 and found 85% of the time" src="docs/img/decisions-light.svg" width="100%">
 </picture>
 
 > **230× fewer tokens, and the answer found almost twice as often.**
 
-- Decisions also saved as notes were found **88%** of the time, against 79% for decisions that only exist in chat.
-- Questions in German, Dutch, French or Spanish found the answer 73% of the time.
+- Decisions also saved as notes were found **91%** of the time, against 81% for decisions that only exist in chat.
+- Questions in German, Dutch, French or Spanish found the answer 87% of the time.
 - A file of decisions loaded into every session (like `CLAUDE.md`) costs nothing to search and never misses, but grows with every entry. Past about **125 decisions** it costs more per session than searching them.
 
 ### What it costs
@@ -278,11 +278,16 @@ Split it into the parts you actually want to know:
 
 Each concrete question lands on one place, and each answer gives you the names to use in the next one.
 
-### 4. Ask about code in the language the code is written in
+### 4. Ask in any language, but include names as they are
 
-The embedding model understands about 100 languages, but questions about English code in another language almost always miss: **13%** found the right place. Use the language of the names and comments.
+You can ask in your own language. When the code is in another language, Claude translates your question and searches both wordings: your original finds notes and chats written in your language, and the translation finds the code.
 
-Notes and chats are different. They are prose, and questions in German, Dutch, French or Spanish found past decisions **73%** of the time.
+| Asking in German, Dutch, French or Spanish | Without translation | With translation |
+|---|--:|--:|
+| About English code: found in top 8 | 13% | **50%** |
+| About past decisions: found | 73% | **87%** |
+
+For code that is still below asking in the code's own language, because a translation rarely uses the exact names in the code. If you know a name, include it as is: *"Wo wird `computeEtag` aufgerufen?"*
 
 ### 5. If you know where it is, skip the search
 
@@ -305,7 +310,7 @@ Past decisions are found by what they were about, not by when they happened.
 | "Remind me what we said earlier" | "Why did we choose Postgres over SQLite?" |
 | "What was that thing about the queue?" | "What do we use for the job queue, and why?" |
 
-Decisions were found **83%** of the time for about 660 tokens each. Grepping old chat logs instead cost around 150,000 tokens and found the answer less than half the time.
+Decisions were found **85%** of the time for about 660 tokens each. Grepping old chat logs instead cost around 150,000 tokens and found the answer less than half the time.
 
 ### 7. Save decisions so future questions are cheap
 
@@ -314,7 +319,7 @@ Decisions were found **83%** of the time for about 660 tokens each. Grepping old
   <img alt="The bot files a new decision note; the replaced one lies crossed out on the floor" src="docs/img/noting-light.svg" width="100%">
 </picture>
 
-A decision saved as a note was found **88%** of the time, against **79%** for one that only exists somewhere in a chat. Notes also rank above everything else.
+A decision saved as a note was found **91%** of the time, against **81%** for one that only exists somewhere in a chat. Notes also rank above everything else.
 
 When you settle something, ask Claude to remember it, and include:
 
@@ -370,8 +375,8 @@ These are general Claude Code habits. They aren't measured here, but each one ke
 | A few keywords | "stale lock heartbeat" | 89% |
 | A broad "how does X work" | Split into concrete questions first | 66% |
 | A file and roughly where | "Read `src/x.ts` around line 80" | no search needed |
-| A past decision | "What did we decide about pagination?" | 83% |
-| A decision just made | "Remember: … because … (replaces …)" | 88% later |
+| A past decision | "What did we decide about pagination?" | 85% |
+| A decision just made | "Remember: … because … (replaces …)" | 91% later |
 
 **Keywords to keep handy:** *defined* · *implemented* · *tests* (only when you want tests) · *notes* · *earlier sessions* · *only in the code* · *remember* · *replaces* · *forget*
 

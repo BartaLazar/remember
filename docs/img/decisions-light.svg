@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="168" viewBox="0 0 880 168" role="img" aria-label="Tokens to recall a past decision: grepping old chats 150,600 and found 45%; remember 660 and found 83%">
-<title>Tokens to recall a past decision: grepping old chats 150,600 and found 45%; remember 660 and found 83%</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="168" viewBox="0 0 880 168" role="img" aria-label="Tokens to recall a past decision: grepping old chats 150,600 and found 45%; remember 660 and found 85%">
+<title>Tokens to recall a past decision: grepping old chats 150,600 and found 45%; remember 660 and found 85%</title>
 <rect x="0.5" y="0.5" width="879" height="167" rx="12" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
 <text x="20" y="36" font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="start">Tokens to recall one past decision (median of 80)</text>
@@ -8,7 +8,7 @@
 <path d="M280,64 H676 Q680,64 680,68 V82 Q680,86 676,86 H280 Z" fill="#9a9993"/>
 <text x="690" y="80" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">150,600 tokens</text>
 <text x="20" y="126" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">remember</text>
-<text x="20" y="144" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">found 83%</text>
+<text x="20" y="144" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">found 85%</text>
 <path d="M280,116 H281.5 Q283,116 283,117.5 V136.5 Q283,138 281.5,138 H280 Z" fill="#2a78d6"/>
 <text x="293" y="132" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">660 tokens · 230× fewer</text>
 <line x1="280" y1="58" x2="280" y2="152" stroke="#c3c2b7" stroke-width="1"/>

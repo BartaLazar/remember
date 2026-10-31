@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="168" viewBox="0 0 1040 168" role="img" aria-label="remember at a glance: 78% fewer tokens than reading whole files, 47% fewer than careful grepping, 230 times cheaper to recall a decision, pays for itself on the first lookup">
-<title>remember at a glance: 78% fewer tokens than reading whole files, 47% fewer than careful grepping, 230 times cheaper to recall a decision, pays for itself on the first lookup</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="168" viewBox="0 0 1040 168" role="img" aria-label="remember at a glance: 79% fewer tokens than reading whole files, 49% fewer than careful grepping, 230 times cheaper to recall a decision, pays for itself on the first lookup">
+<title>remember at a glance: 79% fewer tokens than reading whole files, 49% fewer than careful grepping, 230 times cheaper to recall a decision, pays for itself on the first lookup</title>
 <rect x="0.5" y="0.5" width="1039" height="167" rx="12" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
 <rect x="20" y="20" width="238" height="128" rx="10" fill="none" stroke="rgba(11,11,11,0.10)"/>
-<text x="38" y="76" font-size="44" font-weight="600" fill="#0b0b0b" text-anchor="start">78%</text>
+<text x="38" y="76" font-size="44" font-weight="600" fill="#0b0b0b" text-anchor="start">79%</text>
 <rect x="38" y="88" width="28" height="3" rx="1.5" fill="#2a78d6"/>
 <text x="38" y="112" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">fewer tokens to find code</text>
 <text x="38" y="131" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">than reading whole files</text>
 <rect x="274" y="20" width="238" height="128" rx="10" fill="none" stroke="rgba(11,11,11,0.10)"/>
-<text x="292" y="76" font-size="44" font-weight="600" fill="#0b0b0b" text-anchor="start">47%</text>
+<text x="292" y="76" font-size="44" font-weight="600" fill="#0b0b0b" text-anchor="start">49%</text>
 <rect x="292" y="88" width="28" height="3" rx="1.5" fill="#2a78d6"/>
 <text x="292" y="112" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">fewer tokens to find code</text>
 <text x="292" y="131" font-size="13" font-weight="400" fill="#52514e" text-anchor="start">than careful grepping</text>

@@ -19,7 +19,7 @@
       {
         "name": "recall",
         "descTokens": 75,
-        "bodyTokens": 239
+        "bodyTokens": 314
       },
       {
         "name": "remember",
@@ -45,7 +45,7 @@
     "toolsPerTool": [
       {
         "name": "search",
-        "tokens": 147
+        "tokens": 194
       },
       {
         "name": "save_note",
@@ -68,17 +68,17 @@
         "tokens": 105
       }
     ],
-    "toolsLoadedTokens": 666,
-    "toolsLoadedSlimTokens": 607,
+    "toolsLoadedTokens": 712,
+    "toolsLoadedSlimTokens": 654,
     "toolsDeferredTokens": 59,
     "hookTokens": 59,
     "hookMsg": "This project has a local knowledge base (remember plugin). Before reading or grepping files to find where something is, how it works, or what was decided in earlier sessions, use the recall skill, then read only the lines it points to.",
-    "recallBodyTokens": 239,
-    "searchToolTokens": 147,
-    "fixedLoaded": 1052,
+    "recallBodyTokens": 314,
+    "searchToolTokens": 194,
+    "fixedLoaded": 1098,
     "fixedDeferred": 445,
-    "firstUseLoaded": 239,
-    "firstUseDeferred": 446
+    "firstUseLoaded": 314,
+    "firstUseDeferred": 568
   },
   "corpus": {
     "transcripts": 40,
@@ -94,15 +94,15 @@
       "chunks": 2233,
       "unembedded": 0
     },
-    "indexSeconds": 91.934,
+    "indexSeconds": 58.307,
     "questions": 80
   },
   "recall": {
     "overall": {
       "n": 80,
-      "r1": 55,
-      "r8": 66,
-      "vis8": 66
+      "r1": 58,
+      "r8": 68,
+      "vis8": 68
     },
     "byLang": {
       "en": {
@@ -119,21 +119,21 @@
       },
       "nl": {
         "n": 4,
-        "r1": 2,
+        "r1": 4,
         "r8": 4,
         "vis8": 4
       },
       "fr": {
         "n": 4,
         "r1": 2,
-        "r8": 3,
-        "vis8": 3
+        "r8": 4,
+        "vis8": 4
       },
       "es": {
         "n": 3,
-        "r1": 1,
-        "r8": 1,
-        "vis8": 1
+        "r1": 2,
+        "r8": 2,
+        "vis8": 2
       }
     },
     "byCat": {
@@ -151,9 +151,9 @@
       },
       "foreign": {
         "n": 15,
-        "r1": 8,
-        "r8": 11,
-        "vis8": 11
+        "r1": 11,
+        "r8": 13,
+        "vis8": 13
       },
       "superseded": {
         "n": 10,
@@ -174,37 +174,37 @@
     },
     "withNote": {
       "n": 33,
-      "r1": 28,
-      "r8": 29,
-      "vis8": 29
+      "r1": 29,
+      "r8": 30,
+      "vis8": 30
     },
     "chatOnly": {
       "n": 47,
-      "r1": 27,
-      "r8": 37,
-      "vis8": 37
+      "r1": 29,
+      "r8": 38,
+      "vis8": 38
     },
     "regularNoSup": {
       "n": 70,
-      "r1": 46,
-      "r8": 56,
-      "vis8": 56
+      "r1": 49,
+      "r8": 58,
+      "vis8": 58
     },
     "searchMs": {
-      "median": 60.353298,
-      "mean": 89.22720961250003,
-      "p90": 216.449632,
-      "min": 39.630126,
-      "max": 379.308914
+      "median": 34.1029255,
+      "mean": 55.20773776249998,
+      "p90": 141.960671,
+      "min": 21.061613,
+      "max": 252.264341
     }
   },
   "policies": {
     "remember": {
-      "median": 656,
-      "mean": 679.325,
-      "p90": 846,
+      "median": 654.5,
+      "mean": 664.55,
+      "p90": 820,
       "min": 457,
-      "max": 1160
+      "max": 1144
     },
     "grepRead": {
       "median": 150644.5,
@@ -305,46 +305,46 @@
     {
       "n": 10,
       "memFileTokens": 292,
-      "remember1": 1547,
-      "remember3": 2859,
-      "remember5": 4171,
-      "rememberLoaded3": 3259
+      "remember1": 1667.5,
+      "remember3": 2976.5,
+      "remember5": 4285.5,
+      "rememberLoaded3": 3375.5
     },
     {
       "n": 25,
       "memFileTokens": 726,
-      "remember1": 1547,
-      "remember3": 2859,
-      "remember5": 4171,
-      "rememberLoaded3": 3259
+      "remember1": 1667.5,
+      "remember3": 2976.5,
+      "remember5": 4285.5,
+      "rememberLoaded3": 3375.5
     },
     {
       "n": 60,
       "memFileTokens": 1464,
-      "remember1": 1547,
-      "remember3": 2859,
-      "remember5": 4171,
-      "rememberLoaded3": 3259
+      "remember1": 1667.5,
+      "remember3": 2976.5,
+      "remember5": 4285.5,
+      "rememberLoaded3": 3375.5
     },
     {
       "n": 150,
       "memFileTokens": 3482,
-      "remember1": 1547,
-      "remember3": 2859,
-      "remember5": 4171,
-      "rememberLoaded3": 3259
+      "remember1": 1667.5,
+      "remember3": 2976.5,
+      "remember5": 4285.5,
+      "rememberLoaded3": 3375.5
     },
     {
       "n": 400,
       "memFileTokens": 9035,
-      "remember1": 1547,
-      "remember3": 2859,
-      "remember5": 4171,
-      "rememberLoaded3": 3259
+      "remember1": 1667.5,
+      "remember3": 2976.5,
+      "remember5": 4285.5,
+      "rememberLoaded3": 3375.5
     }
   ],
   "memFileTokensPerLine": 22.212,
-  "crossoverDecisionsVsRemember3": 129,
+  "crossoverDecisionsVsRemember3": 135,
   "breakEven": [
     {
       "name": "code search (placeholder, --code-savings)",
@@ -364,7 +364,7 @@
     },
     {
       "name": "chat recall vs grep+read (mean)",
-      "savingPerLookup": 241073.6875,
+      "savingPerLookup": 241088.4625,
       "loaded": 1,
       "deferred": 1,
       "loadedNoFirstUse": 1,
@@ -380,7 +380,7 @@
     },
     {
       "name": "chat recall vs re-explain (mean)",
-      "savingPerLookup": -624.15,
+      "savingPerLookup": -607.575,
       "loaded": null,
       "deferred": null,
       "loadedNoFirstUse": null,
@@ -388,10 +388,10 @@
     }
   ],
   "savings": {
-    "recallVsGrepMean": 241073.6875,
+    "recallVsGrepMean": 241088.4625,
     "recallVsGrepMed": 77691.5,
     "recallVsGrepOnlyMed": -25,
-    "recallVsReexplain": -624.15
+    "recallVsReexplain": -607.575
   },
   "rows": [
     {
@@ -405,7 +405,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 488,
-      "searchMs": 86.562675,
+      "searchMs": 252.264341,
       "topKinds": "ncnnnnnc",
       "noteHit": true,
       "grep": {
@@ -437,7 +437,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 521,
-      "searchMs": 75.435616,
+      "searchMs": 50.153918,
       "topKinds": "nnncncnn",
       "noteHit": false,
       "grep": {
@@ -469,7 +469,7 @@
       "visible8": false,
       "viaNote": true,
       "remTokens": 646,
-      "searchMs": 95.102218,
+      "searchMs": 51.26733,
       "topKinds": "cccnnccn",
       "noteHit": false,
       "grep": {
@@ -501,7 +501,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 536,
-      "searchMs": 153.891913,
+      "searchMs": 40.452804,
       "topKinds": "ccccnnnn",
       "noteHit": false,
       "grep": {
@@ -533,7 +533,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 588,
-      "searchMs": 77.558129,
+      "searchMs": 100.362002,
       "topKinds": "nnnncccc",
       "noteHit": true,
       "grep": {
@@ -565,7 +565,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 844,
-      "searchMs": 51.812631,
+      "searchMs": 33.252729,
       "topKinds": "cnccfccc",
       "noteHit": false,
       "grep": {
@@ -597,7 +597,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 556,
-      "searchMs": 74.161348,
+      "searchMs": 45.669301,
       "topKinds": "nnnccccc",
       "noteHit": true,
       "grep": {
@@ -629,7 +629,7 @@
       "visible8": false,
       "viaNote": false,
       "remTokens": 457,
-      "searchMs": 84.45317,
+      "searchMs": 50.087836,
       "topKinds": "nnnnnnnn",
       "noteHit": false,
       "grep": {
@@ -660,7 +660,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 739,
-      "searchMs": 80.661297,
+      "searchMs": 47.208796,
       "topKinds": "nccnnccc",
       "noteHit": true,
       "grep": {
@@ -692,7 +692,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 636,
-      "searchMs": 87.85322,
+      "searchMs": 46.348892,
       "topKinds": "nccncccc",
       "noteHit": false,
       "grep": {
@@ -724,7 +724,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 788,
-      "searchMs": 78.564064,
+      "searchMs": 46.850295,
       "topKinds": "nccccccc",
       "noteHit": true,
       "grep": {
@@ -756,7 +756,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 808,
-      "searchMs": 71.013747,
+      "searchMs": 36.766392,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -788,7 +788,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 739,
-      "searchMs": 52.208419,
+      "searchMs": 35.635479,
       "topKinds": "nccccccc",
       "noteHit": true,
       "grep": {
@@ -819,7 +819,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 515,
-      "searchMs": 379.308914,
+      "searchMs": 28.152863,
       "topKinds": "ccnnnnnn",
       "noteHit": false,
       "grep": {
@@ -850,7 +850,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 541,
-      "searchMs": 55.751695,
+      "searchMs": 228.431155,
       "topKinds": "nccncnnc",
       "noteHit": true,
       "grep": {
@@ -882,7 +882,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 659,
-      "searchMs": 56.715525,
+      "searchMs": 27.066288,
       "topKinds": "nncccccc",
       "noteHit": false,
       "grep": {
@@ -913,7 +913,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 760,
-      "searchMs": 56.250676,
+      "searchMs": 34.640518,
       "topKinds": "nccccccc",
       "noteHit": true,
       "grep": {
@@ -945,7 +945,7 @@
       "visible8": false,
       "viaNote": false,
       "remTokens": 740,
-      "searchMs": 56.22194,
+      "searchMs": 30.220665,
       "topKinds": "ccccccnn",
       "noteHit": false,
       "grep": {
@@ -976,7 +976,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 650,
-      "searchMs": 60.248443,
+      "searchMs": 31.543751,
       "topKinds": "ncnccccc",
       "noteHit": true,
       "grep": {
@@ -1008,7 +1008,7 @@
       "visible8": false,
       "viaNote": false,
       "remTokens": 771,
-      "searchMs": 39.630126,
+      "searchMs": 22.319558,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -1040,7 +1040,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 504,
-      "searchMs": 60.731023,
+      "searchMs": 141.960671,
       "topKinds": "nccnnnnn",
       "noteHit": true,
       "grep": {
@@ -1072,7 +1072,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 822,
-      "searchMs": 58.034933,
+      "searchMs": 31.847235,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -1104,7 +1104,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 552,
-      "searchMs": 60.504268,
+      "searchMs": 35.597834,
       "topKinds": "ncccnnnc",
       "noteHit": true,
       "grep": {
@@ -1136,7 +1136,7 @@
       "visible8": false,
       "viaNote": false,
       "remTokens": 1144,
-      "searchMs": 216.449632,
+      "searchMs": 32.485825,
       "topKinds": "fffffffn",
       "noteHit": false,
       "grep": {
@@ -1168,7 +1168,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 561,
-      "searchMs": 48.784108,
+      "searchMs": 22.996202,
       "topKinds": "nccccnnn",
       "noteHit": true,
       "grep": {
@@ -1200,7 +1200,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 591,
-      "searchMs": 53.143356,
+      "searchMs": 28.652161,
       "topKinds": "nccccccc",
       "noteHit": false,
       "grep": {
@@ -1232,7 +1232,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 754,
-      "searchMs": 61.396256,
+      "searchMs": 31.280774,
       "topKinds": "nccccccc",
       "noteHit": true,
       "grep": {
@@ -1263,7 +1263,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 576,
-      "searchMs": 67.28508,
+      "searchMs": 32.460978,
       "topKinds": "ccnnnncc",
       "noteHit": false,
       "grep": {
@@ -1295,7 +1295,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 539,
-      "searchMs": 48.502756,
+      "searchMs": 21.955608,
       "topKinds": "ncccnncc",
       "noteHit": true,
       "grep": {
@@ -1326,7 +1326,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 708,
-      "searchMs": 52.063485,
+      "searchMs": 24.149171,
       "topKinds": "nccccccc",
       "noteHit": false,
       "grep": {
@@ -1357,7 +1357,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 695,
-      "searchMs": 70.193014,
+      "searchMs": 242.749378,
       "topKinds": "cncccccc",
       "noteHit": false,
       "grep": {
@@ -1389,7 +1389,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 719,
-      "searchMs": 67.471539,
+      "searchMs": 33.987474,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -1421,7 +1421,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 820,
-      "searchMs": 242.457586,
+      "searchMs": 23.119464,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -1453,7 +1453,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 654,
-      "searchMs": 61.296532,
+      "searchMs": 33.223935,
       "topKinds": "cnnccccc",
       "noteHit": false,
       "grep": {
@@ -1485,7 +1485,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 584,
-      "searchMs": 65.030767,
+      "searchMs": 35.043302,
       "topKinds": "cccccncc",
       "noteHit": false,
       "grep": {
@@ -1517,7 +1517,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 479,
-      "searchMs": 47.773626,
+      "searchMs": 38.68675,
       "topKinds": "cnnnnnnn",
       "noteHit": false,
       "grep": {
@@ -1548,7 +1548,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 846,
-      "searchMs": 63.398021,
+      "searchMs": 36.291286,
       "topKinds": "ccccccfc",
       "noteHit": false,
       "grep": {
@@ -1580,7 +1580,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 724,
-      "searchMs": 64.017407,
+      "searchMs": 28.213111,
       "topKinds": "cncccccc",
       "noteHit": false,
       "grep": {
@@ -1612,7 +1612,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 605,
-      "searchMs": 356.568435,
+      "searchMs": 217.681965,
       "topKinds": "ccnccccc",
       "noteHit": false,
       "grep": {
@@ -1644,7 +1644,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 578,
-      "searchMs": 44.945429,
+      "searchMs": 23.67322,
       "topKinds": "cccccnnc",
       "noteHit": false,
       "grep": {
@@ -1676,7 +1676,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 651,
-      "searchMs": 65.550703,
+      "searchMs": 30.756778,
       "topKinds": "nccccccc",
       "noteHit": true,
       "newRank": 1,
@@ -1713,7 +1713,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 636,
-      "searchMs": 64.490759,
+      "searchMs": 33.159573,
       "topKinds": "nncccccf",
       "noteHit": true,
       "newRank": 1,
@@ -1750,7 +1750,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 503,
-      "searchMs": 60.458153,
+      "searchMs": 32.043998,
       "topKinds": "nnnccncc",
       "noteHit": true,
       "newRank": 1,
@@ -1787,7 +1787,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 557,
-      "searchMs": 370.657248,
+      "searchMs": 25.487948,
       "topKinds": "ncccncnc",
       "noteHit": true,
       "newRank": 1,
@@ -1824,7 +1824,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 664,
-      "searchMs": 59.658569,
+      "searchMs": 29.610546,
       "topKinds": "nccccccc",
       "noteHit": true,
       "newRank": 1,
@@ -1861,7 +1861,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 760,
-      "searchMs": 62.997279,
+      "searchMs": 32.888721,
       "topKinds": "nccccccc",
       "noteHit": true,
       "newRank": 1,
@@ -1898,7 +1898,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 991,
-      "searchMs": 64.220774,
+      "searchMs": 101.822072,
       "topKinds": "ccfffffc",
       "noteHit": false,
       "newRank": 1,
@@ -1935,7 +1935,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 686,
-      "searchMs": 45.503592,
+      "searchMs": 21.061613,
       "topKinds": "ccnccccc",
       "noteHit": false,
       "newRank": 1,
@@ -1972,7 +1972,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 658,
-      "searchMs": 345.068767,
+      "searchMs": 21.859348,
       "topKinds": "cccccnfc",
       "noteHit": false,
       "newRank": 1,
@@ -2009,7 +2009,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 529,
-      "searchMs": 57.18083,
+      "searchMs": 32.88333,
       "topKinds": "ncccccnc",
       "noteHit": false,
       "newRank": 2,
@@ -2045,9 +2045,9 @@
       "hit8": true,
       "visible8": true,
       "viaNote": true,
-      "remTokens": 1011,
-      "searchMs": 54.574261,
-      "topKinds": "ncffffcf",
+      "remTokens": 867,
+      "searchMs": 47.493491,
+      "topKinds": "ncfcfccc",
       "noteHit": true,
       "grep": {
         "chosen": [
@@ -2076,9 +2076,9 @@
       "hit8": true,
       "visible8": true,
       "viaNote": true,
-      "remTokens": 766,
-      "searchMs": 48.633875,
-      "topKinds": "nncccccc",
+      "remTokens": 655,
+      "searchMs": 48.184424,
+      "topKinds": "nnccccnn",
       "noteHit": true,
       "grep": {
         "chosen": [],
@@ -2104,8 +2104,8 @@
       "hit8": false,
       "visible8": false,
       "viaNote": false,
-      "remTokens": 896,
-      "searchMs": 47.576466,
+      "remTokens": 767,
+      "searchMs": 223.676062,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -2132,8 +2132,8 @@
       "hit8": true,
       "visible8": true,
       "viaNote": true,
-      "remTokens": 606,
-      "searchMs": 161.212232,
+      "remTokens": 559,
+      "searchMs": 33.934595,
       "topKinds": "ncccnccc",
       "noteHit": true,
       "grep": {
@@ -2160,9 +2160,9 @@
       "hit8": true,
       "visible8": true,
       "viaNote": false,
-      "remTokens": 492,
-      "searchMs": 66.230397,
-      "topKinds": "cnnnnnnc",
+      "remTokens": 489,
+      "searchMs": 63.349082,
+      "topKinds": "cnnnnnnn",
       "noteHit": false,
       "grep": {
         "chosen": [],
@@ -2183,14 +2183,14 @@
       "lang": "nl",
       "cat": "foreign",
       "fact": "F12",
-      "rank": 3,
-      "hit1": false,
+      "rank": 1,
+      "hit1": true,
       "hit8": true,
       "visible8": true,
       "viaNote": false,
-      "remTokens": 477,
-      "searchMs": 53.787735,
-      "topKinds": "nncncncc",
+      "remTokens": 775,
+      "searchMs": 55.664715,
+      "topKinds": "cncccccc",
       "noteHit": false,
       "grep": {
         "chosen": [],
@@ -2211,14 +2211,14 @@
       "lang": "nl",
       "cat": "foreign",
       "fact": "F22",
-      "rank": 8,
-      "hit1": false,
+      "rank": 1,
+      "hit1": true,
       "hit8": true,
       "visible8": true,
       "viaNote": false,
-      "remTokens": 819,
-      "searchMs": 70.50701,
-      "topKinds": "fcccccnc",
+      "remTokens": 797,
+      "searchMs": 56.264501,
+      "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
         "chosen": [
@@ -2247,9 +2247,9 @@
       "hit8": true,
       "visible8": true,
       "viaNote": false,
-      "remTokens": 747,
-      "searchMs": 57.484904,
-      "topKinds": "cccnfccf",
+      "remTokens": 733,
+      "searchMs": 36.767963,
+      "topKinds": "ccccccnc",
       "noteHit": false,
       "grep": {
         "chosen": [
@@ -2274,14 +2274,14 @@
       "lang": "fr",
       "cat": "foreign",
       "fact": "F03",
-      "rank": 8,
+      "rank": 6,
       "hit1": false,
       "hit8": true,
       "visible8": true,
       "viaNote": true,
-      "remTokens": 716,
-      "searchMs": 54.042113,
-      "topKinds": "ccccccnn",
+      "remTokens": 681,
+      "searchMs": 131.771729,
+      "topKinds": "cccncncc",
       "noteHit": true,
       "grep": {
         "chosen": [
@@ -2310,9 +2310,9 @@
       "hit8": true,
       "visible8": true,
       "viaNote": true,
-      "remTokens": 791,
-      "searchMs": 53.175879,
-      "topKinds": "nnccfccf",
+      "remTokens": 754,
+      "searchMs": 49.694544,
+      "topKinds": "ncnfcccc",
       "noteHit": true,
       "grep": {
         "chosen": [
@@ -2336,14 +2336,14 @@
       "lang": "fr",
       "cat": "foreign",
       "fact": "F26",
-      "rank": null,
+      "rank": 2,
       "hit1": false,
-      "hit8": false,
-      "visible8": false,
+      "hit8": true,
+      "visible8": true,
       "viaNote": false,
-      "remTokens": 1060,
-      "searchMs": 350.405565,
-      "topKinds": "nfffcfff",
+      "remTokens": 555,
+      "searchMs": 37.571407,
+      "topKinds": "nccccccc",
       "noteHit": false,
       "grep": {
         "chosen": [],
@@ -2369,9 +2369,9 @@
       "hit8": true,
       "visible8": true,
       "viaNote": false,
-      "remTokens": 660,
-      "searchMs": 43.447457,
-      "topKinds": "ccccnccc",
+      "remTokens": 730,
+      "searchMs": 43.59379,
+      "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
         "chosen": [],
@@ -2398,8 +2398,8 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 747,
-      "searchMs": 48.928459,
-      "topKinds": "cncfcccf",
+      "searchMs": 34.251461,
+      "topKinds": "ccnccfcf",
       "noteHit": false,
       "grep": {
         "chosen": [],
@@ -2425,8 +2425,8 @@
       "hit8": false,
       "visible8": false,
       "viaNote": false,
-      "remTokens": 927,
-      "searchMs": 40.210094,
+      "remTokens": 830,
+      "searchMs": 42.350387,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -2451,15 +2451,15 @@
       "lang": "es",
       "cat": "foreign",
       "fact": "F27",
-      "rank": null,
-      "hit1": false,
-      "hit8": false,
-      "visible8": false,
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
       "viaNote": true,
-      "remTokens": 1160,
-      "searchMs": 45.573639,
-      "topKinds": "cfffffff",
-      "noteHit": false,
+      "remTokens": 754,
+      "searchMs": 51.333596,
+      "topKinds": "nccccccc",
+      "noteHit": true,
       "grep": {
         "chosen": [],
         "readOut": "",
@@ -2485,7 +2485,7 @@
       "visible8": false,
       "viaNote": true,
       "remTokens": 582,
-      "searchMs": 41.417978,
+      "searchMs": 34.137792,
       "topKinds": "ccccccnc",
       "noteHit": false,
       "grep": {
@@ -2517,7 +2517,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 587,
-      "searchMs": 160.38682,
+      "searchMs": 34.068059,
       "topKinds": "cnncnccc",
       "noteHit": true,
       "grep": {
@@ -2549,7 +2549,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 675,
-      "searchMs": 51.866944,
+      "searchMs": 29.857035,
       "topKinds": "ccccncnc",
       "noteHit": false,
       "grep": {
@@ -2581,7 +2581,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 589,
-      "searchMs": 57.136505,
+      "searchMs": 29.513082,
       "topKinds": "nccnnnnc",
       "noteHit": true,
       "grep": {
@@ -2613,7 +2613,7 @@
       "visible8": false,
       "viaNote": false,
       "remTokens": 631,
-      "searchMs": 56.07562,
+      "searchMs": 208.787841,
       "topKinds": "nncccncc",
       "noteHit": false,
       "grep": {
@@ -2644,7 +2644,7 @@
       "visible8": false,
       "viaNote": true,
       "remTokens": 572,
-      "searchMs": 49.098803,
+      "searchMs": 28.095406,
       "topKinds": "nnnnnccc",
       "noteHit": false,
       "grep": {
@@ -2676,7 +2676,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 760,
-      "searchMs": 68.079592,
+      "searchMs": 30.173042,
       "topKinds": "nccccccc",
       "noteHit": true,
       "grep": {
@@ -2707,7 +2707,7 @@
       "visible8": true,
       "viaNote": true,
       "remTokens": 659,
-      "searchMs": 68.751415,
+      "searchMs": 35.500639,
       "topKinds": "nncccccc",
       "noteHit": true,
       "grep": {
@@ -2739,7 +2739,7 @@
       "visible8": false,
       "viaNote": false,
       "remTokens": 630,
-      "searchMs": 58.19562,
+      "searchMs": 33.274253,
       "topKinds": "nccnnccc",
       "noteHit": false,
       "grep": {
@@ -2771,7 +2771,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 516,
-      "searchMs": 42.196642,
+      "searchMs": 23.806394,
       "topKinds": "nccnnncn",
       "noteHit": false,
       "grep": {
@@ -2803,7 +2803,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 605,
-      "searchMs": 42.794893,
+      "searchMs": 23.37775,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {
@@ -2835,7 +2835,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 477,
-      "searchMs": 54.959813,
+      "searchMs": 31.837861,
       "topKinds": "cnnnnnnn",
       "noteHit": false,
       "grep": {
@@ -2866,7 +2866,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 692,
-      "searchMs": 53.480708,
+      "searchMs": 32.624395,
       "topKinds": "cncccccc",
       "noteHit": false,
       "grep": {
@@ -2894,7 +2894,7 @@
       "visible8": false,
       "viaNote": false,
       "remTokens": 621,
-      "searchMs": 308.481763,
+      "searchMs": 23.241493,
       "topKinds": "nnnncccc",
       "noteHit": false,
       "grep": {
@@ -2922,7 +2922,7 @@
       "visible8": true,
       "viaNote": false,
       "remTokens": 803,
-      "searchMs": 50.223874,
+      "searchMs": 146.097048,
       "topKinds": "cccccccc",
       "noteHit": false,
       "grep": {

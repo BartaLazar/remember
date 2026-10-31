@@ -77,33 +77,41 @@ function isStale(store, root, r) {
   }
 }
 
-export async function search({ store, embedder, root, query, scope = 'all', limit = 8 }) {
+/**
+ * Hybrid search. `translation` is the same question in the language of the code (usually English),
+ * written by Claude when the user asked in another language; both wordings are searched and fused.
+ */
+export async function search({ store, embedder, root, query, translation, scope = 'all', limit = 8 }) {
   const kinds = KINDS[scope] ?? KINDS.all;
+  const queries = [...new Set([query, translation].map((q) => String(q ?? '').trim()).filter(Boolean))];
   const scores = new Map();
   const add = (ids) => ids.forEach((id, i) => scores.set(id, (scores.get(id) ?? 0) + 1 / (RRF_K + i + 1)));
+  const vectors = embedder && queries.length ? store.vectors(kinds) : [];
 
-  if (embedder && String(query ?? '').trim()) {
-    try {
-      const q = await embedder.embedQuery(query);
-      const ranked = store.vectors(kinds)
-        .map((v) => ({ id: v.id, s: dot(q, v.vector) }))
-        .sort((a, b) => b.s - a.s || a.id - b.id)
-        .slice(0, TOP);
-      add(ranked.map((r) => r.id));
-    } catch {
-      // semantic leg is best effort
+  for (const text of queries) {
+    if (embedder) {
+      try {
+        const q = await embedder.embedQuery(text);
+        const ranked = vectors
+          .map((v) => ({ id: v.id, s: dot(q, v.vector) }))
+          .sort((a, b) => b.s - a.s || a.id - b.id)
+          .slice(0, TOP);
+        add(ranked.map((r) => r.id));
+      } catch {
+        // semantic leg is best effort
+      }
     }
-  }
-
-  const match = toFtsQuery(query);
-  if (match) {
-    try {
-      add(store.fts(match, kinds, TOP).map((h) => h.id));
-    } catch {
-      // invalid MATCH: keyword results empty
+    const match = toFtsQuery(text);
+    if (match) {
+      try {
+        add(store.fts(match, kinds, TOP).map((h) => h.id));
+      } catch {
+        // invalid MATCH: keyword results empty
+      }
     }
   }
   if (!scores.size) return [];
+  query = queries.join('\n');
 
   const rows = new Map(store.getChunks([...scores.keys()]).map((r) => [r.id, r]));
   const defRe = definitionRe(query);

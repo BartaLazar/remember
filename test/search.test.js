@@ -66,6 +66,26 @@ test('equal relevance: the newer chat outranks the older one', async () => {
   assert.deepEqual(r.map((x) => x.loc), ['chat:new', 'chat:old']);
 });
 
+test('a translation finds code the original wording misses', async () => {
+  const c = await build({
+    'etag.js': 'export function computeEtag(body) {\n  return hash(body);\n}\n',
+    'other.js': 'export const unrelated = 1;\n',
+  });
+  const orig = await search({ ...c, query: 'Wie wird die Prüfsumme berechnet?', embedder: null });
+  assert.ok(!orig.some((r) => r.loc === 'etag.js'));
+  const both = await search({ ...c, query: 'Wie wird die Prüfsumme berechnet?', translation: 'how is the etag hash computed', embedder: null });
+  assert.equal(both[0].loc, 'etag.js');
+});
+
+test('original and translation are both searched; duplicates count once', async () => {
+  const c = await build({ 'a.md': 'Nachtjob um 02:00\n', 'b.md': 'nightly job at 02:00\n' });
+  const r = await search({ ...c, query: 'Nachtjob', translation: 'nightly job', embedder: null });
+  assert.deepEqual(r.map((x) => x.loc).sort(), ['a.md', 'b.md']);
+  const same = await search({ ...c, query: 'nightly job', translation: 'nightly job', embedder: null });
+  const once = await search({ ...c, query: 'nightly job', embedder: null });
+  assert.deepEqual(same.map((x) => x.score), once.map((x) => x.score));
+});
+
 test('identifier query ranks matching file first', async () => {
   const c = await build({
     'invoice.js': 'function parseInvoiceTotal(x) { return x.total; }\n',

@@ -352,7 +352,8 @@ async function main() {
   const questions = [];
   for (const f of REGULAR) questions.push({ q: Q1[f[0]], lang: 'en', cat: 'regular', fact: f[0], keys: [f[3]] });
   for (const s of SUPERSEDED) questions.push({ q: QS[s[0]], lang: 'en', cat: 'superseded', fact: s[0] + 'n', keys: [s[5]], newKey: s[5], oldKey: s[3] });
-  for (const [id, lang, q] of QFOREIGN) questions.push({ q, lang, cat: 'foreign', fact: id, keys: [byId[id].key] });
+  // translation: the English question about the same fact stands in for Claude's translation
+  for (const [id, lang, q] of QFOREIGN) questions.push({ q, lang, cat: 'foreign', fact: id, keys: [byId[id].key], translation: Q1[id] });
   for (const [id, q] of QVAGUE) questions.push({ q, lang: 'en', cat: 'vague', fact: id, keys: [byId[id].key] });
   if (questions.length !== 80) throw new Error('expected 80 questions, got ' + questions.length);
   const hasNote = (fid) => fid in noteOf;
@@ -374,7 +375,12 @@ async function main() {
   const rows = [];
   for (const Q of questions) {
     const ts = process.hrtime.bigint();
-    const results = await search({ store, embedder, root, query: Q.q, scope: 'all', limit: 8 });
+    const mode = process.env.TRANSLATE ?? 'both'; // none | only | both
+    const results = await search({
+      store, embedder, root, scope: 'all', limit: 8,
+      query: Q.translation && mode === 'only' ? Q.translation : Q.q,
+      translation: Q.translation && mode === 'both' ? Q.translation : undefined,
+    });
     const searchMs = Number(process.hrtime.bigint() - ts) / 1e6;
     const out = formatResults(results, { status: null, semantic: true });
     const rank = (key) => { const i = results.findIndex((r) => r.text.includes(key)); return i < 0 ? null : i + 1; };

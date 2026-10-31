@@ -13,8 +13,8 @@
 <text x="486.8285280728376" y="132" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">11,200 tokens</text>
 <text x="20" y="178" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">remember</text>
 <text x="20" y="196" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">search, then read the lines it points to</text>
-<path d="M250,168 H290.10723318158824 Q294.10723318158824,168 294.10723318158824,172 V186 Q294.10723318158824,190 290.10723318158824,190 H250 Z" fill="#2a78d6"/>
-<text x="304.10723318158824" y="184" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">2,200 tokens</text>
+<path d="M250,168 H289.98583712696006 Q293.98583712696006,168 293.98583712696006,172 V186 Q293.98583712696006,190 289.98583712696006,190 H250 Z" fill="#2a78d6"/>
+<text x="303.98583712696006" y="184" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">2,200 tokens</text>
 <line x1="250" y1="58" x2="250" y2="204" stroke="#c3c2b7" stroke-width="1"/>
 </g>
 </svg>

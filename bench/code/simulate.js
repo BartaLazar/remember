@@ -112,12 +112,15 @@ for (const repo of REPOS.filter((r) => !process.env.ONLY || process.env.ONLY.spl
   // multilingual: the baseline agent greps with the English twin's keywords (a bilingual agent would translate)
   for (const q of queries) if (q.type === 'multilingual') {
     const tw = queries.find((x) => x.type === 'natural' && x.file === q.file && x.start === q.start);
-    if (tw) q.kwQuery = tw.q;
+    if (tw) { q.kwQuery = tw.q; q.translation = tw.q; }
   }
   const store = openStore(path.join(INDEX, repo, 'index.db'));
   for (const q of queries) {
     const { A, B, kws } = baselines(q, files);
-    const results = await search({ store, embedder, root: root(repo), query: q.q, limit: 8 });
+    const mode = process.env.TRANSLATE ?? 'both'; // none | only | both: how a translated question is passed
+    const qq = q.translation && mode === 'only' ? q.translation : q.q;
+    const tr = q.translation && mode === 'both' ? q.translation : undefined;
+    const results = await search({ store, embedder, root: root(repo), query: qq, translation: tr, limit: 8 });
     const formatted = formatResults(results);
     const searchTok = tok(formatted);
     // only results that survive formatResults' output cap count as seen

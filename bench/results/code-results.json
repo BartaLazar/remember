@@ -2486,7 +2486,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1132,
+   "searchTokens": 1161,
    "shown": 8,
    "A": {
     "tokens": 54495,
@@ -2499,7 +2499,7 @@
     "found": false
    },
    "R": {
-    "tokens": 55627,
+    "tokens": 55656,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -2518,9 +2518,9 @@
     "response"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1060,
+   "hit8": true,
+   "rank": 6,
+   "searchTokens": 1170,
    "shown": 8,
    "A": {
     "tokens": 30527,
@@ -2533,10 +2533,10 @@
     "found": false
    },
    "R": {
-    "tokens": 31587,
-    "calls": 5,
+    "tokens": 1972,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -2552,9 +2552,9 @@
     "look"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 917,
+   "hit8": true,
+   "rank": 6,
+   "searchTokens": 1220,
    "shown": 8,
    "A": {
     "tokens": 28040,
@@ -2567,10 +2567,10 @@
     "found": true
    },
    "R": {
-    "tokens": 28957,
-    "calls": 6,
+    "tokens": 1958,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -2588,7 +2588,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 602,
+   "searchTokens": 676,
    "shown": 8,
    "A": {
     "tokens": 26439,
@@ -2601,7 +2601,7 @@
     "found": true
    },
    "R": {
-    "tokens": 27041,
+    "tokens": 27115,
     "calls": 6,
     "found": true,
     "fallback": true
@@ -2620,9 +2620,9 @@
     "client"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1027,
+   "hit8": true,
+   "rank": 6,
+   "searchTokens": 1024,
    "shown": 8,
    "A": {
     "tokens": 28927,
@@ -2635,10 +2635,10 @@
     "found": false
    },
    "R": {
-    "tokens": 29954,
-    "calls": 9,
-    "found": false,
-    "fallback": true
+    "tokens": 1762,
+    "calls": 2,
+    "found": true,
+    "fallback": false
    }
   },
   {
@@ -2656,7 +2656,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1010,
+   "searchTokens": 962,
    "shown": 8,
    "A": {
     "tokens": 42122,
@@ -2669,7 +2669,7 @@
     "found": true
    },
    "R": {
-    "tokens": 43132,
+    "tokens": 43084,
     "calls": 7,
     "found": true,
     "fallback": true
@@ -2688,9 +2688,9 @@
     "extended"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 509,
+   "hit8": true,
+   "rank": 8,
+   "searchTokens": 1029,
    "shown": 8,
    "A": {
     "tokens": 31108,
@@ -2703,10 +2703,10 @@
     "found": true
    },
    "R": {
-    "tokens": 31617,
-    "calls": 6,
+    "tokens": 1707,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -2721,10 +2721,10 @@
     "negotiation",
     "format"
    ],
-   "hit1": false,
+   "hit1": true,
    "hit8": true,
-   "rank": 5,
-   "searchTokens": 748,
+   "rank": 1,
+   "searchTokens": 1037,
    "shown": 8,
    "A": {
     "tokens": 31669,
@@ -2737,7 +2737,7 @@
     "found": true
    },
    "R": {
-    "tokens": 1553,
+    "tokens": 1842,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -19947,7 +19947,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1204,
+   "searchTokens": 1265,
    "shown": 8,
    "A": {
     "tokens": 24171,
@@ -19960,7 +19960,7 @@
     "found": false
    },
    "R": {
-    "tokens": 25375,
+    "tokens": 25436,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -19981,7 +19981,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1277,
+   "searchTokens": 1149,
    "shown": 8,
    "A": {
     "tokens": 18313,
@@ -19994,7 +19994,7 @@
     "found": true
    },
    "R": {
-    "tokens": 19590,
+    "tokens": 19462,
     "calls": 7,
     "found": true,
     "fallback": true
@@ -20012,10 +20012,10 @@
     "owner",
     "stale"
    ],
-   "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 955,
+   "hit1": true,
+   "hit8": true,
+   "rank": 1,
+   "searchTokens": 1251,
    "shown": 8,
    "A": {
     "tokens": 24782,
@@ -20028,10 +20028,10 @@
     "found": true
    },
    "R": {
-    "tokens": 25737,
-    "calls": 6,
+    "tokens": 2108,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -20049,7 +20049,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1129,
+   "searchTokens": 1257,
    "shown": 8,
    "A": {
     "tokens": 34383,
@@ -20062,7 +20062,7 @@
     "found": true
    },
    "R": {
-    "tokens": 35512,
+    "tokens": 35640,
     "calls": 7,
     "found": true,
     "fallback": true
@@ -20081,9 +20081,9 @@
     "corrupt"
    ],
    "hit1": false,
-   "hit8": false,
-   "rank": null,
-   "searchTokens": 1145,
+   "hit8": true,
+   "rank": 3,
+   "searchTokens": 1109,
    "shown": 8,
    "A": {
     "tokens": 3125,
@@ -20096,10 +20096,10 @@
     "found": true
    },
    "R": {
-    "tokens": 4270,
-    "calls": 4,
+    "tokens": 2371,
+    "calls": 2,
     "found": true,
-    "fallback": true
+    "fallback": false
    }
   },
   {
@@ -20117,7 +20117,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 1269,
+   "searchTokens": 1260,
    "shown": 8,
    "A": {
     "tokens": 25838,
@@ -20130,7 +20130,7 @@
     "found": false
    },
    "R": {
-    "tokens": 27107,
+    "tokens": 27098,
     "calls": 9,
     "found": false,
     "fallback": true
@@ -20150,8 +20150,8 @@
    ],
    "hit1": false,
    "hit8": true,
-   "rank": 4,
-   "searchTokens": 1193,
+   "rank": 3,
+   "searchTokens": 1200,
    "shown": 8,
    "A": {
     "tokens": 22397,
@@ -20164,7 +20164,7 @@
     "found": false
    },
    "R": {
-    "tokens": 2067,
+    "tokens": 2074,
     "calls": 2,
     "found": true,
     "fallback": false
@@ -20185,7 +20185,7 @@
    "hit1": false,
    "hit8": false,
    "rank": null,
-   "searchTokens": 901,
+   "searchTokens": 1249,
    "shown": 8,
    "A": {
     "tokens": 26329,
@@ -20198,7 +20198,7 @@
     "found": false
    },
    "R": {
-    "tokens": 27230,
+    "tokens": 27578,
     "calls": 9,
     "found": false,
     "fallback": true

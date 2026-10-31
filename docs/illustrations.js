@@ -370,7 +370,7 @@ function savings(c) {
     r(432, 90, 160, 8, c.ink2, 'rx="4"'),
     inJar,
     t(512, 124, 'tokens saved', 13, c.ink2, { weight: 600 }),
-    t(740, 120, '78% fewer', 28, c.ink, { weight: 700 }),
+    t(740, 120, '79% fewer', 28, c.ink, { weight: 700 }),
     t(740, 146, 'than reading whole files', 13, c.ink2, { weight: 500 }),
     sparkle(c, 620, 70, 7),
   ];

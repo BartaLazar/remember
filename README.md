@@ -133,6 +133,8 @@ The plugin adds **about 450 tokens** to every session (skill descriptions, tool 
 
 ### Getting the most out of it
 
+The full guide, with example questions and the keywords that change how search behaves, is in **[Asking questions efficiently](docs/asking-efficiently.md)**. The short version:
+
 - **Ask by name or by behaviour.** Exact names ("where is `Recovery` defined") and descriptions of what code does both work well. Open-ended "how does X work" questions are about level with careful grepping.
 - **Ask about code in the language the code is written in.** Notes and chats work across languages; code mostly doesn't.
 - **Save decisions as notes.** They are found more reliably than the same decision buried in a chat, and they rank first.

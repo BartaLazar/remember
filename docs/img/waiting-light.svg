@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="The bot dozes while the model downloads once; keyword search already works">
+<title>The bot dozes while the model downloads once; keyword search already works</title>
+<rect x="0.5" y="0.5" width="879" height="229" rx="14" fill="#f6f1e9" stroke="rgba(11,11,11,0.08)"/>
+<rect x="24" y="196" width="832" height="4" fill="#e6dccb" rx="2"/>
+<g shape-rendering="crispEdges"><rect x="148" y="132" width="80" height="48" fill="#d97757" /><rect x="148" y="172" width="80" height="8" fill="#b85f42" /><rect x="164" y="148" width="8" height="8" fill="#1f1e1c" /><rect x="204" y="148" width="8" height="8" fill="#1f1e1c" /><rect x="156" y="180" width="8" height="16" fill="#d97757" /><rect x="172" y="180" width="8" height="16" fill="#d97757" /><rect x="196" y="180" width="8" height="16" fill="#d97757" /><rect x="212" y="180" width="8" height="16" fill="#d97757" /><rect x="140" y="148" width="8" height="16" fill="#d97757" /><rect x="228" y="148" width="8" height="16" fill="#d97757" /></g>
+<text x="262" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#6b6860" text-anchor="middle" letter-spacing="0">z</text>
+<text x="280" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#6b6860" text-anchor="middle" letter-spacing="0">z</text>
+<text x="302" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#6b6860" text-anchor="middle" letter-spacing="0">z</text>
+<rect x="380" y="70" width="440" height="96" rx="10" fill="#ffffff" stroke="#d8d2c4" stroke-width="1.5"/>
+<text x="404" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#2b2a27" text-anchor="start" letter-spacing="0">Downloading the model, once</text>
+<rect x="404" y="118" width="392" height="12" fill="#ece6da" rx="6"/>
+<rect x="404" y="118" width="250" height="12" fill="#2a78d6" rx="6"/>
+<text x="796" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#6b6860" text-anchor="end" letter-spacing="0">76 / 120 MB</text>
+<circle cx="412" cy="150" r="5" fill="#0ca30c"/>
+<text x="424" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#6b6860" text-anchor="start" letter-spacing="0">keyword search already works</text>
+</svg>

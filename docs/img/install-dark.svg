@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="The bot pops out of its box next to the two install commands">
+<title>The bot pops out of its box next to the two install commands</title>
+<rect x="0.5" y="0.5" width="879" height="229" rx="14" fill="#1c1b19" stroke="rgba(255,255,255,0.08)"/>
+<rect x="24" y="196" width="832" height="4" fill="#2a2926" rx="2"/>
+<g shape-rendering="crispEdges"><rect x="180" y="82" width="80" height="48" fill="#d97757" /><rect x="180" y="122" width="80" height="8" fill="#a9583d" /><rect x="196" y="90" width="8" height="16" fill="#121211" /><rect x="236" y="90" width="8" height="16" fill="#121211" /><rect x="188" y="130" width="8" height="16" fill="#d97757" /><rect x="204" y="130" width="8" height="16" fill="#d97757" /><rect x="228" y="130" width="8" height="16" fill="#d97757" /><rect x="244" y="130" width="8" height="16" fill="#d97757" /><rect x="172" y="74" width="8" height="24" fill="#d97757" /><rect x="260" y="74" width="8" height="24" fill="#d97757" /></g>
+<path d="M150,126 l-34,-26 h70 l18,26 z" fill="#2c2b28"/>
+<path d="M290,126 l34,-26 h-70 l-18,26 z" fill="#2c2b28"/>
+<rect x="150" y="126" width="140" height="70" rx="3" fill="#3a3935" stroke="#2c2b28" stroke-width="2"/>
+<rect x="202" y="126" width="36" height="70" fill="#55534e" />
+<path d="M120,43 L122.1,47.9 L127,50 L122.1,52.1 L120,57 L117.9,52.1 L113,50 L117.9,47.9 Z" fill="#f0b44d"/>
+<path d="M340,57 L341.5,60.5 L345,62 L341.5,63.5 L340,67 L338.5,63.5 L335,62 L338.5,60.5 Z" fill="#f0b44d"/>
+<rect x="430" y="46" width="400" height="108" rx="10" fill="#24231f"/><circle cx="448" cy="62" r="4.5" fill="#e66767"/><circle cx="462" cy="62" r="4.5" fill="#f0b44d"/><circle cx="476" cy="62" r="4.5" fill="#5cc85c"/><text x="448" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#f0efec" text-anchor="start" letter-spacing="0">/plugin marketplace add BartaLazar/remember</text><text x="448" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#f0efec" text-anchor="start" letter-spacing="0">/plugin install remember@remember</text><text x="448" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#5cc85c" text-anchor="start" letter-spacing="0">✓ ready, indexing in the background</text>
+</svg>

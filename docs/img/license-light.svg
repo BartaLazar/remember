@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-label="The bot holds up an MIT license certificate, copyright BartaLazar">
+<title>The bot holds up an MIT license certificate, copyright BartaLazar</title>
+<rect x="0.5" y="0.5" width="879" height="209" rx="14" fill="#f6f1e9" stroke="rgba(11,11,11,0.08)"/>
+<rect x="24" y="180" width="832" height="4" fill="#e6dccb" rx="2"/>
+<g shape-rendering="crispEdges"><rect x="308" y="116" width="80" height="48" fill="#d97757" /><rect x="308" y="156" width="80" height="8" fill="#b85f42" /><rect x="324" y="124" width="8" height="16" fill="#1f1e1c" /><rect x="364" y="124" width="8" height="16" fill="#1f1e1c" /><rect x="316" y="164" width="8" height="16" fill="#d97757" /><rect x="332" y="164" width="8" height="16" fill="#d97757" /><rect x="356" y="164" width="8" height="16" fill="#d97757" /><rect x="372" y="164" width="8" height="16" fill="#d97757" /><rect x="300" y="108" width="8" height="24" fill="#d97757" /><rect x="388" y="108" width="8" height="24" fill="#d97757" /></g>
+<rect x="400" y="26" width="240" height="120" rx="6" fill="#ffffff" stroke="#d8d2c4" stroke-width="1.5"/>
+<rect x="408" y="34" width="224" height="104" rx="4" fill="none" stroke="#e8a33d" stroke-width="2"/>
+<text x="520" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#2b2a27" text-anchor="middle" letter-spacing="3">MIT</text>
+<text x="520" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#6b6860" text-anchor="middle" letter-spacing="0">free to use, change and share</text>
+<text x="520" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6b6860" text-anchor="middle" letter-spacing="0">© BartaLazar</text>
+<circle cx="618" cy="128" r="14" fill="#e34948"/>
+<path d="M680,43 L682.1,47.9 L687,50 L682.1,52.1 L680,57 L677.9,52.1 L673,50 L677.9,47.9 Z" fill="#e8a33d"/>
+<path d="M370,35 L371.5,38.5 L375,40 L371.5,41.5 L370,45 L368.5,41.5 L365,40 L368.5,38.5 Z" fill="#e8a33d"/>
+</svg>

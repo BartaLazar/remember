@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="The bot runs on three screens labelled macOS, Linux and Windows, each with a green check">
+<title>The bot runs on three screens labelled macOS, Linux and Windows, each with a green check</title>
+<rect x="0.5" y="0.5" width="879" height="229" rx="14" fill="#f6f1e9" stroke="rgba(11,11,11,0.08)"/>
+<rect x="70" y="40" width="200" height="124" rx="8" fill="#3f3e3a"/>
+  <rect x="80" y="50" width="180" height="104" rx="4" fill="#f6f1e9"/>
+  <g shape-rendering="crispEdges"><rect x="150" y="84" width="40" height="24" fill="#d97757" /><rect x="150" y="104" width="40" height="4" fill="#b85f42" /><rect x="158" y="88" width="4" height="8" fill="#1f1e1c" /><rect x="178" y="88" width="4" height="8" fill="#1f1e1c" /><rect x="154" y="108" width="4" height="8" fill="#d97757" /><rect x="162" y="108" width="4" height="8" fill="#d97757" /><rect x="174" y="108" width="4" height="8" fill="#d97757" /><rect x="182" y="108" width="4" height="8" fill="#d97757" /><rect x="146" y="92" width="4" height="8" fill="#d97757" /><rect x="190" y="92" width="4" height="8" fill="#d97757" /></g>
+  <circle cx="238" cy="70" r="9" fill="#0ca30c"/><path d="M233,70 l4,4 l7,-8" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="154" y="164" width="32" height="16" fill="#3f3e3a" /><rect x="130" y="180" width="80" height="6" fill="#3f3e3a" rx="3"/>
+  <text x="170" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#2b2a27" text-anchor="middle" letter-spacing="0">macOS</text>
+<rect x="340" y="40" width="200" height="124" rx="8" fill="#3f3e3a"/>
+  <rect x="350" y="50" width="180" height="104" rx="4" fill="#f6f1e9"/>
+  <g shape-rendering="crispEdges"><rect x="420" y="84" width="40" height="24" fill="#d97757" /><rect x="420" y="104" width="40" height="4" fill="#b85f42" /><rect x="428" y="88" width="4" height="8" fill="#1f1e1c" /><rect x="448" y="88" width="4" height="8" fill="#1f1e1c" /><rect x="424" y="108" width="4" height="8" fill="#d97757" /><rect x="432" y="108" width="4" height="8" fill="#d97757" /><rect x="444" y="108" width="4" height="8" fill="#d97757" /><rect x="452" y="108" width="4" height="8" fill="#d97757" /><rect x="416" y="92" width="4" height="8" fill="#d97757" /><rect x="460" y="92" width="4" height="8" fill="#d97757" /></g>
+  <circle cx="508" cy="70" r="9" fill="#0ca30c"/><path d="M503,70 l4,4 l7,-8" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="424" y="164" width="32" height="16" fill="#3f3e3a" /><rect x="400" y="180" width="80" height="6" fill="#3f3e3a" rx="3"/>
+  <text x="440" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#2b2a27" text-anchor="middle" letter-spacing="0">Linux</text>
+<rect x="610" y="40" width="200" height="124" rx="8" fill="#3f3e3a"/>
+  <rect x="620" y="50" width="180" height="104" rx="4" fill="#f6f1e9"/>
+  <g shape-rendering="crispEdges"><rect x="690" y="84" width="40" height="24" fill="#d97757" /><rect x="690" y="104" width="40" height="4" fill="#b85f42" /><rect x="698" y="88" width="4" height="8" fill="#1f1e1c" /><rect x="718" y="88" width="4" height="8" fill="#1f1e1c" /><rect x="694" y="108" width="4" height="8" fill="#d97757" /><rect x="702" y="108" width="4" height="8" fill="#d97757" /><rect x="714" y="108" width="4" height="8" fill="#d97757" /><rect x="722" y="108" width="4" height="8" fill="#d97757" /><rect x="686" y="92" width="4" height="8" fill="#d97757" /><rect x="730" y="92" width="4" height="8" fill="#d97757" /></g>
+  <circle cx="778" cy="70" r="9" fill="#0ca30c"/><path d="M773,70 l4,4 l7,-8" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="694" y="164" width="32" height="16" fill="#3f3e3a" /><rect x="670" y="180" width="80" height="6" fill="#3f3e3a" rx="3"/>
+  <text x="710" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#2b2a27" text-anchor="middle" letter-spacing="0">Windows</text>
+</svg>

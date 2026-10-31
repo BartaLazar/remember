@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="The bot holds a wrench next to a terminal: 163 tests pass and plugin validation passes">
+<title>The bot holds a wrench next to a terminal: 163 tests pass and plugin validation passes</title>
+<rect x="0.5" y="0.5" width="879" height="229" rx="14" fill="#1c1b19" stroke="rgba(255,255,255,0.08)"/>
+<rect x="24" y="200" width="832" height="4" fill="#2a2926" rx="2"/>
+<g shape-rendering="crispEdges"><rect x="128" y="136" width="80" height="48" fill="#d97757" /><rect x="128" y="176" width="80" height="8" fill="#a9583d" /><rect x="144" y="144" width="8" height="16" fill="#121211" /><rect x="184" y="144" width="8" height="16" fill="#121211" /><rect x="136" y="184" width="8" height="16" fill="#d97757" /><rect x="152" y="184" width="8" height="16" fill="#d97757" /><rect x="176" y="184" width="8" height="16" fill="#d97757" /><rect x="192" y="184" width="8" height="16" fill="#d97757" /><rect x="120" y="152" width="8" height="16" fill="#d97757" /><rect x="208" y="152" width="8" height="16" fill="#d97757" /></g>
+<g transform="rotate(35 236 138)">
+  <rect x="232" y="138" width="8" height="46" rx="4" fill="#b4b2a8"/>
+  <circle cx="236" cy="136" r="12" fill="#b4b2a8"/>
+  <rect x="232" y="122" width="8" height="12" fill="#1c1b19"/>
+</g>
+<rect x="380" y="36" width="440" height="132" rx="10" fill="#24231f"/><circle cx="398" cy="52" r="4.5" fill="#e66767"/><circle cx="412" cy="52" r="4.5" fill="#f0b44d"/><circle cx="426" cy="52" r="4.5" fill="#5cc85c"/><text x="398" y="86" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#9a9993" text-anchor="start" letter-spacing="0">$ npm test</text><text x="398" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#5cc85c" text-anchor="start" letter-spacing="0">✔ 163 tests pass</text><text x="398" y="134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#9a9993" text-anchor="start" letter-spacing="0">$ claude plugin validate --strict</text><text x="398" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#5cc85c" text-anchor="start" letter-spacing="0">✔ Validation passed</text>
+</svg>

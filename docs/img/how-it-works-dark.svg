@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="A question is searched by meaning and by exact words, and the two result lists merge into one ranking">
+<title>A question is searched by meaning and by exact words, and the two result lists merge into one ranking</title>
+<rect x="0.5" y="0.5" width="879" height="249" rx="14" fill="#1c1b19" stroke="rgba(255,255,255,0.08)"/>
+<rect x="40" y="96" width="170" height="54" rx="10" fill="#f4f1ea" stroke="#bdb6a6"/>
+<text x="125" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#2b2a27" text-anchor="middle" letter-spacing="0">where do we log</text>
+<text x="125" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#2b2a27" text-anchor="middle" letter-spacing="0">people out?</text>
+<path d="M212,112 C260,90 270,70 320,66" fill="none" stroke="#56534c" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+<path d="M212,134 C260,156 270,176 320,180" fill="none" stroke="#56534c" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+<rect x="324" y="24" width="200" height="86" rx="8" fill="#f4f1ea" stroke="#bdb6a6"/>
+  <circle cx="346" cy="44" r="8" fill="none" stroke="#3987e5" stroke-width="3"/><line x1="352" y1="50" x2="358" y2="56" stroke="#3987e5" stroke-width="3" stroke-linecap="round"/><text x="368" y="49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2b2a27" text-anchor="start" letter-spacing="0">by meaning</text>
+  <rect x="340" y="64" width="150" height="6" fill="#bdb5a3" rx="3"/><rect x="340" y="77" width="120" height="6" fill="#bdb5a3" rx="3"/><rect x="340" y="90" width="90" height="6" fill="#bdb5a3" rx="3"/>
+<rect x="324" y="140" width="200" height="86" rx="8" fill="#f4f1ea" stroke="#bdb6a6"/>
+  <text x="346" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3987e5" text-anchor="middle" letter-spacing="0">Aa</text><text x="368" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2b2a27" text-anchor="start" letter-spacing="0">by exact words</text>
+  <rect x="340" y="180" width="130" height="6" fill="#bdb5a3" rx="3"/><rect x="340" y="193" width="160" height="6" fill="#bdb5a3" rx="3"/><rect x="340" y="206" width="100" height="6" fill="#bdb5a3" rx="3"/>
+<path d="M526,66 C570,70 580,100 620,110" fill="none" stroke="#56534c" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+<path d="M526,182 C570,178 580,140 620,124" fill="none" stroke="#56534c" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+<rect x="626" y="78" width="200" height="32" rx="6" fill="#3987e5" stroke="#3987e5"/>
+  <text x="644" y="99" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0">1</text>
+  <rect x="662" y="90" width="120" height="6" fill="#ffffff" rx="3"/><rect x="626" y="118" width="200" height="32" rx="6" fill="#f4f1ea" stroke="#bdb6a6"/>
+  <text x="644" y="139" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#6b6860" text-anchor="middle" letter-spacing="0">2</text>
+  <rect x="662" y="130" width="100" height="6" fill="#bdb5a3" rx="3"/><rect x="626" y="158" width="200" height="32" rx="6" fill="#f4f1ea" stroke="#bdb6a6"/>
+  <text x="644" y="179" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#6b6860" text-anchor="middle" letter-spacing="0">3</text>
+  <rect x="662" y="170" width="80" height="6" fill="#bdb5a3" rx="3"/>
+<text x="726" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#b4b2a8" text-anchor="middle" letter-spacing="0">merged into one ranking</text>
+</svg>

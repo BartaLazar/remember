@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="Three open bins for files, chats and notes, with the bot sorting a card into them">
+<title>Three open bins for files, chats and notes, with the bot sorting a card into them</title>
+<rect x="0.5" y="0.5" width="879" height="229" rx="14" fill="#f6f1e9" stroke="rgba(11,11,11,0.08)"/>
+<rect x="24" y="200" width="832" height="4" fill="#e6dccb" rx="2"/>
+<g shape-rendering="crispEdges"><rect x="78" y="136" width="80" height="48" fill="#d97757" /><rect x="78" y="176" width="80" height="8" fill="#b85f42" /><rect x="94" y="144" width="8" height="16" fill="#1f1e1c" /><rect x="134" y="144" width="8" height="16" fill="#1f1e1c" /><rect x="86" y="184" width="8" height="16" fill="#d97757" /><rect x="102" y="184" width="8" height="16" fill="#d97757" /><rect x="126" y="184" width="8" height="16" fill="#d97757" /><rect x="142" y="184" width="8" height="16" fill="#d97757" /><rect x="70" y="128" width="8" height="24" fill="#d97757" /><rect x="158" y="128" width="8" height="24" fill="#d97757" /></g>
+<g transform="rotate(-4 114 110)">
+  <rect x="90" y="90" width="56" height="40" rx="4" fill="#ffffff" stroke="#d8d2c4"/>
+  <path d="M98,100 h14 l5,5 v15 h-19 z" fill="#e8a33d"/>
+  <rect x="124" y="102" width="16" height="3" fill="#c9c2b2" rx="1.5"/><rect x="124" y="109" width="12" height="3" fill="#c9c2b2" rx="1.5"/><rect x="124" y="116" width="14" height="3" fill="#c9c2b2" rx="1.5"/>
+</g>
+<g transform="rotate(-6 288 126)">
+  <rect x="264" y="106" width="56" height="40" rx="4" fill="#ffffff" stroke="#d8d2c4"/>
+  <text x="280" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#2a78d6" text-anchor="middle" letter-spacing="0">&lt;/&gt;</text>
+  <rect x="298" y="118" width="16" height="3" fill="#c9c2b2" rx="1.5"/><rect x="298" y="125" width="12" height="3" fill="#c9c2b2" rx="1.5"/><rect x="298" y="132" width="14" height="3" fill="#c9c2b2" rx="1.5"/>
+</g><g transform="rotate(5 344 132)">
+  <rect x="320" y="112" width="56" height="40" rx="4" fill="#ffffff" stroke="#d8d2c4"/>
+  <text x="336" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#2a78d6" text-anchor="middle" letter-spacing="0">&lt;/&gt;</text>
+  <rect x="354" y="124" width="16" height="3" fill="#c9c2b2" rx="1.5"/><rect x="354" y="131" width="12" height="3" fill="#c9c2b2" rx="1.5"/><rect x="354" y="138" width="14" height="3" fill="#c9c2b2" rx="1.5"/>
+</g><rect x="250" y="136" width="150" height="64" rx="5" fill="#ece6da" stroke="#cfc7b6" stroke-width="2"/><rect x="287" y="153" width="76" height="22" rx="3" fill="#fbf8f2" stroke="#cfc7b6"/><text x="325" y="169" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2b2a27" text-anchor="middle" letter-spacing="1.5">FILES</text>
+<g transform="rotate(-6 488 126)">
+  <rect x="464" y="106" width="56" height="40" rx="4" fill="#ffffff" stroke="#d8d2c4"/>
+  <path d="M471,118 h18 a3,3 0 0 1 3,3 v8 a3,3 0 0 1 -3,3 h-10 l-5,4 v-4 h-3 a3,3 0 0 1 -3,-3 v-8 a3,3 0 0 1 3,-3 z" fill="#d97757"/>
+  <rect x="498" y="118" width="16" height="3" fill="#c9c2b2" rx="1.5"/><rect x="498" y="125" width="12" height="3" fill="#c9c2b2" rx="1.5"/><rect x="498" y="132" width="14" height="3" fill="#c9c2b2" rx="1.5"/>
+</g><g transform="rotate(5 544 132)">
+  <rect x="520" y="112" width="56" height="40" rx="4" fill="#ffffff" stroke="#d8d2c4"/>
+  <path d="M527,124 h18 a3,3 0 0 1 3,3 v8 a3,3 0 0 1 -3,3 h-10 l-5,4 v-4 h-3 a3,3 0 0 1 -3,-3 v-8 a3,3 0 0 1 3,-3 z" fill="#d97757"/>
+  <rect x="554" y="124" width="16" height="3" fill="#c9c2b2" rx="1.5"/><rect x="554" y="131" width="12" height="3" fill="#c9c2b2" rx="1.5"/><rect x="554" y="138" width="14" height="3" fill="#c9c2b2" rx="1.5"/>
+</g><rect x="450" y="136" width="150" height="64" rx="5" fill="#ece6da" stroke="#cfc7b6" stroke-width="2"/><rect x="487" y="153" width="76" height="22" rx="3" fill="#fbf8f2" stroke="#cfc7b6"/><text x="525" y="169" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2b2a27" text-anchor="middle" letter-spacing="1.5">CHATS</text>
+<g transform="rotate(-6 688 126)">
+  <rect x="664" y="106" width="56" height="40" rx="4" fill="#ffffff" stroke="#d8d2c4"/>
+  <path d="M672,116 h14 l5,5 v15 h-19 z" fill="#e8a33d"/>
+  <rect x="698" y="118" width="16" height="3" fill="#c9c2b2" rx="1.5"/><rect x="698" y="125" width="12" height="3" fill="#c9c2b2" rx="1.5"/><rect x="698" y="132" width="14" height="3" fill="#c9c2b2" rx="1.5"/>
+</g><g transform="rotate(5 744 132)">
+  <rect x="720" y="112" width="56" height="40" rx="4" fill="#ffffff" stroke="#d8d2c4"/>
+  <path d="M728,122 h14 l5,5 v15 h-19 z" fill="#e8a33d"/>
+  <rect x="754" y="124" width="16" height="3" fill="#c9c2b2" rx="1.5"/><rect x="754" y="131" width="12" height="3" fill="#c9c2b2" rx="1.5"/><rect x="754" y="138" width="14" height="3" fill="#c9c2b2" rx="1.5"/>
+</g><rect x="650" y="136" width="150" height="64" rx="5" fill="#ece6da" stroke="#cfc7b6" stroke-width="2"/><rect x="687" y="153" width="76" height="22" rx="3" fill="#fbf8f2" stroke="#cfc7b6"/><text x="725" y="169" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2b2a27" text-anchor="middle" letter-spacing="1.5">NOTES</text>
+<path d="M840,44 L841.8,48.2 L846,50 L841.8,51.8 L840,56 L838.2,51.8 L834,50 L838.2,48.2 Z" fill="#e8a33d"/>
+<path d="M420,39 L421.5,42.5 L425,44 L421.5,45.5 L420,49 L418.5,45.5 L415,44 L418.5,42.5 Z" fill="#e8a33d"/>
+</svg>

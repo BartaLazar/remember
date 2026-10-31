@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="The bot feeds a card labelled legacy/** into a shredder marked forget">
+<title>The bot feeds a card labelled legacy/** into a shredder marked forget</title>
+<rect x="0.5" y="0.5" width="879" height="249" rx="14" fill="#1c1b19" stroke="rgba(255,255,255,0.08)"/>
+<rect x="24" y="214" width="832" height="4" fill="#2a2926" rx="2"/>
+<g shape-rendering="crispEdges"><rect x="338" y="150" width="80" height="48" fill="#d97757" /><rect x="338" y="190" width="80" height="8" fill="#a9583d" /><rect x="354" y="158" width="8" height="16" fill="#121211" /><rect x="394" y="158" width="8" height="16" fill="#121211" /><rect x="346" y="198" width="8" height="16" fill="#d97757" /><rect x="362" y="198" width="8" height="16" fill="#d97757" /><rect x="386" y="198" width="8" height="16" fill="#d97757" /><rect x="402" y="198" width="8" height="16" fill="#d97757" /><rect x="330" y="142" width="8" height="24" fill="#d97757" /><rect x="418" y="142" width="8" height="24" fill="#d97757" /></g>
+<g transform="rotate(12 510 64)">
+  <rect x="470" y="40" width="120" height="44" rx="5" fill="#f4f1ea" stroke="#bdb6a6"/>
+  <text x="530" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#2b2a27" text-anchor="middle" letter-spacing="0">legacy/**</text>
+</g>
+<rect x="460" y="80" width="170" height="78" rx="8" fill="#6e6d68" stroke="#4a4945" stroke-width="2"/>
+<rect x="485" y="92" width="120" height="6" fill="#4a4945" rx="3"/>
+<rect x="507" y="116" width="76" height="22" rx="3" fill="#55534e" stroke="#2c2b28"/>
+<text x="545" y="131" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#f0efec" text-anchor="middle" letter-spacing="1.5">FORGET</text>
+<rect x="492" y="162" width="8" height="34" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="506" y="165" width="8" height="29" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="520" y="168" width="8" height="24" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="534" y="162" width="8" height="19" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="548" y="165" width="8" height="34" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="562" y="168" width="8" height="29" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="576" y="162" width="8" height="24" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="590" y="165" width="8" height="19" fill="#f4f1ea" stroke="#bdb6a6"/><rect x="604" y="168" width="8" height="34" fill="#f4f1ea" stroke="#bdb6a6"/>
+<rect x="470" y="190" width="150" height="24" rx="6" fill="#3a3935" stroke="#2c2b28" stroke-width="2"/>
+<text x="740" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#b4b2a8" text-anchor="middle" letter-spacing="0">gone from the index,</text>
+<text x="740" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#b4b2a8" text-anchor="middle" letter-spacing="0">and kept out</text>
+<rect x="436" y="96" width="26" height="3" fill="#56534c" rx="1.5"/>
+<rect x="440" y="106" width="18" height="3" fill="#56534c" rx="1.5"/>
+</svg>

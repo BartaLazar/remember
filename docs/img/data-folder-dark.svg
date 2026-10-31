@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" role="img" aria-label="The .remember folder holds notes.jsonl, the one file worth backing up, plus a rebuildable index; git never sees it">
+<title>The .remember folder holds notes.jsonl, the one file worth backing up, plus a rebuildable index; git never sees it</title>
+<rect x="0.5" y="0.5" width="879" height="259" rx="14" fill="#1c1b19" stroke="rgba(255,255,255,0.08)"/>
+<rect x="24" y="228" width="832" height="4" fill="#2a2926" rx="2"/>
+<path d="M250,40 h120 l18,20 h330 a8,8 0 0 1 8,8 v152 a8,8 0 0 1 -8,8 h-460 a8,8 0 0 1 -8,-8 v-172 a8,8 0 0 1 8,-8 z" fill="#3a3935" stroke="#2c2b28" stroke-width="2"/>
+<text x="268" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#f0efec" text-anchor="start" letter-spacing="0">.remember/</text>
+<rect x="270" y="84" width="170" height="52" rx="6" fill="#f4f1ea" stroke="#f0b44d" stroke-width="2.5"/>
+  <text x="284" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#2b2a27" text-anchor="start" letter-spacing="0">notes.jsonl</text><text x="284" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#a9583d" text-anchor="start" letter-spacing="0">★ back this up</text>
+<rect x="456" y="84" width="170" height="52" rx="6" fill="#f4f1ea" stroke="#bdb6a6" stroke-width="1"/>
+  <text x="470" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#2b2a27" text-anchor="start" letter-spacing="0">exclusions.json</text><text x="470" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6b6860" text-anchor="start" letter-spacing="0">what you forgot</text>
+<rect x="270" y="150" width="170" height="52" rx="6" fill="#f4f1ea" stroke="#bdb6a6" stroke-width="1"/>
+  <text x="284" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#2b2a27" text-anchor="start" letter-spacing="0">index.db</text><text x="284" y="191" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6b6860" text-anchor="start" letter-spacing="0">rebuildable cache</text>
+<rect x="456" y="150" width="170" height="52" rx="6" fill="#f4f1ea" stroke="#bdb6a6" stroke-width="1"/>
+  <text x="470" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#2b2a27" text-anchor="start" letter-spacing="0">.gitignore  *</text><text x="470" y="191" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6b6860" text-anchor="start" letter-spacing="0">git never sees it</text>
+<g transform="rotate(-8 700 70)"><rect x="642" y="52" width="120" height="34" rx="6" fill="none" stroke="#e66767" stroke-width="3"/><text x="702" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#e66767" text-anchor="middle" letter-spacing="1.5">NOT IN GIT</text></g>
+<g shape-rendering="crispEdges"><rect x="98" y="164" width="80" height="48" fill="#d97757" /><rect x="98" y="204" width="80" height="8" fill="#a9583d" /><rect x="114" y="172" width="8" height="16" fill="#121211" /><rect x="154" y="172" width="8" height="16" fill="#121211" /><rect x="106" y="212" width="8" height="16" fill="#d97757" /><rect x="122" y="212" width="8" height="16" fill="#d97757" /><rect x="146" y="212" width="8" height="16" fill="#d97757" /><rect x="162" y="212" width="8" height="16" fill="#d97757" /><rect x="90" y="156" width="8" height="24" fill="#d97757" /><rect x="178" y="156" width="8" height="24" fill="#d97757" /></g>
+<g transform="rotate(-3 134 140)">
+  <rect x="110" y="120" width="56" height="40" rx="4" fill="#f4f1ea" stroke="#bdb6a6"/>
+  <path d="M118,130 h14 l5,5 v15 h-19 z" fill="#f0b44d"/>
+  <rect x="144" y="132" width="16" height="3" fill="#bdb5a3" rx="1.5"/><rect x="144" y="139" width="12" height="3" fill="#bdb5a3" rx="1.5"/><rect x="144" y="146" width="14" height="3" fill="#bdb5a3" rx="1.5"/>
+</g>
+</svg>

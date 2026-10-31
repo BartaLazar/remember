@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="The bot files a new decision note about cursor pagination; the old offset note lies crossed out on the floor">
+<title>The bot files a new decision note about cursor pagination; the old offset note lies crossed out on the floor</title>
+<rect x="0.5" y="0.5" width="879" height="249" rx="14" fill="#f6f1e9" stroke="rgba(11,11,11,0.08)"/>
+<rect x="24" y="214" width="832" height="4" fill="#e6dccb" rx="2"/>
+<g transform="translate(610 39) scale(0.7)"><rect x="0" y="0" width="220" height="250" rx="6" fill="#5b5a55" stroke="#3f3e3a" stroke-width="2"/>
+<rect x="8" y="10" width="204" height="70" rx="4" fill="#ece6da" stroke="#cfc7b6" stroke-width="2"/>
+<rect x="72" y="21" width="76" height="22" rx="3" fill="#fbf8f2" stroke="#cfc7b6"/><text x="110" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2b2a27" text-anchor="middle" letter-spacing="1.5">FILES</text>
+<rect x="88" y="56" width="44" height="8" rx="4" fill="#8a8984"/>
+<rect x="8" y="90" width="204" height="70" rx="4" fill="#ece6da" stroke="#cfc7b6" stroke-width="2"/>
+<rect x="72" y="101" width="76" height="22" rx="3" fill="#fbf8f2" stroke="#cfc7b6"/><text x="110" y="117" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2b2a27" text-anchor="middle" letter-spacing="1.5">CHATS</text>
+<rect x="88" y="136" width="44" height="8" rx="4" fill="#8a8984"/>
+<rect x="6" y="170" width="208" height="70" rx="3" fill="#3f3e3a"/>
+<path d="M-30,180 L6,170 L214,170 L178,180 Z" fill="#cfc7b6"/>
+<rect x="-14" y="158" width="44" height="30" rx="3" fill="#ffffff" stroke="#d8d2c4"/>
+<rect x="-8" y="165" width="24" height="3" fill="#c9c2b2" rx="1.5"/>
+<rect x="38" y="162" width="44" height="30" rx="3" fill="#ffffff" stroke="#d8d2c4"/>
+<rect x="44" y="169" width="24" height="3" fill="#c9c2b2" rx="1.5"/>
+<rect x="90" y="158" width="44" height="30" rx="3" fill="#ffffff" stroke="#d8d2c4"/>
+<rect x="96" y="165" width="24" height="3" fill="#c9c2b2" rx="1.5"/>
+<rect x="-36" y="180" width="220" height="70" rx="4" fill="#ece6da" stroke="#cfc7b6" stroke-width="2"/>
+<rect x="36" y="191" width="76" height="22" rx="3" fill="#fbf8f2" stroke="#cfc7b6"/><text x="74" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2b2a27" text-anchor="middle" letter-spacing="1.5">NOTES</text>
+<rect x="52" y="226" width="44" height="8" rx="4" fill="#8a8984"/></g>
+<g shape-rendering="crispEdges"><rect x="428" y="150" width="80" height="48" fill="#d97757" /><rect x="428" y="190" width="80" height="8" fill="#b85f42" /><rect x="444" y="158" width="8" height="16" fill="#1f1e1c" /><rect x="484" y="158" width="8" height="16" fill="#1f1e1c" /><rect x="436" y="198" width="8" height="16" fill="#d97757" /><rect x="452" y="198" width="8" height="16" fill="#d97757" /><rect x="476" y="198" width="8" height="16" fill="#d97757" /><rect x="492" y="198" width="8" height="16" fill="#d97757" /><rect x="420" y="142" width="8" height="24" fill="#d97757" /><rect x="508" y="142" width="8" height="24" fill="#d97757" /></g>
+<g transform="rotate(-3 461 108)">
+  <rect x="330" y="74" width="262" height="68" rx="6" fill="#ffffff" stroke="#d8d2c4"/>
+  <path d="M344,88 h18 l6,6 v24 h-24 z" fill="#e8a33d"/>
+  <text x="382" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#2b2a27" text-anchor="start" letter-spacing="0">Cursor pagination</text>
+  <text x="382" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#6b6860" text-anchor="start" letter-spacing="0">because offsets broke at 1M rows</text>
+  
+</g>
+<g transform="rotate(4 191 198)">
+  <rect x="60" y="164" width="262" height="68" rx="6" fill="#ffffff" stroke="#d8d2c4"/>
+  <path d="M74,178 h18 l6,6 v24 h-24 z" fill="#c9c2b2"/>
+  <text x="112" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#2b2a27" text-anchor="start" letter-spacing="0">Offset pagination</text>
+  <text x="112" y="214" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#6b6860" text-anchor="start" letter-spacing="0">replaced</text>
+  <line x1="108" y1="190" x2="280" y2="190" stroke="#e34948" stroke-width="3" stroke-linecap="round"/>
+</g>
+<path d="M590,39 L592.1,43.9 L597,46 L592.1,48.1 L590,53 L587.9,48.1 L583,46 L587.9,43.9 Z" fill="#e8a33d"/>
+<path d="M320,51 L321.5,54.5 L325,56 L321.5,57.5 L320,61 L318.5,57.5 L315,56 L318.5,54.5 Z" fill="#e8a33d"/>
+</svg>

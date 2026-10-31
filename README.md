@@ -64,7 +64,7 @@ Ask Claude to turn remember off here (the `forget` skill), or create an empty fi
 - After the model is cached, everything runs offline. A test (`test/offline.test.js`) indexes and searches with all network access blocked and fails on any attempt.
 - Files, chats and notes never leave the project's `.remember/` folder.
 - Chat text is stored with common secret patterns redacted.
-- No telemetry.
+- The plugin does not connect to any external service and does not send data to any third party. The one-time model download above only fetches the model and sends no project data.
 
 ## Troubleshooting
 

@@ -1,0 +1,27 @@
+{
+ "express": {
+  "files": 213,
+  "chunks": 645,
+  "buildSeconds": 67.2
+ },
+ "flask": {
+  "files": 229,
+  "chunks": 1180,
+  "buildSeconds": 183.5
+ },
+ "gin": {
+  "files": 128,
+  "chunks": 837,
+  "buildSeconds": 173.5
+ },
+ "ripgrep": {
+  "files": 214,
+  "chunks": 2312,
+  "buildSeconds": 349.9
+ },
+ "remember": {
+  "files": 52,
+  "chunks": 253,
+  "buildSeconds": 30.4
+ }
+}

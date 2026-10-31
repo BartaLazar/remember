@@ -1,0 +1,1292 @@
+[
+ {
+  "id": "flask:id:wsgi_errors_stream",
+  "type": "identifier",
+  "q": "where is wsgi_errors_stream defined",
+  "repo": "flask",
+  "file": "src/flask/logging.py",
+  "start": 16,
+  "end": 28,
+  "name": "wsgi_errors_stream"
+ },
+ {
+  "id": "flask:doc:wsgi_errors_stream",
+  "type": "docstring",
+  "q": "Find the most appropriate error stream for the application",
+  "repo": "flask",
+  "file": "src/flask/logging.py",
+  "start": 16,
+  "end": 28,
+  "name": "wsgi_errors_stream"
+ },
+ {
+  "id": "flask:vague:wsgi_errors_stream",
+  "type": "vague",
+  "q": "find appropriate error stream",
+  "repo": "flask",
+  "file": "src/flask/logging.py",
+  "start": 16,
+  "end": 28,
+  "name": "wsgi_errors_stream"
+ },
+ {
+  "id": "flask:id:get_cookie_domain",
+  "type": "identifier",
+  "q": "where is get_cookie_domain defined",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 175,
+  "end": 185,
+  "name": "get_cookie_domain"
+ },
+ {
+  "id": "flask:doc:get_cookie_domain",
+  "type": "docstring",
+  "q": "The value of the Domain parameter on the session cookie",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 175,
+  "end": 185,
+  "name": "get_cookie_domain"
+ },
+ {
+  "id": "flask:vague:get_cookie_domain",
+  "type": "vague",
+  "q": "value domain parameter session",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 175,
+  "end": 185,
+  "name": "get_cookie_domain"
+ },
+ {
+  "id": "flask:id:get_cookie_httponly",
+  "type": "identifier",
+  "q": "where is get_cookie_httponly defined",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 195,
+  "end": 200,
+  "name": "get_cookie_httponly"
+ },
+ {
+  "id": "flask:doc:get_cookie_httponly",
+  "type": "docstring",
+  "q": "Returns True if the session cookie should be httponly",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 195,
+  "end": 200,
+  "name": "get_cookie_httponly"
+ },
+ {
+  "id": "flask:vague:get_cookie_httponly",
+  "type": "vague",
+  "q": "true session cookie httponly",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 195,
+  "end": 200,
+  "name": "get_cookie_httponly"
+ },
+ {
+  "id": "flask:id:ConfigAttribute",
+  "type": "identifier",
+  "q": "where is ConfigAttribute defined",
+  "repo": "flask",
+  "file": "src/flask/config.py",
+  "start": 20,
+  "end": 47,
+  "name": "ConfigAttribute"
+ },
+ {
+  "id": "flask:doc:ConfigAttribute",
+  "type": "docstring",
+  "q": "Makes an attribute forward to the config",
+  "repo": "flask",
+  "file": "src/flask/config.py",
+  "start": 20,
+  "end": 47,
+  "name": "ConfigAttribute"
+ },
+ {
+  "id": "flask:vague:ConfigAttribute",
+  "type": "vague",
+  "q": "makes attribute forward config",
+  "repo": "flask",
+  "file": "src/flask/config.py",
+  "start": 20,
+  "end": 47,
+  "name": "ConfigAttribute"
+ },
+ {
+  "id": "flask:id:BlueprintSetupState",
+  "type": "identifier",
+  "q": "where is BlueprintSetupState defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 34,
+  "end": 116,
+  "name": "BlueprintSetupState"
+ },
+ {
+  "id": "flask:doc:BlueprintSetupState",
+  "type": "docstring",
+  "q": "Temporary holder object for registering a blueprint with the application",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 34,
+  "end": 116,
+  "name": "BlueprintSetupState"
+ },
+ {
+  "id": "flask:vague:BlueprintSetupState",
+  "type": "vague",
+  "q": "temporary holder object registering",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 34,
+  "end": 116,
+  "name": "BlueprintSetupState"
+ },
+ {
+  "id": "flask:id:json_dumps",
+  "type": "identifier",
+  "q": "where is json_dumps defined",
+  "repo": "flask",
+  "file": "src/flask/testing.py",
+  "start": 88,
+  "end": 94,
+  "name": "json_dumps"
+ },
+ {
+  "id": "flask:doc:json_dumps",
+  "type": "docstring",
+  "q": "Serialize obj to a JSON-formatted string",
+  "repo": "flask",
+  "file": "src/flask/testing.py",
+  "start": 88,
+  "end": 94,
+  "name": "json_dumps"
+ },
+ {
+  "id": "flask:vague:json_dumps",
+  "type": "vague",
+  "q": "serialize json-formatted string",
+  "repo": "flask",
+  "file": "src/flask/testing.py",
+  "start": 88,
+  "end": 94,
+  "name": "json_dumps"
+ },
+ {
+  "id": "flask:id:copy_current_request_context",
+  "type": "identifier",
+  "q": "where is copy_current_request_context defined",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 155,
+  "end": 193,
+  "name": "copy_current_request_context"
+ },
+ {
+  "id": "flask:doc:copy_current_request_context",
+  "type": "docstring",
+  "q": "A helper function that decorates a function to retain the current request context",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 155,
+  "end": 193,
+  "name": "copy_current_request_context"
+ },
+ {
+  "id": "flask:vague:copy_current_request_context",
+  "type": "vague",
+  "q": "helper function decorates retain",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 155,
+  "end": 193,
+  "name": "copy_current_request_context"
+ },
+ {
+  "id": "flask:id:has_request_context",
+  "type": "identifier",
+  "q": "where is has_request_context defined",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 196,
+  "end": 225,
+  "name": "has_request_context"
+ },
+ {
+  "id": "flask:doc:has_request_context",
+  "type": "docstring",
+  "q": "If you have code that wants to test if a request context is there or not this function can be used",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 196,
+  "end": 225,
+  "name": "has_request_context"
+ },
+ {
+  "id": "flask:vague:has_request_context",
+  "type": "vague",
+  "q": "code wants test request",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 196,
+  "end": 225,
+  "name": "has_request_context"
+ },
+ {
+  "id": "flask:id:get_debug_flag",
+  "type": "identifier",
+  "q": "where is get_debug_flag defined",
+  "repo": "flask",
+  "file": "src/flask/helpers.py",
+  "start": 28,
+  "end": 33,
+  "name": "get_debug_flag"
+ },
+ {
+  "id": "flask:doc:get_debug_flag",
+  "type": "docstring",
+  "q": "Get whether debug mode should be enabled for the app indicated by the environment variable",
+  "repo": "flask",
+  "file": "src/flask/helpers.py",
+  "start": 28,
+  "end": 33,
+  "name": "get_debug_flag"
+ },
+ {
+  "id": "flask:vague:get_debug_flag",
+  "type": "vague",
+  "q": "debug mode enabled indicated",
+  "repo": "flask",
+  "file": "src/flask/helpers.py",
+  "start": 28,
+  "end": 33,
+  "name": "get_debug_flag"
+ },
+ {
+  "id": "flask:id:make_null_session",
+  "type": "identifier",
+  "q": "where is make_null_session defined",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 150,
+  "end": 160,
+  "name": "make_null_session"
+ },
+ {
+  "id": "flask:doc:make_null_session",
+  "type": "docstring",
+  "q": "Creates a null session which acts as a replacement object if the real session support could not be loaded due to a configuration error",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 150,
+  "end": 160,
+  "name": "make_null_session"
+ },
+ {
+  "id": "flask:vague:make_null_session",
+  "type": "vague",
+  "q": "creates null session acts",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 150,
+  "end": 160,
+  "name": "make_null_session"
+ },
+ {
+  "id": "flask:id:should_set_cookie",
+  "type": "identifier",
+  "q": "where is should_set_cookie defined",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 233,
+  "end": 247,
+  "name": "should_set_cookie"
+ },
+ {
+  "id": "flask:doc:should_set_cookie",
+  "type": "docstring",
+  "q": "Used by session backends to determine if a Set-Cookie header should be set for this session cookie for this response",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 233,
+  "end": 247,
+  "name": "should_set_cookie"
+ },
+ {
+  "id": "flask:vague:should_set_cookie",
+  "type": "vague",
+  "q": "session backends determine set-cookie",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 233,
+  "end": 247,
+  "name": "should_set_cookie"
+ },
+ {
+  "id": "flask:id:template_filter",
+  "type": "identifier",
+  "q": "where is template_filter defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 664,
+  "end": 683,
+  "name": "template_filter"
+ },
+ {
+  "id": "flask:doc:template_filter",
+  "type": "docstring",
+  "q": "A decorator that is used to register custom template filter",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 664,
+  "end": 683,
+  "name": "template_filter"
+ },
+ {
+  "id": "flask:vague:template_filter",
+  "type": "vague",
+  "q": "decorator register custom template",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 664,
+  "end": 683,
+  "name": "template_filter"
+ },
+ {
+  "id": "flask:id:teardown_appcontext",
+  "type": "identifier",
+  "q": "where is teardown_appcontext defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 779,
+  "end": 810,
+  "name": "teardown_appcontext"
+ },
+ {
+  "id": "flask:doc:teardown_appcontext",
+  "type": "docstring",
+  "q": "Registers a function to be called when the application context is popped",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 779,
+  "end": 810,
+  "name": "teardown_appcontext"
+ },
+ {
+  "id": "flask:vague:teardown_appcontext",
+  "type": "vague",
+  "q": "registers function called application",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 779,
+  "end": 810,
+  "name": "teardown_appcontext"
+ },
+ {
+  "id": "flask:id:Environment",
+  "type": "identifier",
+  "q": "where is Environment defined",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 40,
+  "end": 50,
+  "name": "Environment"
+ },
+ {
+  "id": "flask:doc:Environment",
+  "type": "docstring",
+  "q": "Works like a regular Jinja but has some additional knowledge of how Flask's blueprint works so that it can prepend the name of the blueprint to referenced templates if necessary",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 40,
+  "end": 50,
+  "name": "Environment"
+ },
+ {
+  "id": "flask:vague:Environment",
+  "type": "vague",
+  "q": "works like regular jinja",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 40,
+  "end": 50,
+  "name": "Environment"
+ },
+ {
+  "id": "flask:id:update_template_context",
+  "type": "identifier",
+  "q": "where is update_template_context defined",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 506,
+  "end": 532,
+  "name": "update_template_context"
+ },
+ {
+  "id": "flask:doc:update_template_context",
+  "type": "docstring",
+  "q": "Update the template context with some commonly used variables",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 506,
+  "end": 532,
+  "name": "update_template_context"
+ },
+ {
+  "id": "flask:vague:update_template_context",
+  "type": "vague",
+  "q": "update template context some",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 506,
+  "end": 532,
+  "name": "update_template_context"
+ },
+ {
+  "id": "flask:id:stream_template",
+  "type": "identifier",
+  "q": "where is stream_template defined",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 189,
+  "end": 205,
+  "name": "stream_template"
+ },
+ {
+  "id": "flask:doc:stream_template",
+  "type": "docstring",
+  "q": "Render a template by name with the given context as a stream",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 189,
+  "end": 205,
+  "name": "stream_template"
+ },
+ {
+  "id": "flask:vague:stream_template",
+  "type": "vague",
+  "q": "render template name context",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 189,
+  "end": 205,
+  "name": "stream_template"
+ },
+ {
+  "id": "flask:id:test_request_context",
+  "type": "identifier",
+  "q": "where is test_request_context defined",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 1423,
+  "end": 1477,
+  "name": "test_request_context"
+ },
+ {
+  "id": "flask:doc:test_request_context",
+  "type": "docstring",
+  "q": "Create a for a WSGI environment created from the given values",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 1423,
+  "end": 1477,
+  "name": "test_request_context"
+ },
+ {
+  "id": "flask:vague:test_request_context",
+  "type": "vague",
+  "q": "create wsgi environment created",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 1423,
+  "end": 1477,
+  "name": "test_request_context"
+ },
+ {
+  "id": "flask:id:_called_with_wrong_args",
+  "type": "identifier",
+  "q": "where is _called_with_wrong_args defined",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 94,
+  "end": 117,
+  "name": "_called_with_wrong_args"
+ },
+ {
+  "id": "flask:doc:_called_with_wrong_args",
+  "type": "docstring",
+  "q": "Check whether calling a function raised a because the call failed or because something in the factory raised the error",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 94,
+  "end": 117,
+  "name": "_called_with_wrong_args"
+ },
+ {
+  "id": "flask:vague:_called_with_wrong_args",
+  "type": "vague",
+  "q": "check calling function raised",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 94,
+  "end": 117,
+  "name": "_called_with_wrong_args"
+ },
+ {
+  "id": "flask:id:FormDataRoutingRedirect",
+  "type": "identifier",
+  "q": "where is FormDataRoutingRedirect defined",
+  "repo": "flask",
+  "file": "src/flask/debughelpers.py",
+  "start": 50,
+  "end": 78,
+  "name": "FormDataRoutingRedirect"
+ },
+ {
+  "id": "flask:doc:FormDataRoutingRedirect",
+  "type": "docstring",
+  "q": "This exception is raised in debug mode if a routing redirect would cause the browser to drop the method or body",
+  "repo": "flask",
+  "file": "src/flask/debughelpers.py",
+  "start": 50,
+  "end": 78,
+  "name": "FormDataRoutingRedirect"
+ },
+ {
+  "id": "flask:vague:FormDataRoutingRedirect",
+  "type": "vague",
+  "q": "exception raised debug mode",
+  "repo": "flask",
+  "file": "src/flask/debughelpers.py",
+  "start": 50,
+  "end": 78,
+  "name": "FormDataRoutingRedirect"
+ },
+ {
+  "id": "flask:id:as_view",
+  "type": "identifier",
+  "q": "where is as_view defined",
+  "repo": "flask",
+  "file": "src/flask/views.py",
+  "start": 86,
+  "end": 135,
+  "name": "as_view"
+ },
+ {
+  "id": "flask:doc:as_view",
+  "type": "docstring",
+  "q": "Convert the class into a view function that can be registered for a route",
+  "repo": "flask",
+  "file": "src/flask/views.py",
+  "start": 86,
+  "end": 135,
+  "name": "as_view"
+ },
+ {
+  "id": "flask:vague:as_view",
+  "type": "vague",
+  "q": "convert class view function",
+  "repo": "flask",
+  "file": "src/flask/views.py",
+  "start": 86,
+  "end": 135,
+  "name": "as_view"
+ },
+ {
+  "id": "flask:id:add_template_test",
+  "type": "identifier",
+  "q": "where is add_template_test defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 727,
+  "end": 738,
+  "name": "add_template_test"
+ },
+ {
+  "id": "flask:doc:add_template_test",
+  "type": "docstring",
+  "q": "Register a custom template test",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 727,
+  "end": 738,
+  "name": "add_template_test"
+ },
+ {
+  "id": "flask:vague:add_template_test",
+  "type": "vague",
+  "q": "register custom template test",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 727,
+  "end": 738,
+  "name": "add_template_test"
+ },
+ {
+  "id": "flask:id:command",
+  "type": "identifier",
+  "q": "where is command defined",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 413,
+  "end": 427,
+  "name": "command"
+ },
+ {
+  "id": "flask:doc:command",
+  "type": "docstring",
+  "q": "This works exactly like the method of the same name on a regular but it wraps callbacks in unless it's disabled by passing",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 413,
+  "end": 427,
+  "name": "command"
+ },
+ {
+  "id": "flask:vague:command",
+  "type": "vague",
+  "q": "works exactly like method",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 413,
+  "end": 427,
+  "name": "command"
+ },
+ {
+  "id": "flask:id:do_teardown_appcontext",
+  "type": "identifier",
+  "q": "where is do_teardown_appcontext defined",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 1360,
+  "end": 1384,
+  "name": "do_teardown_appcontext"
+ },
+ {
+  "id": "flask:doc:do_teardown_appcontext",
+  "type": "docstring",
+  "q": "Called right before the application context is popped",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 1360,
+  "end": 1384,
+  "name": "do_teardown_appcontext"
+ },
+ {
+  "id": "flask:vague:do_teardown_appcontext",
+  "type": "vague",
+  "q": "called right before application",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 1360,
+  "end": 1384,
+  "name": "do_teardown_appcontext"
+ },
+ {
+  "id": "flask:id:DefaultJSONProvider",
+  "type": "identifier",
+  "q": "where is DefaultJSONProvider defined",
+  "repo": "flask",
+  "file": "src/flask/json/provider.py",
+  "start": 124,
+  "end": 215,
+  "name": "DefaultJSONProvider"
+ },
+ {
+  "id": "flask:doc:DefaultJSONProvider",
+  "type": "docstring",
+  "q": "Provide JSON operations using Python's built-in library",
+  "repo": "flask",
+  "file": "src/flask/json/provider.py",
+  "start": 124,
+  "end": 215,
+  "name": "DefaultJSONProvider"
+ },
+ {
+  "id": "flask:vague:DefaultJSONProvider",
+  "type": "vague",
+  "q": "provide json operations python's",
+  "repo": "flask",
+  "file": "src/flask/json/provider.py",
+  "start": 124,
+  "end": 215,
+  "name": "DefaultJSONProvider"
+ },
+ {
+  "id": "flask:id:jinja_loader",
+  "type": "identifier",
+  "q": "where is jinja_loader defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/scaffold.py",
+  "start": 272,
+  "end": 282,
+  "name": "jinja_loader"
+ },
+ {
+  "id": "flask:doc:jinja_loader",
+  "type": "docstring",
+  "q": "The Jinja loader for this object's templates",
+  "repo": "flask",
+  "file": "src/flask/sansio/scaffold.py",
+  "start": 272,
+  "end": 282,
+  "name": "jinja_loader"
+ },
+ {
+  "id": "flask:vague:jinja_loader",
+  "type": "vague",
+  "q": "jinja loader object's templates",
+  "repo": "flask",
+  "file": "src/flask/sansio/scaffold.py",
+  "start": 272,
+  "end": 282,
+  "name": "jinja_loader"
+ },
+ {
+  "id": "flask:id:handle_user_exception",
+  "type": "identifier",
+  "q": "where is handle_user_exception defined",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 779,
+  "end": 809,
+  "name": "handle_user_exception"
+ },
+ {
+  "id": "flask:doc:handle_user_exception",
+  "type": "docstring",
+  "q": "This method is called whenever an exception occurs that should be handled",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 779,
+  "end": 809,
+  "name": "handle_user_exception"
+ },
+ {
+  "id": "flask:vague:handle_user_exception",
+  "type": "vague",
+  "q": "method called whenever exception",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 779,
+  "end": 809,
+  "name": "handle_user_exception"
+ },
+ {
+  "id": "flask:id:has_app_context",
+  "type": "identifier",
+  "q": "where is has_app_context defined",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 228,
+  "end": 235,
+  "name": "has_app_context"
+ },
+ {
+  "id": "flask:doc:has_app_context",
+  "type": "docstring",
+  "q": "Works like but for the application context",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 228,
+  "end": 235,
+  "name": "has_app_context"
+ },
+ {
+  "id": "flask:vague:has_app_context",
+  "type": "vague",
+  "q": "works like application context",
+  "repo": "flask",
+  "file": "src/flask/ctx.py",
+  "start": 228,
+  "end": 235,
+  "name": "has_app_context"
+ },
+ {
+  "id": "flask:id:add_app_template_global",
+  "type": "identifier",
+  "q": "where is add_app_template_global defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 535,
+  "end": 551,
+  "name": "add_app_template_global"
+ },
+ {
+  "id": "flask:doc:add_app_template_global",
+  "type": "docstring",
+  "q": "Register a template global available in any template rendered by the application",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 535,
+  "end": 551,
+  "name": "add_app_template_global"
+ },
+ {
+  "id": "flask:vague:add_app_template_global",
+  "type": "vague",
+  "q": "register template global available",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 535,
+  "end": 551,
+  "name": "add_app_template_global"
+ },
+ {
+  "id": "flask:id:app_template_filter",
+  "type": "identifier",
+  "q": "where is app_template_filter defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 444,
+  "end": 458,
+  "name": "app_template_filter"
+ },
+ {
+  "id": "flask:doc:app_template_filter",
+  "type": "docstring",
+  "q": "Register a template filter available in any template rendered by the application",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 444,
+  "end": 458,
+  "name": "app_template_filter"
+ },
+ {
+  "id": "flask:vague:app_template_filter",
+  "type": "vague",
+  "q": "register template filter available",
+  "repo": "flask",
+  "file": "src/flask/sansio/blueprints.py",
+  "start": 444,
+  "end": 458,
+  "name": "app_template_filter"
+ },
+ {
+  "id": "flask:id:prepare_import",
+  "type": "identifier",
+  "q": "where is prepare_import defined",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 200,
+  "end": 226,
+  "name": "prepare_import"
+ },
+ {
+  "id": "flask:doc:prepare_import",
+  "type": "docstring",
+  "q": "Given a filename this will try to calculate the python path add it to the search path and return the actual module name that is expected",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 200,
+  "end": 226,
+  "name": "prepare_import"
+ },
+ {
+  "id": "flask:vague:prepare_import",
+  "type": "vague",
+  "q": "filename calculate python path",
+  "repo": "flask",
+  "file": "src/flask/cli.py",
+  "start": 200,
+  "end": 226,
+  "name": "prepare_import"
+ },
+ {
+  "id": "flask:id:JSONProvider",
+  "type": "identifier",
+  "q": "where is JSONProvider defined",
+  "repo": "flask",
+  "file": "src/flask/json/provider.py",
+  "start": 19,
+  "end": 105,
+  "name": "JSONProvider"
+ },
+ {
+  "id": "flask:doc:JSONProvider",
+  "type": "docstring",
+  "q": "A standard set of JSON operations for an application",
+  "repo": "flask",
+  "file": "src/flask/json/provider.py",
+  "start": 19,
+  "end": 105,
+  "name": "JSONProvider"
+ },
+ {
+  "id": "flask:vague:JSONProvider",
+  "type": "vague",
+  "q": "standard json operations application",
+  "repo": "flask",
+  "file": "src/flask/json/provider.py",
+  "start": 19,
+  "end": 105,
+  "name": "JSONProvider"
+ },
+ {
+  "id": "flask:id:template_global",
+  "type": "identifier",
+  "q": "where is template_global defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 741,
+  "end": 762,
+  "name": "template_global"
+ },
+ {
+  "id": "flask:doc:template_global",
+  "type": "docstring",
+  "q": "A decorator that is used to register a custom template global function",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 741,
+  "end": 762,
+  "name": "template_global"
+ },
+ {
+  "id": "flask:vague:template_global",
+  "type": "vague",
+  "q": "decorator register custom template",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 741,
+  "end": 762,
+  "name": "template_global"
+ },
+ {
+  "id": "flask:id:is_null_session",
+  "type": "identifier",
+  "q": "where is is_null_session defined",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 162,
+  "end": 169,
+  "name": "is_null_session"
+ },
+ {
+  "id": "flask:doc:is_null_session",
+  "type": "docstring",
+  "q": "Checks if a given object is a null session",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 162,
+  "end": 169,
+  "name": "is_null_session"
+ },
+ {
+  "id": "flask:vague:is_null_session",
+  "type": "vague",
+  "q": "checks object null session",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 162,
+  "end": 169,
+  "name": "is_null_session"
+ },
+ {
+  "id": "flask:id:SessionInterface",
+  "type": "identifier",
+  "q": "where is SessionInterface defined",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 100,
+  "end": 250,
+  "name": "SessionInterface"
+ },
+ {
+  "id": "flask:doc:SessionInterface",
+  "type": "docstring",
+  "q": "The basic interface you have to implement in order to replace the default session interface which uses werkzeug's securecookie implementation",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 100,
+  "end": 250,
+  "name": "SessionInterface"
+ },
+ {
+  "id": "flask:vague:SessionInterface",
+  "type": "vague",
+  "q": "basic interface implement order",
+  "repo": "flask",
+  "file": "src/flask/sessions.py",
+  "start": 100,
+  "end": 250,
+  "name": "SessionInterface"
+ },
+ {
+  "id": "flask:id:create_url_adapter",
+  "type": "identifier",
+  "q": "where is create_url_adapter defined",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 425,
+  "end": 476,
+  "name": "create_url_adapter"
+ },
+ {
+  "id": "flask:doc:create_url_adapter",
+  "type": "docstring",
+  "q": "Creates a URL adapter for the given request",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 425,
+  "end": 476,
+  "name": "create_url_adapter"
+ },
+ {
+  "id": "flask:vague:create_url_adapter",
+  "type": "vague",
+  "q": "creates adapter request",
+  "repo": "flask",
+  "file": "src/flask/app.py",
+  "start": 425,
+  "end": 476,
+  "name": "create_url_adapter"
+ },
+ {
+  "id": "flask:id:MethodView",
+  "type": "identifier",
+  "q": "where is MethodView defined",
+  "repo": "flask",
+  "file": "src/flask/views.py",
+  "start": 138,
+  "end": 191,
+  "name": "MethodView"
+ },
+ {
+  "id": "flask:doc:MethodView",
+  "type": "docstring",
+  "q": "Dispatches request methods to the corresponding instance methods",
+  "repo": "flask",
+  "file": "src/flask/views.py",
+  "start": 138,
+  "end": 191,
+  "name": "MethodView"
+ },
+ {
+  "id": "flask:vague:MethodView",
+  "type": "vague",
+  "q": "dispatches request methods corresponding",
+  "repo": "flask",
+  "file": "src/flask/views.py",
+  "start": 138,
+  "end": 191,
+  "name": "MethodView"
+ },
+ {
+  "id": "flask:id:jinja_env",
+  "type": "identifier",
+  "q": "where is jinja_env defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 470,
+  "end": 477,
+  "name": "jinja_env"
+ },
+ {
+  "id": "flask:doc:jinja_env",
+  "type": "docstring",
+  "q": "The Jinja environment used to load templates",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 470,
+  "end": 477,
+  "name": "jinja_env"
+ },
+ {
+  "id": "flask:vague:jinja_env",
+  "type": "vague",
+  "q": "jinja environment load templates",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 470,
+  "end": 477,
+  "name": "jinja_env"
+ },
+ {
+  "id": "flask:id:iter_blueprints",
+  "type": "identifier",
+  "q": "where is iter_blueprints defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 597,
+  "end": 602,
+  "name": "iter_blueprints"
+ },
+ {
+  "id": "flask:doc:iter_blueprints",
+  "type": "docstring",
+  "q": "Iterates over all blueprints by the order they were registered",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 597,
+  "end": 602,
+  "name": "iter_blueprints"
+ },
+ {
+  "id": "flask:vague:iter_blueprints",
+  "type": "vague",
+  "q": "iterates over blueprints order",
+  "repo": "flask",
+  "file": "src/flask/sansio/app.py",
+  "start": 597,
+  "end": 602,
+  "name": "iter_blueprints"
+ },
+ {
+  "id": "flask:id:DispatchingJinjaLoader",
+  "type": "identifier",
+  "q": "where is DispatchingJinjaLoader defined",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 53,
+  "end": 124,
+  "name": "DispatchingJinjaLoader"
+ },
+ {
+  "id": "flask:doc:DispatchingJinjaLoader",
+  "type": "docstring",
+  "q": "A loader that looks for templates in the application and all the blueprint folders",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 53,
+  "end": 124,
+  "name": "DispatchingJinjaLoader"
+ },
+ {
+  "id": "flask:vague:DispatchingJinjaLoader",
+  "type": "vague",
+  "q": "loader looks templates application",
+  "repo": "flask",
+  "file": "src/flask/templating.py",
+  "start": 53,
+  "end": 124,
+  "name": "DispatchingJinjaLoader"
+ },
+ {
+  "id": "flask:id:_find_package_path",
+  "type": "identifier",
+  "q": "where is _find_package_path defined",
+  "repo": "flask",
+  "file": "src/flask/sansio/scaffold.py",
+  "start": 709,
+  "end": 751,
+  "name": "_find_package_path"
+ },
+ {
+  "id": "flask:doc:_find_package_path",
+  "type": "docstring",
+  "q": "Find the path that contains the package or module",
+  "repo": "flask",
+  "file": "src/flask/sansio/scaffold.py",
+  "start": 709,
+  "end": 751,
+  "name": "_find_package_path"
+ },
+ {
+  "id": "flask:vague:_find_package_path",
+  "type": "vague",
+  "q": "find path contains package",
+  "repo": "flask",
+  "file": "src/flask/sansio/scaffold.py",
+  "start": 709,
+  "end": 751,
+  "name": "_find_package_path"
+ },
+ {
+  "id": "flask:hand:1",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how does flask decide which config file to load",
+  "file": "src/flask/config.py",
+  "start": 102,
+  "end": 124
+ },
+ {
+  "id": "flask:hand:2",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how does the flask command find the application object in a module",
+  "file": "src/flask/cli.py",
+  "start": 41,
+  "end": 91
+ },
+ {
+  "id": "flask:hand:3",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how does flask turn the return value of a view into a response object",
+  "file": "src/flask/app.py",
+  "start": 1129,
+  "end": 1269
+ },
+ {
+  "id": "flask:hand:4",
+  "repo": "flask",
+  "type": "natural",
+  "q": "what happens when an unhandled exception occurs while handling a request",
+  "file": "src/flask/app.py",
+  "start": 811,
+  "end": 862
+ },
+ {
+  "id": "flask:hand:5",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how are dotenv files loaded for the command line interface",
+  "file": "src/flask/cli.py",
+  "start": 706,
+  "end": 771
+ },
+ {
+  "id": "flask:hand:6",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how is the session cookie signed and read back from the request",
+  "file": "src/flask/sessions.py",
+  "start": 323,
+  "end": 335
+ },
+ {
+  "id": "flask:hand:7",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how does flask decide whether jinja autoescaping is enabled for a template",
+  "file": "src/flask/sansio/app.py",
+  "start": 536,
+  "end": 547
+ },
+ {
+  "id": "flask:hand:8",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how do I send a file to the client with conditional caching headers",
+  "file": "src/flask/helpers.py",
+  "start": 407,
+  "end": 530
+ },
+ {
+  "id": "flask:hand:9",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how are flashed messages stored and retrieved",
+  "file": "src/flask/helpers.py",
+  "start": 318,
+  "end": 349
+ },
+ {
+  "id": "flask:hand:10",
+  "repo": "flask",
+  "type": "natural",
+  "q": "how does flask run the dispatch cycle with before and after request hooks",
+  "file": "src/flask/app.py",
+  "start": 904,
+  "end": 920
+ }
+]

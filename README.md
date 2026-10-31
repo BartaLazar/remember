@@ -82,11 +82,64 @@ flowchart LR
 ```
 
 - **Hybrid search.** Every query runs twice: once by meaning, with a multilingual embedding model, and once by exact words with SQLite full-text search. The two rankings are merged, so it finds both "where do we log people out" and `SessionExpiredError`.
-- **Multilingual.** The model, [`multilingual-e5-small`](https://huggingface.co/intfloat/multilingual-e5-small), understands about 100 languages. You can ask in a different language from the one your code and comments are written in.
+- **Multilingual.** The model, [`multilingual-e5-small`](https://huggingface.co/intfloat/multilingual-e5-small), understands about 100 languages, so notes and chats in any language are searchable. For code, ask in the language its names and comments use (see the measurements below).
 - **Small answers.** A search returns at most 8 short snippets, about 1,500 tokens, so the lookup itself never becomes the expensive part.
 - **Honest about staleness.** If a file changed after it was indexed, its result says so, and Claude re-reads it before trusting it.
 - **Never in the way.** Hooks start the indexer as a detached, low-priority background process and return immediately. Only one indexer runs per project at a time.
 - **Incremental.** Only content whose hash changed gets re-embedded.
+
+## How much does it save?
+
+We simulated 684 lookups to find out, without spending a single API token: each Claude session is modelled as the sequence of tool calls it would make, and the tokens in every tool's output are counted. The plugin's real index, search and embedding model are used. Scripts and raw results are in [`bench/`](bench/).
+
+### Finding code
+
+604 questions on five real codebases: [express](https://github.com/expressjs/express) (JavaScript), [flask](https://github.com/pallets/flask) (Python), [gin](https://github.com/gin-gonic/gin) (Go), [ripgrep](https://github.com/BurntSushi/ripgrep) (Rust) and this repo. Without the plugin, Claude greps and then reads either whole files (*typical*) or a 120-line window around each match (*careful*).
+
+| | Tokens per lookup (median) | Tool calls (mean) | Total tokens, all 604 |
+|---|--:|--:|--:|
+| Without, typical | 23,700 | 5.2 | 17.7 M |
+| Without, careful | 11,200 | 10.0 | 7.3 M |
+| **With remember** | **2,200** | **2.8** | **4.4 M** |
+
+That is **75% fewer tokens than typical exploration and 39% fewer than careful exploration**, in about half the tool calls. The right place was in the top 8 results for 84% of questions; the other 16% fall back to normal exploration, and those searches are wasted cost that the totals above include.
+
+Savings depend on how you ask:
+
+| Kind of question | Example | Found in top 8 | Saved vs typical | Saved vs careful |
+|---|---|--:|--:|--:|
+| Describes behaviour | "returns a middleware that recovers from any panics and writes a 500 if there was one" | 93% | 85% | 65% |
+| A few keywords | "middleware recovers panics writes" | 89% | 80% | 54% |
+| Exact name | "where is `Recovery` defined" | 84% | 71% | 11% |
+| Free-form developer question | "how does flask decide which config file to load" | 62% | 54% | −13% |
+| In another language than the code | "Wie berechnet Express den ETag für eine Antwort?" | 6% | 1% | −85% |
+
+### Remembering decisions and past chats
+
+80 questions about 60 decisions buried in 40 past sessions (19 MB of chat logs) and 25 decision notes.
+
+| | Tokens per question (median) | Finds the answer |
+|---|--:|--:|
+| Grep the old chat logs and read the best match | 150,600 | 45% |
+| **remember** | **640** | **83%** |
+
+- Decisions also saved as notes were found **91%** of the time, against 77% for decisions that only exist in chat.
+- Questions in German, Dutch, French or Spanish found the answer 67% of the time.
+- A file of decisions loaded into every session (like `CLAUDE.md`) costs nothing to search and never misses, but grows with every entry. Past about **125 decisions** it costs more per session than searching them.
+
+### What it costs
+
+The plugin adds **about 450 tokens** to every session (skill descriptions, tool names and one line of context), or about 1,050 if Claude Code loads all tool definitions upfront. One code lookup saves about 9,000 tokens against even careful exploration, so **the first lookup of a session pays for the plugin**. Indexing runs locally and costs no tokens.
+
+### Getting the most out of it
+
+- **Describe what the code does.** Behaviour and keyword questions are where it shines. For an exact name you already know, plain grep is nearly as cheap.
+- **Ask about code in the language the code is written in.** Notes and chats work across languages; code mostly doesn't.
+- **Save decisions as notes.** They are found more reliably than the same decision buried in a chat, and they rank first.
+- **Supersede, don't pile up.** When a decision changes, save a note that replaces the old one. Old chats are not ranked by date, so the newest answer only came out on top 6 times in 10.
+- **Keep `CLAUDE.md` short.** Put the handful of rules that matter every session there, and let remember hold everything else.
+
+<sub>Method: tokens are estimated as characters ÷ 4 for every policy alike. The simulated agent stops as soon as it has read the answer and picks the right result when it is shown, which flatters both sides. The chat history is generated from templates, so real recall is probably somewhat lower. Full details and caveats in [`bench/results`](bench/results/).</sub>
 
 ## Using it
 

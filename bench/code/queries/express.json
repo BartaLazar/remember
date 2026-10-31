@@ -1,0 +1,802 @@
+[
+ {
+  "id": "express:id:range",
+  "type": "identifier",
+  "q": "where is range defined",
+  "repo": "express",
+  "file": "lib/request.js",
+  "start": 189,
+  "end": 218,
+  "name": "range"
+ },
+ {
+  "id": "express:doc:range",
+  "type": "docstring",
+  "q": "Parse header field capping to the given",
+  "repo": "express",
+  "file": "lib/request.js",
+  "start": 189,
+  "end": 218,
+  "name": "range"
+ },
+ {
+  "id": "express:vague:range",
+  "type": "vague",
+  "q": "parse header field capping",
+  "repo": "express",
+  "file": "lib/request.js",
+  "start": 189,
+  "end": 218,
+  "name": "range"
+ },
+ {
+  "id": "express:id:engine",
+  "type": "identifier",
+  "q": "where is engine defined",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 260,
+  "end": 308,
+  "name": "engine"
+ },
+ {
+  "id": "express:doc:engine",
+  "type": "docstring",
+  "q": "Register the given template callback as",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 260,
+  "end": 308,
+  "name": "engine"
+ },
+ {
+  "id": "express:vague:engine",
+  "type": "vague",
+  "q": "register template callback",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 260,
+  "end": 308,
+  "name": "engine"
+ },
+ {
+  "id": "express:id:createETagGenerator",
+  "type": "identifier",
+  "q": "where is createETagGenerator defined",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 240,
+  "end": 257,
+  "name": "createETagGenerator"
+ },
+ {
+  "id": "express:doc:createETagGenerator",
+  "type": "docstring",
+  "q": "Create an ETag generator function generating ETags with the given options",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 240,
+  "end": 257,
+  "name": "createETagGenerator"
+ },
+ {
+  "id": "express:vague:createETagGenerator",
+  "type": "vague",
+  "q": "create etag generator function",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 240,
+  "end": 257,
+  "name": "createETagGenerator"
+ },
+ {
+  "id": "express:id:sendFile",
+  "type": "identifier",
+  "q": "where is sendFile defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 334,
+  "end": 417,
+  "name": "sendFile"
+ },
+ {
+  "id": "express:doc:sendFile",
+  "type": "docstring",
+  "q": "Transfer the file at the given",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 334,
+  "end": 417,
+  "name": "sendFile"
+ },
+ {
+  "id": "express:id:resolve",
+  "type": "identifier",
+  "q": "where is resolve defined",
+  "repo": "express",
+  "file": "lib/view.js",
+  "start": 161,
+  "end": 187,
+  "name": "resolve"
+ },
+ {
+  "id": "express:doc:resolve",
+  "type": "docstring",
+  "q": "the file within the given directory",
+  "repo": "express",
+  "file": "lib/view.js",
+  "start": 161,
+  "end": 187,
+  "name": "resolve"
+ },
+ {
+  "id": "express:vague:resolve",
+  "type": "vague",
+  "q": "file within directory",
+  "repo": "express",
+  "file": "lib/view.js",
+  "start": 161,
+  "end": 187,
+  "name": "resolve"
+ },
+ {
+  "id": "express:id:jsonp",
+  "type": "identifier",
+  "q": "where is jsonp defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 252,
+  "end": 308,
+  "name": "jsonp"
+ },
+ {
+  "id": "express:doc:jsonp",
+  "type": "docstring",
+  "q": "Send JSON response with callback support",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 252,
+  "end": 308,
+  "name": "jsonp"
+ },
+ {
+  "id": "express:vague:jsonp",
+  "type": "vague",
+  "q": "send json response callback",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 252,
+  "end": 308,
+  "name": "jsonp"
+ },
+ {
+  "id": "express:id:format",
+  "type": "identifier",
+  "q": "where is format defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 516,
+  "end": 599,
+  "name": "format"
+ },
+ {
+  "id": "express:doc:format",
+  "type": "docstring",
+  "q": "Respond to the Acceptable formats using an of mime-type callbacks",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 516,
+  "end": 599,
+  "name": "format"
+ },
+ {
+  "id": "express:vague:format",
+  "type": "vague",
+  "q": "respond acceptable formats mime-type",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 516,
+  "end": 599,
+  "name": "format"
+ },
+ {
+  "id": "express:id:acceptParams",
+  "type": "identifier",
+  "q": "where is acceptParams defined",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 80,
+  "end": 120,
+  "name": "acceptParams"
+ },
+ {
+  "id": "express:doc:acceptParams",
+  "type": "docstring",
+  "q": "Parse accept params returning an object with and",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 80,
+  "end": 120,
+  "name": "acceptParams"
+ },
+ {
+  "id": "express:vague:acceptParams",
+  "type": "vague",
+  "q": "parse accept params returning",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 80,
+  "end": 120,
+  "name": "acceptParams"
+ },
+ {
+  "id": "express:id:compileQueryParser",
+  "type": "identifier",
+  "q": "where is compileQueryParser defined",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 154,
+  "end": 184,
+  "name": "compileQueryParser"
+ },
+ {
+  "id": "express:doc:compileQueryParser",
+  "type": "docstring",
+  "q": "Compile query parser value to function",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 154,
+  "end": 184,
+  "name": "compileQueryParser"
+ },
+ {
+  "id": "express:vague:compileQueryParser",
+  "type": "vague",
+  "q": "compile query parser value",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 154,
+  "end": 184,
+  "name": "compileQueryParser"
+ },
+ {
+  "id": "express:id:parseExtendedQueryString",
+  "type": "identifier",
+  "q": "where is parseExtendedQueryString defined",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 259,
+  "end": 271,
+  "name": "parseExtendedQueryString"
+ },
+ {
+  "id": "express:doc:parseExtendedQueryString",
+  "type": "docstring",
+  "q": "Parse an extended query string with qs",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 259,
+  "end": 271,
+  "name": "parseExtendedQueryString"
+ },
+ {
+  "id": "express:vague:parseExtendedQueryString",
+  "type": "vague",
+  "q": "parse extended query string",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 259,
+  "end": 271,
+  "name": "parseExtendedQueryString"
+ },
+ {
+  "id": "express:id:route",
+  "type": "identifier",
+  "q": "where is route defined",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 246,
+  "end": 258,
+  "name": "route"
+ },
+ {
+  "id": "express:doc:route",
+  "type": "docstring",
+  "q": "Proxy to the app Returns a new instance for the",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 246,
+  "end": 258,
+  "name": "route"
+ },
+ {
+  "id": "express:id:sendStatus",
+  "type": "identifier",
+  "q": "where is sendStatus defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 310,
+  "end": 332,
+  "name": "sendStatus"
+ },
+ {
+  "id": "express:doc:sendStatus",
+  "type": "docstring",
+  "q": "Send given HTTP status code",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 310,
+  "end": 332,
+  "name": "sendStatus"
+ },
+ {
+  "id": "express:vague:sendStatus",
+  "type": "vague",
+  "q": "send http status code",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 310,
+  "end": 332,
+  "name": "sendStatus"
+ },
+ {
+  "id": "express:id:param",
+  "type": "identifier",
+  "q": "where is param defined",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 310,
+  "end": 334,
+  "name": "param"
+ },
+ {
+  "id": "express:doc:param",
+  "type": "docstring",
+  "q": "Proxy to with one added api feature",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 310,
+  "end": 334,
+  "name": "param"
+ },
+ {
+  "id": "express:vague:param",
+  "type": "vague",
+  "q": "proxy added feature",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 310,
+  "end": 334,
+  "name": "param"
+ },
+ {
+  "id": "express:id:attachment",
+  "type": "identifier",
+  "q": "where is attachment defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 601,
+  "end": 618,
+  "name": "attachment"
+ },
+ {
+  "id": "express:doc:attachment",
+  "type": "docstring",
+  "q": "Set header to with optional",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 601,
+  "end": 618,
+  "name": "attachment"
+ },
+ {
+  "id": "express:id:setCharset",
+  "type": "identifier",
+  "q": "where is setCharset defined",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 216,
+  "end": 238,
+  "name": "setCharset"
+ },
+ {
+  "id": "express:doc:setCharset",
+  "type": "docstring",
+  "q": "Set the charset in a given Content-Type string",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 216,
+  "end": 238,
+  "name": "setCharset"
+ },
+ {
+  "id": "express:vague:setCharset",
+  "type": "vague",
+  "q": "charset content-type string",
+  "repo": "express",
+  "file": "lib/utils.js",
+  "start": 216,
+  "end": 238,
+  "name": "setCharset"
+ },
+ {
+  "id": "express:id:stringify",
+  "type": "identifier",
+  "q": "where is stringify defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 1014,
+  "end": 1050,
+  "name": "stringify"
+ },
+ {
+  "id": "express:doc:stringify",
+  "type": "docstring",
+  "q": "JSON like but v8 optimized with the ability to escape characters that can trigger HTML sniffing",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 1014,
+  "end": 1050,
+  "name": "stringify"
+ },
+ {
+  "id": "express:vague:stringify",
+  "type": "vague",
+  "q": "json like optimized ability",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 1014,
+  "end": 1050,
+  "name": "stringify"
+ },
+ {
+  "id": "express:id:defineGetter",
+  "type": "identifier",
+  "q": "where is defineGetter defined",
+  "repo": "express",
+  "file": "lib/request.js",
+  "start": 513,
+  "end": 527,
+  "name": "defineGetter"
+ },
+ {
+  "id": "express:doc:defineGetter",
+  "type": "docstring",
+  "q": "Helper function for creating a getter on an object",
+  "repo": "express",
+  "file": "lib/request.js",
+  "start": 513,
+  "end": 527,
+  "name": "defineGetter"
+ },
+ {
+  "id": "express:vague:defineGetter",
+  "type": "vague",
+  "q": "helper function creating getter",
+  "repo": "express",
+  "file": "lib/request.js",
+  "start": 513,
+  "end": 527,
+  "name": "defineGetter"
+ },
+ {
+  "id": "express:id:download",
+  "type": "identifier",
+  "q": "where is download defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 419,
+  "end": 486,
+  "name": "download"
+ },
+ {
+  "id": "express:doc:download",
+  "type": "docstring",
+  "q": "Transfer the file at the given as an attachment",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 419,
+  "end": 486,
+  "name": "download"
+ },
+ {
+  "id": "express:vague:download",
+  "type": "vague",
+  "q": "transfer file attachment",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 419,
+  "end": 486,
+  "name": "download"
+ },
+ {
+  "id": "express:id:handle",
+  "type": "identifier",
+  "q": "where is handle defined",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 143,
+  "end": 178,
+  "name": "handle"
+ },
+ {
+  "id": "express:doc:handle",
+  "type": "docstring",
+  "q": "Dispatch a req res pair into the application",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 143,
+  "end": 178,
+  "name": "handle"
+ },
+ {
+  "id": "express:vague:handle",
+  "type": "vague",
+  "q": "dispatch pair application",
+  "repo": "express",
+  "file": "lib/application.js",
+  "start": 143,
+  "end": 178,
+  "name": "handle"
+ },
+ {
+  "id": "express:id:redirect",
+  "type": "identifier",
+  "q": "where is redirect defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 801,
+  "end": 867,
+  "name": "redirect"
+ },
+ {
+  "id": "express:doc:redirect",
+  "type": "docstring",
+  "q": "to the given with optional response defaulting to 302",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 801,
+  "end": 867,
+  "name": "redirect"
+ },
+ {
+  "id": "express:vague:redirect",
+  "type": "vague",
+  "q": "optional response defaulting",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 801,
+  "end": 867,
+  "name": "redirect"
+ },
+ {
+  "id": "express:id:sendfile",
+  "type": "identifier",
+  "q": "where is sendfile defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 923,
+  "end": 1012,
+  "name": "sendfile"
+ },
+ {
+  "id": "express:doc:sendfile",
+  "type": "docstring",
+  "q": "pipe the send file stream",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 923,
+  "end": 1012,
+  "name": "sendfile"
+ },
+ {
+  "id": "express:vague:sendfile",
+  "type": "vague",
+  "q": "pipe send file stream",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 923,
+  "end": 1012,
+  "name": "sendfile"
+ },
+ {
+  "id": "express:id:status",
+  "type": "identifier",
+  "q": "where is status defined",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 52,
+  "end": 77,
+  "name": "status"
+ },
+ {
+  "id": "express:doc:status",
+  "type": "docstring",
+  "q": "Set the HTTP code for the response",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 52,
+  "end": 77,
+  "name": "status"
+ },
+ {
+  "id": "express:vague:status",
+  "type": "vague",
+  "q": "http code response",
+  "repo": "express",
+  "file": "lib/response.js",
+  "start": 52,
+  "end": 77,
+  "name": "status"
+ },
+ {
+  "id": "express:hand:1",
+  "repo": "express",
+  "type": "natural",
+  "q": "how does express decide how to compute the ETag for a response",
+  "file": "lib/utils.js",
+  "start": 130,
+  "end": 152
+ },
+ {
+  "id": "express:hand:2",
+  "repo": "express",
+  "type": "natural",
+  "q": "where does express work out the client IP address when behind a proxy",
+  "file": "lib/request.js",
+  "start": 340,
+  "end": 343
+ },
+ {
+  "id": "express:hand:3",
+  "repo": "express",
+  "type": "natural",
+  "q": "how are cookies set on the response and what options are supported",
+  "file": "lib/response.js",
+  "start": 748,
+  "end": 781
+ },
+ {
+  "id": "express:hand:4",
+  "repo": "express",
+  "type": "natural",
+  "q": "how does express look up a view file using the template engine extension",
+  "file": "lib/view.js",
+  "start": 104,
+  "end": 123
+ },
+ {
+  "id": "express:hand:5",
+  "repo": "express",
+  "type": "natural",
+  "q": "what happens when a middleware or a sub app is mounted with app.use",
+  "file": "lib/application.js",
+  "start": 190,
+  "end": 244
+ },
+ {
+  "id": "express:hand:6",
+  "repo": "express",
+  "type": "natural",
+  "q": "how does res.send choose the content type for a string or a buffer body",
+  "file": "lib/response.js",
+  "start": 126,
+  "end": 222
+ },
+ {
+  "id": "express:hand:7",
+  "repo": "express",
+  "type": "natural",
+  "q": "how does express choose between the simple and extended query string parser",
+  "file": "lib/utils.js",
+  "start": 162,
+  "end": 184
+ },
+ {
+  "id": "express:hand:8",
+  "repo": "express",
+  "type": "natural",
+  "q": "how does a redirect pick its response body depending on what the client accepts",
+  "file": "lib/response.js",
+  "start": 815,
+  "end": 867
+ },
+ {
+  "id": "express:hand:9",
+  "repo": "express",
+  "type": "natural",
+  "q": "which default settings does a new express app get at startup",
+  "file": "lib/application.js",
+  "start": 90,
+  "end": 141
+ },
+ {
+  "id": "express:hand:10",
+  "repo": "express",
+  "type": "natural",
+  "q": "how does content negotiation work when responding with res.format",
+  "file": "lib/response.js",
+  "start": 574,
+  "end": 599
+ },
+ {
+  "id": "express:hand:11",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "de",
+  "q": "Wie berechnet Express den ETag für eine Antwort?",
+  "file": "lib/utils.js",
+  "start": 130,
+  "end": 152
+ },
+ {
+  "id": "express:hand:12",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "nl",
+  "q": "Hoe stelt Express cookies in op het antwoord?",
+  "file": "lib/response.js",
+  "start": 748,
+  "end": 781
+ },
+ {
+  "id": "express:hand:13",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "fr",
+  "q": "Comment Express trouve-t-il le fichier de vue avec l'extension du moteur de templates ?",
+  "file": "lib/view.js",
+  "start": 104,
+  "end": 123
+ },
+ {
+  "id": "express:hand:14",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "es",
+  "q": "¿Cómo determina Express la dirección IP del cliente detrás de un proxy?",
+  "file": "lib/request.js",
+  "start": 340,
+  "end": 343
+ },
+ {
+  "id": "express:hand:15",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "de",
+  "q": "Wie funktioniert die Weiterleitung eines Clients mit redirect?",
+  "file": "lib/response.js",
+  "start": 815,
+  "end": 867
+ },
+ {
+  "id": "express:hand:16",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "nl",
+  "q": "Waar worden de standaardinstellingen van de applicatie ingesteld?",
+  "file": "lib/application.js",
+  "start": 90,
+  "end": 141
+ },
+ {
+  "id": "express:hand:17",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "fr",
+  "q": "Comment l'analyse de la chaîne de requête est-elle configurée ?",
+  "file": "lib/utils.js",
+  "start": 162,
+  "end": 184
+ },
+ {
+  "id": "express:hand:18",
+  "repo": "express",
+  "type": "multilingual",
+  "lang": "es",
+  "q": "¿Cómo se negocia el tipo de contenido de la respuesta?",
+  "file": "lib/response.js",
+  "start": 574,
+  "end": 599
+ }
+]

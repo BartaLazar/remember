@@ -1,0 +1,1292 @@
+[
+ {
+  "id": "gin:id:Recovery",
+  "type": "identifier",
+  "q": "where is Recovery defined",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 34,
+  "end": 37,
+  "name": "Recovery"
+ },
+ {
+  "id": "gin:doc:Recovery",
+  "type": "docstring",
+  "q": "returns a middleware that recovers from any panics and writes a 500 if there was one",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 34,
+  "end": 37,
+  "name": "Recovery"
+ },
+ {
+  "id": "gin:vague:Recovery",
+  "type": "vague",
+  "q": "middleware recovers panics writes",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 34,
+  "end": 37,
+  "name": "Recovery"
+ },
+ {
+  "id": "gin:id:GetPostFormMap",
+  "type": "identifier",
+  "q": "where is GetPostFormMap defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 665,
+  "end": 670,
+  "name": "GetPostFormMap"
+ },
+ {
+  "id": "gin:doc:GetPostFormMap",
+  "type": "docstring",
+  "q": "returns a map for a given form key plus a boolean value whether at least one value exists for the given key",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 665,
+  "end": 670,
+  "name": "GetPostFormMap"
+ },
+ {
+  "id": "gin:vague:GetPostFormMap",
+  "type": "vague",
+  "q": "form plus boolean value",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 665,
+  "end": 670,
+  "name": "GetPostFormMap"
+ },
+ {
+  "id": "gin:id:Readdir",
+  "type": "identifier",
+  "q": "where is Readdir defined",
+  "repo": "gin",
+  "file": "fs.go",
+  "start": 32,
+  "end": 36,
+  "name": "Readdir"
+ },
+ {
+  "id": "gin:doc:Readdir",
+  "type": "docstring",
+  "q": "overrides the default implementation and always returns nil",
+  "repo": "gin",
+  "file": "fs.go",
+  "start": 32,
+  "end": 36,
+  "name": "Readdir"
+ },
+ {
+  "id": "gin:vague:Readdir",
+  "type": "vague",
+  "q": "overrides default implementation always",
+  "repo": "gin",
+  "file": "fs.go",
+  "start": 32,
+  "end": 36,
+  "name": "Readdir"
+ },
+ {
+  "id": "gin:id:IRoutes",
+  "type": "identifier",
+  "q": "where is IRoutes defined",
+  "repo": "gin",
+  "file": "routergroup.go",
+  "start": 32,
+  "end": 51,
+  "name": "IRoutes"
+ },
+ {
+  "id": "gin:doc:IRoutes",
+  "type": "docstring",
+  "q": "defines all router handle interface",
+  "repo": "gin",
+  "file": "routergroup.go",
+  "start": 32,
+  "end": 51,
+  "name": "IRoutes"
+ },
+ {
+  "id": "gin:vague:IRoutes",
+  "type": "vague",
+  "q": "defines router handle interface",
+  "repo": "gin",
+  "file": "routergroup.go",
+  "start": 32,
+  "end": 51,
+  "name": "IRoutes"
+ },
+ {
+  "id": "gin:id:GetUint16",
+  "type": "identifier",
+  "q": "where is GetUint16 defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 355,
+  "end": 358,
+  "name": "GetUint16"
+ },
+ {
+  "id": "gin:doc:GetUint16",
+  "type": "docstring",
+  "q": "returns the value associated with the key as an unsigned integer 16",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 355,
+  "end": 358,
+  "name": "GetUint16"
+ },
+ {
+  "id": "gin:vague:GetUint16",
+  "type": "vague",
+  "q": "value associated unsigned integer",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 355,
+  "end": 358,
+  "name": "GetUint16"
+ },
+ {
+  "id": "gin:id:nodeValue",
+  "type": "identifier",
+  "q": "where is nodeValue defined",
+  "repo": "gin",
+  "file": "tree.go",
+  "start": 399,
+  "end": 405,
+  "name": "nodeValue"
+ },
+ {
+  "id": "gin:doc:nodeValue",
+  "type": "docstring",
+  "q": "holds return values of method",
+  "repo": "gin",
+  "file": "tree.go",
+  "start": 399,
+  "end": 405,
+  "name": "nodeValue"
+ },
+ {
+  "id": "gin:vague:nodeValue",
+  "type": "vague",
+  "q": "holds values method",
+  "repo": "gin",
+  "file": "tree.go",
+  "start": 399,
+  "end": 405,
+  "name": "nodeValue"
+ },
+ {
+  "id": "gin:id:LogFormatterParams",
+  "type": "identifier",
+  "q": "where is LogFormatterParams defined",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 67,
+  "end": 91,
+  "name": "LogFormatterParams"
+ },
+ {
+  "id": "gin:doc:LogFormatterParams",
+  "type": "docstring",
+  "q": "is the structure any formatter will be handed when time to log comes",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 67,
+  "end": 91,
+  "name": "LogFormatterParams"
+ },
+ {
+  "id": "gin:vague:LogFormatterParams",
+  "type": "vague",
+  "q": "structure formatter handed time",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 67,
+  "end": 91,
+  "name": "LogFormatterParams"
+ },
+ {
+  "id": "gin:id:Decoder",
+  "type": "identifier",
+  "q": "where is Decoder defined",
+  "repo": "gin",
+  "file": "codec/json/api.go",
+  "start": 40,
+  "end": 57,
+  "name": "Decoder"
+ },
+ {
+  "id": "gin:doc:Decoder",
+  "type": "docstring",
+  "q": "an interface reads and decodes JSON values from an input stream",
+  "repo": "gin",
+  "file": "codec/json/api.go",
+  "start": 40,
+  "end": 57,
+  "name": "Decoder"
+ },
+ {
+  "id": "gin:vague:Decoder",
+  "type": "vague",
+  "q": "interface reads decodes json",
+  "repo": "gin",
+  "file": "codec/json/api.go",
+  "start": 40,
+  "end": 57,
+  "name": "Decoder"
+ },
+ {
+  "id": "gin:id:GetInt32Slice",
+  "type": "identifier",
+  "q": "where is GetInt32Slice defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 410,
+  "end": 413,
+  "name": "GetInt32Slice"
+ },
+ {
+  "id": "gin:doc:GetInt32Slice",
+  "type": "docstring",
+  "q": "returns the value associated with the key as a slice of int32 integers",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 410,
+  "end": 413,
+  "name": "GetInt32Slice"
+ },
+ {
+  "id": "gin:vague:GetInt32Slice",
+  "type": "vague",
+  "q": "value associated slice int32",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 410,
+  "end": 413,
+  "name": "GetInt32Slice"
+ },
+ {
+  "id": "gin:id:FullPath",
+  "type": "identifier",
+  "q": "where is FullPath defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 171,
+  "end": 179,
+  "name": "FullPath"
+ },
+ {
+  "id": "gin:doc:FullPath",
+  "type": "docstring",
+  "q": "returns a matched route full path",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 171,
+  "end": 179,
+  "name": "FullPath"
+ },
+ {
+  "id": "gin:vague:FullPath",
+  "type": "vague",
+  "q": "matched route full path",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 171,
+  "end": 179,
+  "name": "FullPath"
+ },
+ {
+  "id": "gin:id:GetStringMapString",
+  "type": "identifier",
+  "q": "where is GetStringMapString defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 470,
+  "end": 473,
+  "name": "GetStringMapString"
+ },
+ {
+  "id": "gin:doc:GetStringMapString",
+  "type": "docstring",
+  "q": "returns the value associated with the key as a map of strings",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 470,
+  "end": 473,
+  "name": "GetStringMapString"
+ },
+ {
+  "id": "gin:vague:GetStringMapString",
+  "type": "vague",
+  "q": "value associated strings",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 470,
+  "end": 473,
+  "name": "GetStringMapString"
+ },
+ {
+  "id": "gin:id:GetUint64Slice",
+  "type": "identifier",
+  "q": "where is GetUint64Slice defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 440,
+  "end": 443,
+  "name": "GetUint64Slice"
+ },
+ {
+  "id": "gin:doc:GetUint64Slice",
+  "type": "docstring",
+  "q": "returns the value associated with the key as a slice of uint64 integers",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 440,
+  "end": 443,
+  "name": "GetUint64Slice"
+ },
+ {
+  "id": "gin:vague:GetUint64Slice",
+  "type": "vague",
+  "q": "value associated slice uint64",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 440,
+  "end": 443,
+  "name": "GetUint64Slice"
+ },
+ {
+  "id": "gin:id:LoggerWithConfig",
+  "type": "identifier",
+  "q": "where is LoggerWithConfig defined",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 244,
+  "end": 314,
+  "name": "LoggerWithConfig"
+ },
+ {
+  "id": "gin:doc:LoggerWithConfig",
+  "type": "docstring",
+  "q": "instance a Logger middleware with config",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 244,
+  "end": 314,
+  "name": "LoggerWithConfig"
+ },
+ {
+  "id": "gin:vague:LoggerWithConfig",
+  "type": "vague",
+  "q": "instance logger middleware config",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 244,
+  "end": 314,
+  "name": "LoggerWithConfig"
+ },
+ {
+  "id": "gin:id:SetTrustedProxies",
+  "type": "identifier",
+  "q": "where is SetTrustedProxies defined",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 443,
+  "end": 454,
+  "name": "SetTrustedProxies"
+ },
+ {
+  "id": "gin:doc:SetTrustedProxies",
+  "type": "docstring",
+  "q": "set a list of network origins addresses IPv4 CIDRs IPv6 addresses or IPv6 from which to trust request's headers that contain alternative client IP when is",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 443,
+  "end": 454,
+  "name": "SetTrustedProxies"
+ },
+ {
+  "id": "gin:vague:SetTrustedProxies",
+  "type": "vague",
+  "q": "list network origins addresses",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 443,
+  "end": 454,
+  "name": "SetTrustedProxies"
+ },
+ {
+  "id": "gin:id:Errors",
+  "type": "identifier",
+  "q": "where is Errors defined",
+  "repo": "gin",
+  "file": "errors.go",
+  "start": 123,
+  "end": 139,
+  "name": "Errors"
+ },
+ {
+  "id": "gin:doc:Errors",
+  "type": "docstring",
+  "q": "returns an array with all the error messages",
+  "repo": "gin",
+  "file": "errors.go",
+  "start": 123,
+  "end": 139,
+  "name": "Errors"
+ },
+ {
+  "id": "gin:vague:Errors",
+  "type": "vague",
+  "q": "array error messages",
+  "repo": "gin",
+  "file": "errors.go",
+  "start": 123,
+  "end": 139,
+  "name": "Errors"
+ },
+ {
+  "id": "gin:id:secureRequestDump",
+  "type": "identifier",
+  "q": "where is secureRequestDump defined",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 94,
+  "end": 107,
+  "name": "secureRequestDump"
+ },
+ {
+  "id": "gin:doc:secureRequestDump",
+  "type": "docstring",
+  "q": "returns a sanitized HTTP request dump where the Authorization header if present is replaced with a masked value to avoid leaking sensitive credentials",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 94,
+  "end": 107,
+  "name": "secureRequestDump"
+ },
+ {
+  "id": "gin:vague:secureRequestDump",
+  "type": "vague",
+  "q": "sanitized http request dump",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 94,
+  "end": 107,
+  "name": "secureRequestDump"
+ },
+ {
+  "id": "gin:id:SetMeta",
+  "type": "identifier",
+  "q": "where is SetMeta defined",
+  "repo": "gin",
+  "file": "errors.go",
+  "start": 48,
+  "end": 52,
+  "name": "SetMeta"
+ },
+ {
+  "id": "gin:doc:SetMeta",
+  "type": "docstring",
+  "q": "sets the error's meta data",
+  "repo": "gin",
+  "file": "errors.go",
+  "start": 48,
+  "end": 52,
+  "name": "SetMeta"
+ },
+ {
+  "id": "gin:vague:SetMeta",
+  "type": "vague",
+  "q": "error's meta data",
+  "repo": "gin",
+  "file": "errors.go",
+  "start": 48,
+  "end": 52,
+  "name": "SetMeta"
+ },
+ {
+  "id": "gin:id:Reader",
+  "type": "identifier",
+  "q": "where is Reader defined",
+  "repo": "gin",
+  "file": "render/reader.go",
+  "start": 13,
+  "end": 19,
+  "name": "Reader"
+ },
+ {
+  "id": "gin:doc:Reader",
+  "type": "docstring",
+  "q": "contains the IO and its length and custom and other headers",
+  "repo": "gin",
+  "file": "render/reader.go",
+  "start": 13,
+  "end": 19,
+  "name": "Reader"
+ },
+ {
+  "id": "gin:vague:Reader",
+  "type": "vague",
+  "q": "contains length custom headers",
+  "repo": "gin",
+  "file": "render/reader.go",
+  "start": 13,
+  "end": 19,
+  "name": "Reader"
+ },
+ {
+  "id": "gin:id:ShouldBindBodyWith",
+  "type": "identifier",
+  "q": "where is ShouldBindBodyWith defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 923,
+  "end": 943,
+  "name": "ShouldBindBodyWith"
+ },
+ {
+  "id": "gin:doc:ShouldBindBodyWith",
+  "type": "docstring",
+  "q": "is similar with but it stores the request body into the context and reuse when it is called again",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 923,
+  "end": 943,
+  "name": "ShouldBindBodyWith"
+ },
+ {
+  "id": "gin:vague:ShouldBindBodyWith",
+  "type": "vague",
+  "q": "similar stores request body",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 923,
+  "end": 943,
+  "name": "ShouldBindBodyWith"
+ },
+ {
+  "id": "gin:id:ForceConsoleColor",
+  "type": "identifier",
+  "q": "where is ForceConsoleColor defined",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 201,
+  "end": 204,
+  "name": "ForceConsoleColor"
+ },
+ {
+  "id": "gin:doc:ForceConsoleColor",
+  "type": "docstring",
+  "q": "force color output in the console",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 201,
+  "end": 204,
+  "name": "ForceConsoleColor"
+ },
+ {
+  "id": "gin:vague:ForceConsoleColor",
+  "type": "vague",
+  "q": "force color output console",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 201,
+  "end": 204,
+  "name": "ForceConsoleColor"
+ },
+ {
+  "id": "gin:id:GetStringMap",
+  "type": "identifier",
+  "q": "where is GetStringMap defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 465,
+  "end": 468,
+  "name": "GetStringMap"
+ },
+ {
+  "id": "gin:doc:GetStringMap",
+  "type": "docstring",
+  "q": "returns the value associated with the key as a map of interfaces",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 465,
+  "end": 468,
+  "name": "GetStringMap"
+ },
+ {
+  "id": "gin:vague:GetStringMap",
+  "type": "vague",
+  "q": "value associated interfaces",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 465,
+  "end": 468,
+  "name": "GetStringMap"
+ },
+ {
+  "id": "gin:id:IsWebsocket",
+  "type": "identifier",
+  "q": "where is IsWebsocket defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1040,
+  "end": 1048,
+  "name": "IsWebsocket"
+ },
+ {
+  "id": "gin:doc:IsWebsocket",
+  "type": "docstring",
+  "q": "returns true if the request headers indicate that a websocket handshake is being initiated by the client",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1040,
+  "end": 1048,
+  "name": "IsWebsocket"
+ },
+ {
+  "id": "gin:vague:IsWebsocket",
+  "type": "vague",
+  "q": "true request headers indicate",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1040,
+  "end": 1048,
+  "name": "IsWebsocket"
+ },
+ {
+  "id": "gin:id:MethodColor",
+  "type": "identifier",
+  "q": "where is MethodColor defined",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 132,
+  "end": 154,
+  "name": "MethodColor"
+ },
+ {
+  "id": "gin:doc:MethodColor",
+  "type": "docstring",
+  "q": "is the ANSI color for appropriately logging http method to a terminal",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 132,
+  "end": 154,
+  "name": "MethodColor"
+ },
+ {
+  "id": "gin:vague:MethodColor",
+  "type": "vague",
+  "q": "ansi color appropriately logging",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 132,
+  "end": 154,
+  "name": "MethodColor"
+ },
+ {
+  "id": "gin:id:StringToBytes",
+  "type": "identifier",
+  "q": "where is StringToBytes defined",
+  "repo": "gin",
+  "file": "internal/bytesconv/bytesconv.go",
+  "start": 11,
+  "end": 15,
+  "name": "StringToBytes"
+ },
+ {
+  "id": "gin:doc:StringToBytes",
+  "type": "docstring",
+  "q": "converts string to byte slice without a memory allocation",
+  "repo": "gin",
+  "file": "internal/bytesconv/bytesconv.go",
+  "start": 11,
+  "end": 15,
+  "name": "StringToBytes"
+ },
+ {
+  "id": "gin:vague:StringToBytes",
+  "type": "vague",
+  "q": "converts string byte slice",
+  "repo": "gin",
+  "file": "internal/bytesconv/bytesconv.go",
+  "start": 11,
+  "end": 15,
+  "name": "StringToBytes"
+ },
+ {
+  "id": "gin:id:PostFormArray",
+  "type": "identifier",
+  "q": "where is PostFormArray defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 631,
+  "end": 636,
+  "name": "PostFormArray"
+ },
+ {
+  "id": "gin:doc:PostFormArray",
+  "type": "docstring",
+  "q": "returns a slice of strings for a given form key",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 631,
+  "end": 636,
+  "name": "PostFormArray"
+ },
+ {
+  "id": "gin:vague:PostFormArray",
+  "type": "vague",
+  "q": "slice strings form",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 631,
+  "end": 636,
+  "name": "PostFormArray"
+ },
+ {
+  "id": "gin:id:ShouldBindWith",
+  "type": "identifier",
+  "q": "where is ShouldBindWith defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 917,
+  "end": 921,
+  "name": "ShouldBindWith"
+ },
+ {
+  "id": "gin:doc:ShouldBindWith",
+  "type": "docstring",
+  "q": "binds the passed struct pointer using the specified binding engine",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 917,
+  "end": 921,
+  "name": "ShouldBindWith"
+ },
+ {
+  "id": "gin:vague:ShouldBindWith",
+  "type": "vague",
+  "q": "binds passed struct pointer",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 917,
+  "end": 921,
+  "name": "ShouldBindWith"
+ },
+ {
+  "id": "gin:id:HandleContext",
+  "type": "identifier",
+  "q": "where is HandleContext defined",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 677,
+  "end": 688,
+  "name": "HandleContext"
+ },
+ {
+  "id": "gin:doc:HandleContext",
+  "type": "docstring",
+  "q": "re-enters a context that has been rewritten",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 677,
+  "end": 688,
+  "name": "HandleContext"
+ },
+ {
+  "id": "gin:vague:HandleContext",
+  "type": "vague",
+  "q": "re-enters context rewritten",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 677,
+  "end": 688,
+  "name": "HandleContext"
+ },
+ {
+  "id": "gin:id:GetUint8",
+  "type": "identifier",
+  "q": "where is GetUint8 defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 350,
+  "end": 353,
+  "name": "GetUint8"
+ },
+ {
+  "id": "gin:doc:GetUint8",
+  "type": "docstring",
+  "q": "returns the value associated with the key as an unsigned integer 8",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 350,
+  "end": 353,
+  "name": "GetUint8"
+ },
+ {
+  "id": "gin:vague:GetUint8",
+  "type": "vague",
+  "q": "value associated unsigned integer",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 350,
+  "end": 353,
+  "name": "GetUint8"
+ },
+ {
+  "id": "gin:id:GetUint8Slice",
+  "type": "identifier",
+  "q": "where is GetUint8Slice defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 425,
+  "end": 428,
+  "name": "GetUint8Slice"
+ },
+ {
+  "id": "gin:doc:GetUint8Slice",
+  "type": "docstring",
+  "q": "returns the value associated with the key as a slice of uint8 integers",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 425,
+  "end": 428,
+  "name": "GetUint8Slice"
+ },
+ {
+  "id": "gin:vague:GetUint8Slice",
+  "type": "vague",
+  "q": "value associated slice uint8",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 425,
+  "end": 428,
+  "name": "GetUint8Slice"
+ },
+ {
+  "id": "gin:id:MustBindWith",
+  "type": "identifier",
+  "q": "where is MustBindWith defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 807,
+  "end": 827,
+  "name": "MustBindWith"
+ },
+ {
+  "id": "gin:doc:MustBindWith",
+  "type": "docstring",
+  "q": "binds the passed struct pointer using the specified binding engine",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 807,
+  "end": 827,
+  "name": "MustBindWith"
+ },
+ {
+  "id": "gin:vague:MustBindWith",
+  "type": "vague",
+  "q": "binds passed struct pointer",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 807,
+  "end": 827,
+  "name": "MustBindWith"
+ },
+ {
+  "id": "gin:id:CreateTestContextOnly",
+  "type": "identifier",
+  "q": "where is CreateTestContextOnly defined",
+  "repo": "gin",
+  "file": "test_helpers.go",
+  "start": 25,
+  "end": 35,
+  "name": "CreateTestContextOnly"
+ },
+ {
+  "id": "gin:doc:CreateTestContextOnly",
+  "type": "docstring",
+  "q": "returns a fresh Context associated with the provided Engine",
+  "repo": "gin",
+  "file": "test_helpers.go",
+  "start": 25,
+  "end": 35,
+  "name": "CreateTestContextOnly"
+ },
+ {
+  "id": "gin:vague:CreateTestContextOnly",
+  "type": "vague",
+  "q": "fresh context associated provided",
+  "repo": "gin",
+  "file": "test_helpers.go",
+  "start": 25,
+  "end": 35,
+  "name": "CreateTestContextOnly"
+ },
+ {
+  "id": "gin:id:DataFromReader",
+  "type": "identifier",
+  "q": "where is DataFromReader defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1269,
+  "end": 1277,
+  "name": "DataFromReader"
+ },
+ {
+  "id": "gin:doc:DataFromReader",
+  "type": "docstring",
+  "q": "writes the specified reader into the body stream and updates the HTTP code",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1269,
+  "end": 1277,
+  "name": "DataFromReader"
+ },
+ {
+  "id": "gin:vague:DataFromReader",
+  "type": "vague",
+  "q": "writes specified reader body",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1269,
+  "end": 1277,
+  "name": "DataFromReader"
+ },
+ {
+  "id": "gin:id:validateHeader",
+  "type": "identifier",
+  "q": "where is validateHeader defined",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 481,
+  "end": 501,
+  "name": "validateHeader"
+ },
+ {
+  "id": "gin:doc:validateHeader",
+  "type": "docstring",
+  "q": "will parse X-Forwarded-For header and return the trusted client IP address",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 481,
+  "end": 501,
+  "name": "validateHeader"
+ },
+ {
+  "id": "gin:vague:validateHeader",
+  "type": "vague",
+  "q": "parse x-forwarded-for header trusted",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 481,
+  "end": 501,
+  "name": "validateHeader"
+ },
+ {
+  "id": "gin:id:RunQUIC",
+  "type": "identifier",
+  "q": "where is RunQUIC defined",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 627,
+  "end": 641,
+  "name": "RunQUIC"
+ },
+ {
+  "id": "gin:doc:RunQUIC",
+  "type": "docstring",
+  "q": "attaches the router to a and starts listening and serving QUIC requests",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 627,
+  "end": 641,
+  "name": "RunQUIC"
+ },
+ {
+  "id": "gin:vague:RunQUIC",
+  "type": "vague",
+  "q": "attaches router starts listening",
+  "repo": "gin",
+  "file": "gin.go",
+  "start": 627,
+  "end": 641,
+  "name": "RunQUIC"
+ },
+ {
+  "id": "gin:id:stack",
+  "type": "identifier",
+  "q": "where is stack defined",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 113,
+  "end": 140,
+  "name": "stack"
+ },
+ {
+  "id": "gin:doc:stack",
+  "type": "docstring",
+  "q": "returns a nicely formatted frame skipping skip frames",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 113,
+  "end": 140,
+  "name": "stack"
+ },
+ {
+  "id": "gin:vague:stack",
+  "type": "vague",
+  "q": "nicely formatted frame skipping",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 113,
+  "end": 140,
+  "name": "stack"
+ },
+ {
+  "id": "gin:id:FileFromFS",
+  "type": "identifier",
+  "q": "where is FileFromFS defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1284,
+  "end": 1293,
+  "name": "FileFromFS"
+ },
+ {
+  "id": "gin:doc:FileFromFS",
+  "type": "docstring",
+  "q": "writes the specified file from into the body stream in an efficient way",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1284,
+  "end": 1293,
+  "name": "FileFromFS"
+ },
+ {
+  "id": "gin:vague:FileFromFS",
+  "type": "vague",
+  "q": "writes specified file body",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1284,
+  "end": 1293,
+  "name": "FileFromFS"
+ },
+ {
+  "id": "gin:id:MultipartForm",
+  "type": "identifier",
+  "q": "where is MultipartForm defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 712,
+  "end": 716,
+  "name": "MultipartForm"
+ },
+ {
+  "id": "gin:doc:MultipartForm",
+  "type": "docstring",
+  "q": "is the parsed multipart form including file uploads",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 712,
+  "end": 716,
+  "name": "MultipartForm"
+ },
+ {
+  "id": "gin:vague:MultipartForm",
+  "type": "vague",
+  "q": "parsed multipart form including",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 712,
+  "end": 716,
+  "name": "MultipartForm"
+ },
+ {
+  "id": "gin:id:readNthLine",
+  "type": "identifier",
+  "q": "where is readNthLine defined",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 142,
+  "end": 169,
+  "name": "readNthLine"
+ },
+ {
+  "id": "gin:doc:readNthLine",
+  "type": "docstring",
+  "q": "reads the nth line from the file",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 142,
+  "end": 169,
+  "name": "readNthLine"
+ },
+ {
+  "id": "gin:vague:readNthLine",
+  "type": "vague",
+  "q": "reads line file",
+  "repo": "gin",
+  "file": "recovery.go",
+  "start": 142,
+  "end": 169,
+  "name": "readNthLine"
+ },
+ {
+  "id": "gin:id:LoggerWithWriter",
+  "type": "identifier",
+  "q": "where is LoggerWithWriter defined",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 235,
+  "end": 242,
+  "name": "LoggerWithWriter"
+ },
+ {
+  "id": "gin:doc:LoggerWithWriter",
+  "type": "docstring",
+  "q": "instance a Logger middleware with the specified writer buffer",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 235,
+  "end": 242,
+  "name": "LoggerWithWriter"
+ },
+ {
+  "id": "gin:vague:LoggerWithWriter",
+  "type": "vague",
+  "q": "instance logger middleware specified",
+  "repo": "gin",
+  "file": "logger.go",
+  "start": 235,
+  "end": 242,
+  "name": "LoggerWithWriter"
+ },
+ {
+  "id": "gin:id:Cookie",
+  "type": "identifier",
+  "q": "where is Cookie defined",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1138,
+  "end": 1149,
+  "name": "Cookie"
+ },
+ {
+  "id": "gin:doc:Cookie",
+  "type": "docstring",
+  "q": "returns the named provided in the request or if not found",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1138,
+  "end": 1149,
+  "name": "Cookie"
+ },
+ {
+  "id": "gin:vague:Cookie",
+  "type": "vague",
+  "q": "named provided request found",
+  "repo": "gin",
+  "file": "context.go",
+  "start": 1138,
+  "end": 1149,
+  "name": "Cookie"
+ },
+ {
+  "id": "gin:hand:1",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how does gin determine the real client IP behind trusted proxies",
+  "file": "context.go",
+  "start": 975,
+  "end": 1024
+ },
+ {
+  "id": "gin:hand:2",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how does gin recover from panics in a handler and write a 500",
+  "file": "recovery.go",
+  "start": 53,
+  "end": 92
+ },
+ {
+  "id": "gin:hand:3",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how is an incoming request matched against the routing tree and dispatched",
+  "file": "gin.go",
+  "start": 690,
+  "end": 760
+ },
+ {
+  "id": "gin:hand:4",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how does the basic auth middleware check the credentials",
+  "file": "auth.go",
+  "start": 48,
+  "end": 68
+ },
+ {
+  "id": "gin:hand:5",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how does gin pick the binding implementation from the request content type",
+  "file": "binding/binding.go",
+  "start": 95,
+  "end": 120
+ },
+ {
+  "id": "gin:hand:6",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how are route groups created and how do they share middleware",
+  "file": "routergroup.go",
+  "start": 72,
+  "end": 78
+ },
+ {
+  "id": "gin:hand:7",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how do I save an uploaded multipart file to disk",
+  "file": "context.go",
+  "start": 719,
+  "end": 746
+ },
+ {
+  "id": "gin:hand:8",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how does gin stream data to the client step by step",
+  "file": "context.go",
+  "start": 1322,
+  "end": 1337
+ },
+ {
+  "id": "gin:hand:9",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how does the logger middleware build and print each log line",
+  "file": "logger.go",
+  "start": 245,
+  "end": 314
+ },
+ {
+  "id": "gin:hand:10",
+  "repo": "gin",
+  "type": "natural",
+  "q": "how is a new route inserted into the radix tree",
+  "file": "tree.go",
+  "start": 135,
+  "end": 249
+ }
+]

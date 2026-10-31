@@ -1,0 +1,1262 @@
+[
+ {
+  "id": "ripgrep:id:ContextMode",
+  "type": "identifier",
+  "q": "where is ContextMode defined",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/lowargs.rs",
+  "start": 336,
+  "end": 345,
+  "name": "ContextMode"
+ },
+ {
+  "id": "ripgrep:doc:ContextMode",
+  "type": "docstring",
+  "q": "Indicates the line context options ripgrep should use for output",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/lowargs.rs",
+  "start": 336,
+  "end": 345,
+  "name": "ContextMode"
+ },
+ {
+  "id": "ripgrep:vague:ContextMode",
+  "type": "vague",
+  "q": "indicates line context options",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/lowargs.rs",
+  "start": 336,
+  "end": 345,
+  "name": "ContextMode"
+ },
+ {
+  "id": "ripgrep:id:ParallelVisitor",
+  "type": "identifier",
+  "q": "where is ParallelVisitor defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1307,
+  "end": 1316,
+  "name": "ParallelVisitor"
+ },
+ {
+  "id": "ripgrep:doc:ParallelVisitor",
+  "type": "docstring",
+  "q": "Receives files and directories for the current thread",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1307,
+  "end": 1316,
+  "name": "ParallelVisitor"
+ },
+ {
+  "id": "ripgrep:vague:ParallelVisitor",
+  "type": "vague",
+  "q": "receives files directories current",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1307,
+  "end": 1316,
+  "name": "ParallelVisitor"
+ },
+ {
+  "id": "ripgrep:id:one_regex",
+  "type": "identifier",
+  "q": "where is one_regex defined",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/literal.rs",
+  "start": 100,
+  "end": 122,
+  "name": "one_regex"
+ },
+ {
+  "id": "ripgrep:doc:one_regex",
+  "type": "docstring",
+  "q": "If it is deemed advantageous to do so various suspicious this will return a single regular expression pattern that matches a subset of the language matched by the regular expression that generated these literal sets",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/literal.rs",
+  "start": 100,
+  "end": 122,
+  "name": "one_regex"
+ },
+ {
+  "id": "ripgrep:vague:one_regex",
+  "type": "vague",
+  "q": "deemed advantageous various suspicious",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/literal.rs",
+  "start": 100,
+  "end": 122,
+  "name": "one_regex"
+ },
+ {
+  "id": "ripgrep:id:sink_fast_multi_line",
+  "type": "identifier",
+  "q": "where is sink_fast_multi_line defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 963,
+  "end": 990,
+  "name": "sink_fast_multi_line"
+ },
+ {
+  "id": "ripgrep:doc:sink_fast_multi_line",
+  "type": "docstring",
+  "q": "Print matches spanning more than one quickly by avoiding the detection of each individual match in the lines reported in the given",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 963,
+  "end": 990,
+  "name": "sink_fast_multi_line"
+ },
+ {
+  "id": "ripgrep:vague:sink_fast_multi_line",
+  "type": "vague",
+  "q": "print matches spanning quickly",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 963,
+  "end": 990,
+  "name": "sink_fast_multi_line"
+ },
+ {
+  "id": "ripgrep:id:HaystackBuilder",
+  "type": "identifier",
+  "q": "where is HaystackBuilder defined",
+  "repo": "ripgrep",
+  "file": "crates/core/haystack.rs",
+  "start": 14,
+  "end": 18,
+  "name": "HaystackBuilder"
+ },
+ {
+  "id": "ripgrep:doc:HaystackBuilder",
+  "type": "docstring",
+  "q": "A builder for constructing things to search over",
+  "repo": "ripgrep",
+  "file": "crates/core/haystack.rs",
+  "start": 14,
+  "end": 18,
+  "name": "HaystackBuilder"
+ },
+ {
+  "id": "ripgrep:vague:HaystackBuilder",
+  "type": "vague",
+  "q": "builder constructing things search",
+  "repo": "ripgrep",
+  "file": "crates/core/haystack.rs",
+  "start": 14,
+  "end": 18,
+  "name": "HaystackBuilder"
+ },
+ {
+  "id": "ripgrep:id:bom_sniffing",
+  "type": "identifier",
+  "q": "where is bom_sniffing defined",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/searcher/mod.rs",
+  "start": 541,
+  "end": 556,
+  "name": "bom_sniffing"
+ },
+ {
+  "id": "ripgrep:doc:bom_sniffing",
+  "type": "docstring",
+  "q": "Enable automatic transcoding based on BOM sniffing",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/searcher/mod.rs",
+  "start": 541,
+  "end": 556,
+  "name": "bom_sniffing"
+ },
+ {
+  "id": "ripgrep:vague:bom_sniffing",
+  "type": "vague",
+  "q": "enable automatic transcoding based",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/searcher/mod.rs",
+  "start": 541,
+  "end": 556,
+  "name": "bom_sniffing"
+ },
+ {
+  "id": "ripgrep:id:error_config",
+  "type": "identifier",
+  "q": "where is error_config defined",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/sink.rs",
+  "start": 31,
+  "end": 37,
+  "name": "error_config"
+ },
+ {
+  "id": "ripgrep:doc:error_config",
+  "type": "docstring",
+  "q": "A constructor for converting configuration errors that occur while building a searcher into an error of this type",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/sink.rs",
+  "start": 31,
+  "end": 37,
+  "name": "error_config"
+ },
+ {
+  "id": "ripgrep:vague:error_config",
+  "type": "vague",
+  "q": "constructor converting configuration errors",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/sink.rs",
+  "start": 31,
+  "end": 37,
+  "name": "error_config"
+ },
+ {
+  "id": "ripgrep:id:read_dir",
+  "type": "identifier",
+  "q": "where is read_dir defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1543,
+  "end": 1578,
+  "name": "read_dir"
+ },
+ {
+  "id": "ripgrep:doc:read_dir",
+  "type": "docstring",
+  "q": "Reads the directory contents of this work item and adds ignore rules for this directory",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1543,
+  "end": 1578,
+  "name": "read_dir"
+ },
+ {
+  "id": "ripgrep:vague:read_dir",
+  "type": "vague",
+  "q": "reads directory contents work",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1543,
+  "end": 1578,
+  "name": "read_dir"
+ },
+ {
+  "id": "ripgrep:id:Gitignore",
+  "type": "identifier",
+  "q": "where is Gitignore defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/gitignore.rs",
+  "start": 78,
+  "end": 88,
+  "name": "Gitignore"
+ },
+ {
+  "id": "ripgrep:doc:Gitignore",
+  "type": "docstring",
+  "q": "is a matcher for the globs in one or more files in the same directory",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/gitignore.rs",
+  "start": 78,
+  "end": 88,
+  "name": "Gitignore"
+ },
+ {
+  "id": "ripgrep:vague:Gitignore",
+  "type": "vague",
+  "q": "matcher globs files same",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/gitignore.rs",
+  "start": 78,
+  "end": 88,
+  "name": "Gitignore"
+ },
+ {
+  "id": "ripgrep:id:GlobSetBuilder",
+  "type": "identifier",
+  "q": "where is GlobSetBuilder defined",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/lib.rs",
+  "start": 563,
+  "end": 568,
+  "name": "GlobSetBuilder"
+ },
+ {
+  "id": "ripgrep:doc:GlobSetBuilder",
+  "type": "docstring",
+  "q": "builds a group of patterns that can be used to simultaneously match a file path",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/lib.rs",
+  "start": 563,
+  "end": 568,
+  "name": "GlobSetBuilder"
+ },
+ {
+  "id": "ripgrep:vague:GlobSetBuilder",
+  "type": "vague",
+  "q": "builds group patterns simultaneously",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/lib.rs",
+  "start": 563,
+  "end": 568,
+  "name": "GlobSetBuilder"
+ },
+ {
+  "id": "ripgrep:id:add_str",
+  "type": "identifier",
+  "q": "where is add_str defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/gitignore.rs",
+  "start": 434,
+  "end": 450,
+  "name": "add_str"
+ },
+ {
+  "id": "ripgrep:doc:add_str",
+  "type": "docstring",
+  "q": "Add each glob line from the string given",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/gitignore.rs",
+  "start": 434,
+  "end": 450,
+  "name": "add_str"
+ },
+ {
+  "id": "ripgrep:vague:add_str",
+  "type": "vague",
+  "q": "glob line string",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/gitignore.rs",
+  "start": 434,
+  "end": 450,
+  "name": "add_str"
+ },
+ {
+  "id": "ripgrep:id:extract_repetition",
+  "type": "identifier",
+  "q": "where is extract_repetition defined",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/literal.rs",
+  "start": 249,
+  "end": 315,
+  "name": "extract_repetition"
+ },
+ {
+  "id": "ripgrep:doc:extract_repetition",
+  "type": "docstring",
+  "q": "Extract a sequence of literals from the given repetition",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/literal.rs",
+  "start": 249,
+  "end": 315,
+  "name": "extract_repetition"
+ },
+ {
+  "id": "ripgrep:vague:extract_repetition",
+  "type": "vague",
+  "q": "extract sequence literals repetition",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/literal.rs",
+  "start": 249,
+  "end": 315,
+  "name": "extract_repetition"
+ },
+ {
+  "id": "ripgrep:id:haystack_builder",
+  "type": "identifier",
+  "q": "where is haystack_builder defined",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 353,
+  "end": 361,
+  "name": "haystack_builder"
+ },
+ {
+  "id": "ripgrep:doc:haystack_builder",
+  "type": "docstring",
+  "q": "Return a properly configured builder for constructing haystacks",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 353,
+  "end": 361,
+  "name": "haystack_builder"
+ },
+ {
+  "id": "ripgrep:vague:haystack_builder",
+  "type": "vague",
+  "q": "properly configured builder constructing",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 353,
+  "end": 361,
+  "name": "haystack_builder"
+ },
+ {
+  "id": "ripgrep:id:expected_slice_no_line_number",
+  "type": "identifier",
+  "q": "where is expected_slice_no_line_number defined",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/testutil.rs",
+  "start": 339,
+  "end": 348,
+  "name": "expected_slice_no_line_number"
+ },
+ {
+  "id": "ripgrep:doc:expected_slice_no_line_number",
+  "type": "docstring",
+  "q": "Set the expected search results without line numbers when performing a search on a slice",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/testutil.rs",
+  "start": 339,
+  "end": 348,
+  "name": "expected_slice_no_line_number"
+ },
+ {
+  "id": "ripgrep:vague:expected_slice_no_line_number",
+  "type": "vague",
+  "q": "expected search results without",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/testutil.rs",
+  "start": 339,
+  "end": 348,
+  "name": "expected_slice_no_line_number"
+ },
+ {
+  "id": "ripgrep:id:associate",
+  "type": "identifier",
+  "q": "where is associate defined",
+  "repo": "ripgrep",
+  "file": "crates/cli/src/decompress.rs",
+  "start": 81,
+  "end": 109,
+  "name": "associate"
+ },
+ {
+  "id": "ripgrep:doc:associate",
+  "type": "docstring",
+  "q": "Associates a glob with a command to decompress files matching the glob",
+  "repo": "ripgrep",
+  "file": "crates/cli/src/decompress.rs",
+  "start": 81,
+  "end": 109,
+  "name": "associate"
+ },
+ {
+  "id": "ripgrep:vague:associate",
+  "type": "vague",
+  "q": "associates glob command decompress",
+  "repo": "ripgrep",
+  "file": "crates/cli/src/decompress.rs",
+  "start": 81,
+  "end": 109,
+  "name": "associate"
+ },
+ {
+  "id": "ripgrep:id:from_pattern",
+  "type": "identifier",
+  "q": "where is from_pattern defined",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/ast.rs",
+  "start": 14,
+  "end": 24,
+  "name": "from_pattern"
+ },
+ {
+  "id": "ripgrep:doc:from_pattern",
+  "type": "docstring",
+  "q": "Returns a value by doing analysis on the AST of",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/ast.rs",
+  "start": 14,
+  "end": 24,
+  "name": "from_pattern"
+ },
+ {
+  "id": "ripgrep:vague:from_pattern",
+  "type": "vague",
+  "q": "value doing analysis",
+  "repo": "ripgrep",
+  "file": "crates/regex/src/ast.rs",
+  "start": 14,
+  "end": 24,
+  "name": "from_pattern"
+ },
+ {
+  "id": "ripgrep:id:patterns_from_reader",
+  "type": "identifier",
+  "q": "where is patterns_from_reader defined",
+  "repo": "ripgrep",
+  "file": "crates/cli/src/pattern.rs",
+  "start": 112,
+  "end": 158,
+  "name": "patterns_from_reader"
+ },
+ {
+  "id": "ripgrep:doc:patterns_from_reader",
+  "type": "docstring",
+  "q": "Read patterns from any reader one per line",
+  "repo": "ripgrep",
+  "file": "crates/cli/src/pattern.rs",
+  "start": 112,
+  "end": 158,
+  "name": "patterns_from_reader"
+ },
+ {
+  "id": "ripgrep:vague:patterns_from_reader",
+  "type": "vague",
+  "q": "read patterns reader line",
+  "repo": "ripgrep",
+  "file": "crates/cli/src/pattern.rs",
+  "start": 112,
+  "end": 158,
+  "name": "patterns_from_reader"
+ },
+ {
+  "id": "ripgrep:id:add_child_with_entries",
+  "type": "identifier",
+  "q": "where is add_child_with_entries defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/dir.rs",
+  "start": 282,
+  "end": 301,
+  "name": "add_child_with_entries"
+ },
+ {
+  "id": "ripgrep:doc:add_child_with_entries",
+  "type": "docstring",
+  "q": "Like but uses successful entries to reduce probing when discovering ignore files",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/dir.rs",
+  "start": 282,
+  "end": 301,
+  "name": "add_child_with_entries"
+ },
+ {
+  "id": "ripgrep:vague:add_child_with_entries",
+  "type": "vague",
+  "q": "like successful entries reduce",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/dir.rs",
+  "start": 282,
+  "end": 301,
+  "name": "add_child_with_entries"
+ },
+ {
+  "id": "ripgrep:id:max_jit_stack_size",
+  "type": "identifier",
+  "q": "where is max_jit_stack_size defined",
+  "repo": "ripgrep",
+  "file": "crates/pcre2/src/matcher.rs",
+  "start": 278,
+  "end": 297,
+  "name": "max_jit_stack_size"
+ },
+ {
+  "id": "ripgrep:doc:max_jit_stack_size",
+  "type": "docstring",
+  "q": "Set the maximum size of PCRE2's JIT stack in bytes",
+  "repo": "ripgrep",
+  "file": "crates/pcre2/src/matcher.rs",
+  "start": 278,
+  "end": 297,
+  "name": "max_jit_stack_size"
+ },
+ {
+  "id": "ripgrep:vague:max_jit_stack_size",
+  "type": "vague",
+  "q": "maximum size pcre2's stack",
+  "repo": "ripgrep",
+  "file": "crates/pcre2/src/matcher.rs",
+  "start": 278,
+  "end": 297,
+  "name": "max_jit_stack_size"
+ },
+ {
+  "id": "ripgrep:id:CaseMode",
+  "type": "identifier",
+  "q": "where is CaseMode defined",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/lowargs.rs",
+  "start": 286,
+  "end": 300,
+  "name": "CaseMode"
+ },
+ {
+  "id": "ripgrep:doc:CaseMode",
+  "type": "docstring",
+  "q": "Indicates the case mode for how to interpret all patterns given to ripgrep",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/lowargs.rs",
+  "start": 286,
+  "end": 300,
+  "name": "CaseMode"
+ },
+ {
+  "id": "ripgrep:vague:CaseMode",
+  "type": "vague",
+  "q": "indicates case mode interpret",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/lowargs.rs",
+  "start": 286,
+  "end": 300,
+  "name": "CaseMode"
+ },
+ {
+  "id": "ripgrep:id:write_path_field",
+  "type": "identifier",
+  "q": "where is write_path_field defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/summary.rs",
+  "start": 560,
+  "end": 574,
+  "name": "write_path_field"
+ },
+ {
+  "id": "ripgrep:doc:write_path_field",
+  "type": "docstring",
+  "q": "If this printer has a file path associated with it then this will write that path to the underlying writer followed by the field separator",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/summary.rs",
+  "start": 560,
+  "end": 574,
+  "name": "write_path_field"
+ },
+ {
+  "id": "ripgrep:vague:write_path_field",
+  "type": "vague",
+  "q": "printer file path associated",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/summary.rs",
+  "start": 560,
+  "end": 574,
+  "name": "write_path_field"
+ },
+ {
+  "id": "ripgrep:id:Hasher",
+  "type": "identifier",
+  "q": "where is Hasher defined",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/fnv.rs",
+  "start": 5,
+  "end": 11,
+  "name": "Hasher"
+ },
+ {
+  "id": "ripgrep:doc:Hasher",
+  "type": "docstring",
+  "q": "A that implements the hash",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/fnv.rs",
+  "start": 5,
+  "end": 11,
+  "name": "Hasher"
+ },
+ {
+  "id": "ripgrep:id:WalkState",
+  "type": "identifier",
+  "q": "where is WalkState defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1262,
+  "end": 1278,
+  "name": "WalkState"
+ },
+ {
+  "id": "ripgrep:doc:WalkState",
+  "type": "docstring",
+  "q": "is used in the parallel recursive directory iterator to indicate whether walking should continue as normal skip descending into a particular directory or quit the walk entirely",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1262,
+  "end": 1278,
+  "name": "WalkState"
+ },
+ {
+  "id": "ripgrep:vague:WalkState",
+  "type": "vague",
+  "q": "parallel recursive directory iterator",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1262,
+  "end": 1278,
+  "name": "WalkState"
+ },
+ {
+  "id": "ripgrep:id:matcher_rust",
+  "type": "identifier",
+  "q": "where is matcher_rust defined",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 457,
+  "end": 514,
+  "name": "matcher_rust"
+ },
+ {
+  "id": "ripgrep:doc:matcher_rust",
+  "type": "docstring",
+  "q": "Build a matcher using Rust's regex engine",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 457,
+  "end": 514,
+  "name": "matcher_rust"
+ },
+ {
+  "id": "ripgrep:vague:matcher_rust",
+  "type": "vague",
+  "q": "build matcher rust's regex",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 457,
+  "end": 514,
+  "name": "matcher_rust"
+ },
+ {
+  "id": "ripgrep:id:Standard",
+  "type": "identifier",
+  "q": "where is Standard defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 466,
+  "end": 484,
+  "name": "Standard"
+ },
+ {
+  "id": "ripgrep:doc:Standard",
+  "type": "docstring",
+  "q": "The printer which implements grep-like formatting including color support",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 466,
+  "end": 484,
+  "name": "Standard"
+ },
+ {
+  "id": "ripgrep:vague:Standard",
+  "type": "vague",
+  "q": "printer implements grep-like formatting",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 466,
+  "end": 484,
+  "name": "Standard"
+ },
+ {
+  "id": "ripgrep:id:ColorError",
+  "type": "identifier",
+  "q": "where is ColorError defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/color.rs",
+  "start": 22,
+  "end": 35,
+  "name": "ColorError"
+ },
+ {
+  "id": "ripgrep:doc:ColorError",
+  "type": "docstring",
+  "q": "An error that can occur when parsing color specifications",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/color.rs",
+  "start": 22,
+  "end": 35,
+  "name": "ColorError"
+ },
+ {
+  "id": "ripgrep:vague:ColorError",
+  "type": "vague",
+  "q": "error occur parsing color",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/color.rs",
+  "start": 22,
+  "end": 35,
+  "name": "ColorError"
+ },
+ {
+  "id": "ripgrep:id:is_suffix",
+  "type": "identifier",
+  "q": "where is is_suffix defined",
+  "repo": "ripgrep",
+  "file": "crates/matcher/src/lib.rs",
+  "start": 257,
+  "end": 265,
+  "name": "is_suffix"
+ },
+ {
+  "id": "ripgrep:doc:is_suffix",
+  "type": "docstring",
+  "q": "Returns true if and only if the given slice ends with this line terminator",
+  "repo": "ripgrep",
+  "file": "crates/matcher/src/lib.rs",
+  "start": 257,
+  "end": 265,
+  "name": "is_suffix"
+ },
+ {
+  "id": "ripgrep:vague:is_suffix",
+  "type": "vague",
+  "q": "true slice ends line",
+  "repo": "ripgrep",
+  "file": "crates/matcher/src/lib.rs",
+  "start": 257,
+  "end": 265,
+  "name": "is_suffix"
+ },
+ {
+  "id": "ripgrep:id:GlobMatcher",
+  "type": "identifier",
+  "q": "where is GlobMatcher defined",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/glob.rs",
+  "start": 131,
+  "end": 138,
+  "name": "GlobMatcher"
+ },
+ {
+  "id": "ripgrep:doc:GlobMatcher",
+  "type": "docstring",
+  "q": "A matcher for a single pattern",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/glob.rs",
+  "start": 131,
+  "end": 138,
+  "name": "GlobMatcher"
+ },
+ {
+  "id": "ripgrep:vague:GlobMatcher",
+  "type": "vague",
+  "q": "matcher single pattern",
+  "repo": "ripgrep",
+  "file": "crates/globset/src/glob.rs",
+  "start": 131,
+  "end": 138,
+  "name": "GlobMatcher"
+ },
+ {
+  "id": "ripgrep:id:fill_multi_line_buffer_from_reader",
+  "type": "identifier",
+  "q": "where is fill_multi_line_buffer_from_reader defined",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/searcher/mod.rs",
+  "start": 971,
+  "end": 1028,
+  "name": "fill_multi_line_buffer_from_reader"
+ },
+ {
+  "id": "ripgrep:doc:fill_multi_line_buffer_from_reader",
+  "type": "docstring",
+  "q": "Fill the buffer for use with multi-line searching from the given reader",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/searcher/mod.rs",
+  "start": 971,
+  "end": 1028,
+  "name": "fill_multi_line_buffer_from_reader"
+ },
+ {
+  "id": "ripgrep:vague:fill_multi_line_buffer_from_reader",
+  "type": "vague",
+  "q": "fill buffer multi-line searching",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/searcher/mod.rs",
+  "start": 971,
+  "end": 1028,
+  "name": "fill_multi_line_buffer_from_reader"
+ },
+ {
+  "id": "ripgrep:id:DirEntryRaw",
+  "type": "identifier",
+  "q": "where is DirEntryRaw defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 234,
+  "end": 255,
+  "name": "DirEntryRaw"
+ },
+ {
+  "id": "ripgrep:doc:DirEntryRaw",
+  "type": "docstring",
+  "q": "is essentially copied from the walkdir crate so that we can build s from whole cloth in the parallel iterator",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 234,
+  "end": 255,
+  "name": "DirEntryRaw"
+ },
+ {
+  "id": "ripgrep:vague:DirEntryRaw",
+  "type": "vague",
+  "q": "essentially copied walkdir crate",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 234,
+  "end": 255,
+  "name": "DirEntryRaw"
+ },
+ {
+  "id": "ripgrep:id:needs_match_granularity",
+  "type": "identifier",
+  "q": "where is needs_match_granularity defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 573,
+  "end": 594,
+  "name": "needs_match_granularity"
+ },
+ {
+  "id": "ripgrep:doc:needs_match_granularity",
+  "type": "docstring",
+  "q": "Returns true if and only if the configuration of the printer requires us to find each individual match in the lines reported by the searcher",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 573,
+  "end": 594,
+  "name": "needs_match_granularity"
+ },
+ {
+  "id": "ripgrep:vague:needs_match_granularity",
+  "type": "vague",
+  "q": "true configuration printer requires",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/standard.rs",
+  "start": 573,
+  "end": 594,
+  "name": "needs_match_granularity"
+ },
+ {
+  "id": "ripgrep:id:add_child_path",
+  "type": "identifier",
+  "q": "where is add_child_path defined",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/dir.rs",
+  "start": 303,
+  "end": 306,
+  "name": "add_child_path"
+ },
+ {
+  "id": "ripgrep:doc:add_child_path",
+  "type": "docstring",
+  "q": "Like but takes a full path and returns an",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/dir.rs",
+  "start": 303,
+  "end": 306,
+  "name": "add_child_path"
+ },
+ {
+  "id": "ripgrep:vague:add_child_path",
+  "type": "vague",
+  "q": "like takes full path",
+  "repo": "ripgrep",
+  "file": "crates/ignore/src/dir.rs",
+  "start": 303,
+  "end": 306,
+  "name": "add_child_path"
+ },
+ {
+  "id": "ripgrep:id:add_bytes_printed",
+  "type": "identifier",
+  "q": "where is add_bytes_printed defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/stats.rs",
+  "start": 91,
+  "end": 94,
+  "name": "add_bytes_printed"
+ },
+ {
+  "id": "ripgrep:doc:add_bytes_printed",
+  "type": "docstring",
+  "q": "Add to the total number of bytes printed",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/stats.rs",
+  "start": 91,
+  "end": 94,
+  "name": "add_bytes_printed"
+ },
+ {
+  "id": "ripgrep:vague:add_bytes_printed",
+  "type": "vague",
+  "q": "total number bytes printed",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/stats.rs",
+  "start": 91,
+  "end": 94,
+  "name": "add_bytes_printed"
+ },
+ {
+  "id": "ripgrep:id:set_messages",
+  "type": "identifier",
+  "q": "where is set_messages defined",
+  "repo": "ripgrep",
+  "file": "crates/core/messages.rs",
+  "start": 105,
+  "end": 110,
+  "name": "set_messages"
+ },
+ {
+  "id": "ripgrep:doc:set_messages",
+  "type": "docstring",
+  "q": "Set whether messages should be shown or not",
+  "repo": "ripgrep",
+  "file": "crates/core/messages.rs",
+  "start": 105,
+  "end": 110,
+  "name": "set_messages"
+ },
+ {
+  "id": "ripgrep:id:Lossy",
+  "type": "identifier",
+  "q": "where is Lossy defined",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/sink.rs",
+  "start": 570,
+  "end": 622,
+  "name": "Lossy"
+ },
+ {
+  "id": "ripgrep:doc:Lossy",
+  "type": "docstring",
+  "q": "A sink that provides line numbers and matches as strings while ignoring everything else",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/sink.rs",
+  "start": 570,
+  "end": 622,
+  "name": "Lossy"
+ },
+ {
+  "id": "ripgrep:vague:Lossy",
+  "type": "vague",
+  "q": "sink provides line numbers",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/sink.rs",
+  "start": 570,
+  "end": 622,
+  "name": "Lossy"
+ },
+ {
+  "id": "ripgrep:id:preceding_by_pos",
+  "type": "identifier",
+  "q": "where is preceding_by_pos defined",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/lines.rs",
+  "start": 161,
+  "end": 197,
+  "name": "preceding_by_pos"
+ },
+ {
+  "id": "ripgrep:doc:preceding_by_pos",
+  "type": "docstring",
+  "q": "Returns the minimal starting offset of the line that occurs lines before the line containing",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/lines.rs",
+  "start": 161,
+  "end": 197,
+  "name": "preceding_by_pos"
+ },
+ {
+  "id": "ripgrep:vague:preceding_by_pos",
+  "type": "vague",
+  "q": "minimal starting offset line",
+  "repo": "ripgrep",
+  "file": "crates/searcher/src/lines.rs",
+  "start": 161,
+  "end": 197,
+  "name": "preceding_by_pos"
+ },
+ {
+  "id": "ripgrep:id:append_var",
+  "type": "identifier",
+  "q": "where is append_var defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/hyperlink/mod.rs",
+  "start": 407,
+  "end": 430,
+  "name": "append_var"
+ },
+ {
+  "id": "ripgrep:doc:append_var",
+  "type": "docstring",
+  "q": "Appends a variable with the given name",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/hyperlink/mod.rs",
+  "start": 407,
+  "end": 430,
+  "name": "append_var"
+ },
+ {
+  "id": "ripgrep:vague:append_var",
+  "type": "vague",
+  "q": "appends variable name",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/hyperlink/mod.rs",
+  "start": 407,
+  "end": 430,
+  "name": "append_var"
+ },
+ {
+  "id": "ripgrep:id:platform_hostname",
+  "type": "identifier",
+  "q": "where is platform_hostname defined",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 1371,
+  "end": 1391,
+  "name": "platform_hostname"
+ },
+ {
+  "id": "ripgrep:doc:platform_hostname",
+  "type": "docstring",
+  "q": "Attempts to get the hostname by using platform specific routines",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 1371,
+  "end": 1391,
+  "name": "platform_hostname"
+ },
+ {
+  "id": "ripgrep:vague:platform_hostname",
+  "type": "vague",
+  "q": "attempts hostname platform specific",
+  "repo": "ripgrep",
+  "file": "crates/core/flags/hiargs.rs",
+  "start": 1371,
+  "end": 1391,
+  "name": "platform_hostname"
+ },
+ {
+  "id": "ripgrep:id:add_searches",
+  "type": "identifier",
+  "q": "where is add_searches defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/stats.rs",
+  "start": 76,
+  "end": 79,
+  "name": "add_searches"
+ },
+ {
+  "id": "ripgrep:doc:add_searches",
+  "type": "docstring",
+  "q": "Add to the number of searches executed",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/stats.rs",
+  "start": 76,
+  "end": 79,
+  "name": "add_searches"
+ },
+ {
+  "id": "ripgrep:vague:add_searches",
+  "type": "vague",
+  "q": "number searches executed",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/stats.rs",
+  "start": 76,
+  "end": 79,
+  "name": "add_searches"
+ },
+ {
+  "id": "ripgrep:id:environment",
+  "type": "identifier",
+  "q": "where is environment defined",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/hyperlink/mod.rs",
+  "start": 42,
+  "end": 45,
+  "name": "environment"
+ },
+ {
+  "id": "ripgrep:doc:environment",
+  "type": "docstring",
+  "q": "Returns the hyperlink in this configuration",
+  "repo": "ripgrep",
+  "file": "crates/printer/src/hyperlink/mod.rs",
+  "start": 42,
+  "end": 45,
+  "name": "environment"
+ },
+ {
+  "id": "ripgrep:hand:1",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how does ripgrep read default arguments from a config file",
+  "file": "crates/core/flags/config.rs",
+  "start": 16,
+  "end": 53
+ },
+ {
+  "id": "ripgrep:hand:2",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how does ripgrep suggest a similar flag when one is mistyped",
+  "file": "crates/core/flags/parse.rs",
+  "start": 404,
+  "end": 415
+ },
+ {
+  "id": "ripgrep:hand:3",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how does ripgrep choose between searching on one thread or in parallel",
+  "file": "crates/core/main.rs",
+  "start": 107,
+  "end": 151
+ },
+ {
+  "id": "ripgrep:hand:4",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how are compressed files decompressed before searching",
+  "file": "crates/core/search.rs",
+  "start": 329,
+  "end": 339
+ },
+ {
+  "id": "ripgrep:hand:5",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how does the ignore crate decide if a path matches a gitignore rule",
+  "file": "crates/ignore/src/dir.rs",
+  "start": 500,
+  "end": 544
+ },
+ {
+  "id": "ripgrep:hand:6",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how does ripgrep detect binary files during a search",
+  "file": "crates/core/search.rs",
+  "start": 139,
+  "end": 145
+ },
+ {
+  "id": "ripgrep:hand:7",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how are command line flags parsed into the low level arguments",
+  "file": "crates/core/flags/parse.rs",
+  "start": 64,
+  "end": 113
+ },
+ {
+  "id": "ripgrep:hand:8",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how does the parallel directory walker run visitors on worker threads",
+  "file": "crates/ignore/src/walk.rs",
+  "start": 1393,
+  "end": 1469
+ },
+ {
+  "id": "ripgrep:hand:9",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "how is a preprocessor command run on a file before searching it",
+  "file": "crates/core/search.rs",
+  "start": 296,
+  "end": 324
+ },
+ {
+  "id": "ripgrep:hand:10",
+  "repo": "ripgrep",
+  "type": "natural",
+  "q": "what does ripgrep print when no files were searched",
+  "file": "crates/core/main.rs",
+  "start": 414,
+  "end": 420
+ }
+]

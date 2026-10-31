@@ -1,0 +1,2946 @@
+{
+  "generated": "deterministic (seeded); wall-clock timings vary",
+  "params": {
+    "codeSavingsPlaceholder": 3000,
+    "tokenRule": "ceil(chars/4)"
+  },
+  "part1": {
+    "skills": [
+      {
+        "name": "forget",
+        "descTokens": 63,
+        "bodyTokens": 137
+      },
+      {
+        "name": "index",
+        "descTokens": 68,
+        "bodyTokens": 301
+      },
+      {
+        "name": "recall",
+        "descTokens": 75,
+        "bodyTokens": 239
+      },
+      {
+        "name": "remember",
+        "descTokens": 69,
+        "bodyTokens": 147
+      },
+      {
+        "name": "status",
+        "descTokens": 53,
+        "bodyTokens": 184
+      }
+    ],
+    "skillTokens": 327,
+    "toolCount": 6,
+    "toolNames": [
+      "search",
+      "save_note",
+      "reindex",
+      "status",
+      "configure",
+      "forget"
+    ],
+    "toolsPerTool": [
+      {
+        "name": "search",
+        "tokens": 147
+      },
+      {
+        "name": "save_note",
+        "tokens": 127
+      },
+      {
+        "name": "reindex",
+        "tokens": 119
+      },
+      {
+        "name": "status",
+        "tokens": 72
+      },
+      {
+        "name": "configure",
+        "tokens": 94
+      },
+      {
+        "name": "forget",
+        "tokens": 105
+      }
+    ],
+    "toolsLoadedTokens": 666,
+    "toolsLoadedSlimTokens": 607,
+    "toolsDeferredTokens": 59,
+    "hookTokens": 59,
+    "hookMsg": "This project has a local knowledge base (remember plugin). Before reading or grepping files to find where something is, how it works, or what was decided in earlier sessions, use the recall skill, then read only the lines it points to.",
+    "recallBodyTokens": 239,
+    "searchToolTokens": 147,
+    "fixedLoaded": 1052,
+    "fixedDeferred": 445,
+    "firstUseLoaded": 239,
+    "firstUseDeferred": 446
+  },
+  "corpus": {
+    "transcripts": 40,
+    "totalBytes": 19428924,
+    "minBytes": 30485,
+    "maxBytes": 2100504,
+    "facts": 60,
+    "notes": 25,
+    "indexCounts": {
+      "file": 30,
+      "chat": 40,
+      "note": 21,
+      "chunks": 2233,
+      "unembedded": 0
+    },
+    "indexSeconds": 129.742,
+    "questions": 80
+  },
+  "recall": {
+    "overall": {
+      "n": 80,
+      "r1": 50,
+      "r8": 66,
+      "vis8": 66
+    },
+    "byLang": {
+      "en": {
+        "n": 65,
+        "r1": 43,
+        "r8": 56,
+        "vis8": 56
+      },
+      "de": {
+        "n": 4,
+        "r1": 3,
+        "r8": 3,
+        "vis8": 3
+      },
+      "nl": {
+        "n": 4,
+        "r1": 2,
+        "r8": 3,
+        "vis8": 3
+      },
+      "fr": {
+        "n": 4,
+        "r1": 1,
+        "r8": 3,
+        "vis8": 3
+      },
+      "es": {
+        "n": 3,
+        "r1": 1,
+        "r8": 1,
+        "vis8": 1
+      }
+    },
+    "byCat": {
+      "regular": {
+        "n": 40,
+        "r1": 28,
+        "r8": 36,
+        "vis8": 36
+      },
+      "vague": {
+        "n": 15,
+        "r1": 9,
+        "r8": 10,
+        "vis8": 10
+      },
+      "foreign": {
+        "n": 15,
+        "r1": 7,
+        "r8": 10,
+        "vis8": 10
+      },
+      "superseded": {
+        "n": 10,
+        "r1": 6,
+        "r8": 10,
+        "vis8": 10
+      }
+    },
+    "superseded": {
+      "n": 10,
+      "newInTop8": 10,
+      "newAtRank1": 6,
+      "bothPresent": 10,
+      "newAboveOld": 6,
+      "oldOnly": 0,
+      "neither": 0,
+      "noteBacked": 6
+    },
+    "withNote": {
+      "n": 33,
+      "r1": 28,
+      "r8": 30,
+      "vis8": 30
+    },
+    "chatOnly": {
+      "n": 47,
+      "r1": 22,
+      "r8": 36,
+      "vis8": 36
+    },
+    "regularNoSup": {
+      "n": 70,
+      "r1": 44,
+      "r8": 56,
+      "vis8": 56
+    },
+    "searchMs": {
+      "median": 93.84583699999999,
+      "mean": 128.52021128749996,
+      "p90": 246.75686,
+      "min": 48.886884,
+      "max": 719.20082
+    }
+  },
+  "policies": {
+    "remember": {
+      "median": 639,
+      "mean": 681.3625,
+      "p90": 898,
+      "min": 457,
+      "max": 1160
+    },
+    "grepRead": {
+      "median": 150644.5,
+      "mean": 284461.0875,
+      "p90": 707418,
+      "min": 0,
+      "max": 1190744
+    },
+    "grepOnly": {
+      "median": 773.5,
+      "mean": 36760.4125,
+      "p90": 180691,
+      "min": 0,
+      "max": 664017
+    },
+    "grepOnlyTrunc500": {
+      "median": 770,
+      "mean": 7068.2375,
+      "p90": 20414,
+      "min": 0,
+      "max": 20497
+    },
+    "readOnly": {
+      "median": 150437,
+      "mean": 247700.675,
+      "p90": 526727,
+      "min": 0,
+      "max": 526727
+    },
+    "reexplain": {
+      "median": 66,
+      "mean": 67.275,
+      "p90": 74,
+      "min": 54,
+      "max": 77
+    }
+  },
+  "grepHit": {
+    "n": 80,
+    "hit": 36,
+    "hitGrepOutput": 34,
+    "hitRead": 23,
+    "noWordsInCorpus": 11
+  },
+  "grepByLang": {
+    "en": {
+      "n": 65,
+      "hit": 34
+    },
+    "de": {
+      "n": 4,
+      "hit": 0
+    },
+    "nl": {
+      "n": 4,
+      "hit": 1
+    },
+    "fr": {
+      "n": 4,
+      "hit": 1
+    },
+    "es": {
+      "n": 3,
+      "hit": 0
+    }
+  },
+  "grepSupersededHit": 7,
+  "memFile": {
+    "10": {
+      "lines": 10,
+      "tokens": 292
+    },
+    "25": {
+      "lines": 25,
+      "tokens": 726
+    },
+    "60": {
+      "lines": 60,
+      "tokens": 1464
+    },
+    "150": {
+      "lines": 150,
+      "tokens": 3482
+    },
+    "400": {
+      "lines": 400,
+      "tokens": 9035
+    }
+  },
+  "answerableByFileAt": {
+    "10": 0.225,
+    "25": 0.55,
+    "60": 1,
+    "150": 1,
+    "400": 1
+  },
+  "growth": [
+    {
+      "n": 10,
+      "memFileTokens": 292,
+      "remember1": 1530,
+      "remember3": 2808,
+      "remember5": 4086,
+      "rememberLoaded3": 3208
+    },
+    {
+      "n": 25,
+      "memFileTokens": 726,
+      "remember1": 1530,
+      "remember3": 2808,
+      "remember5": 4086,
+      "rememberLoaded3": 3208
+    },
+    {
+      "n": 60,
+      "memFileTokens": 1464,
+      "remember1": 1530,
+      "remember3": 2808,
+      "remember5": 4086,
+      "rememberLoaded3": 3208
+    },
+    {
+      "n": 150,
+      "memFileTokens": 3482,
+      "remember1": 1530,
+      "remember3": 2808,
+      "remember5": 4086,
+      "rememberLoaded3": 3208
+    },
+    {
+      "n": 400,
+      "memFileTokens": 9035,
+      "remember1": 1530,
+      "remember3": 2808,
+      "remember5": 4086,
+      "rememberLoaded3": 3208
+    }
+  ],
+  "memFileTokensPerLine": 22.212,
+  "crossoverDecisionsVsRemember3": 127,
+  "breakEven": [
+    {
+      "name": "code search (placeholder, --code-savings)",
+      "savingPerLookup": 3000,
+      "loaded": 1,
+      "deferred": 1,
+      "loadedNoFirstUse": 1,
+      "deferredNoFirstUse": 1
+    },
+    {
+      "name": "chat recall vs grep+read (median)",
+      "savingPerLookup": 77652,
+      "loaded": 1,
+      "deferred": 1,
+      "loadedNoFirstUse": 1,
+      "deferredNoFirstUse": 1
+    },
+    {
+      "name": "chat recall vs grep+read (mean)",
+      "savingPerLookup": 238739.725,
+      "loaded": 1,
+      "deferred": 1,
+      "loadedNoFirstUse": 1,
+      "deferredNoFirstUse": 1
+    },
+    {
+      "name": "chat recall vs grep only (median)",
+      "savingPerLookup": -42,
+      "loaded": null,
+      "deferred": null,
+      "loadedNoFirstUse": null,
+      "deferredNoFirstUse": null
+    },
+    {
+      "name": "chat recall vs re-explain (mean)",
+      "savingPerLookup": -626.1875,
+      "loaded": null,
+      "deferred": null,
+      "loadedNoFirstUse": null,
+      "deferredNoFirstUse": null
+    }
+  ],
+  "savings": {
+    "recallVsGrepMean": 238739.725,
+    "recallVsGrepMed": 77652,
+    "recallVsGrepOnlyMed": -42,
+    "recallVsReexplain": -626.1875
+  },
+  "rows": [
+    {
+      "q": "Why did we go with cursor-based paging for the orders endpoint?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F01",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 540,
+      "searchMs": 195.383135,
+      "topKinds": "ncnnnnnc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "paging",
+          "endpoint"
+        ],
+        "grepTokens": 763,
+        "grepTruncTokens": 763,
+        "readTokens": 212876,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10022cce-0000-4000-8000-abc000000012.jsonl",
+        "matched": 4,
+        "hitsShown": 4
+      },
+      "grepReadTokens": 213639,
+      "reexplainTokens": 64
+    },
+    {
+      "q": "What's the max number of database connections in prod and why not more?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F02",
+      "rank": 5,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 521,
+      "searchMs": 296.024298,
+      "topKinds": "nnnnccnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "connections",
+          "prod"
+        ],
+        "grepTokens": 977,
+        "grepTruncTokens": 969,
+        "readTokens": 333886,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1003dde0-0000-4000-8000-abc000000020.jsonl",
+        "matched": 5,
+        "hitsShown": 5
+      },
+      "grepReadTokens": 334863,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "Where do user sessions get stored and for how long?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F03",
+      "rank": 7,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 610,
+      "searchMs": 100.826845,
+      "topKinds": "cccnnnnc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "stored",
+          "sessions"
+        ],
+        "grepTokens": 23314,
+        "grepTruncTokens": 20229,
+        "readTokens": 526727,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 369,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 550041,
+      "reexplainTokens": 74
+    },
+    {
+      "q": "How many calls per minute is a client allowed on the public API?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F04",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 550,
+      "searchMs": 719.20082,
+      "topKinds": "ccccccnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "public",
+          "client"
+        ],
+        "grepTokens": 778,
+        "grepTruncTokens": 772,
+        "readTokens": 382740,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10013556-0000-4000-8000-abc00000000a.jsonl",
+        "matched": 4,
+        "hitsShown": 4
+      },
+      "grepReadTokens": 383518,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "What time does the invoice batch run and what's it waiting for?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F05",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 588,
+      "searchMs": 108.406227,
+      "topKinds": "nnnncccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "invoice",
+          "batch"
+        ],
+        "grepTokens": 180691,
+        "grepTruncTokens": 20290,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 2193,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 707418,
+      "reexplainTokens": 67
+    },
+    {
+      "q": "What kind of IDs do new tables use?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F06",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 896,
+      "searchMs": 121.221923,
+      "topKinds": "cnnfcfcf",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "tables",
+          "kind"
+        ],
+        "grepTokens": 664017,
+        "grepTruncTokens": 20490,
+        "readTokens": 526727,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 156,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 1190744,
+      "reexplainTokens": 67
+    },
+    {
+      "q": "Which date library are we using and why did we drop the old one?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F07",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 563,
+      "searchMs": 129.53925,
+      "topKinds": "nnnccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "library",
+          "drop"
+        ],
+        "grepTokens": 589,
+        "grepTruncTokens": 586,
+        "readTokens": 415096,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10036224-0000-4000-8000-abc00000001c.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 415685,
+      "reexplainTokens": 65
+    },
+    {
+      "q": "How do we toggle features, and why not use a paid service?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F08",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 457,
+      "searchMs": 149.372187,
+      "topKinds": "nnnnnnnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "service"
+        ],
+        "grepTokens": 203,
+        "grepTruncTokens": 203,
+        "readTokens": 40550,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "1000d889-0000-4000-8000-abc000000007.jsonl",
+        "matched": 1,
+        "hitsShown": 1
+      },
+      "grepReadTokens": 40753,
+      "reexplainTokens": 68
+    },
+    {
+      "q": "How is the test database cleaned between runs?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F09",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 739,
+      "searchMs": 335.977368,
+      "topKinds": "nccnnccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "runs",
+          "database"
+        ],
+        "grepTokens": 22491,
+        "grepTruncTokens": 19283,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 347,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549218,
+      "reexplainTokens": 77
+    },
+    {
+      "q": "What's the maximum upload size for pictures?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F10",
+      "rank": 2,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 627,
+      "searchMs": 88.827228,
+      "topKinds": "nccncccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "maximum",
+          "size"
+        ],
+        "grepTokens": 936,
+        "grepTruncTokens": 936,
+        "readTokens": 10093,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "1001eef0-0000-4000-8000-abc000000010.jsonl",
+        "matched": 5,
+        "hitsShown": 5
+      },
+      "grepReadTokens": 11029,
+      "reexplainTokens": 72
+    },
+    {
+      "q": "What happens when a webhook delivery keeps failing?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F11",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 788,
+      "searchMs": 110.73573,
+      "topKinds": "nccccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "delivery",
+          "failing"
+        ],
+        "grepTokens": 22963,
+        "grepTruncTokens": 20474,
+        "readTokens": 526727,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 266,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549690,
+      "reexplainTokens": 75
+    },
+    {
+      "q": "What algorithm signs our access tokens and how long do they last?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F12",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 808,
+      "searchMs": 127.928253,
+      "topKinds": "cccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "access",
+          "last"
+        ],
+        "grepTokens": 768,
+        "grepTruncTokens": 768,
+        "readTokens": 32173,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10003dde-0000-4000-8000-abc000000002.jsonl",
+        "matched": 4,
+        "hitsShown": 4
+      },
+      "grepReadTokens": 32941,
+      "reexplainTokens": 65
+    },
+    {
+      "q": "Why don't we use GitHub's hosted runners for CI?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F13",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 495,
+      "searchMs": 117.011121,
+      "topKinds": "ncncnnnn",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "hosted"
+        ],
+        "grepTokens": 197,
+        "grepTruncTokens": 197,
+        "readTokens": 83540,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1004b669-0000-4000-8000-abc000000027.jsonl",
+        "matched": 1,
+        "hitsShown": 1
+      },
+      "grepReadTokens": 83737,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "Why have we not adopted the OTel collector yet?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F14",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 518,
+      "searchMs": 143.196911,
+      "topKinds": "ccnnnnnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "collector"
+        ],
+        "grepTokens": 212,
+        "grepTruncTokens": 205,
+        "readTokens": 123960,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10030557-0000-4000-8000-abc000000019.jsonl",
+        "matched": 1,
+        "hitsShown": 1
+      },
+      "grepReadTokens": 124172,
+      "reexplainTokens": 75
+    },
+    {
+      "q": "How do we handle deleted records?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F15",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 511,
+      "searchMs": 101.144234,
+      "topKinds": "ncnccnnn",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "records",
+          "handle"
+        ],
+        "grepTokens": 234520,
+        "grepTruncTokens": 20414,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 1793,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 761247,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "How does the CSV download avoid running out of memory?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F16",
+      "rank": 5,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 878,
+      "searchMs": 139.960068,
+      "topKinds": "nccfcfcf",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "memory"
+        ],
+        "grepTokens": 409,
+        "grepTruncTokens": 402,
+        "readTokens": 40550,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "1000d889-0000-4000-8000-abc000000007.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 40959,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "What powers search in the admin area?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F17",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 760,
+      "searchMs": 150.224226,
+      "topKinds": "nccccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "admin",
+          "search"
+        ],
+        "grepTokens": 23427,
+        "grepTruncTokens": 19777,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 767,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 550154,
+      "reexplainTokens": 70
+    },
+    {
+      "q": "How do we represent prices in the database?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F18",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 740,
+      "searchMs": 118.659894,
+      "topKinds": "ccccccnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "database"
+        ],
+        "grepTokens": 22461,
+        "grepTruncTokens": 19254,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 345,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549188,
+      "reexplainTokens": 71
+    },
+    {
+      "q": "When does the staging data get refreshed?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F19",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 667,
+      "searchMs": 313.202499,
+      "topKinds": "ncnccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "staging",
+          "data"
+        ],
+        "grepTokens": 22461,
+        "grepTruncTokens": 19254,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 350,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549188,
+      "reexplainTokens": 62
+    },
+    {
+      "q": "How do we make POST requests safe to retry?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F20",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 815,
+      "searchMs": 108.286259,
+      "topKinds": "cccccccn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "safe",
+          "requests"
+        ],
+        "grepTokens": 575,
+        "grepTruncTokens": 572,
+        "readTokens": 382740,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10013556-0000-4000-8000-abc00000000a.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 383315,
+      "reexplainTokens": 62
+    },
+    {
+      "q": "Why is the Node version pinned so strictly?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F21",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 504,
+      "searchMs": 110.211851,
+      "topKinds": "nccnnnnn",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "pinned",
+          "version"
+        ],
+        "grepTokens": 957,
+        "grepTruncTokens": 957,
+        "readTokens": 77753,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1000b99a-0000-4000-8000-abc000000006.jsonl",
+        "matched": 5,
+        "hitsShown": 5
+      },
+      "grepReadTokens": 78710,
+      "reexplainTokens": 69
+    },
+    {
+      "q": "How long is the product catalog cached?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F22",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 790,
+      "searchMs": 94.177495,
+      "topKinds": "cccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "catalog",
+          "product"
+        ],
+        "grepTokens": 769,
+        "grepTruncTokens": 763,
+        "readTokens": 296814,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10043aad-0000-4000-8000-abc000000023.jsonl",
+        "matched": 4,
+        "hitsShown": 4
+      },
+      "grepReadTokens": 297583,
+      "reexplainTokens": 74
+    },
+    {
+      "q": "Which password hashing scheme and parameters do we use?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F23",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 496,
+      "searchMs": 60.592416,
+      "topKinds": "ncccnnnn",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "hashing",
+          "password"
+        ],
+        "grepTokens": 1112,
+        "grepTruncTokens": 1112,
+        "readTokens": 40550,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1000d889-0000-4000-8000-abc000000007.jsonl",
+        "matched": 6,
+        "hitsShown": 6
+      },
+      "grepReadTokens": 41662,
+      "reexplainTokens": 67
+    },
+    {
+      "q": "How many reviewers are needed to merge a PR?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F24",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 1144,
+      "searchMs": 66.919888,
+      "topKinds": "fffffffn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "needed",
+          "merge"
+        ],
+        "grepTokens": 131175,
+        "grepTruncTokens": 20487,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 3515,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 657902,
+      "reexplainTokens": 71
+    },
+    {
+      "q": "When are emails rendered from their templates?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F25",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 561,
+      "searchMs": 246.75686,
+      "topKinds": "nccccnnn",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "templates",
+          "rendered"
+        ],
+        "grepTokens": 387,
+        "grepTruncTokens": 387,
+        "readTokens": 39174,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1004599c-0000-4000-8000-abc000000024.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 39561,
+      "reexplainTokens": 70
+    },
+    {
+      "q": "What's our rule on timezones for stored data?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F26",
+      "rank": 2,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 595,
+      "searchMs": 83.801139,
+      "topKinds": "nccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "timezones",
+          "stored"
+        ],
+        "grepTokens": 372,
+        "grepTruncTokens": 370,
+        "readTokens": 17015,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "1002a88a-0000-4000-8000-abc000000016.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 17387,
+      "reexplainTokens": 74
+    },
+    {
+      "q": "What do we use for the job queue?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F27",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 753,
+      "searchMs": 83.993428,
+      "topKinds": "nccccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "queue"
+        ],
+        "grepTokens": 227493,
+        "grepTruncTokens": 20264,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 1771,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 754220,
+      "reexplainTokens": 70
+    },
+    {
+      "q": "Do we write down-migrations? How do we undo a bad schema change?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F28",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 613,
+      "searchMs": 93.514179,
+      "topKinds": "ccnnnncc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "undo",
+          "schema"
+        ],
+        "grepTokens": 566,
+        "grepTruncTokens": 566,
+        "readTokens": 526727,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 527293,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "When does the old v1 API stop working?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F29",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 541,
+      "searchMs": 74.287265,
+      "topKinds": "ncccnncc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "working"
+        ],
+        "grepTokens": 197,
+        "grepTruncTokens": 197,
+        "readTokens": 192558,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10020ddf-0000-4000-8000-abc000000011.jsonl",
+        "matched": 1,
+        "hitsShown": 1
+      },
+      "grepReadTokens": 192755,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "Which charting library did we pick for dashboards?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F30",
+      "rank": 6,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 690,
+      "searchMs": 62.528582,
+      "topKinds": "ncccnccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "library"
+        ],
+        "grepTokens": 382,
+        "grepTruncTokens": 382,
+        "readTokens": 415096,
+        "hitGrep": false,
+        "hitRead": true,
+        "hit": true,
+        "file": "10036224-0000-4000-8000-abc00000001c.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 415478,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "What's the cleanup policy for temporary files in the bucket?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F31",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 695,
+      "searchMs": 141.616446,
+      "topKinds": "cncccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "bucket",
+          "policy"
+        ],
+        "grepTokens": 726,
+        "grepTruncTokens": 726,
+        "readTokens": 64188,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10011667-0000-4000-8000-abc000000009.jsonl",
+        "matched": 4,
+        "hitsShown": 4
+      },
+      "grepReadTokens": 64914,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "What's the latency objective for checkout?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F32",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 711,
+      "searchMs": 90.411261,
+      "topKinds": "cccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "latency",
+          "checkout"
+        ],
+        "grepTokens": 551,
+        "grepTruncTokens": 550,
+        "readTokens": 17015,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1002a88a-0000-4000-8000-abc000000016.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 17566,
+      "reexplainTokens": 69
+    },
+    {
+      "q": "Did we consider GraphQL for partners? What was decided?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F33",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 664,
+      "searchMs": 94.198653,
+      "topKinds": "cccncccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "partners",
+          "graphql"
+        ],
+        "grepTokens": 382,
+        "grepTruncTokens": 382,
+        "readTokens": 39174,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1004599c-0000-4000-8000-abc000000024.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 39556,
+      "reexplainTokens": 70
+    },
+    {
+      "q": "What user does the container run as, and what base image?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F34",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 627,
+      "searchMs": 98.305808,
+      "topKinds": "cnnccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "container",
+          "image"
+        ],
+        "grepTokens": 964,
+        "grepTruncTokens": 948,
+        "readTokens": 77753,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "1000b99a-0000-4000-8000-abc000000006.jsonl",
+        "matched": 5,
+        "hitsShown": 5
+      },
+      "grepReadTokens": 78717,
+      "reexplainTokens": 75
+    },
+    {
+      "q": "How often do we refresh exchange rates and what if the feed is down?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F35",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 584,
+      "searchMs": 495.68233,
+      "topKinds": "ccccnccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "exchange",
+          "rates"
+        ],
+        "grepTokens": 389,
+        "grepTruncTokens": 389,
+        "readTokens": 7672,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10032446-0000-4000-8000-abc00000001a.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 8061,
+      "reexplainTokens": 76
+    },
+    {
+      "q": "How is reindexing throttled?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F36",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 479,
+      "searchMs": 75.763185,
+      "topKinds": "cnnnnnnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "throttled"
+        ],
+        "grepTokens": 203,
+        "grepTruncTokens": 203,
+        "readTokens": 176914,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "10007bbc-0000-4000-8000-abc000000004.jsonl",
+        "matched": 1,
+        "hitsShown": 1
+      },
+      "grepReadTokens": 177117,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "What happens if a translation string is missing?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F37",
+      "rank": 2,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 955,
+      "searchMs": 92.736173,
+      "topKinds": "ccfcfcfc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "string",
+          "translation"
+        ],
+        "grepTokens": 22803,
+        "grepTruncTokens": 19281,
+        "readTokens": 176914,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10007bbc-0000-4000-8000-abc000000004.jsonl",
+        "matched": 343,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 199717,
+      "reexplainTokens": 73
+    },
+    {
+      "q": "What format do error responses use?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F38",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 765,
+      "searchMs": 91.838467,
+      "topKinds": "cnccccfc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "responses",
+          "error"
+        ],
+        "grepTokens": 240891,
+        "grepTruncTokens": 20494,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 915,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 767618,
+      "reexplainTokens": 64
+    },
+    {
+      "q": "How many simulated users do we use for load tests, and where?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F39",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 650,
+      "searchMs": 112.133699,
+      "topKinds": "ccnccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "tests",
+          "users"
+        ],
+        "grepTokens": 61509,
+        "grepTruncTokens": 19169,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 9254,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 588236,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "Where do production credentials come from?",
+      "lang": "en",
+      "cat": "regular",
+      "fact": "F40",
+      "rank": 5,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 578,
+      "searchMs": 67.781183,
+      "topKinds": "cccccnnc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "come",
+          "production"
+        ],
+        "grepTokens": 596,
+        "grepTruncTokens": 596,
+        "readTokens": 11614,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10000000-0000-4000-8000-abc000000000.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 12210,
+      "reexplainTokens": 69
+    },
+    {
+      "q": "How long until a user's login session times out from inactivity?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S01n",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 651,
+      "searchMs": 251.294769,
+      "topKinds": "nccccccc",
+      "noteHit": true,
+      "newRank": 1,
+      "oldRank": 2,
+      "newestAboveOld": true,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "inactivity",
+          "long"
+        ],
+        "grepTokens": 22656,
+        "grepTruncTokens": 20471,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 269,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549383,
+      "reexplainTokens": 64
+    },
+    {
+      "q": "What's the default number of items returned by list endpoints?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S02n",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 616,
+      "searchMs": 117.100381,
+      "topKinds": "nnccccfn",
+      "noteHit": true,
+      "newRank": 1,
+      "oldRank": 3,
+      "newestAboveOld": true,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "endpoints",
+          "list"
+        ],
+        "grepTokens": 1311,
+        "grepTruncTokens": 1311,
+        "readTokens": 10093,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "1001eef0-0000-4000-8000-abc000000010.jsonl",
+        "matched": 7,
+        "hitsShown": 7
+      },
+      "grepReadTokens": 11404,
+      "reexplainTokens": 59
+    },
+    {
+      "q": "Which days do we release to production?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S03n",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 503,
+      "searchMs": 126.277315,
+      "topKinds": "nnnccncc",
+      "noteHit": true,
+      "newRank": 1,
+      "oldRank": 4,
+      "newestAboveOld": true,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "production",
+          "release"
+        ],
+        "grepTokens": 1315,
+        "grepTruncTokens": 1315,
+        "readTokens": 32173,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10003dde-0000-4000-8000-abc000000002.jsonl",
+        "matched": 7,
+        "hitsShown": 7
+      },
+      "grepReadTokens": 33488,
+      "reexplainTokens": 60
+    },
+    {
+      "q": "How long do we keep application logs in CloudWatch?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S04n",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 632,
+      "searchMs": 64.627016,
+      "topKinds": "nccncccc",
+      "noteHit": true,
+      "newRank": 1,
+      "oldRank": 3,
+      "newestAboveOld": true,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "cloudwatch",
+          "logs"
+        ],
+        "grepTokens": 588,
+        "grepTruncTokens": 581,
+        "readTokens": 382740,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10013556-0000-4000-8000-abc00000000a.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 383328,
+      "reexplainTokens": 60
+    },
+    {
+      "q": "What test runner do we use for unit tests?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S05n",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 607,
+      "searchMs": 75.064597,
+      "topKinds": "nccccccn",
+      "noteHit": true,
+      "newRank": 1,
+      "oldRank": 2,
+      "newestAboveOld": true,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "runner",
+          "tests"
+        ],
+        "grepTokens": 22764,
+        "grepTruncTokens": 19313,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 334,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549491,
+      "reexplainTokens": 57
+    },
+    {
+      "q": "How many jobs can a worker pod process concurrently?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S06n",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 760,
+      "searchMs": 84.016611,
+      "topKinds": "nccccccc",
+      "noteHit": true,
+      "newRank": 1,
+      "oldRank": 2,
+      "newestAboveOld": true,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "jobs",
+          "worker"
+        ],
+        "grepTokens": 24115,
+        "grepTruncTokens": 20168,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 337,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 550842,
+      "reexplainTokens": 62
+    },
+    {
+      "q": "Which package manager handles the monorepo?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S07n",
+      "rank": 2,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 1070,
+      "searchMs": 101.394512,
+      "topKinds": "ccffffff",
+      "noteHit": false,
+      "newRank": 2,
+      "oldRank": 1,
+      "newestAboveOld": false,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "manager",
+          "monorepo"
+        ],
+        "grepTokens": 935,
+        "grepTruncTokens": 935,
+        "readTokens": 77753,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "1000b99a-0000-4000-8000-abc000000006.jsonl",
+        "matched": 5,
+        "hitsShown": 5
+      },
+      "grepReadTokens": 78688,
+      "reexplainTokens": 62
+    },
+    {
+      "q": "Which provider handles card payments?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S08n",
+      "rank": 2,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 693,
+      "searchMs": 176.531826,
+      "topKinds": "ccnccccc",
+      "noteHit": false,
+      "newRank": 2,
+      "oldRank": 1,
+      "newestAboveOld": false,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "provider",
+          "payments"
+        ],
+        "grepTokens": 927,
+        "grepTruncTokens": 927,
+        "readTokens": 10093,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "1001eef0-0000-4000-8000-abc000000010.jsonl",
+        "matched": 5,
+        "hitsShown": 5
+      },
+      "grepReadTokens": 11020,
+      "reexplainTokens": 62
+    },
+    {
+      "q": "Which AWS region is our primary?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S09n",
+      "rank": 4,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 505,
+      "searchMs": 86.282155,
+      "topKinds": "nncccccn",
+      "noteHit": false,
+      "newRank": 4,
+      "oldRank": 3,
+      "newestAboveOld": false,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "region",
+          "primary"
+        ],
+        "grepTokens": 1293,
+        "grepTruncTokens": 1293,
+        "readTokens": 382740,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10013556-0000-4000-8000-abc00000000a.jsonl",
+        "matched": 7,
+        "hitsShown": 7
+      },
+      "grepReadTokens": 384033,
+      "reexplainTokens": 54
+    },
+    {
+      "q": "What is the minimum password length we enforce?",
+      "lang": "en",
+      "cat": "superseded",
+      "fact": "S10n",
+      "rank": 3,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 519,
+      "searchMs": 89.979258,
+      "topKinds": "ncccccnn",
+      "noteHit": false,
+      "newRank": 3,
+      "oldRank": 2,
+      "newestAboveOld": false,
+      "oldOnly": false,
+      "bothPresent": true,
+      "grep": {
+        "chosen": [
+          "enforce",
+          "minimum"
+        ],
+        "grepTokens": 577,
+        "grepTruncTokens": 577,
+        "readTokens": 64188,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10011667-0000-4000-8000-abc000000009.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 64765,
+      "reexplainTokens": 59
+    },
+    {
+      "q": "Warum haben wir für die Bestellliste Cursor-Paginierung gewählt?",
+      "lang": "de",
+      "cat": "foreign",
+      "fact": "F01",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 1027,
+      "searchMs": 101.035459,
+      "topKinds": "ncfffffc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "cursor"
+        ],
+        "grepTokens": 242996,
+        "grepTruncTokens": 20495,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 1468,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 769723,
+      "reexplainTokens": 64
+    },
+    {
+      "q": "Um wie viel Uhr läuft der nächtliche Rechnungsjob und warum dann?",
+      "lang": "de",
+      "cat": "foreign",
+      "fact": "F05",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 766,
+      "searchMs": 86.103034,
+      "topKinds": "nncccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 67
+    },
+    {
+      "q": "Wie machen wir Schreibzugriffe sicher wiederholbar?",
+      "lang": "de",
+      "cat": "foreign",
+      "fact": "F20",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 896,
+      "searchMs": 228.375236,
+      "topKinds": "cccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 62
+    },
+    {
+      "q": "Wann wird die alte v1-API abgeschaltet?",
+      "lang": "de",
+      "cat": "foreign",
+      "fact": "F29",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 618,
+      "searchMs": 66.413265,
+      "topKinds": "ncccnccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "Wat is het maximale aantal databaseverbindingen in productie?",
+      "lang": "nl",
+      "cat": "foreign",
+      "fact": "F02",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 472,
+      "searchMs": 134.365132,
+      "topKinds": "cnnnnnnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "Welk algoritme gebruiken we om toegangstokens te ondertekenen?",
+      "lang": "nl",
+      "cat": "foreign",
+      "fact": "F12",
+      "rank": 3,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 659,
+      "searchMs": 80.838442,
+      "topKinds": "nncnnfcf",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 65
+    },
+    {
+      "q": "Hoe lang wordt de productcatalogus in de cache bewaard?",
+      "lang": "nl",
+      "cat": "foreign",
+      "fact": "F22",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 843,
+      "searchMs": 83.406829,
+      "topKinds": "fcccccnc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "cache"
+        ],
+        "grepTokens": 209868,
+        "grepTruncTokens": 20307,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 2132,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 736595,
+      "reexplainTokens": 74
+    },
+    {
+      "q": "Waarom hebben we geen GraphQL voor de partner-API gebruikt?",
+      "lang": "nl",
+      "cat": "foreign",
+      "fact": "F33",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 604,
+      "searchMs": 74.598051,
+      "topKinds": "cccnnnnf",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "graphql",
+          "partner"
+        ],
+        "grepTokens": 382,
+        "grepTruncTokens": 382,
+        "readTokens": 39174,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1004599c-0000-4000-8000-abc000000024.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 39556,
+      "reexplainTokens": 70
+    },
+    {
+      "q": "Où sont stockées les sessions des utilisateurs et pendant combien de temps ?",
+      "lang": "fr",
+      "cat": "foreign",
+      "fact": "F03",
+      "rank": 8,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 716,
+      "searchMs": 163.557959,
+      "topKinds": "ccccnccn",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "sessions"
+        ],
+        "grepTokens": 23314,
+        "grepTruncTokens": 20229,
+        "readTokens": 526727,
+        "hitGrep": true,
+        "hitRead": false,
+        "hit": true,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 368,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 550041,
+      "reexplainTokens": 74
+    },
+    {
+      "q": "Comment gère-t-on la suppression des enregistrements dans la base ?",
+      "lang": "fr",
+      "cat": "foreign",
+      "fact": "F15",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 824,
+      "searchMs": 97.651764,
+      "topKinds": "nnffcccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "base"
+        ],
+        "grepTokens": 22461,
+        "grepTruncTokens": 19254,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 345,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549188,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "Quelle est la règle concernant les fuseaux horaires ?",
+      "lang": "fr",
+      "cat": "foreign",
+      "fact": "F26",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 1060,
+      "searchMs": 65.886867,
+      "topKinds": "nfffcfff",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 74
+    },
+    {
+      "q": "Quel format utilisent les réponses d'erreur de l'API ?",
+      "lang": "fr",
+      "cat": "foreign",
+      "fact": "F38",
+      "rank": 2,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 660,
+      "searchMs": 67.257322,
+      "topKinds": "ccccnccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 64
+    },
+    {
+      "q": "¿Cuántas peticiones por minuto puede hacer un cliente de la API pública?",
+      "lang": "es",
+      "cat": "foreign",
+      "fact": "F04",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 898,
+      "searchMs": 64.459373,
+      "topKinds": "cnfcffcf",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "¿Cómo guardamos los importes de dinero en la base de datos?",
+      "lang": "es",
+      "cat": "foreign",
+      "fact": "F18",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 927,
+      "searchMs": 55.266593,
+      "topKinds": "cccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "base"
+        ],
+        "grepTokens": 22461,
+        "grepTruncTokens": 19254,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 345,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549188,
+      "reexplainTokens": 71
+    },
+    {
+      "q": "¿Qué usamos para la cola de trabajos en segundo plano?",
+      "lang": "es",
+      "cat": "foreign",
+      "fact": "F27",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": true,
+      "remTokens": 1160,
+      "searchMs": 200.313966,
+      "topKinds": "cfffffff",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 70
+    },
+    {
+      "q": "Did we ever decide against some bloated frontend dependency?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F07",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": true,
+      "remTokens": 582,
+      "searchMs": 76.77894,
+      "topKinds": "cccccncc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "dependency",
+          "against"
+        ],
+        "grepTokens": 6446,
+        "grepTruncTokens": 6413,
+        "readTokens": 17015,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "1002a88a-0000-4000-8000-abc000000016.jsonl",
+        "matched": 32,
+        "hitsShown": 32
+      },
+      "grepReadTokens": 23461,
+      "reexplainTokens": 65
+    },
+    {
+      "q": "What did we settle on for resetting data in tests, given the workers?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F09",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 628,
+      "searchMs": 81.120946,
+      "topKinds": "cnnncccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "data",
+          "tests"
+        ],
+        "grepTokens": 23126,
+        "grepTruncTokens": 19389,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 671,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549853,
+      "reexplainTokens": 77
+    },
+    {
+      "q": "Was there a disagreement with the mobile team about file sizes?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F10",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 675,
+      "searchMs": 78.499839,
+      "topKinds": "ccncnccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "team",
+          "mobile"
+        ],
+        "grepTokens": 608,
+        "grepTruncTokens": 602,
+        "readTokens": 77753,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1000b99a-0000-4000-8000-abc000000006.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 78361,
+      "reexplainTokens": 72
+    },
+    {
+      "q": "Why are builds not on the default CI machines?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F13",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 589,
+      "searchMs": 78.68086,
+      "topKinds": "nccnnnnc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "default",
+          "builds"
+        ],
+        "grepTokens": 335752,
+        "grepTruncTokens": 20497,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 1062,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 862479,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "We hit a memory blowup on exports once; what was the fix?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F16",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 644,
+      "searchMs": 105.945535,
+      "topKinds": "nnnccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "memory"
+        ],
+        "grepTokens": 409,
+        "grepTruncTokens": 402,
+        "readTokens": 40550,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "1000d889-0000-4000-8000-abc000000007.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 40959,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "Do we run a separate search engine?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F17",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": true,
+      "remTokens": 572,
+      "searchMs": 90.030132,
+      "topKinds": "nnnnnccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "engine",
+          "separate"
+        ],
+        "grepTokens": 609,
+        "grepTruncTokens": 606,
+        "readTokens": 77753,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "1000b99a-0000-4000-8000-abc000000006.jsonl",
+        "matched": 3,
+        "hitsShown": 3
+      },
+      "grepReadTokens": 78362,
+      "reexplainTokens": 70
+    },
+    {
+      "q": "Is there a scheduled refresh for the QA environment?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F19",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 760,
+      "searchMs": 68.489531,
+      "topKinds": "nccccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "refresh"
+        ],
+        "grepTokens": 22612,
+        "grepTruncTokens": 19293,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 292,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 549339,
+      "reexplainTokens": 62
+    },
+    {
+      "q": "Was there a runtime bug that made us lock a version?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F21",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": true,
+      "remTokens": 689,
+      "searchMs": 49.194782,
+      "topKinds": "nncccccc",
+      "noteHit": true,
+      "grep": {
+        "chosen": [
+          "lock",
+          "version"
+        ],
+        "grepTokens": 1354,
+        "grepTruncTokens": 1354,
+        "readTokens": 77753,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1000b99a-0000-4000-8000-abc000000006.jsonl",
+        "matched": 7,
+        "hitsShown": 7
+      },
+      "grepReadTokens": 79107,
+      "reexplainTokens": 69
+    },
+    {
+      "q": "What's the review policy, and why that number?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F24",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 634,
+      "searchMs": 91.303217,
+      "topKinds": "nccnnccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "policy",
+          "review"
+        ],
+        "grepTokens": 16750,
+        "grepTruncTokens": 16750,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 252,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 543477,
+      "reexplainTokens": 71
+    },
+    {
+      "q": "How do we roll back schema changes?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F28",
+      "rank": 2,
+      "hit1": false,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 516,
+      "searchMs": 65.139049,
+      "topKinds": "nccnnnnc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "roll",
+          "schema"
+        ],
+        "grepTokens": 363,
+        "grepTruncTokens": 363,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": true,
+        "hit": true,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 527090,
+      "reexplainTokens": 66
+    },
+    {
+      "q": "What lifecycle rules do we have on object storage?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F31",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 605,
+      "searchMs": 60.851475,
+      "topKinds": "cccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "lifecycle",
+          "object"
+        ],
+        "grepTokens": 379,
+        "grepTruncTokens": 379,
+        "readTokens": 52497,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1002e668-0000-4000-8000-abc000000018.jsonl",
+        "matched": 2,
+        "hitsShown": 2
+      },
+      "grepReadTokens": 52876,
+      "reexplainTokens": 63
+    },
+    {
+      "q": "Is there an alert threshold we agreed for the purchase flow?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F32",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 477,
+      "searchMs": 489.797852,
+      "topKinds": "cnnnnnnn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "alert"
+        ],
+        "grepTokens": 205,
+        "grepTruncTokens": 205,
+        "readTokens": 17015,
+        "hitGrep": true,
+        "hitRead": true,
+        "hit": true,
+        "file": "1002a88a-0000-4000-8000-abc000000016.jsonl",
+        "matched": 1,
+        "hitsShown": 1
+      },
+      "grepReadTokens": 17220,
+      "reexplainTokens": 69
+    },
+    {
+      "q": "What fallback do we have if the FX source is unavailable?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F35",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 618,
+      "searchMs": 77.28105,
+      "topKinds": "cnccnccn",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 76
+    },
+    {
+      "q": "How do we treat untranslated strings?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F37",
+      "rank": null,
+      "hit1": false,
+      "hit8": false,
+      "visible8": false,
+      "viaNote": false,
+      "remTokens": 565,
+      "searchMs": 48.886884,
+      "topKinds": "nnnncccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [],
+        "readOut": "",
+        "grepTokens": 0,
+        "readTokens": 0,
+        "hit": false,
+        "hitGrep": false,
+        "hitRead": false,
+        "file": null,
+        "matched": 0
+      },
+      "grepReadTokens": 0,
+      "reexplainTokens": 73
+    },
+    {
+      "q": "Is it ok to commit a .env file?",
+      "lang": "en",
+      "cat": "vague",
+      "fact": "F40",
+      "rank": 1,
+      "hit1": true,
+      "hit8": true,
+      "visible8": true,
+      "viaNote": false,
+      "remTokens": 803,
+      "searchMs": 65.140295,
+      "topKinds": "cccccccc",
+      "noteHit": false,
+      "grep": {
+        "chosen": [
+          "file"
+        ],
+        "grepTokens": 19081,
+        "grepTruncTokens": 18333,
+        "readTokens": 526727,
+        "hitGrep": false,
+        "hitRead": false,
+        "hit": false,
+        "file": "10001eef-0000-4000-8000-abc000000001.jsonl",
+        "matched": 1378,
+        "hitsShown": 100
+      },
+      "grepReadTokens": 545808,
+      "reexplainTokens": 69
+    }
+  ]
+}

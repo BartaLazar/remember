@@ -1,0 +1,1352 @@
+[
+ {
+  "id": "remember:id:atomicWrite",
+  "type": "identifier",
+  "q": "where is atomicWrite defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 141,
+  "end": 152,
+  "name": "atomicWrite"
+ },
+ {
+  "id": "remember:doc:atomicWrite",
+  "type": "docstring",
+  "q": "Write a file atomically rename retries on Windows",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 141,
+  "end": 152,
+  "name": "atomicWrite"
+ },
+ {
+  "id": "remember:vague:atomicWrite",
+  "type": "vague",
+  "q": "write file atomically rename",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 141,
+  "end": 152,
+  "name": "atomicWrite"
+ },
+ {
+  "id": "remember:id:removeExclusion",
+  "type": "identifier",
+  "q": "where is removeExclusion defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 99,
+  "end": 106,
+  "name": "removeExclusion"
+ },
+ {
+  "id": "remember:doc:removeExclusion",
+  "type": "docstring",
+  "q": "Remove an exclusion pattern or",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 99,
+  "end": 106,
+  "name": "removeExclusion"
+ },
+ {
+  "id": "remember:vague:removeExclusion",
+  "type": "vague",
+  "q": "remove exclusion pattern",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 99,
+  "end": 106,
+  "name": "removeExclusion"
+ },
+ {
+  "id": "remember:id:merge",
+  "type": "identifier",
+  "q": "where is merge defined",
+  "repo": "remember",
+  "file": "server/bin/index-worker.js",
+  "start": 24,
+  "end": 29,
+  "name": "merge"
+ },
+ {
+  "id": "remember:doc:merge",
+  "type": "docstring",
+  "q": "requests any full request wins else union of paths",
+  "repo": "remember",
+  "file": "server/bin/index-worker.js",
+  "start": 24,
+  "end": 29,
+  "name": "merge"
+ },
+ {
+  "id": "remember:vague:merge",
+  "type": "vague",
+  "q": "requests full request wins",
+  "repo": "remember",
+  "file": "server/bin/index-worker.js",
+  "start": 24,
+  "end": 29,
+  "name": "merge"
+ },
+ {
+  "id": "remember:id:isBlocked",
+  "type": "identifier",
+  "q": "where is isBlocked defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 131,
+  "end": 134,
+  "name": "isBlocked"
+ },
+ {
+  "id": "remember:doc:isBlocked",
+  "type": "docstring",
+  "q": "True for a too-broad root the user has not explicitly overridden",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 131,
+  "end": 134,
+  "name": "isBlocked"
+ },
+ {
+  "id": "remember:vague:isBlocked",
+  "type": "vague",
+  "q": "true too-broad root user",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 131,
+  "end": 134,
+  "name": "isBlocked"
+ },
+ {
+  "id": "remember:id:resolveProject",
+  "type": "identifier",
+  "q": "where is resolveProject defined",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 6,
+  "end": 20,
+  "name": "resolveProject"
+ },
+ {
+  "id": "remember:doc:resolveProject",
+  "type": "docstring",
+  "q": "Resolve the project root toplevel else cwd both and its data dir",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 6,
+  "end": 20,
+  "name": "resolveProject"
+ },
+ {
+  "id": "remember:vague:resolveProject",
+  "type": "vague",
+  "q": "resolve project root toplevel",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 6,
+  "end": 20,
+  "name": "resolveProject"
+ },
+ {
+  "id": "remember:id:liveExclusions",
+  "type": "identifier",
+  "q": "where is liveExclusions defined",
+  "repo": "remember",
+  "file": "server/lib/indexer.js",
+  "start": 35,
+  "end": 59,
+  "name": "liveExclusions"
+ },
+ {
+  "id": "remember:doc:liveExclusions",
+  "type": "docstring",
+  "q": "Exclusions re-read whenever changes by so a issued during a long build takes effect before the next source is written",
+  "repo": "remember",
+  "file": "server/lib/indexer.js",
+  "start": 35,
+  "end": 59,
+  "name": "liveExclusions"
+ },
+ {
+  "id": "remember:vague:liveExclusions",
+  "type": "vague",
+  "q": "exclusions re-read whenever changes",
+  "repo": "remember",
+  "file": "server/lib/indexer.js",
+  "start": 35,
+  "end": 59,
+  "name": "liveExclusions"
+ },
+ {
+  "id": "remember:id:transcriptFiles",
+  "type": "identifier",
+  "q": "where is transcriptFiles defined",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 108,
+  "end": 127,
+  "name": "transcriptFiles"
+ },
+ {
+  "id": "remember:doc:transcriptFiles",
+  "type": "docstring",
+  "q": "Absolute transcript paths belonging to its",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 108,
+  "end": 127,
+  "name": "transcriptFiles"
+ },
+ {
+  "id": "remember:vague:transcriptFiles",
+  "type": "vague",
+  "q": "absolute transcript paths belonging",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 108,
+  "end": 127,
+  "name": "transcriptFiles"
+ },
+ {
+  "id": "remember:id:setOverride",
+  "type": "identifier",
+  "q": "where is setOverride defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 121,
+  "end": 125,
+  "name": "setOverride"
+ },
+ {
+  "id": "remember:doc:setOverride",
+  "type": "docstring",
+  "q": "Mark a blocked root as explicitly allowed by the user",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 121,
+  "end": 125,
+  "name": "setOverride"
+ },
+ {
+  "id": "remember:vague:setOverride",
+  "type": "vague",
+  "q": "mark blocked root explicitly",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 121,
+  "end": 125,
+  "name": "setOverride"
+ },
+ {
+  "id": "remember:id:walkFiles",
+  "type": "identifier",
+  "q": "where is walkFiles defined",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 41,
+  "end": 66,
+  "name": "walkFiles"
+ },
+ {
+  "id": "remember:doc:walkFiles",
+  "type": "docstring",
+  "q": "Walk without git returns an entry toward or null",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 41,
+  "end": 66,
+  "name": "walkFiles"
+ },
+ {
+  "id": "remember:vague:walkFiles",
+  "type": "vague",
+  "q": "walk without entry toward",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 41,
+  "end": 66,
+  "name": "walkFiles"
+ },
+ {
+  "id": "remember:id:normalizeTarget",
+  "type": "identifier",
+  "q": "where is normalizeTarget defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 77,
+  "end": 84,
+  "name": "normalizeTarget"
+ },
+ {
+  "id": "remember:doc:normalizeTarget",
+  "type": "docstring",
+  "q": "Normalize a forget target becomes leading is dropped is untouched",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 77,
+  "end": 84,
+  "name": "normalizeTarget"
+ },
+ {
+  "id": "remember:vague:normalizeTarget",
+  "type": "vague",
+  "q": "normalize forget target becomes",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 77,
+  "end": 84,
+  "name": "normalizeTarget"
+ },
+ {
+  "id": "remember:id:isSecretPath",
+  "type": "identifier",
+  "q": "where is isSecretPath defined",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 17,
+  "end": 21,
+  "name": "isSecretPath"
+ },
+ {
+  "id": "remember:doc:isSecretPath",
+  "type": "docstring",
+  "q": "True for files that commonly hold secrets on the basename",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 17,
+  "end": 21,
+  "name": "isSecretPath"
+ },
+ {
+  "id": "remember:vague:isSecretPath",
+  "type": "vague",
+  "q": "true files commonly hold",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 17,
+  "end": 21,
+  "name": "isSecretPath"
+ },
+ {
+  "id": "remember:id:codeRanges",
+  "type": "identifier",
+  "q": "where is codeRanges defined",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 53,
+  "end": 68,
+  "name": "codeRanges"
+ },
+ {
+  "id": "remember:doc:codeRanges",
+  "type": "docstring",
+  "q": "Code blocks packed into 40-80 line windows consecutive windows overlap by 5 lines",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 53,
+  "end": 68,
+  "name": "codeRanges"
+ },
+ {
+  "id": "remember:vague:codeRanges",
+  "type": "vague",
+  "q": "code blocks packed 40-80",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 53,
+  "end": 68,
+  "name": "codeRanges"
+ },
+ {
+  "id": "remember:id:listIndexableFiles",
+  "type": "identifier",
+  "q": "where is listIndexableFiles defined",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 68,
+  "end": 90,
+  "name": "listIndexableFiles"
+ },
+ {
+  "id": "remember:doc:listIndexableFiles",
+  "type": "docstring",
+  "q": "Indexable files under root gitignore-aware minus defaults secrets big files and user exclusions",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 68,
+  "end": 90,
+  "name": "listIndexableFiles"
+ },
+ {
+  "id": "remember:vague:listIndexableFiles",
+  "type": "vague",
+  "q": "indexable files under root",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 68,
+  "end": 90,
+  "name": "listIndexableFiles"
+ },
+ {
+  "id": "remember:id:ensureDataDir",
+  "type": "identifier",
+  "q": "where is ensureDataDir defined",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 39,
+  "end": 47,
+  "name": "ensureDataDir"
+ },
+ {
+  "id": "remember:doc:ensureDataDir",
+  "type": "docstring",
+  "q": "Create the data dir with a of if one is missing",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 39,
+  "end": 47,
+  "name": "ensureDataDir"
+ },
+ {
+  "id": "remember:vague:ensureDataDir",
+  "type": "vague",
+  "q": "create data missing",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 39,
+  "end": 47,
+  "name": "ensureDataDir"
+ },
+ {
+  "id": "remember:id:purgeExcluded",
+  "type": "identifier",
+  "q": "where is purgeExcluded defined",
+  "repo": "remember",
+  "file": "server/lib/indexer.js",
+  "start": 16,
+  "end": 33,
+  "name": "purgeExcluded"
+ },
+ {
+  "id": "remember:doc:purgeExcluded",
+  "type": "docstring",
+  "q": "Delete sources matching exclusion patterns or excluded sessions returns how many",
+  "repo": "remember",
+  "file": "server/lib/indexer.js",
+  "start": 16,
+  "end": 33,
+  "name": "purgeExcluded"
+ },
+ {
+  "id": "remember:vague:purgeExcluded",
+  "type": "vague",
+  "q": "delete sources matching exclusion",
+  "repo": "remember",
+  "file": "server/lib/indexer.js",
+  "start": 16,
+  "end": 33,
+  "name": "purgeExcluded"
+ },
+ {
+  "id": "remember:id:isBlockedRoot",
+  "type": "identifier",
+  "q": "where is isBlockedRoot defined",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 22,
+  "end": 37,
+  "name": "isBlockedRoot"
+ },
+ {
+  "id": "remember:doc:isBlockedRoot",
+  "type": "docstring",
+  "q": "True for roots that must never be auto-indexed any filesystem root",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 22,
+  "end": 37,
+  "name": "isBlockedRoot"
+ },
+ {
+  "id": "remember:vague:isBlockedRoot",
+  "type": "vague",
+  "q": "true roots never auto-indexed",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 22,
+  "end": 37,
+  "name": "isBlockedRoot"
+ },
+ {
+  "id": "remember:id:redact",
+  "type": "identifier",
+  "q": "where is redact defined",
+  "repo": "remember",
+  "file": "server/lib/redact.js",
+  "start": 46,
+  "end": 54,
+  "name": "redact"
+ },
+ {
+  "id": "remember:doc:redact",
+  "type": "docstring",
+  "q": "Mask secrets in with REDACTED",
+  "repo": "remember",
+  "file": "server/lib/redact.js",
+  "start": 46,
+  "end": 54,
+  "name": "redact"
+ },
+ {
+  "id": "remember:vague:redact",
+  "type": "vague",
+  "q": "mask secrets redacted",
+  "repo": "remember",
+  "file": "server/lib/redact.js",
+  "start": 46,
+  "end": 54,
+  "name": "redact"
+ },
+ {
+  "id": "remember:id:openStore",
+  "type": "identifier",
+  "q": "where is openStore defined",
+  "repo": "remember",
+  "file": "server/lib/store.js",
+  "start": 80,
+  "end": 182,
+  "name": "openStore"
+ },
+ {
+  "id": "remember:doc:openStore",
+  "type": "docstring",
+  "q": "Open or the index database",
+  "repo": "remember",
+  "file": "server/lib/store.js",
+  "start": 80,
+  "end": 182,
+  "name": "openStore"
+ },
+ {
+  "id": "remember:vague:openStore",
+  "type": "vague",
+  "q": "open index database",
+  "repo": "remember",
+  "file": "server/lib/store.js",
+  "start": 80,
+  "end": 182,
+  "name": "openStore"
+ },
+ {
+  "id": "remember:id:installDepsInBackground",
+  "type": "identifier",
+  "q": "where is installDepsInBackground defined",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 37,
+  "end": 67,
+  "name": "installDepsInBackground"
+ },
+ {
+  "id": "remember:doc:installDepsInBackground",
+  "type": "docstring",
+  "q": "Copy manifests to the data dir and run there detached logging to",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 37,
+  "end": 67,
+  "name": "installDepsInBackground"
+ },
+ {
+  "id": "remember:vague:installDepsInBackground",
+  "type": "vague",
+  "q": "copy manifests data detached",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 37,
+  "end": 67,
+  "name": "installDepsInBackground"
+ },
+ {
+  "id": "remember:id:writeConfig",
+  "type": "identifier",
+  "q": "where is writeConfig defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 178,
+  "end": 186,
+  "name": "writeConfig"
+ },
+ {
+  "id": "remember:doc:writeConfig",
+  "type": "docstring",
+  "q": "Merge a validated patch into config and persist it",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 178,
+  "end": 186,
+  "name": "writeConfig"
+ },
+ {
+  "id": "remember:vague:writeConfig",
+  "type": "vague",
+  "q": "merge validated patch config",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 178,
+  "end": 186,
+  "name": "writeConfig"
+ },
+ {
+  "id": "remember:id:drainRequests",
+  "type": "identifier",
+  "q": "where is drainRequests defined",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 63,
+  "end": 76,
+  "name": "drainRequests"
+ },
+ {
+  "id": "remember:doc:drainRequests",
+  "type": "docstring",
+  "q": "Atomically take all queued requests read",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 63,
+  "end": 76,
+  "name": "drainRequests"
+ },
+ {
+  "id": "remember:vague:drainRequests",
+  "type": "vague",
+  "q": "atomically take queued requests",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 63,
+  "end": 76,
+  "name": "drainRequests"
+ },
+ {
+  "id": "remember:id:addExclusion",
+  "type": "identifier",
+  "q": "where is addExclusion defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 90,
+  "end": 97,
+  "name": "addExclusion"
+ },
+ {
+  "id": "remember:doc:addExclusion",
+  "type": "docstring",
+  "q": "Add an exclusion pattern or no duplicates",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 90,
+  "end": 97,
+  "name": "addExclusion"
+ },
+ {
+  "id": "remember:vague:addExclusion",
+  "type": "vague",
+  "q": "exclusion pattern duplicates",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 90,
+  "end": 97,
+  "name": "addExclusion"
+ },
+ {
+  "id": "remember:id:parseTranscript",
+  "type": "identifier",
+  "q": "where is parseTranscript defined",
+  "repo": "remember",
+  "file": "server/lib/transcripts.js",
+  "start": 14,
+  "end": 50,
+  "name": "parseTranscript"
+ },
+ {
+  "id": "remember:doc:parseTranscript",
+  "type": "docstring",
+  "q": "Parse a Claude Code transcript into user→assistant exchanges redacted",
+  "repo": "remember",
+  "file": "server/lib/transcripts.js",
+  "start": 14,
+  "end": 50,
+  "name": "parseTranscript"
+ },
+ {
+  "id": "remember:vague:parseTranscript",
+  "type": "vague",
+  "q": "parse claude code transcript",
+  "repo": "remember",
+  "file": "server/lib/transcripts.js",
+  "start": 14,
+  "end": 50,
+  "name": "parseTranscript"
+ },
+ {
+  "id": "remember:id:readNotes",
+  "type": "identifier",
+  "q": "where is readNotes defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 9,
+  "end": 22,
+  "name": "readNotes"
+ },
+ {
+  "id": "remember:doc:readNotes",
+  "type": "docstring",
+  "q": "Read all notes malformed lines are skipped",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 9,
+  "end": 22,
+  "name": "readNotes"
+ },
+ {
+  "id": "remember:vague:readNotes",
+  "type": "vague",
+  "q": "read notes malformed lines",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 9,
+  "end": 22,
+  "name": "readNotes"
+ },
+ {
+  "id": "remember:id:proseRanges",
+  "type": "identifier",
+  "q": "where is proseRanges defined",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 70,
+  "end": 82,
+  "name": "proseRanges"
+ },
+ {
+  "id": "remember:doc:proseRanges",
+  "type": "docstring",
+  "q": "Prose blocks packed greedily up to 80 lines no overlap",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 70,
+  "end": 82,
+  "name": "proseRanges"
+ },
+ {
+  "id": "remember:vague:proseRanges",
+  "type": "vague",
+  "q": "prose blocks packed greedily",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 70,
+  "end": 82,
+  "name": "proseRanges"
+ },
+ {
+  "id": "remember:id:appendNote",
+  "type": "identifier",
+  "q": "where is appendNote defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 24,
+  "end": 47,
+  "name": "appendNote"
+ },
+ {
+  "id": "remember:doc:appendNote",
+  "type": "docstring",
+  "q": "Append a note and return it",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 24,
+  "end": 47,
+  "name": "appendNote"
+ },
+ {
+  "id": "remember:id:depsAvailable",
+  "type": "identifier",
+  "q": "where is depsAvailable defined",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 18,
+  "end": 22,
+  "name": "depsAvailable"
+ },
+ {
+  "id": "remember:doc:depsAvailable",
+  "type": "docstring",
+  "q": "True when every direct dependency resolves from the plugin root or the data dir",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 18,
+  "end": 22,
+  "name": "depsAvailable"
+ },
+ {
+  "id": "remember:vague:depsAvailable",
+  "type": "vague",
+  "q": "true every direct dependency",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 18,
+  "end": 22,
+  "name": "depsAvailable"
+ },
+ {
+  "id": "remember:id:spawnWorker",
+  "type": "identifier",
+  "q": "where is spawnWorker defined",
+  "repo": "remember",
+  "file": "server/lib/spawn.js",
+  "start": 8,
+  "end": 21,
+  "name": "spawnWorker"
+ },
+ {
+  "id": "remember:doc:spawnWorker",
+  "type": "docstring",
+  "q": "Start a detached low-priority index worker",
+  "repo": "remember",
+  "file": "server/lib/spawn.js",
+  "start": 8,
+  "end": 21,
+  "name": "spawnWorker"
+ },
+ {
+  "id": "remember:vague:spawnWorker",
+  "type": "vague",
+  "q": "start detached low-priority index",
+  "repo": "remember",
+  "file": "server/lib/spawn.js",
+  "start": 8,
+  "end": 21,
+  "name": "spawnWorker"
+ },
+ {
+  "id": "remember:id:fileCwd",
+  "type": "identifier",
+  "q": "where is fileCwd defined",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 65,
+  "end": 87,
+  "name": "fileCwd"
+ },
+ {
+  "id": "remember:doc:fileCwd",
+  "type": "docstring",
+  "q": "First string in a JSONL file reading at most bytes in chunks",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 65,
+  "end": 87,
+  "name": "fileCwd"
+ },
+ {
+  "id": "remember:vague:fileCwd",
+  "type": "vague",
+  "q": "first string jsonl file",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 65,
+  "end": 87,
+  "name": "fileCwd"
+ },
+ {
+  "id": "remember:id:isCorruption",
+  "type": "identifier",
+  "q": "where is isCorruption defined",
+  "repo": "remember",
+  "file": "server/lib/store.js",
+  "start": 44,
+  "end": 49,
+  "name": "isCorruption"
+ },
+ {
+  "id": "remember:doc:isCorruption",
+  "type": "docstring",
+  "q": "True only for errors that mean the file itself is damaged",
+  "repo": "remember",
+  "file": "server/lib/store.js",
+  "start": 44,
+  "end": 49,
+  "name": "isCorruption"
+ },
+ {
+  "id": "remember:vague:isCorruption",
+  "type": "vague",
+  "q": "true errors mean file",
+  "repo": "remember",
+  "file": "server/lib/store.js",
+  "start": 44,
+  "end": 49,
+  "name": "isCorruption"
+ },
+ {
+  "id": "remember:id:splitLong",
+  "type": "identifier",
+  "q": "where is splitLong defined",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 18,
+  "end": 32,
+  "name": "splitLong"
+ },
+ {
+  "id": "remember:doc:splitLong",
+  "type": "docstring",
+  "q": "Split into pieces of at most chars splitting a surrogate",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 18,
+  "end": 32,
+  "name": "splitLong"
+ },
+ {
+  "id": "remember:vague:splitLong",
+  "type": "vague",
+  "q": "split pieces chars splitting",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 18,
+  "end": 32,
+  "name": "splitLong"
+ },
+ {
+  "id": "remember:id:isBinary",
+  "type": "identifier",
+  "q": "where is isBinary defined",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 23,
+  "end": 26,
+  "name": "isBinary"
+ },
+ {
+  "id": "remember:doc:isBinary",
+  "type": "docstring",
+  "q": "True when a NUL byte appears in the first 8,000 bytes",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 23,
+  "end": 26,
+  "name": "isBinary"
+ },
+ {
+  "id": "remember:vague:isBinary",
+  "type": "vague",
+  "q": "true byte appears first",
+  "repo": "remember",
+  "file": "server/lib/files.js",
+  "start": 23,
+  "end": 26,
+  "name": "isBinary"
+ },
+ {
+  "id": "remember:id:blocks",
+  "type": "identifier",
+  "q": "where is blocks defined",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 36,
+  "end": 51,
+  "name": "blocks"
+ },
+ {
+  "id": "remember:doc:blocks",
+  "type": "docstring",
+  "q": "1-based inclusive start end block ranges runs of non-blank lines plus trailing blanks",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 36,
+  "end": 51,
+  "name": "blocks"
+ },
+ {
+  "id": "remember:vague:blocks",
+  "type": "vague",
+  "q": "1-based inclusive start block",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 36,
+  "end": 51,
+  "name": "blocks"
+ },
+ {
+  "id": "remember:id:claudeSlug",
+  "type": "identifier",
+  "q": "where is claudeSlug defined",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 49,
+  "end": 52,
+  "name": "claudeSlug"
+ },
+ {
+  "id": "remember:doc:claudeSlug",
+  "type": "docstring",
+  "q": "Claude Code's project-directory naming every non-alphanumeric char becomes",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 49,
+  "end": 52,
+  "name": "claudeSlug"
+ },
+ {
+  "id": "remember:vague:claudeSlug",
+  "type": "vague",
+  "q": "claude code's project-directory naming",
+  "repo": "remember",
+  "file": "server/lib/project.js",
+  "start": 49,
+  "end": 52,
+  "name": "claudeSlug"
+ },
+ {
+  "id": "remember:id:importDep",
+  "type": "identifier",
+  "q": "where is importDep defined",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 24,
+  "end": 35,
+  "name": "importDep"
+ },
+ {
+  "id": "remember:doc:importDep",
+  "type": "docstring",
+  "q": "Import a third-party package plugin root first then",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 24,
+  "end": 35,
+  "name": "importDep"
+ },
+ {
+  "id": "remember:vague:importDep",
+  "type": "vague",
+  "q": "import third-party package plugin",
+  "repo": "remember",
+  "file": "server/lib/deps.js",
+  "start": 24,
+  "end": 35,
+  "name": "importDep"
+ },
+ {
+  "id": "remember:id:activeNotes",
+  "type": "identifier",
+  "q": "where is activeNotes defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 49,
+  "end": 53,
+  "name": "activeNotes"
+ },
+ {
+  "id": "remember:doc:activeNotes",
+  "type": "docstring",
+  "q": "Drop notes superseded by another note",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 49,
+  "end": 53,
+  "name": "activeNotes"
+ },
+ {
+  "id": "remember:vague:activeNotes",
+  "type": "vague",
+  "q": "drop notes superseded another",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 49,
+  "end": 53,
+  "name": "activeNotes"
+ },
+ {
+  "id": "remember:id:startHeartbeat",
+  "type": "identifier",
+  "q": "where is startHeartbeat defined",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 49,
+  "end": 57,
+  "name": "startHeartbeat"
+ },
+ {
+  "id": "remember:doc:startHeartbeat",
+  "type": "docstring",
+  "q": "Bump the lock's mtime so a live holder is never judged stale",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 49,
+  "end": 57,
+  "name": "startHeartbeat"
+ },
+ {
+  "id": "remember:vague:startHeartbeat",
+  "type": "vague",
+  "q": "bump lock's mtime live",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 49,
+  "end": 57,
+  "name": "startHeartbeat"
+ },
+ {
+  "id": "remember:id:chunkText",
+  "type": "identifier",
+  "q": "where is chunkText defined",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 106,
+  "end": 124,
+  "name": "chunkText"
+ },
+ {
+  "id": "remember:doc:chunkText",
+  "type": "docstring",
+  "q": "Split text into chunks with 1-based inclusive line ranges",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 106,
+  "end": 124,
+  "name": "chunkText"
+ },
+ {
+  "id": "remember:vague:chunkText",
+  "type": "vague",
+  "q": "split text chunks 1-based",
+  "repo": "remember",
+  "file": "server/lib/chunk.js",
+  "start": 106,
+  "end": 124,
+  "name": "chunkText"
+ },
+ {
+  "id": "remember:id:readConfig",
+  "type": "identifier",
+  "q": "where is readConfig defined",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 170,
+  "end": 176,
+  "name": "readConfig"
+ },
+ {
+  "id": "remember:doc:readConfig",
+  "type": "docstring",
+  "q": "Read config values fall back to defaults",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 170,
+  "end": 176,
+  "name": "readConfig"
+ },
+ {
+  "id": "remember:vague:readConfig",
+  "type": "vague",
+  "q": "read config values fall",
+  "repo": "remember",
+  "file": "server/lib/userdata.js",
+  "start": 170,
+  "end": 176,
+  "name": "readConfig"
+ },
+ {
+  "id": "remember:id:releaseLock",
+  "type": "identifier",
+  "q": "where is releaseLock defined",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 43,
+  "end": 47,
+  "name": "releaseLock"
+ },
+ {
+  "id": "remember:doc:releaseLock",
+  "type": "docstring",
+  "q": "Unlink the lock only if we own it",
+  "repo": "remember",
+  "file": "server/lib/lock.js",
+  "start": 43,
+  "end": 47,
+  "name": "releaseLock"
+ },
+ {
+  "id": "remember:hand:1",
+  "repo": "remember",
+  "type": "natural",
+  "q": "how does the search combine keyword and semantic results into one ranking",
+  "file": "server/lib/search.js",
+  "start": 35,
+  "end": 76
+ },
+ {
+  "id": "remember:hand:2",
+  "repo": "remember",
+  "type": "natural",
+  "q": "how are secrets redacted from text before it is indexed",
+  "file": "server/lib/redact.js",
+  "start": 47,
+  "end": 54
+ },
+ {
+  "id": "remember:hand:3",
+  "repo": "remember",
+  "type": "natural",
+  "q": "how does the plugin decide a project root is too broad to index",
+  "file": "server/lib/project.js",
+  "start": 26,
+  "end": 37
+ },
+ {
+  "id": "remember:hand:4",
+  "repo": "remember",
+  "type": "natural",
+  "q": "which files get skipped when listing files to index",
+  "file": "server/lib/files.js",
+  "start": 69,
+  "end": 90
+ },
+ {
+  "id": "remember:hand:5",
+  "repo": "remember",
+  "type": "natural",
+  "q": "how does the lock file detect that its owner process is stale",
+  "file": "server/lib/lock.js",
+  "start": 13,
+  "end": 20
+ },
+ {
+  "id": "remember:hand:6",
+  "repo": "remember",
+  "type": "natural",
+  "q": "what happens when the sqlite database file is corrupt",
+  "file": "server/lib/store.js",
+  "start": 84,
+  "end": 182
+ },
+ {
+  "id": "remember:hand:7",
+  "repo": "remember",
+  "type": "natural",
+  "q": "how are very long messages split into smaller pieces",
+  "file": "server/lib/chunk.js",
+  "start": 19,
+  "end": 32
+ },
+ {
+  "id": "remember:hand:8",
+  "repo": "remember",
+  "type": "natural",
+  "q": "how are markdown files split into chunks by heading",
+  "file": "server/lib/chunk.js",
+  "start": 84,
+  "end": 104
+ },
+ {
+  "id": "remember:hand:9",
+  "repo": "remember",
+  "type": "natural",
+  "q": "what does the hook do on session start and post tool use",
+  "file": "server/bin/hook.js",
+  "start": 23,
+  "end": 86
+ },
+ {
+  "id": "remember:hand:10",
+  "repo": "remember",
+  "type": "natural",
+  "q": "where is the embedding model loaded and when is a download allowed",
+  "file": "server/lib/embed.js",
+  "start": 23,
+  "end": 56
+ },
+ {
+  "id": "remember:hand:11",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "de",
+  "q": "Wie werden Geheimnisse vor dem Indexieren aus dem Text entfernt?",
+  "file": "server/lib/redact.js",
+  "start": 47,
+  "end": 54
+ },
+ {
+  "id": "remember:hand:12",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "nl",
+  "q": "Hoe combineert de zoekfunctie trefwoord- en semantische resultaten?",
+  "file": "server/lib/search.js",
+  "start": 35,
+  "end": 76
+ },
+ {
+  "id": "remember:hand:13",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "fr",
+  "q": "Comment le plugin détecte-t-il qu'un verrou est périmé ?",
+  "file": "server/lib/lock.js",
+  "start": 13,
+  "end": 20
+ },
+ {
+  "id": "remember:hand:14",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "es",
+  "q": "¿Cómo se divide un texto muy largo en fragmentos más pequeños?",
+  "file": "server/lib/chunk.js",
+  "start": 19,
+  "end": 32
+ },
+ {
+  "id": "remember:hand:15",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "de",
+  "q": "Wie wird eine beschädigte Datenbank wiederhergestellt?",
+  "file": "server/lib/store.js",
+  "start": 84,
+  "end": 182
+ },
+ {
+  "id": "remember:hand:16",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "nl",
+  "q": "Welke bestanden worden overgeslagen bij het indexeren?",
+  "file": "server/lib/files.js",
+  "start": 69,
+  "end": 90
+ },
+ {
+  "id": "remember:hand:17",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "fr",
+  "q": "Où le modèle d'embedding est-il chargé ?",
+  "file": "server/lib/embed.js",
+  "start": 23,
+  "end": 56
+ },
+ {
+  "id": "remember:hand:18",
+  "repo": "remember",
+  "type": "multilingual",
+  "lang": "es",
+  "q": "¿Cómo se decide que la raíz del proyecto es demasiado amplia?",
+  "file": "server/lib/project.js",
+  "start": 26,
+  "end": 37
+ }
+]

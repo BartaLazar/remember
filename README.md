@@ -20,6 +20,25 @@ Every new Claude Code session starts from zero. Claude greps, opens whole files 
 
 It sets itself up. Install it, open a project, and indexing starts in the background.
 
+## Contents
+
+- [Install](#install)
+- [What it looks like](#what-it-looks-like)
+- [What gets remembered](#what-gets-remembered)
+- [How it works](#how-it-works)
+- [How much does it save?](#how-much-does-it-save)
+  - [Finding code](#finding-code) · [Remembering decisions and past chats](#remembering-decisions-and-past-chats) · [What it costs](#what-it-costs)
+- [Asking efficiently](#asking-efficiently)
+  - [Where the tokens go](#where-the-tokens-go) · [Keywords that change how the search behaves](#9-keywords-that-change-how-the-search-behaves) · [Quick reference](#quick-reference)
+- [Using it](#using-it)
+- [Privacy](#privacy)
+- [Your data: the `.remember/` folder](#your-data-the-remember-folder)
+- [Settings and safeguards](#settings-and-safeguards)
+- [Platforms](#platforms)
+- [Troubleshooting](#troubleshooting)
+- [Development](#development)
+- [License](#license)
+
 ## Install
 
 ```

@@ -64,10 +64,13 @@ async function waitIdle(dataDir) {
   const deadline = Date.now() + 30000;
   await new Promise((r) => setTimeout(r, 300));
   for (;;) {
+    // A slow machine may not have started the worker yet: no lock does not mean done until a status exists.
+    let phase = null;
+    try { phase = JSON.parse(fs.readFileSync(path.join(dataDir, 'status.json'), 'utf8')).phase; } catch { /* not yet */ }
     const locked = fs.existsSync(path.join(dataDir, 'lock'));
     let pending = false;
     try { pending = fs.statSync(pend).size > 0; } catch { /* none */ }
-    if (!locked && !pending) return;
+    if (phase && phase !== 'building' && !locked && !pending) return;
     if (Date.now() > deadline) throw new Error('timeout waiting for worker');
     await new Promise((r) => setTimeout(r, 100));
   }

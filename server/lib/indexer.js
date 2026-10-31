@@ -61,7 +61,7 @@ async function liveExclusions(dataDir) {
 /** True if abs resolves to a real path inside the real project root. */
 function insideRoot(realRoot, abs) {
   try {
-    const r = fs.realpathSync(abs);
+    const r = fs.realpathSync.native(abs);
     return r.startsWith(realRoot.endsWith(path.sep) ? realRoot : realRoot + path.sep);
   } catch { return false; }
 }
@@ -92,7 +92,7 @@ export async function runIndex({ root, dataDir, store, embedder, paths, force = 
     await purgeExcluded(store, root, exclusions);
     const live = await liveExclusions(dataDir);
 
-    const realRoot = fs.realpathSync(root);
+    const realRoot = fs.realpathSync.native(root);
     const { maxFiles } = readConfig();
     if (!paths && !force && maxFiles > 0) {
       const c = store.counts();

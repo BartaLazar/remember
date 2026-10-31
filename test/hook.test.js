@@ -11,7 +11,7 @@ import { setOff, setOverride, writeConfig, readStatus, writeStatus } from '../se
 const REAL_ROOT = fileURLToPath(new URL('..', import.meta.url));
 const HOOK = path.join(REAL_ROOT, 'server', 'bin', 'hook.js');
 
-function tmp() { return fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'rem-hook-'))); }
+function tmp() { return fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'rem-hook-'))); }
 function setup(files = ['a.js']) {
   const root = tmp();
   for (const f of files) { fs.mkdirSync(path.dirname(path.join(root, f)), { recursive: true }); fs.writeFileSync(path.join(root, f), 'x\n'); }

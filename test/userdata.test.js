@@ -8,7 +8,7 @@ import {
   isOff, setOff, readStatus, writeStatus, readConfig, writeConfig, getConfigDir,
 } from '../server/lib/userdata.js';
 
-const tmp = () => path.join(fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-ud-'))), '.remember');
+const tmp = () => path.join(fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-ud-'))), '.remember');
 
 test('missing files give empty defaults', () => {
   const d = tmp();

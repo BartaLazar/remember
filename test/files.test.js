@@ -6,7 +6,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { MAX_FILE_BYTES, isSecretPath, isBinary, listIndexableFiles } from '../server/lib/files.js';
 
-const tmp = () => fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-files-')));
+const tmp = () => fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-files-')));
 const put = (root, rel, content = 'x') => {
   const p = path.join(root, ...rel.split('/'));
   fs.mkdirSync(path.dirname(p), { recursive: true });
@@ -99,7 +99,7 @@ test('limit stops early', async () => {
 });
 
 test('non-git walk honors limit and stops early', async () => {
-  const root = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'rem-lim-')));
+  const root = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'rem-lim-')));
   for (let d = 0; d < 10; d++) {
     fs.mkdirSync(path.join(root, `d${d}`));
     for (let i = 0; i < 5; i++) fs.writeFileSync(path.join(root, `d${d}`, `f${i}.txt`), 'x');
@@ -114,7 +114,7 @@ test('non-git walk honors limit and stops early', async () => {
 });
 
 test('walk limit counts only indexable files', async () => {
-  const root = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'rem-sec-')));
+  const root = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'rem-sec-')));
   for (let i = 0; i < 20; i++) fs.writeFileSync(path.join(root, `.env.${i}`), 'S=1');
   for (let i = 0; i < 10; i++) fs.writeFileSync(path.join(root, `n${i}.txt`), 'x');
   const files = await listIndexableFiles(root, {}, { limit: 5 });

@@ -36,7 +36,7 @@ const call = async (name, args = {}) => {
 };
 
 before(async () => {
-  base = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-mcp-')));
+  base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-mcp-')));
   root = path.join(base, 'proj');
   fs.mkdirSync(path.join(root, 'docs'), { recursive: true });
   fs.mkdirSync(path.join(root, 'src'));

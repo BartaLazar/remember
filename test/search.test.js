@@ -10,7 +10,7 @@ import { createFakeEmbedder } from '../server/lib/embed.js';
 import { appendNote } from '../server/lib/userdata.js';
 
 async function build(files, notes = []) {
-  const base = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-s-')));
+  const base = fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-s-')));
   const root = path.join(base, 'proj');
   fs.mkdirSync(root);
   for (const [n, t] of Object.entries(files)) fs.writeFileSync(path.join(root, n), t);

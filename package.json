@@ -7,7 +7,7 @@
     "node": ">=22.13"
   },
   "scripts": {
-    "test": "node --test \"test/**/*.test.js\""
+    "test": "node --test --test-timeout=120000 \"test/**/*.test.js\""
   },
   "dependencies": {
     "@huggingface/transformers": "4.3.2",

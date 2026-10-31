@@ -68,8 +68,8 @@ export async function handleHook(event, input = {}, deps = {}) {
     if (!p || typeof p !== 'string') return none;
     let abs = path.resolve(cwd, p);
     let realRoot = root;
-    try { abs = path.join(fs.realpathSync(path.dirname(abs)), path.basename(abs)); } catch { /* keep */ }
-    try { realRoot = fs.realpathSync(root); } catch { /* keep */ }
+    try { abs = path.join(fs.realpathSync.native(path.dirname(abs)), path.basename(abs)); } catch { /* keep */ }
+    try { realRoot = fs.realpathSync.native(root); } catch { /* keep */ }
     const rel = path.relative(realRoot, abs);
     if (!rel || rel === '..' || rel.startsWith('..' + path.sep) || path.isAbsolute(rel)) return none;
     const relPosix = rel.split(path.sep).join('/');
@@ -103,4 +103,4 @@ async function main() {
   process.exitCode = 0;
 }
 
-if (process.argv[1] && fs.realpathSync(process.argv[1]) === fs.realpathSync(fileURLToPath(import.meta.url))) main();
+if (process.argv[1] && fs.realpathSync.native(process.argv[1]) === fs.realpathSync.native(fileURLToPath(import.meta.url))) main();

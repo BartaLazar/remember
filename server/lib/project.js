@@ -15,7 +15,7 @@ export function resolveProject(cwd) {
   } catch {
     root = path.resolve(cwd);
   }
-  try { root = fs.realpathSync(root); } catch { /* keep as is */ }
+  try { root = fs.realpathSync.native(root); } catch { /* keep as is */ }
   return { root, dataDir: path.join(root, '.remember') };
 }
 
@@ -120,7 +120,7 @@ export function transcriptFiles(root, projectsDir = path.join(os.homedir(), '.cl
     } catch { continue; }
     let cwd = firstCwd(files);
     if (cwd === null) continue;
-    try { cwd = fs.realpathSync(cwd); } catch { /* not on disk; use as recorded */ }
+    try { cwd = fs.realpathSync.native(cwd); } catch { /* not on disk; use as recorded */ }
     if (isUnder(root, cwd)) out.push(...files);
   }
   return out;

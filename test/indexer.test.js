@@ -9,7 +9,7 @@ import { createFakeEmbedder } from '../server/lib/embed.js';
 import { claudeSlug } from '../server/lib/project.js';
 import { appendNote, addExclusion, readExclusions, setOff, setOverride, readStatus, writeConfig } from '../server/lib/userdata.js';
 
-const real = (p) => fs.realpathSync(p);
+const real = (p) => fs.realpathSync.native(p);
 const mk = (prefix) => real(fs.mkdtempSync(path.join(os.tmpdir(), prefix)));
 
 function setup(files = { 'a.js': 'export const a = 1;\n', 'b.js': 'export const b = 2;\n' }) {
@@ -21,7 +21,7 @@ function setup(files = { 'a.js': 'export const a = 1;\n', 'b.js': 'export const 
   const projectsDir = path.join(base, 'projects');
   const pd = path.join(projectsDir, claudeSlug(root));
   fs.mkdirSync(pd, { recursive: true });
-  const fx = fs.readFileSync(new URL('./fixtures/session.jsonl', import.meta.url), 'utf8').replaceAll('/work/demo', root);
+  const fx = fs.readFileSync(new URL('./fixtures/session.jsonl', import.meta.url), 'utf8').replaceAll('/work/demo', JSON.stringify(root).slice(1, -1));
   fs.writeFileSync(path.join(pd, 'sess-1111.jsonl'), fx);
   process.env.REMEMBER_CONFIG_DIR = path.join(base, 'cfg');
   const store = openStore(path.join(base, 'index.db'));

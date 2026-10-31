@@ -9,7 +9,7 @@ import { acquireLock, releaseLock, queueRequest, drainRequests } from '../server
 import { spawnWorker } from '../server/lib/spawn.js';
 import { openStore } from '../server/lib/store.js';
 
-const mk = (p) => fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), p)));
+const mk = (p) => fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), p)));
 const WORKER = fileURLToPath(new URL('../server/bin/index-worker.js', import.meta.url));
 
 test('lock: second acquire fails; release frees; dead pid is replaced', () => {
@@ -87,12 +87,13 @@ test('10 workers in 100ms: each file once, same result as a single run', async (
   const clean = snapshot(b.dataDir);
 
   const env = envFor(a.base);
-  const procs = [];
+  const exits = [];
   for (let i = 0; i < 10; i++) {
-    procs.push(spawnW(a.root, env, i % 2 ? ['--paths', JSON.stringify(['f1.js', 'b,c.js'])] : []));
+    const p = spawnW(a.root, env, i % 2 ? ['--paths', JSON.stringify(['f1.js', 'b,c.js'])] : []);
+    exits.push(new Promise((r) => p.on('exit', r)));
     await new Promise((r) => setTimeout(r, 10));
   }
-  await Promise.all(procs.map((p) => new Promise((r) => p.on('exit', r))));
+  await Promise.all(exits);
   await waitIdle(a.dataDir);
   const got = snapshot(a.dataDir);
   assert.deepEqual(got.keys, clean.keys);

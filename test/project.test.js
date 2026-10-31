@@ -8,7 +8,7 @@ import {
   resolveProject, isBlockedRoot, ensureDataDir, claudeSlug, transcriptFiles,
 } from '../server/lib/project.js';
 
-const tmp = () => fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-proj-')));
+const tmp = () => fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-proj-')));
 const git = (cwd, ...args) => execFileSync('git', ['-C', cwd, ...args], { encoding: 'utf8' });
 
 test('resolveProject returns the git root from a subdir', () => {
@@ -24,7 +24,7 @@ test('resolveProject returns the git root from a subdir', () => {
 test('resolveProject falls back to the (real) dir when not a git repo', () => {
   const dir = tmp();
   const r = resolveProject(dir);
-  assert.equal(r.root, fs.realpathSync(dir));
+  assert.equal(r.root, fs.realpathSync.native(dir));
   assert.equal(r.dataDir, path.join(r.root, '.remember'));
 });
 

@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { openStore } from '../server/lib/store.js';
 
-const tmpDb = () => path.join(fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-st-'))), 'index.db');
+const tmpDb = () => path.join(fs.realpathSync.native(fs.mkdtempSync(path.join(os.tmpdir(), 'remember-st-'))), 'index.db');
 const src = (key, kind = 'file') => ({ key, kind, hash: 'h', mtimeMs: 1, size: 2 });
 const chunk = (text, extra = {}) => ({ loc: 'a.js', startLine: 1, endLine: 2, text, date: null, embedding: null, ...extra });
 

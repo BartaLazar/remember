@@ -20,6 +20,13 @@ Every new Claude Code session starts from zero. Claude greps, opens whole files 
 
 It sets itself up. Install it, open a project, and indexing starts in the background.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/hero-dark.svg">
+  <img alt="78% fewer tokens to find code than reading whole files; 47% fewer than careful grepping; 230 times cheaper to recall a decision; the first lookup pays for the plugin" src="docs/img/hero-light.svg" width="100%">
+</picture>
+
+<sub>Measured over 684 simulated lookups on five real codebases and a synthetic project history. [How we measured](#how-much-does-it-save).</sub>
+
 ## Contents
 
 - [Install](#install)
@@ -109,23 +116,40 @@ flowchart LR
 
 ## How much does it save?
 
-We simulated 684 lookups to find out, without spending a single API token: each Claude session is modelled as the sequence of tool calls it would make, and the tokens in every tool's output are counted. The plugin's real index, search and embedding model are used. Scripts and raw results are in [`bench/`](bench/).
+**Most of the cost of a question is reading files, and remember cuts most of the reading.** To measure it without spending a single API token, we simulated 684 lookups: each Claude session is modelled as the tool calls it would make, and the tokens in every tool's output are counted. The plugin's real index, search and embedding model are used. Scripts and raw results are in [`bench/`](bench/).
 
 ### Finding code
 
-604 questions on five real codebases: [express](https://github.com/expressjs/express) (JavaScript), [flask](https://github.com/pallets/flask) (Python), [gin](https://github.com/gin-gonic/gin) (Go), [ripgrep](https://github.com/BurntSushi/ripgrep) (Rust) and this repo. Without the plugin, Claude greps and then reads either whole files (*typical*) or a 120-line window around each match (*careful*).
+604 questions on five real codebases: [express](https://github.com/expressjs/express) (JavaScript), [flask](https://github.com/pallets/flask) (Python), [gin](https://github.com/gin-gonic/gin) (Go), [ripgrep](https://github.com/BurntSushi/ripgrep) (Rust) and this repo.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/code-tokens-dark.svg">
+  <img alt="Tokens per code question, median: reading whole files 23,700; careful grepping 11,200; remember 2,200" src="docs/img/code-tokens-light.svg" width="100%">
+</picture>
+
+> **78% fewer tokens than reading whole files, 47% fewer than careful grepping, in about half the tool calls.**
+
+The right place was in the top 8 results for 89% of questions. The other 11% fall back to normal exploration; those wasted searches are counted in every number here.
+
+**How you ask matters.** Names and descriptions of behaviour save the most. Broad "how does X work" questions break even, and asking about code in another language than the code costs more:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/by-type-dark.svg">
+  <img alt="Tokens saved versus careful grepping: behaviour descriptions +65%, exact names +48%, keywords +56%, free-form questions -3%, another language than the code -72%" src="docs/img/by-type-light.svg" width="100%">
+</picture>
+
+<details>
+<summary><b>Show the numbers</b></summary>
+
+<br>
 
 | | Tokens per lookup (median) | Tool calls (mean) | Total tokens, all 604 |
 |---|--:|--:|--:|
-| Without, typical | 23,700 | 5.2 | 17.7 M |
-| Without, careful | 11,200 | 10.0 | 7.3 M |
+| Without, reading whole files | 23,700 | 5.2 | 17.7 M |
+| Without, careful grepping | 11,200 | 10.0 | 7.3 M |
 | **With remember** | **2,200** | **2.6** | **3.9 M** |
 
-That is **78% fewer tokens than typical exploration and 47% fewer than careful exploration**, in about half the tool calls. The right place was in the top 8 results for 89% of questions; the other 11% fall back to normal exploration, and those searches are wasted cost that the totals above include.
-
-Savings depend on how you ask:
-
-| Kind of question | Example | Found in top 8 | Saved vs typical | Saved vs careful |
+| Kind of question | Example | Found in top 8 | Saved vs whole files | Saved vs careful |
 |---|---|--:|--:|--:|
 | Describes behaviour | "returns a middleware that recovers from any panics and writes a 500 if there was one" | 94% | 85% | 65% |
 | A few keywords | "middleware recovers panics writes" | 89% | 81% | 56% |
@@ -133,14 +157,18 @@ Savings depend on how you ask:
 | Free-form developer question | "how does flask decide which config file to load" | 66% | 58% | −3% |
 | In another language than the code | "Wie berechnet Express den ETag für eine Antwort?" | 13% | 8% | −72% |
 
+</details>
+
 ### Remembering decisions and past chats
 
 80 questions about 60 decisions buried in 40 past sessions (19 MB of chat logs) and 25 decision notes.
 
-| | Tokens per question (median) | Finds the answer |
-|---|--:|--:|
-| Grep the old chat logs and read the best match | 150,600 | 45% |
-| **remember** | **660** | **83%** |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/decisions-dark.svg">
+  <img alt="Tokens to recall a past decision, median: grepping old chats 150,600 and found 45% of the time; remember 660 and found 83% of the time" src="docs/img/decisions-light.svg" width="100%">
+</picture>
+
+> **230× fewer tokens, and the answer found almost twice as often.**
 
 - Decisions also saved as notes were found **88%** of the time, against 79% for decisions that only exist in chat.
 - Questions in German, Dutch, French or Spanish found the answer 73% of the time.
@@ -148,9 +176,13 @@ Savings depend on how you ask:
 
 ### What it costs
 
-The plugin adds **about 450 tokens** to every session (skill descriptions, tool names and one line of context), or about 1,050 if Claude Code loads all tool definitions upfront. One code lookup saves about 9,000 tokens against even careful exploration, so **the first lookup of a session pays for the plugin**. Indexing runs locally and costs no tokens.
+The plugin adds **about 450 tokens** to every session (skill descriptions, tool names and one line of context), or about 1,050 if Claude Code loads all tool definitions upfront. One code lookup saves about 9,000 tokens against even careful grepping, so:
 
-<sub>Method: tokens are estimated as characters ÷ 4 for every policy alike. The simulated agent stops as soon as it has read the answer and picks the right result when it is shown, which flatters both sides. The chat history is generated from templates, so real recall is probably somewhat lower. Full details and caveats in [`bench/results`](bench/results/).</sub>
+> **The first lookup of a session pays for the plugin. Everything after that is savings.**
+
+Indexing runs on your machine and costs no tokens.
+
+<sub>Method: tokens are estimated as characters ÷ 4 for every approach alike. The simulated agent stops as soon as it has read the answer and picks the right result when it is shown, which flatters both sides. The chat history is generated from templates, so real recall is probably somewhat lower. Full details and caveats in [`bench/results`](bench/results/). Charts are generated by [`bench/charts.js`](bench/charts.js).</sub>
 
 ## Asking efficiently
 

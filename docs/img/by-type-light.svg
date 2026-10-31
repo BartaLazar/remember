@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="268" viewBox="0 0 880 268" role="img" aria-label="Tokens saved versus careful grepping: behaviour questions +65%, exact names +48%, keywords +56%, free-form -3%, other language -72%">
+<title>Tokens saved versus careful grepping: behaviour questions +65%, exact names +48%, keywords +56%, free-form -3%, other language -72%</title>
+<rect x="0.5" y="0.5" width="879" height="267" rx="12" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="20" y="36" font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="start">Tokens saved vs careful grepping, by kind of question</text>
+<text x="860" y="36" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">found in top 8</text>
+<text x="20" y="74" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Describes behaviour</text>
+<path d="M490,60 H681 Q685,60 685,64 V76 Q685,80 681,80 H490 Z" fill="#2a78d6"/>
+<text x="693" y="75" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="start">+65%</text>
+<text x="860" y="75" font-size="13" font-weight="400" fill="#52514e" text-anchor="end">94%</text>
+<text x="20" y="110" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Exact name</text>
+<path d="M490,96 H630 Q634,96 634,100 V112 Q634,116 630,116 H490 Z" fill="#2a78d6"/>
+<text x="642" y="111" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="start">+48%</text>
+<text x="860" y="111" font-size="13" font-weight="400" fill="#52514e" text-anchor="end">98%</text>
+<text x="20" y="146" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">A few keywords</text>
+<path d="M490,132 H654 Q658,132 658,136 V148 Q658,152 654,152 H490 Z" fill="#2a78d6"/>
+<text x="666" y="147" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="start">+56%</text>
+<text x="860" y="147" font-size="13" font-weight="400" fill="#52514e" text-anchor="end">89%</text>
+<text x="20" y="182" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Free-form question</text>
+<path d="M490,168 H485 Q481,168 481,172 V184 Q481,188 485,188 H490 Z" fill="#e34948"/>
+<text x="473" y="183" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="end">−3%</text>
+<text x="860" y="183" font-size="13" font-weight="400" fill="#52514e" text-anchor="end">66%</text>
+<text x="20" y="218" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Other language than the code</text>
+<path d="M490,204 H278 Q274,204 274,208 V220 Q274,224 278,224 H490 Z" fill="#e34948"/>
+<text x="266" y="219" font-size="13" font-weight="600" fill="#0b0b0b" text-anchor="end">−72%</text>
+<text x="860" y="219" font-size="13" font-weight="400" fill="#52514e" text-anchor="end">13%</text>
+<line x1="490" y1="54" x2="490" y2="234" stroke="#c3c2b7" stroke-width="1"/>
+<text x="496" y="252" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">saves tokens →</text>
+<text x="484" y="252" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">← costs more</text>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" role="img" aria-label="Tokens per code question: reading whole files 23,700, careful grepping 11,200, remember 2,200">
+<title>Tokens per code question: reading whole files 23,700, careful grepping 11,200, remember 2,200</title>
+<rect x="0.5" y="0.5" width="879" height="219" rx="12" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="20" y="36" font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="start">Tokens to answer one code question (median of 604)</text>
+<text x="20" y="74" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Reading whole files</text>
+<text x="20" y="92" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">grep, then read each matching file</text>
+<path d="M250,64 H726 Q730,64 730,68 V82 Q730,86 726,86 H250 Z" fill="#9a9993"/>
+<text x="740" y="80" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">23,700 tokens</text>
+<text x="20" y="126" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">Careful grepping</text>
+<text x="20" y="144" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">grep, then read 120 lines per match</text>
+<path d="M250,116 H472.8285280728376 Q476.8285280728376,116 476.8285280728376,120 V134 Q476.8285280728376,138 472.8285280728376,138 H250 Z" fill="#9a9993"/>
+<text x="486.8285280728376" y="132" font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="start">11,200 tokens</text>
+<text x="20" y="178" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">remember</text>
+<text x="20" y="196" font-size="12" font-weight="400" fill="#52514e" text-anchor="start">search, then read the lines it points to</text>
+<path d="M250,168 H290.10723318158824 Q294.10723318158824,168 294.10723318158824,172 V186 Q294.10723318158824,190 290.10723318158824,190 H250 Z" fill="#2a78d6"/>
+<text x="304.10723318158824" y="184" font-size="14" font-weight="600" fill="#0b0b0b" text-anchor="start">2,200 tokens</text>
+<line x1="250" y1="58" x2="250" y2="204" stroke="#c3c2b7" stroke-width="1"/>
+</g>
+</svg>

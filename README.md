@@ -60,11 +60,11 @@ Ask Claude to turn remember off here (the `forget` skill), or create an empty fi
 
 ## Privacy
 
-- The only network access is the one-time model download. Nothing else is ever fetched or sent.
+- The plugin only goes online to install: the one-time model download from Hugging Face and, if Claude Code's own dependency install failed, the packages from the npm registry. These only fetch files.
 - After the model is cached, everything runs offline. A test (`test/offline.test.js`) indexes and searches with all network access blocked and fails on any attempt.
 - Files, chats and notes never leave the project's `.remember/` folder.
 - Chat text is stored with common secret patterns redacted.
-- The plugin does not connect to any external service and does not send data to any third party. The one-time model download above only fetches the model and sends no project data.
+- The plugin never sends your files, chats, notes or any other data to an external service or third party. What the operating system or its runtimes do on their own (for example Windows diagnostic data) is outside the plugin's scope.
 
 ## Troubleshooting
 

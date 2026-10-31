@@ -73,7 +73,7 @@ remember/
 **Interfaces:**
 - Produces: installed dependencies; confirmed that the stack runs on this machine.
 
-- [ ] **Step 1:** `git init` in the plugin root (it is not a repo yet). Create `package.json`: name `remember`, `"type": "module"`, `"engines": {"node": ">=22.13"}`, `"scripts": {"test": "node --test test/"}`, dependencies `@huggingface/transformers`, `@modelcontextprotocol/sdk`, `zod`, `ignore` (latest versions at least two weeks old). Create `.claude-plugin/plugin.json` with `name: "remember"`, `version: "0.1.0"`, description from the spec's Intent, author `{ "name": "Bart Alazar" }`. Run `npm install`.
+- [ ] **Step 1:** `git init` in the plugin root (it is not a repo yet). Create `package.json`: name `remember`, `"type": "module"`, `"engines": {"node": ">=22.13"}`, `"scripts": {"test": "node --test test/"}`, dependencies `@huggingface/transformers`, `@modelcontextprotocol/sdk`, `zod`, `ignore` (latest versions at least two weeks old). Create `.claude-plugin/plugin.json` with `name: "remember"`, `version: "0.1.0"`, description from the spec's Intent, author `{ "name": "BartaLazar" }`. Run `npm install`.
 - [ ] **Step 2:** Write `server/spike.js`: (a) load `feature-extraction` pipeline for `Xenova/bge-small-en-v1.5` with `{ dtype: 'q8' }`, cacheDir `~/.claude/remember/models`, embed two sentences with `pooling: 'cls', normalize: true`, print dims and the cosine of a related vs. unrelated pair; (b) open `new DatabaseSync(':memory:')`, create an FTS5 table with `tokenize = "unicode61 tokenchars '_'"`, insert a row, `MATCH` it.
 - [ ] **Step 3:** Run `node server/spike.js`. Expected: dims `384`, related cosine > unrelated cosine, one FTS row matched, exit 0. Record the elapsed model-load time and per-sentence embed time.
 - [ ] **Step 4 (GATE):** If the ONNX runtime or FTS5 fails, STOP and report the error to the user; do not choose a fallback alone. If it passes, delete `server/spike.js`.
@@ -344,7 +344,7 @@ Each file has frontmatter `name` and `description`, and a short body (≤ 40 lin
 
 ### Task 14: Offline proof and end-to-end check
 
-**Files:** Create `test/helpers/block-network.js`, `test/offline.test.js`, `README.md`, `LICENSE` (MIT, `Bart Alazar`), `.claude-plugin/marketplace.json`, `.github/workflows/test.yml`
+**Files:** Create `test/helpers/block-network.js`, `test/offline.test.js`, `README.md`, `LICENSE` (MIT, `BartaLazar`), `.claude-plugin/marketplace.json`, `.github/workflows/test.yml`
 
 **Interfaces:**
 - Consumes: worker CLI (Task 10), search (Task 9), the real model.
@@ -353,5 +353,5 @@ Each file has frontmatter `name` and `description`, and a short body (≤ 40 lin
 - [ ] **Step 2:** Run `npm test` → all tests PASS.
 - [ ] **Step 3:** `README.md`: what it does, install (`npm install`, then `claude --plugin-dir <path>` or a local marketplace), the `.remember/` folder and what's in it, how to turn it off, the privacy guarantee and the one-time model download.
 - [ ] **Step 4: Manual end-to-end** — in a scratch copy of a real project run `claude --plugin-dir <plugin root>`. Check: `.remember/` appears with `.gitignore`; `/mcp` lists `remember` with five tools; after indexing finishes, asking "where is X handled?" makes Claude use the recall skill and read only the pointed lines; editing a file and searching for the new text finds it within a few seconds; the next session's search finds the previous chat. Confirm the MCP server resolved the right root (via `status`); if `CLAUDE_PROJECT_DIR` isn't set for MCP servers and cwd is wrong, fix the root resolution and add a test.
-- [ ] **Step 5: Publishing files** — `marketplace.json`: `{"name":"remember","owner":{"name":"Bart Alazar"},"plugins":[{"name":"remember","source":"./","description":<plugin.json description>}]}`; plugin.json gains `license: "MIT"`, `repository`/`homepage` `https://github.com/BartaLazar/remember`, `keywords`. CI workflow: matrix `macos-latest` (arm64), `macos-13` (x64), `ubuntu-latest`, `windows-latest`; Node 22.x and 24.x; `npm ci && npm test` (real-model tests skip when the model isn't cached). Run `claude plugin validate --strict` → passes. README also states the Node ≥ 22.13 prerequisite and why transformers/onnxruntime are pinned.
+- [ ] **Step 5: Publishing files** — `marketplace.json`: `{"name":"remember","owner":{"name":"BartaLazar"},"plugins":[{"name":"remember","source":"./","description":<plugin.json description>}]}`; plugin.json gains `license: "MIT"`, `repository`/`homepage` `https://github.com/BartaLazar/remember`, `keywords`. CI workflow: matrix `macos-latest` (arm64), `macos-13` (x64), `ubuntu-latest`, `windows-latest`; Node 22.x and 24.x; `npm ci && npm test` (real-model tests skip when the model isn't cached). Run `claude plugin validate --strict` → passes. README also states the Node ≥ 22.13 prerequisite and why transformers/onnxruntime are pinned.
 - [ ] **Step 6:** Commit `docs: readme and publishing files; test: offline proof`.

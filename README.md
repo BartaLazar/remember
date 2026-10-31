@@ -475,4 +475,4 @@ Design notes are in [`docs/design.md`](docs/design.md).
 
 ## License
 
-[MIT](LICENSE) © Bart Alazar
+[MIT](LICENSE) © BartaLazar
